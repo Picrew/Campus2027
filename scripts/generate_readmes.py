@@ -1866,6 +1866,7 @@ def to_zh_location(location: str) -> str:
 
 # Only fill when an explicit deadline is visible on the official page.
 DEADLINE_BY_URL: dict[str, str] = {
+    "https://talent.baidu.com/jobs/list": "2026-06",
     "https://jobs.ashbyhq.com/meshy": "2026-07-30",
 }
 

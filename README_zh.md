@@ -27,7 +27,7 @@
 | 腾讯 | 校园实习投递页（AI/工程） | 暑期 / 日常 | 中国 | [投递](https://join.qq.com/post.html?query=p_2,b_14129) | - | 2026-04-09 |
 | 腾讯游戏 | 游戏工程 / AI 实习投递页 | 暑期 | 深圳 / 上海 | [投递](https://join.qq.com/post.html?query=p_2) | - | 2026-04-09 |
 | 阿里巴巴 | 校园实习投递页 | 暑期 | 中国 | [投递](https://talent.alibaba.com/campus/position-list?campusType=internship) | - | 2026-04-09 |
-| 百度 | 校园实习投递页（AI/大模型） | 暑期 | 中国 | [投递](https://talent.baidu.com/jobs/list) | - | 2026-04-09 |
+| 百度 | 校园实习投递页（AI/大模型） | 暑期 | 中国 | [投递](https://talent.baidu.com/jobs/list) | 2026-06 | 2026-04-09 |
 | 百度 | 大模型风控场景算法实习生 | 暑期 | 北京 | [投递](https://talent.baidu.com/jobs/detail/INTERN/1f5d0a4b-e563-41ad-ac96-b0a75cf89d65) | - | 2026-04-09 |
 | 美团 | 校园实习投递页 | 暑期 | 中国 | [投递](https://zhaopin.meituan.com/web/campus) | - | 2026-04-09 |
 | 京东 | 校园实习投递页 | 暑期 | 中国 | [投递](https://campus.jd.com/#/jobs) | - | 2026-04-09 |

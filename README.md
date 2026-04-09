@@ -27,7 +27,7 @@ Official LLM internship channels for Class of 2027 students (China focus).
 | Tencent | Campus intern portal (AI / engineering) | Summer / Daily | China | [Apply](https://join.qq.com/post.html?query=p_2,b_14129) | - | 2026-04-09 |
 | Tencent Games | Game engineering / AI internship portal | Summer | Shenzhen / Shanghai | [Apply](https://join.qq.com/post.html?query=p_2) | - | 2026-04-09 |
 | Alibaba | Campus internship portal | Summer | China | [Apply](https://talent.alibaba.com/campus/position-list?campusType=internship) | - | 2026-04-09 |
-| Baidu | Campus intern portal (AI / LLM) | Summer | China | [Apply](https://talent.baidu.com/jobs/list) | - | 2026-04-09 |
+| Baidu | Campus intern portal (AI / LLM) | Summer | China | [Apply](https://talent.baidu.com/jobs/list) | 2026-06 | 2026-04-09 |
 | Baidu | LLM risk-scenario algorithm intern | Summer | Beijing | [Apply](https://talent.baidu.com/jobs/detail/INTERN/1f5d0a4b-e563-41ad-ac96-b0a75cf89d65) | - | 2026-04-09 |
 | Meituan | Campus internship portal | Summer | China | [Apply](https://zhaopin.meituan.com/web/campus) | - | 2026-04-09 |
 | JD | Campus internship portal | Summer | China | [Apply](https://campus.jd.com/#/jobs) | - | 2026-04-09 |
