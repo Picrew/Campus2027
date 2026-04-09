@@ -1864,6 +1864,15 @@ def to_zh_internship_type(itype: str) -> str:
 def to_zh_location(location: str) -> str:
     return LOCATION_ZH_MAP.get(location, location)
 
+# Only fill when an explicit deadline is visible on the official page.
+DEADLINE_BY_URL: dict[str, str] = {
+    "https://jobs.ashbyhq.com/meshy": "2026-07-30",
+}
+
+
+def get_deadline(url: str) -> str:
+    return DEADLINE_BY_URL.get(url, "-")
+
 
 def render_english() -> str:
     counts = count_by_category()
@@ -1888,8 +1897,8 @@ def render_english() -> str:
     for key, name_en, _ in CATEGORIES:
         lines.append(f"## {name_en}")
         lines.append("")
-        lines.append("| Company | Team / Focus | Internship Type | Location | Apply Link (Official) | Last Verified |")
-        lines.append("| --- | --- | --- | --- | --- | --- |")
+        lines.append("| Company | Team / Focus | Internship Type | Location | Apply Link (Official) | Deadline | Last Verified |")
+        lines.append("| --- | --- | --- | --- | --- | --- | --- |")
         for item in [x for x in ENTRIES if x["cat"] == key]:
             lines.append(
                 "| "
@@ -1900,6 +1909,7 @@ def render_english() -> str:
                         md_escape(item["itype"]),
                         md_escape(item["location"]),
                         f"[Apply]({item['url']})",
+                        get_deadline(item["url"]),
                         LAST_VERIFIED,
                     ]
                 )
@@ -1933,8 +1943,8 @@ def render_chinese() -> str:
     for key, _, name_zh in CATEGORIES:
         lines.append(f"## {name_zh}")
         lines.append("")
-        lines.append("| 公司 | 团队/方向 | 实习类型 | 地点 | 官方投递链接 | 最后核验 |")
-        lines.append("| --- | --- | --- | --- | --- | --- |")
+        lines.append("| 公司 | 团队/方向 | 实习类型 | 地点 | 官方投递链接 | 截止日期 | 最后核验 |")
+        lines.append("| --- | --- | --- | --- | --- | --- | --- |")
         for item in [x for x in ENTRIES if x["cat"] == key]:
             lines.append(
                 "| "
@@ -1945,6 +1955,7 @@ def render_chinese() -> str:
                         md_escape(to_zh_internship_type(item["itype"])),
                         md_escape(to_zh_location(item["location"])),
                         f"[投递]({item['url']})",
+                        get_deadline(item["url"]),
                         LAST_VERIFIED,
                     ]
                 )
