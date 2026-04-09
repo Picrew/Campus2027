@@ -2,8 +2,8 @@
 
 Official LLM internship channels for Class of 2027 students (China focus).
 
-- Total entries: **190**
-- Categories: **5**
+- Total entries: **225**
+- Categories: **6**
 - Last verified: **2026-04-09**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
@@ -13,6 +13,7 @@ Official LLM internship channels for Class of 2027 students (China focus).
 | --- | ---: |
 | China Internet & Cloud Giants | 42 |
 | China LLM / AI-Native Companies | 25 |
+| Quant Finance & AI Investing | 35 |
 | Autonomous Driving, Robotics & Embodied AI | 18 |
 | Chips, AI Infrastructure & Systems | 36 |
 | International Companies with China Internship Channels | 69 |
@@ -93,6 +94,46 @@ Official LLM internship channels for Class of 2027 students (China focus).
 | Intellifusion | Official company site | Summer / Daily | Shenzhen / Nanjing | [Apply](https://www.intellif.com/) | - | 2026-04-09 |
 | SmartMore | Official company site | Summer / Daily | Shenzhen / Shanghai | [Apply](https://www.smartmore.com/) | - | 2026-04-09 |
 | Unisound | Official company site | Summer / Daily | Beijing / Hefei | [Apply](https://www.unisound.com/) | - | 2026-04-09 |
+
+## Quant Finance & AI Investing
+
+| Company | Team / Focus | Internship Type | Location | Apply Link (Official) | Deadline | Last Verified |
+| --- | --- | --- | --- | --- | --- | --- |
+| Ubiquant | Official careers page | Summer / Daily | China | [Apply](https://www.ubiquant.com/website/career) | - | 2026-04-09 |
+| Ubiquant | Campus recruiting portal (official ATS) | Summer / Daily | China | [Apply](https://app.mokahr.com/campus_apply/ubiquantrecruit/37031) | - | 2026-04-09 |
+| Ubiquant | Social recruiting portal (official ATS) | Daily | China | [Apply](https://app.mokahr.com/apply/ubiquantrecruit/37030) | - | 2026-04-09 |
+| WizardQuant | Official careers page | Summer / Daily | Shanghai / Beijing | [Apply](https://www.wizardquant.com/career) | - | 2026-04-09 |
+| WizardQuant | WILL - AI Researcher (full-time/intern) | Unknown | Beijing / Shanghai / Remote | [Apply](https://www.wizardquant.com/career/ai%E7%A0%94%E7%A9%B6%E5%91%98) | - | 2026-04-09 |
+| WizardQuant | WILL - AI Engineer (full-time/intern) | Unknown | Beijing / Shanghai / Remote | [Apply](https://www.wizardquant.com/career/ai%E5%B7%A5%E7%A8%8B%E5%B8%88) | - | 2026-04-09 |
+| Minghong Investment | Official company site | Unknown | China | [Apply](https://www.mhfunds.com) | - | 2026-04-09 |
+| Minghong Investment | Official recruiting portal | Summer / Daily | China | [Apply](https://join.mhfunds.com/index) | - | 2026-04-09 |
+| Lingjun Investment | Join-us overview page | Summer / Daily | China | [Apply](https://www.lingjuninvest.com/overview) | - | 2026-04-09 |
+| Lingjun Investment | Campus recruiting page | Summer / Daily | China | [Apply](https://www.lingjuninvest.com/campus-recruitment) | - | 2026-04-09 |
+| Lingjun Investment | Campus jobs portal (official ATS) | Summer / Daily | China | [Apply](https://app.mokahr.com/social-recruitment/lingjuninvest/46355?locale=zh-CN#/jobs?213633%5B0%5D=%E6%98%AF&page=1&anchorName=jobsList) | - | 2026-04-09 |
+| Qilin Capital | Join-us page | Summer / Daily | Shanghai / Beijing | [Apply](https://www.70capital.com/join) | - | 2026-04-09 |
+| Qilin Capital | Campus jobs portal (official ATS) | Summer / Daily | Shanghai / Beijing | [Apply](https://70capital.gllue.com/portal/campusposition/list) | - | 2026-04-09 |
+| Mingshi Fund | Join-us page | Summer / Daily | Shanghai | [Apply](https://www.mingshiim.com/join) | - | 2026-04-09 |
+| Mingshi Fund | Campus / social jobs portal | Summer / Daily | Shanghai | [Apply](https://mingshiim.zhiye.com/) | - | 2026-04-09 |
+| Alpha2 Fund | Join-us page (contains campus/social ATS links) | Summer / Daily | Shanghai / Beijing | [Apply](https://www.alpha2fund.com/joinus.html) | - | 2026-04-09 |
+| Alpha2 Fund | Campus recruiting portal (official ATS) | Summer / Daily | China | [Apply](https://app.mokahr.com/campus-recruitment/alpha2fund/151124?locale=zh-CN#/) | - | 2026-04-09 |
+| Alpha2 Fund | Social recruiting portal (official ATS) | Daily | China | [Apply](https://app.mokahr.com/social-recruitment/alpha2fund/151123?locale=zh-CN#/) | - | 2026-04-09 |
+| Yanfu Investments | Join-us page (official) | Summer / Daily | Shanghai | [Apply](https://yanfuinvestments.com/join) | - | 2026-04-09 |
+| Yanfu Investments | Official jobs portal | Summer / Daily | China | [Apply](https://yanfuinvestments1.zhiye.com/jobs) | - | 2026-04-09 |
+| Century Frontier | Contact / recruiting page | Summer / Daily | Shanghai / Shenzhen | [Apply](https://www.centuryfrontier.com/contact) | - | 2026-04-09 |
+| Century Frontier | Social recruiting portal (official ATS) | Daily | Shanghai / Shenzhen | [Apply](https://app.mokahr.com/m/apply/centuryfrontier/24841) | - | 2026-04-09 |
+| Century Frontier | Campus recruiting portal (official ATS) | Summer / Daily | Shanghai / Shenzhen | [Apply](https://app.mokahr.com/m/campus_apply/centuryfrontier/24842) | - | 2026-04-09 |
+| QP Alpha | Contact & recruiting page | Summer / Daily | Shanghai | [Apply](https://www.qpalpha.com/contact.html) | - | 2026-04-09 |
+| QP Alpha | Official Feishu jobs portal | Daily | Shanghai | [Apply](https://jo0ikgajg1.jobs.feishu.cn/index/?spread=ENQENZT) | - | 2026-04-09 |
+| CQ Funds | Service center (recruiting) | Summer / Daily | Shanghai | [Apply](https://www.cqfunds.com/service-center/) | - | 2026-04-09 |
+| CQ Funds | Internship positions list | Daily | Shanghai | [Apply](https://www.cqfunds.com/trainee/) | - | 2026-04-09 |
+| CQ Funds | Quant Research Intern (CTA / Equities) | Daily | Shanghai | [Apply](https://www.cqfunds.com/trainee/96.html) | - | 2026-04-09 |
+| CQ Funds | Data Analyst Intern | Daily | Shanghai | [Apply](https://www.cqfunds.com/trainee/35.html) | - | 2026-04-09 |
+| Blackwing Asset | Job recruitment page (campus/social via QR) | Summer / Daily | Shanghai | [Apply](https://www.blackwingasset.com/index.php?m=content&c=index&a=lists&catid=23) | - | 2026-04-09 |
+| Tianyan Capital | Join-us page | Summer / Daily | Beijing / Shanghai / Shenzhen | [Apply](https://www.tianyancapital.com/zh/join-us/index.html) | - | 2026-04-09 |
+| Tianyan Capital | Official jobs page | Summer / Daily | Beijing / Shanghai / Shenzhen | [Apply](https://www.tianyancapital.com/zh/join-us/jobs/index.html) | - | 2026-04-09 |
+| Tianyan Capital | Social recruiting portal (official ATS) | Daily | Beijing / Shanghai / Shenzhen | [Apply](https://app.mokahr.com/social-recruitment/tianyancapital/98901#/) | - | 2026-04-09 |
+| JHL Fund | Talent program page | Summer / Daily | Shanghai / Beijing | [Apply](https://www.jhlfund.com/career) | - | 2026-04-09 |
+| JHL Fund | Social recruiting portal (official ATS) | Daily | China | [Apply](https://app.mokahr.com/social-recruitment/jhlfund/46283#/) | - | 2026-04-09 |
 
 ## Autonomous Driving, Robotics & Embodied AI
 

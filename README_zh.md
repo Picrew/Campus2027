@@ -2,8 +2,8 @@
 
 面向 2027 届同学的大模型实习官方投递入口（中国区优先）。
 
-- 总条目数: **190**
-- 分类数: **5**
+- 总条目数: **225**
+- 分类数: **6**
 - 最近核验: **2026-04-09**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
 
@@ -13,6 +13,7 @@
 | --- | ---: |
 | 中国互联网与云大厂 | 42 |
 | 中国大模型与 AI 原生公司 | 25 |
+| 金融量化与 AI 投资 | 35 |
 | 自动驾驶、机器人与具身智能 | 18 |
 | 芯片、算力基础设施与系统 | 36 |
 | 外企与国际公司（中国/大中华实习通道） | 69 |
@@ -93,6 +94,46 @@
 | 云天励飞 | 官方网站 | 暑期 / 日常 | 深圳 / 南京 | [投递](https://www.intellif.com/) | - | 2026-04-09 |
 | 思谋科技 | 官方网站 | 暑期 / 日常 | 深圳 / 上海 | [投递](https://www.smartmore.com/) | - | 2026-04-09 |
 | 云知声 | 官方网站 | 暑期 / 日常 | 北京 / 合肥 | [投递](https://www.unisound.com/) | - | 2026-04-09 |
+
+## 金融量化与 AI 投资
+
+| 公司 | 团队/方向 | 实习类型 | 地点 | 官方投递链接 | 截止日期 | 最后核验 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 九坤投资 | 官方招聘页面 | 暑期 / 日常 | 中国 | [投递](https://www.ubiquant.com/website/career) | - | 2026-04-09 |
+| 九坤投资 | 校园招聘投递页（官方 ATS） | 暑期 / 日常 | 中国 | [投递](https://app.mokahr.com/campus_apply/ubiquantrecruit/37031) | - | 2026-04-09 |
+| 九坤投资 | 社会招聘投递页（官方 ATS） | 日常 | 中国 | [投递](https://app.mokahr.com/apply/ubiquantrecruit/37030) | - | 2026-04-09 |
+| 宽德投资 | 官方招聘页面 | 暑期 / 日常 | 上海 / 北京 | [投递](https://www.wizardquant.com/career) | - | 2026-04-09 |
+| 宽德投资 | WILL-AI 研究员（全职/实习） | 未知 | 北京 / 上海 / 远程 | [投递](https://www.wizardquant.com/career/ai%E7%A0%94%E7%A9%B6%E5%91%98) | - | 2026-04-09 |
+| 宽德投资 | WILL-AI 工程师（全职/实习） | 未知 | 北京 / 上海 / 远程 | [投递](https://www.wizardquant.com/career/ai%E5%B7%A5%E7%A8%8B%E5%B8%88) | - | 2026-04-09 |
+| 明汯投资 | 官方网站 | 未知 | 中国 | [投递](https://www.mhfunds.com) | - | 2026-04-09 |
+| 明汯投资 | 官方招聘投递页 | 暑期 / 日常 | 中国 | [投递](https://join.mhfunds.com/index) | - | 2026-04-09 |
+| 灵均投资 | 加入我们概览页 | 暑期 / 日常 | 中国 | [投递](https://www.lingjuninvest.com/overview) | - | 2026-04-09 |
+| 灵均投资 | 校园招聘页面 | 暑期 / 日常 | 中国 | [投递](https://www.lingjuninvest.com/campus-recruitment) | - | 2026-04-09 |
+| 灵均投资 | 校园岗位投递页（官方 ATS） | 暑期 / 日常 | 中国 | [投递](https://app.mokahr.com/social-recruitment/lingjuninvest/46355?locale=zh-CN#/jobs?213633%5B0%5D=%E6%98%AF&page=1&anchorName=jobsList) | - | 2026-04-09 |
+| 启林投资 | 加入我们页面 | 暑期 / 日常 | 上海 / 北京 | [投递](https://www.70capital.com/join) | - | 2026-04-09 |
+| 启林投资 | 校园岗位投递页（官方 ATS） | 暑期 / 日常 | 上海 / 北京 | [投递](https://70capital.gllue.com/portal/campusposition/list) | - | 2026-04-09 |
+| 鸣石基金 | 加入我们页面 | 暑期 / 日常 | 上海 | [投递](https://www.mingshiim.com/join) | - | 2026-04-09 |
+| 鸣石基金 | 校园/社会招聘投递页 | 暑期 / 日常 | 上海 | [投递](https://mingshiim.zhiye.com/) | - | 2026-04-09 |
+| 平方和投资 | 加入我们页面（含校园/社招 ATS） | 暑期 / 日常 | 上海 / 北京 | [投递](https://www.alpha2fund.com/joinus.html) | - | 2026-04-09 |
+| 平方和投资 | 校园招聘投递页（官方 ATS） | 暑期 / 日常 | 中国 | [投递](https://app.mokahr.com/campus-recruitment/alpha2fund/151124?locale=zh-CN#/) | - | 2026-04-09 |
+| 平方和投资 | 社会招聘投递页（官方 ATS） | 日常 | 中国 | [投递](https://app.mokahr.com/social-recruitment/alpha2fund/151123?locale=zh-CN#/) | - | 2026-04-09 |
+| 衍复投资 | 加入我们页面（官方） | 暑期 / 日常 | 上海 | [投递](https://yanfuinvestments.com/join) | - | 2026-04-09 |
+| 衍复投资 | 官方岗位页面 | 暑期 / 日常 | 中国 | [投递](https://yanfuinvestments1.zhiye.com/jobs) | - | 2026-04-09 |
+| 世纪前沿 | 联系与招聘页面 | 暑期 / 日常 | 上海 / 深圳 | [投递](https://www.centuryfrontier.com/contact) | - | 2026-04-09 |
+| 世纪前沿 | 社会招聘投递页（官方 ATS） | 日常 | 上海 / 深圳 | [投递](https://app.mokahr.com/m/apply/centuryfrontier/24841) | - | 2026-04-09 |
+| 世纪前沿 | 校园招聘投递页（官方 ATS） | 暑期 / 日常 | 上海 / 深圳 | [投递](https://app.mokahr.com/m/campus_apply/centuryfrontier/24842) | - | 2026-04-09 |
+| 量派投资 | 联系与招聘页面 | 暑期 / 日常 | 上海 | [投递](https://www.qpalpha.com/contact.html) | - | 2026-04-09 |
+| 量派投资 | 官方飞书招聘页面 | 日常 | 上海 | [投递](https://jo0ikgajg1.jobs.feishu.cn/index/?spread=ENQENZT) | - | 2026-04-09 |
+| 诚奇基金 | 服务中心（招聘） | 暑期 / 日常 | 上海 | [投递](https://www.cqfunds.com/service-center/) | - | 2026-04-09 |
+| 诚奇基金 | 实习岗位列表 | 日常 | 上海 | [投递](https://www.cqfunds.com/trainee/) | - | 2026-04-09 |
+| 诚奇基金 | 量化研究实习生（CTA / 股票） | 日常 | 上海 | [投递](https://www.cqfunds.com/trainee/96.html) | - | 2026-04-09 |
+| 诚奇基金 | 数据分析实习生 | 日常 | 上海 | [投递](https://www.cqfunds.com/trainee/35.html) | - | 2026-04-09 |
+| 黑翼资产 | 职位招聘页（校园/社招二维码） | 暑期 / 日常 | 上海 | [投递](https://www.blackwingasset.com/index.php?m=content&c=index&a=lists&catid=23) | - | 2026-04-09 |
+| 天演资本 | 加入我们页面 | 暑期 / 日常 | 北京 / 上海 / 深圳 | [投递](https://www.tianyancapital.com/zh/join-us/index.html) | - | 2026-04-09 |
+| 天演资本 | 官方岗位页面 | 暑期 / 日常 | 北京 / 上海 / 深圳 | [投递](https://www.tianyancapital.com/zh/join-us/jobs/index.html) | - | 2026-04-09 |
+| 天演资本 | 社会招聘投递页（官方 ATS） | 日常 | 北京 / 上海 / 深圳 | [投递](https://app.mokahr.com/social-recruitment/tianyancapital/98901#/) | - | 2026-04-09 |
+| 进化论资产 | 人才计划页面 | 暑期 / 日常 | 上海 / 北京 | [投递](https://www.jhlfund.com/career) | - | 2026-04-09 |
+| 进化论资产 | 社会招聘投递页（官方 ATS） | 日常 | 中国 | [投递](https://app.mokahr.com/social-recruitment/jhlfund/46283#/) | - | 2026-04-09 |
 
 ## 自动驾驶、机器人与具身智能
 

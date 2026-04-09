@@ -18,6 +18,11 @@ CATEGORIES = [
         "中国大模型与 AI 原生公司"
     ],
     [
+        "quant_finance",
+        "Quant Finance & AI Investing",
+        "金融量化与 AI 投资"
+    ],
+    [
         "autonomous",
         "Autonomous Driving, Robotics & Embodied AI",
         "自动驾驶、机器人与具身智能"
@@ -419,6 +424,286 @@ ENTRIES: list[dict[str, str]] = [
         "itype": "Summer / Daily",
         "location": "China",
         "url": "https://career.iflytek.com"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Ubiquant",
+        "focus": "Official careers page",
+        "itype": "Summer / Daily",
+        "location": "China",
+        "url": "https://www.ubiquant.com/website/career"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Ubiquant",
+        "focus": "Campus recruiting portal (official ATS)",
+        "itype": "Summer / Daily",
+        "location": "China",
+        "url": "https://app.mokahr.com/campus_apply/ubiquantrecruit/37031"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Ubiquant",
+        "focus": "Social recruiting portal (official ATS)",
+        "itype": "Daily",
+        "location": "China",
+        "url": "https://app.mokahr.com/apply/ubiquantrecruit/37030"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "WizardQuant",
+        "focus": "Official careers page",
+        "itype": "Summer / Daily",
+        "location": "Shanghai / Beijing",
+        "url": "https://www.wizardquant.com/career"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "WizardQuant",
+        "focus": "WILL - AI Researcher (full-time/intern)",
+        "itype": "Unknown",
+        "location": "Beijing / Shanghai / Remote",
+        "url": "https://www.wizardquant.com/career/ai%E7%A0%94%E7%A9%B6%E5%91%98"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "WizardQuant",
+        "focus": "WILL - AI Engineer (full-time/intern)",
+        "itype": "Unknown",
+        "location": "Beijing / Shanghai / Remote",
+        "url": "https://www.wizardquant.com/career/ai%E5%B7%A5%E7%A8%8B%E5%B8%88"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Minghong Investment",
+        "focus": "Official company site",
+        "itype": "Unknown",
+        "location": "China",
+        "url": "https://www.mhfunds.com"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Minghong Investment",
+        "focus": "Official recruiting portal",
+        "itype": "Summer / Daily",
+        "location": "China",
+        "url": "https://join.mhfunds.com/index"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Lingjun Investment",
+        "focus": "Join-us overview page",
+        "itype": "Summer / Daily",
+        "location": "China",
+        "url": "https://www.lingjuninvest.com/overview"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Lingjun Investment",
+        "focus": "Campus recruiting page",
+        "itype": "Summer / Daily",
+        "location": "China",
+        "url": "https://www.lingjuninvest.com/campus-recruitment"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Lingjun Investment",
+        "focus": "Campus jobs portal (official ATS)",
+        "itype": "Summer / Daily",
+        "location": "China",
+        "url": "https://app.mokahr.com/social-recruitment/lingjuninvest/46355?locale=zh-CN#/jobs?213633%5B0%5D=%E6%98%AF&page=1&anchorName=jobsList"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Qilin Capital",
+        "focus": "Join-us page",
+        "itype": "Summer / Daily",
+        "location": "Shanghai / Beijing",
+        "url": "https://www.70capital.com/join"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Qilin Capital",
+        "focus": "Campus jobs portal (official ATS)",
+        "itype": "Summer / Daily",
+        "location": "Shanghai / Beijing",
+        "url": "https://70capital.gllue.com/portal/campusposition/list"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Mingshi Fund",
+        "focus": "Join-us page",
+        "itype": "Summer / Daily",
+        "location": "Shanghai",
+        "url": "https://www.mingshiim.com/join"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Mingshi Fund",
+        "focus": "Campus / social jobs portal",
+        "itype": "Summer / Daily",
+        "location": "Shanghai",
+        "url": "https://mingshiim.zhiye.com/"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Alpha2 Fund",
+        "focus": "Join-us page (contains campus/social ATS links)",
+        "itype": "Summer / Daily",
+        "location": "Shanghai / Beijing",
+        "url": "https://www.alpha2fund.com/joinus.html"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Alpha2 Fund",
+        "focus": "Campus recruiting portal (official ATS)",
+        "itype": "Summer / Daily",
+        "location": "China",
+        "url": "https://app.mokahr.com/campus-recruitment/alpha2fund/151124?locale=zh-CN#/"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Alpha2 Fund",
+        "focus": "Social recruiting portal (official ATS)",
+        "itype": "Daily",
+        "location": "China",
+        "url": "https://app.mokahr.com/social-recruitment/alpha2fund/151123?locale=zh-CN#/"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Yanfu Investments",
+        "focus": "Join-us page (official)",
+        "itype": "Summer / Daily",
+        "location": "Shanghai",
+        "url": "https://yanfuinvestments.com/join"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Yanfu Investments",
+        "focus": "Official jobs portal",
+        "itype": "Summer / Daily",
+        "location": "China",
+        "url": "https://yanfuinvestments1.zhiye.com/jobs"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Century Frontier",
+        "focus": "Contact / recruiting page",
+        "itype": "Summer / Daily",
+        "location": "Shanghai / Shenzhen",
+        "url": "https://www.centuryfrontier.com/contact"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Century Frontier",
+        "focus": "Social recruiting portal (official ATS)",
+        "itype": "Daily",
+        "location": "Shanghai / Shenzhen",
+        "url": "https://app.mokahr.com/m/apply/centuryfrontier/24841"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Century Frontier",
+        "focus": "Campus recruiting portal (official ATS)",
+        "itype": "Summer / Daily",
+        "location": "Shanghai / Shenzhen",
+        "url": "https://app.mokahr.com/m/campus_apply/centuryfrontier/24842"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "QP Alpha",
+        "focus": "Contact & recruiting page",
+        "itype": "Summer / Daily",
+        "location": "Shanghai",
+        "url": "https://www.qpalpha.com/contact.html"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "QP Alpha",
+        "focus": "Official Feishu jobs portal",
+        "itype": "Daily",
+        "location": "Shanghai",
+        "url": "https://jo0ikgajg1.jobs.feishu.cn/index/?spread=ENQENZT"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "CQ Funds",
+        "focus": "Service center (recruiting)",
+        "itype": "Summer / Daily",
+        "location": "Shanghai",
+        "url": "https://www.cqfunds.com/service-center/"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "CQ Funds",
+        "focus": "Internship positions list",
+        "itype": "Daily",
+        "location": "Shanghai",
+        "url": "https://www.cqfunds.com/trainee/"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "CQ Funds",
+        "focus": "Quant Research Intern (CTA / Equities)",
+        "itype": "Daily",
+        "location": "Shanghai",
+        "url": "https://www.cqfunds.com/trainee/96.html"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "CQ Funds",
+        "focus": "Data Analyst Intern",
+        "itype": "Daily",
+        "location": "Shanghai",
+        "url": "https://www.cqfunds.com/trainee/35.html"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Blackwing Asset",
+        "focus": "Job recruitment page (campus/social via QR)",
+        "itype": "Summer / Daily",
+        "location": "Shanghai",
+        "url": "https://www.blackwingasset.com/index.php?m=content&c=index&a=lists&catid=23"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Tianyan Capital",
+        "focus": "Join-us page",
+        "itype": "Summer / Daily",
+        "location": "Beijing / Shanghai / Shenzhen",
+        "url": "https://www.tianyancapital.com/zh/join-us/index.html"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Tianyan Capital",
+        "focus": "Official jobs page",
+        "itype": "Summer / Daily",
+        "location": "Beijing / Shanghai / Shenzhen",
+        "url": "https://www.tianyancapital.com/zh/join-us/jobs/index.html"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Tianyan Capital",
+        "focus": "Social recruiting portal (official ATS)",
+        "itype": "Daily",
+        "location": "Beijing / Shanghai / Shenzhen",
+        "url": "https://app.mokahr.com/social-recruitment/tianyancapital/98901#/"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "JHL Fund",
+        "focus": "Talent program page",
+        "itype": "Summer / Daily",
+        "location": "Shanghai / Beijing",
+        "url": "https://www.jhlfund.com/career"
+    },
+    {
+        "cat": "quant_finance",
+        "company": "JHL Fund",
+        "focus": "Social recruiting portal (official ATS)",
+        "itype": "Daily",
+        "location": "China",
+        "url": "https://app.mokahr.com/social-recruitment/jhlfund/46283#/"
     },
     {
         "cat": "autonomous",
@@ -1577,6 +1862,7 @@ COMPANY_ZH_MAP: dict[str, str] = {
     "AWS": "AWS",
     "Adobe": "Adobe",
     "Alibaba": "阿里巴巴",
+    "Alpha2 Fund": "平方和投资",
     "AlphaGrep Securities": "AlphaGrep",
     "Amazon": "亚马逊",
     "Amazon / AWS": "亚马逊 / AWS",
@@ -1595,6 +1881,7 @@ COMPANY_ZH_MAP: dict[str, str] = {
     "Bilibili": "哔哩哔哩",
     "Biren Technology": "壁仞科技",
     "Bosch": "博世",
+    "Blackwing Asset": "黑翼资产",
     "ByteDance": "字节跳动",
     "Cadence": "Cadence",
     "Cambricon": "寒武纪",
@@ -1602,6 +1889,8 @@ COMPANY_ZH_MAP: dict[str, str] = {
     "CloudWalk": "云从科技",
     "Cloudflare": "Cloudflare",
     "Cohere": "Cohere",
+    "CQ Funds": "诚奇基金",
+    "Century Frontier": "世纪前沿",
     "DJI": "大疆",
     "Databricks": "Databricks",
     "DeepMind": "DeepMind",
@@ -1624,6 +1913,7 @@ COMPANY_ZH_MAP: dict[str, str] = {
     "Intel China Campus": "英特尔中国校园招聘",
     "Intellifusion": "云天励飞",
     "JD": "京东",
+    "JHL Fund": "进化论资产",
     "Jane Street": "Jane Street",
     "KLA": "KLA",
     "Keysight": "是德科技",
@@ -1631,6 +1921,7 @@ COMPANY_ZH_MAP: dict[str, str] = {
     "Lam Research": "泛林集团",
     "Lenovo": "联想",
     "Li Auto": "理想汽车",
+    "Lingjun Investment": "灵均投资",
     "Loongson": "龙芯中科",
     "MediaTek": "联发科",
     "Megvii": "旷视科技",
@@ -1641,6 +1932,8 @@ COMPANY_ZH_MAP: dict[str, str] = {
     "Micron": "美光",
     "Microsoft": "微软",
     "MiniMax": "MiniMax",
+    "Minghong Investment": "明汯投资",
+    "Mingshi Fund": "鸣石基金",
     "Mistral AI": "Mistral AI",
     "Mobvoi": "出门问问",
     "ModelBest": "面壁智能",
@@ -1664,6 +1957,8 @@ COMPANY_ZH_MAP: dict[str, str] = {
     "Perplexity": "Perplexity",
     "Philips": "飞利浦",
     "Pony.ai": "小马智行",
+    "QP Alpha": "量派投资",
+    "Qilin Capital": "启林投资",
     "Qiniu Cloud": "七牛云",
     "Qualcomm": "高通",
     "SAP": "SAP",
@@ -1688,16 +1983,20 @@ COMPANY_ZH_MAP: dict[str, str] = {
     "Tencent Games": "腾讯游戏",
     "Tesla China": "特斯拉中国",
     "Texas Instruments": "德州仪器",
+    "Tianyan Capital": "天演资本",
     "Trip.com (Ctrip)": "携程集团",
     "UBTECH": "优必选",
+    "Ubiquant": "九坤投资",
     "Unisound": "云知声",
     "Unitree": "宇树科技",
     "WPS / Kingsoft": "金山办公（WPS）",
     "WeBank": "微众银行",
     "WeRide": "文远知行",
+    "WizardQuant": "宽德投资",
     "XPeng": "小鹏汽车",
     "Xiaohongshu (RED)": "小红书",
     "Xiaomi": "小米",
+    "Yanfu Investments": "衍复投资",
     "Zhipu AI": "智谱 AI",
     "iFlytek": "科大讯飞",
     "miHoYo": "米哈游",
@@ -1718,10 +2017,16 @@ FOCUS_ZH_MAP: dict[str, str] = {
     "Campus intern portal (AI / engineering)": "校园实习投递页（AI/工程）",
     "Campus internship portal": "校园实习投递页",
     "Campus positions list": "校园岗位列表",
+    "Campus recruiting page": "校园招聘页面",
     "Campus recruiting home": "校园招聘首页",
+    "Campus recruiting portal (official ATS)": "校园招聘投递页（官方 ATS）",
     "Campus recruiting portal": "校园招聘页面",
     "Campus recruitment listing": "校园招聘列表",
+    "Campus jobs portal (official ATS)": "校园岗位投递页（官方 ATS）",
+    "Campus / social jobs portal": "校园/社会招聘投递页",
     "Campus trainee internship portal": "校园管培/实习投递页",
+    "Contact & recruiting page": "联系与招聘页面",
+    "Contact / recruiting page": "联系与招聘页面",
     "China + ML/AI combined search": "中国区 + ML/AI 联合检索",
     "China AI jobs search": "中国区 AI 岗位检索",
     "China careers page": "中国区招聘页面",
@@ -1752,12 +2057,18 @@ FOCUS_ZH_MAP: dict[str, str] = {
     "Internship search in China": "中国区实习检索",
     "Internship search in Shanghai": "上海实习检索",
     "Internship search page": "实习检索页面",
+    "Internship positions list": "实习岗位列表",
     "Internships for students": "学生实习项目页面",
+    "Job recruitment page (campus/social via QR)": "职位招聘页（校园/社招二维码）",
     "Job search: China keyword": "岗位检索：中国关键词",
     "Job search: Intern keyword": "岗位检索：实习关键词",
     "Jobs in Beijing": "北京岗位检索",
     "Jobs in Shanghai": "上海岗位检索",
     "Jobs search with China location": "中国地区岗位检索",
+    "Join-us overview page": "加入我们概览页",
+    "Join-us page (contains campus/social ATS links)": "加入我们页面（含校园/社招 ATS）",
+    "Join-us page (official)": "加入我们页面（官方）",
+    "Join-us page": "加入我们页面",
     "Join-us portal": "招聘页面",
     "LLM risk-scenario algorithm intern": "大模型风控场景算法实习生",
     "ML intern search in China": "中国区机器学习实习检索",
@@ -1776,22 +2087,31 @@ FOCUS_ZH_MAP: dict[str, str] = {
     "Official careers portal": "官方招聘页面",
     "Official company site": "官方网站",
     "Official job search portal": "官方岗位检索页面",
+    "Official jobs page": "官方岗位页面",
     "Official jobs portal": "官方岗位页面",
     "Official jobs search": "官方岗位检索",
     "Official join-us page": "官方招聘页面",
     "Official join-us portal": "官方招聘页面",
+    "Official recruiting portal": "官方招聘投递页",
     "Official talent portal": "官方人才招聘页面",
+    "Quant Research Intern (CTA / Equities)": "量化研究实习生（CTA / 股票）",
     "Quant Research Intern - Equity Factors (Shanghai)": "量化研究实习生-股票因子（上海）",
     "Quant Research Intern - Machine Learning (Shanghai)": "量化研究实习生-机器学习（上海）",
     "Quantitative Researcher Internship (Hong Kong)": "量化研究实习（中国香港）",
     "Quantitative Trader Internship (Hong Kong)": "量化交易实习（中国香港）",
     "Recommender LLM Algorithm Intern": "推荐大模型算法实习生",
+    "Service center (recruiting)": "服务中心（招聘）",
     "Shanghai ML PhD internship": "上海机器学习博士实习",
+    "Social recruiting portal (official ATS)": "社会招聘投递页（官方 ATS）",
     "Strategy & Data Science internship (Shanghai)": "战略与数据科学实习（上海）",
     "Students & graduates in China": "中国区学生与毕业生招聘",
     "Students and graduates portal": "学生与毕业生招聘页面",
+    "Talent program page": "人才计划页面",
     "Talent portal home": "人才招聘首页",
     "Top Seed - LLM Applied Algorithm Intern": "Top Seed-大模型应用算法实习生",
+    "WILL - AI Engineer (full-time/intern)": "WILL-AI 工程师（全职/实习）",
+    "WILL - AI Researcher (full-time/intern)": "WILL-AI 研究员（全职/实习）",
+    "Data Analyst Intern": "数据分析实习生",
 }
 
 INTERNSHIP_TYPE_ZH_MAP: dict[str, str] = {
@@ -1800,6 +2120,7 @@ INTERNSHIP_TYPE_ZH_MAP: dict[str, str] = {
     "Summer": "暑期",
     "Summer / Daily": "暑期 / 日常",
     "Summer / Winter": "暑期 / 冬季",
+    "Unknown": "未知",
     "Winter": "冬季",
 }
 
@@ -1808,6 +2129,7 @@ LOCATION_ZH_MAP: dict[str, str] = {
     "Beijing / Hefei": "北京 / 合肥",
     "Beijing / Nanjing / Shenzhen": "北京 / 南京 / 深圳",
     "Beijing / Shanghai": "北京 / 上海",
+    "Beijing / Shanghai / Remote": "北京 / 上海 / 远程",
     "Beijing / Shanghai / Changzhou": "北京 / 上海 / 常州",
     "Beijing / Shanghai / Chengdu": "北京 / 上海 / 成都",
     "Beijing / Shanghai / Chongqing": "北京 / 上海 / 重庆",
