@@ -4,7 +4,7 @@ from __future__ import annotations
 from collections import Counter
 from pathlib import Path
 
-LAST_VERIFIED = "2026-04-09"
+LAST_VERIFIED = "2026-04-14"
 
 CATEGORIES = [
     [
@@ -1724,18 +1724,18 @@ ENTRIES: list[dict[str, str]] = [
     {
         "cat": "international",
         "company": "Meta",
-        "focus": "Job search: China keyword",
+        "focus": "Official careers home",
         "itype": "Summer / Daily",
         "location": "China / Global",
-        "url": "https://www.metacareers.com/jobsearch?q=china"
+        "url": "https://www.metacareers.com/"
     },
     {
         "cat": "international",
         "company": "Meta",
-        "focus": "Job search: Intern keyword",
+        "focus": "Official job search",
         "itype": "Summer / Daily",
         "location": "Global",
-        "url": "https://www.metacareers.com/jobsearch?q=intern"
+        "url": "https://www.metacareers.com/jobsearch"
     },
     {
         "cat": "international",
@@ -1831,7 +1831,7 @@ ENTRIES: list[dict[str, str]] = [
         "focus": "Official careers portal",
         "itype": "Summer / Daily",
         "location": "China / Global",
-        "url": "https://careers.mercedes-benz.com/"
+        "url": "https://jobs.mercedes-benz.com/"
     },
     {
         "cat": "international",
