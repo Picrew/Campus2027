@@ -4,7 +4,7 @@ from __future__ import annotations
 from collections import Counter
 from pathlib import Path
 
-LAST_VERIFIED = "2026-04-14"
+LAST_VERIFIED = "2026-04-17"
 
 CATEGORIES = [
     [
@@ -943,7 +943,7 @@ ENTRIES: list[dict[str, str]] = [
         "focus": "Official careers portal",
         "itype": "Summer / Daily",
         "location": "China",
-        "url": "https://careers.analog.com/"
+        "url": "https://www.analog.com/en/careers.html"
     },
     {
         "cat": "chips_infra",
@@ -951,7 +951,7 @@ ENTRIES: list[dict[str, str]] = [
         "focus": "Official careers portal",
         "itype": "Summer / Daily",
         "location": "China",
-        "url": "https://careers.st.com/"
+        "url": "https://www.st.com/content/st_com/en/about/careers.html"
     },
     {
         "cat": "chips_infra",
@@ -959,7 +959,7 @@ ENTRIES: list[dict[str, str]] = [
         "focus": "Official careers portal",
         "itype": "Summer / Daily",
         "location": "China",
-        "url": "https://careers.infineon.com/"
+        "url": "https://www.infineon.com/careers"
     },
     {
         "cat": "chips_infra",
@@ -1068,10 +1068,10 @@ ENTRIES: list[dict[str, str]] = [
     {
         "cat": "international",
         "company": "Bosch",
-        "focus": "China jobs portal",
+        "focus": "China careers page",
         "itype": "Summer / Daily",
         "location": "China",
-        "url": "https://jobs.bosch.com.cn/jobs?locale=zh_CN"
+        "url": "https://www.bosch.com.cn/careers/"
     },
     {
         "cat": "international",
@@ -1084,10 +1084,10 @@ ENTRIES: list[dict[str, str]] = [
     {
         "cat": "international",
         "company": "Sony China",
-        "focus": "Official careers portal",
+        "focus": "Campus recruitment page",
         "itype": "Summer / Daily",
         "location": "China",
-        "url": "https://careers.sony.com.cn/"
+        "url": "https://www.sony.com.cn/content/sonyportal_hr/Campus_Recruitment.html"
     },
     {
         "cat": "international",
@@ -1111,7 +1111,7 @@ ENTRIES: list[dict[str, str]] = [
         "focus": "Official careers portal",
         "itype": "Summer / Daily",
         "location": "Global / China-based roles if open",
-        "url": "https://careers.openai.com/"
+        "url": "https://openai.com/jobs/"
     },
     {
         "cat": "international",
@@ -1399,7 +1399,7 @@ ENTRIES: list[dict[str, str]] = [
         "focus": "China careers search",
         "itype": "Summer / Daily",
         "location": "Shanghai / Beijing / Shenzhen",
-        "url": "https://www.tesla.cn/careers/search/?site=CN"
+        "url": "https://www.tesla.cn/en/careers"
     },
     {
         "cat": "autonomous",
@@ -1791,7 +1791,7 @@ ENTRIES: list[dict[str, str]] = [
         "focus": "Official careers portal",
         "itype": "Summer / Daily",
         "location": "Global",
-        "url": "https://www.perplexity.ai/careers"
+        "url": "https://www.perplexity.ai/mk/hub/careers"
     },
     {
         "cat": "international",
