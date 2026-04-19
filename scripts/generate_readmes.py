@@ -4,7 +4,7 @@ from __future__ import annotations
 from collections import Counter
 from pathlib import Path
 
-LAST_VERIFIED = "2026-04-17"
+LAST_VERIFIED = "2026-04-19"
 
 CATEGORIES = [
     [
@@ -420,10 +420,10 @@ ENTRIES: list[dict[str, str]] = [
     {
         "cat": "china_llm",
         "company": "iFlytek",
-        "focus": "Official career portal",
+        "focus": "Official campus recruiting portal",
         "itype": "Summer / Daily",
         "location": "China",
-        "url": "https://career.iflytek.com"
+        "url": "https://campus.iflytek.com/"
     },
     {
         "cat": "quant_finance",
@@ -1111,7 +1111,7 @@ ENTRIES: list[dict[str, str]] = [
         "focus": "Official careers portal",
         "itype": "Summer / Daily",
         "location": "Global / China-based roles if open",
-        "url": "https://openai.com/jobs/"
+        "url": "https://openai.com/careers/"
     },
     {
         "cat": "international",
@@ -1791,7 +1791,7 @@ ENTRIES: list[dict[str, str]] = [
         "focus": "Official careers portal",
         "itype": "Summer / Daily",
         "location": "Global",
-        "url": "https://www.perplexity.ai/mk/hub/careers"
+        "url": "https://www.perplexity.ai/careers"
     },
     {
         "cat": "international",

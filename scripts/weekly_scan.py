@@ -276,10 +276,9 @@ def apply_curl_fallback(result: ScanResult) -> ScanResult:
         proc = subprocess.run(
             [
                 "curl",
-                "-I",
                 "-L",
                 "-A",
-                USER_AGENT,
+                "Mozilla/5.0",
                 "--max-time",
                 str(TIMEOUT_SECONDS),
                 "-o",
