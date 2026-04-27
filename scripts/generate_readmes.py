@@ -4,7 +4,7 @@ from __future__ import annotations
 from collections import Counter
 from pathlib import Path
 
-LAST_VERIFIED = "2026-04-19"
+LAST_VERIFIED = "2026-04-27"
 
 CATEGORIES = [
     [
@@ -391,7 +391,7 @@ ENTRIES: list[dict[str, str]] = [
         "focus": "Official join-us portal",
         "itype": "Summer / Daily",
         "location": "Beijing / Shanghai",
-        "url": "https://joinus.megvii.com"
+        "url": "https://www.megvii.com/join_us"
     },
     {
         "cat": "china_llm",

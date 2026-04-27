@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import concurrent.futures
+import http.client
 import importlib.util
 import json
 import re
@@ -253,7 +254,13 @@ def fetch(entry: dict[str, str]) -> ScanResult:
             error=f"HTTP {exc.code}" if status == STATUS_BROKEN else None,
         )
         return apply_curl_fallback(result)
-    except (urllib.error.URLError, TimeoutError, socket.timeout, ssl.SSLError) as exc:
+    except (
+        urllib.error.URLError,
+        TimeoutError,
+        socket.timeout,
+        ssl.SSLError,
+        http.client.RemoteDisconnected,
+    ) as exc:
         result = ScanResult(
             company=entry["company"],
             focus=entry["focus"],
