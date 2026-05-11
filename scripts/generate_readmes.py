@@ -4,7 +4,7 @@ from __future__ import annotations
 from collections import Counter
 from pathlib import Path
 
-LAST_VERIFIED = "2026-04-27"
+LAST_VERIFIED = "2026-05-11"
 
 CATEGORIES = [
     [
@@ -188,10 +188,10 @@ ENTRIES: list[dict[str, str]] = [
     {
         "cat": "china_internet",
         "company": "Trip.com (Ctrip)",
-        "focus": "Internship portal",
+        "focus": "Official careers search",
         "itype": "Summer / Daily",
         "location": "China",
-        "url": "https://app.mokahr.com/su/qnjubz"
+        "url": "https://jobs.careers.trip.com/en_US/careers/SearchJobs"
     },
     {
         "cat": "china_internet",
@@ -252,18 +252,18 @@ ENTRIES: list[dict[str, str]] = [
     {
         "cat": "china_internet",
         "company": "Sangfor",
-        "focus": "Campus trainee internship portal",
+        "focus": "Official careers openings",
         "itype": "Summer / Daily",
         "location": "China",
-        "url": "https://hr.sangfor.com/campucompon/schoolRecruitment/trainee"
+        "url": "https://www.sangfor.com/about-us/careers/find-job-openings"
     },
     {
         "cat": "china_internet",
         "company": "SmartX",
-        "focus": "AI infra internship portal",
+        "focus": "Official jobs page",
         "itype": "Summer / Daily",
         "location": "Beijing / Shanghai",
-        "url": "https://app.mokahr.com/campus_apply/smartx/4183#/jobs?zhineng=111480"
+        "url": "https://www.smartx.com/jobs/"
     },
     {
         "cat": "china_internet",
