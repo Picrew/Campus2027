@@ -4,7 +4,7 @@ from __future__ import annotations
 from collections import Counter
 from pathlib import Path
 
-LAST_VERIFIED = "2026-05-11"
+LAST_VERIFIED = "2026-05-21"
 
 CATEGORIES = [
     [
@@ -111,7 +111,7 @@ ENTRIES: list[dict[str, str]] = [
         "focus": "Campus internship portal",
         "itype": "Summer",
         "location": "China",
-        "url": "https://zhaopin.meituan.com/web/campus"
+        "url": "https://zhaopin.meituan.com/web/campus?hiringType=2_6&keyword="
     },
     {
         "cat": "china_internet",
@@ -1111,7 +1111,7 @@ ENTRIES: list[dict[str, str]] = [
         "focus": "Official careers portal",
         "itype": "Summer / Daily",
         "location": "Global / China-based roles if open",
-        "url": "https://openai.com/careers/"
+        "url": "https://openai.com/careers/search"
     },
     {
         "cat": "international",
