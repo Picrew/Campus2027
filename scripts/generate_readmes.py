@@ -4,7 +4,7 @@ from __future__ import annotations
 from collections import Counter
 from pathlib import Path
 
-LAST_VERIFIED = "2026-05-21"
+LAST_VERIFIED = "2026-05-22"
 
 CATEGORIES = [
     [
@@ -927,7 +927,7 @@ ENTRIES: list[dict[str, str]] = [
         "focus": "Official careers page",
         "itype": "Summer / Daily",
         "location": "Shanghai / Suzhou",
-        "url": "https://www.cadence.com/en_US/home/company/careers.html"
+        "url": "https://www.cadence.com/en_US/home/company/life-at-cadence/careers.html"
     },
     {
         "cat": "chips_infra",
@@ -1399,7 +1399,7 @@ ENTRIES: list[dict[str, str]] = [
         "focus": "China careers search",
         "itype": "Summer / Daily",
         "location": "Shanghai / Beijing / Shenzhen",
-        "url": "https://www.tesla.cn/en/careers"
+        "url": "https://www.tesla.cn/careers"
     },
     {
         "cat": "autonomous",
@@ -1543,7 +1543,7 @@ ENTRIES: list[dict[str, str]] = [
         "focus": "Global jobs portal",
         "itype": "Summer / Daily",
         "location": "China / Global",
-        "url": "https://www.intel.com/content/www/us/en/jobs/jobs-at-intel.html"
+        "url": "https://www.intel.com/content/www/us/en/jobs/life-at-intel.html"
     },
     {
         "cat": "international",
