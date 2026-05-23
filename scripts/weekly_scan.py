@@ -279,66 +279,92 @@ def fetch(entry: dict[str, str]) -> ScanResult:
 def apply_curl_fallback(result: ScanResult) -> ScanResult:
     if result.status != STATUS_BROKEN:
         return result
-    try:
-        proc = subprocess.run(
-            [
-                "curl",
-                "-L",
-                "-A",
-                "Mozilla/5.0",
-                "--max-time",
-                str(TIMEOUT_SECONDS),
-                "-o",
-                "/dev/null",
-                "-sS",
-                "-w",
-                "%{http_code} %{url_effective}",
-                result.url,
-            ],
-            check=False,
-            capture_output=True,
-            text=True,
-            timeout=TIMEOUT_SECONDS + 5,
-        )
-    except (OSError, subprocess.TimeoutExpired):
+
+    def run_curl_probe(extra_args: list[str]) -> tuple[int | None, str | None, bool]:
+        try:
+            proc = subprocess.run(
+                [
+                    "curl",
+                    "-L",
+                    "-A",
+                    "Mozilla/5.0",
+                    "--max-time",
+                    str(TIMEOUT_SECONDS),
+                    *extra_args,
+                    "-o",
+                    "/dev/null",
+                    "-sS",
+                    "-w",
+                    "%{http_code} %{url_effective}",
+                    result.url,
+                ],
+                check=False,
+                capture_output=True,
+                text=True,
+                timeout=TIMEOUT_SECONDS + 5,
+            )
+        except (OSError, subprocess.TimeoutExpired):
+            return None, None, False
+
+        text = proc.stdout.strip()
+        match = re.match(r"(\d{3})\s+(.+)", text)
+        if not match:
+            return None, None, proc.returncode == 0
+        return int(match.group(1)), match.group(2), proc.returncode == 0
+
+    def build_result(code: int, final_url: str, review_reason: str) -> ScanResult:
+        if 200 <= code < 300:
+            return ScanResult(
+                company=result.company,
+                focus=result.focus,
+                url=result.url,
+                http_code=code,
+                final_url=final_url,
+                status=STATUS_OPEN,
+                deadline=None,
+                deadline_evidence=None,
+                review_reason=review_reason,
+                error=None,
+            )
+        if 300 <= code < 400:
+            return ScanResult(
+                company=result.company,
+                focus=result.focus,
+                url=result.url,
+                http_code=code,
+                final_url=final_url,
+                status=STATUS_REVIEW,
+                deadline=None,
+                deadline_evidence=None,
+                review_reason=review_reason,
+                error=None,
+            )
         return result
 
-    if proc.returncode != 0:
-        return result
+    code, final_url, ok = run_curl_probe([])
+    if ok and code is not None:
+        if 200 <= code < 300:
+            return build_result(code, final_url or result.url, "curl fallback confirmed")
+        if 300 <= code < 400:
+            return build_result(code, final_url or result.url, f"curl fallback HTTP {code}")
 
-    text = proc.stdout.strip()
-    match = re.match(r"(\d{3})\s+(.+)", text)
-    if not match:
-        return result
-
-    code = int(match.group(1))
-    final_url = match.group(2)
-    if 200 <= code < 300:
+    # Some ATS pages reject GET probes but still answer HEAD, which is enough to
+    # distinguish an actually dead link from a transport-specific false alarm.
+    head_code, head_final_url, head_ok = run_curl_probe(["-I"])
+    if head_ok and head_code is not None and 200 <= head_code < 400:
         return ScanResult(
             company=result.company,
             focus=result.focus,
             url=result.url,
-            http_code=code,
-            final_url=final_url,
-            status=STATUS_OPEN,
-            deadline=None,
-            deadline_evidence=None,
-            review_reason="curl fallback confirmed",
-            error=None,
-        )
-    if 300 <= code < 400:
-        return ScanResult(
-            company=result.company,
-            focus=result.focus,
-            url=result.url,
-            http_code=code,
-            final_url=final_url,
+            http_code=head_code,
+            final_url=head_final_url or result.url,
             status=STATUS_REVIEW,
             deadline=None,
             deadline_evidence=None,
-            review_reason=f"curl fallback HTTP {code}",
+            review_reason=f"curl HEAD fallback HTTP {head_code}",
             error=None,
         )
+
     return result
 
 
