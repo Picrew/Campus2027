@@ -4,7 +4,7 @@ Official LLM internship channels for Class of 2027 students (China focus).
 
 - Total entries: **225**
 - Categories: **6**
-- Last verified: **2026-06-06**
+- Last verified: **2026-06-07**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
 ## Category Overview
@@ -22,254 +22,254 @@ Official LLM internship channels for Class of 2027 students (China focus).
 
 | Company | Team / Focus | Internship Type | Location | Apply Link (Official) | Deadline | Last Verified |
 | --- | --- | --- | --- | --- | --- | --- |
-| ByteDance | Campus internship portal | Summer / Daily | China | [Apply](https://jobs.bytedance.com/campus) | - | 2026-06-06 |
-| ByteDance | Top Seed - LLM Applied Algorithm Intern | Summer | Beijing / Shanghai / Shenzhen | [Apply](https://jobs.bytedance.com/campus/position/7483023182024001799/detail) | - | 2026-06-06 |
-| ByteDance | Recommender LLM Algorithm Intern | Summer | Beijing / Shanghai | [Apply](https://jobs.bytedance.com/campus/position/7475203956567591186/detail) | - | 2026-06-06 |
-| Tencent | Campus intern portal (AI / engineering) | Summer / Daily | China | [Apply](https://join.qq.com/post.html?query=p_2,b_14129) | - | 2026-06-06 |
-| Tencent Games | Game engineering / AI internship portal | Summer | Shenzhen / Shanghai | [Apply](https://join.qq.com/post.html?query=p_2) | - | 2026-06-06 |
-| Alibaba | Campus internship portal | Summer | China | [Apply](https://talent.alibaba.com/campus/position-list?campusType=internship) | - | 2026-06-06 |
-| Baidu | Campus intern portal (AI / LLM) | Summer | China | [Apply](https://talent.baidu.com/jobs/list) | 2026-06 | 2026-06-06 |
-| Baidu | LLM risk-scenario algorithm intern | Summer | Beijing | [Apply](https://talent.baidu.com/jobs/detail/INTERN/1f5d0a4b-e563-41ad-ac96-b0a75cf89d65) | - | 2026-06-06 |
-| Meituan | Campus internship portal | Summer | China | [Apply](https://zhaopin.meituan.com/web/campus?hiringType=2_6&keyword=) | - | 2026-06-06 |
-| JD | Campus internship portal | Summer | China | [Apply](https://campus.jd.com/#/jobs) | - | 2026-06-06 |
-| Kuaishou | Campus internship portal | Summer / Daily | China | [Apply](https://campus.kuaishou.cn/#/campus/index) | - | 2026-06-06 |
-| Xiaohongshu (RED) | Campus internship portal | Summer / Daily | Beijing / Shanghai / Shenzhen / Hangzhou | [Apply](https://job.xiaohongshu.com/campus) | - | 2026-06-06 |
-| Bilibili | Campus internship portal | Summer / Daily | Beijing / Shanghai / Chongqing | [Apply](https://jobs.bilibili.com/campus/positions?type=0) | - | 2026-06-06 |
-| PDD | Campus internship portal | Summer | China | [Apply](https://careers.pddglobalhr.net/campus) | - | 2026-06-06 |
-| Xiaomi | Internship portal | Summer / Daily | China | [Apply](https://xiaomi.jobs.f.mioffice.cn/internship/) | - | 2026-06-06 |
-| Huawei | Campus internship portal | Summer | China | [Apply](https://career.huawei.com/reccampportal/portal5/campus-recruitment.html) | - | 2026-06-06 |
-| NetEase Leihuo | Internship portal | Summer | Hangzhou | [Apply](https://leihuo.163.com/campus/#/intern) | - | 2026-06-06 |
-| NetEase Games | Campus internship portal | Summer | Hangzhou / Guangzhou | [Apply](https://game.campus.163.com/position) | - | 2026-06-06 |
-| Trip.com (Ctrip) | Official careers search | Summer / Daily | China | [Apply](https://jobs.careers.trip.com/en_US/careers/SearchJobs) | - | 2026-06-06 |
-| 360 | Campus internship portal | Summer / Daily | Beijing / Nanjing / Shenzhen | [Apply](https://360campus.zhiye.com/jobs) | - | 2026-06-06 |
-| vivo | Campus / intern portal | Summer / Daily | China | [Apply](https://hr.vivo.com) | - | 2026-06-06 |
-| OPPO | Campus internship portal | Summer / Daily | China | [Apply](https://careers.oppo.com/university/oppo/campus/post?recruitType=Intern) | - | 2026-06-06 |
-| Lenovo | Internship portal | Summer / Daily | China | [Apply](https://talent.lenovo.com.cn/position?projectType=2) | - | 2026-06-06 |
-| WPS / Kingsoft | Campus internship portal | Summer / Daily | China | [Apply](https://app.mokahr.com/campus-recruitment/wps/41436#/jobs?project%5B0%5D=100074177&page=1&anchorName=jobsList) | - | 2026-06-06 |
-| Tencent CSIG | Cloud / AI platform internship portal | Summer | Shenzhen / Beijing / Shanghai | [Apply](https://app-tc.mokahr.com/campus-recruitment/csig/20001#/page/%E5%AE%9E%E4%B9%A0%E7%94%9F%E6%8B%9B%E8%81%98) | - | 2026-06-06 |
-| Qiniu Cloud | Campus internship portal | Summer / Daily | Shanghai / Beijing / Shenzhen | [Apply](https://campus.qiniu.com/campus/jobs) | - | 2026-06-06 |
-| Sangfor | Official careers openings | Summer / Daily | China | [Apply](https://www.sangfor.com/about-us/careers/find-job-openings) | - | 2026-06-06 |
-| SmartX | Official jobs page | Summer / Daily | Beijing / Shanghai | [Apply](https://www.smartx.com/jobs/) | - | 2026-06-06 |
-| Fanruan | Campus / intern portal | Summer / Daily | China | [Apply](https://join.fanruan.com/) | - | 2026-06-06 |
-| Beisen | Internship portal | Summer / Daily | China | [Apply](https://beisen.zhiye.com/intern/jobs) | - | 2026-06-06 |
-| miHoYo | Campus internship portal | Summer | Shanghai / Shenzhen | [Apply](https://jobs.mihoyo.com/#/campus/position) | - | 2026-06-06 |
-| Perfect World | Campus internship portal | Summer | Beijing | [Apply](https://recruit.games.wanmei.com/campus-recruitment/perfect-world/94767/#/) | - | 2026-06-06 |
-| Papergames | Campus internship portal | Summer | Shanghai | [Apply](https://career.papegames.com/campus/position/list?keywords=&category=&location=&project=&type=&job_hot_flag=&current=1&limit=10&functionCategory=&tag=) | - | 2026-06-06 |
-| Ant Group | Official careers portal | Summer / Daily | China | [Apply](https://www.antgroup.com/careers) | - | 2026-06-06 |
-| Didi | Official talent portal | Summer / Daily | China | [Apply](https://talent.didiglobal.com/) | - | 2026-06-06 |
-| Didi | Campus internship portal | Summer | China | [Apply](https://talent.didiglobal.com/campus) | - | 2026-06-06 |
-| WeBank | Official careers portal | Summer / Daily | Shenzhen / Beijing | [Apply](https://www.webank.com/career) | - | 2026-06-06 |
-| Huawei | Campus recruiting home | Summer / Daily | China | [Apply](https://career.huawei.com/reccampportal/portal5/index.html) | - | 2026-06-06 |
-| Alibaba | Campus recruiting home | Summer / Daily | China | [Apply](https://talent.alibaba.com/campus) | - | 2026-06-06 |
-| Tencent | Campus recruiting home | Summer / Daily | China | [Apply](https://join.qq.com/) | - | 2026-06-06 |
-| Bilibili | Campus positions list | Summer / Daily | China | [Apply](https://jobs.bilibili.com/campus/positions) | - | 2026-06-06 |
-| Lenovo | Talent portal home | Summer / Daily | China | [Apply](https://talent.lenovo.com.cn/) | - | 2026-06-06 |
+| ByteDance | Campus internship portal | Summer / Daily | China | [Apply](https://jobs.bytedance.com/campus) | - | 2026-06-07 |
+| ByteDance | Top Seed - LLM Applied Algorithm Intern | Summer | Beijing / Shanghai / Shenzhen | [Apply](https://jobs.bytedance.com/campus/position/7483023182024001799/detail) | - | 2026-06-07 |
+| ByteDance | Recommender LLM Algorithm Intern | Summer | Beijing / Shanghai | [Apply](https://jobs.bytedance.com/campus/position/7475203956567591186/detail) | - | 2026-06-07 |
+| Tencent | Campus intern portal (AI / engineering) | Summer / Daily | China | [Apply](https://join.qq.com/post.html?query=p_2,b_14129) | - | 2026-06-07 |
+| Tencent Games | Game engineering / AI internship portal | Summer | Shenzhen / Shanghai | [Apply](https://join.qq.com/post.html?query=p_2) | - | 2026-06-07 |
+| Alibaba | Campus internship portal | Summer | China | [Apply](https://talent.alibaba.com/campus/position-list?campusType=internship) | - | 2026-06-07 |
+| Baidu | Campus intern portal (AI / LLM) | Summer | China | [Apply](https://talent.baidu.com/jobs/list) | 2026-06 | 2026-06-07 |
+| Baidu | LLM risk-scenario algorithm intern | Summer | Beijing | [Apply](https://talent.baidu.com/jobs/detail/INTERN/1f5d0a4b-e563-41ad-ac96-b0a75cf89d65) | - | 2026-06-07 |
+| Meituan | Campus internship portal | Summer | China | [Apply](https://zhaopin.meituan.com/web/campus?hiringType=2_6&keyword=) | - | 2026-06-07 |
+| JD | Campus internship portal | Summer | China | [Apply](https://campus.jd.com/#/jobs) | - | 2026-06-07 |
+| Kuaishou | Campus internship portal | Summer / Daily | China | [Apply](https://campus.kuaishou.cn/#/campus/index) | - | 2026-06-07 |
+| Xiaohongshu (RED) | Campus internship portal | Summer / Daily | Beijing / Shanghai / Shenzhen / Hangzhou | [Apply](https://job.xiaohongshu.com/campus) | - | 2026-06-07 |
+| Bilibili | Campus internship portal | Summer / Daily | Beijing / Shanghai / Chongqing | [Apply](https://jobs.bilibili.com/campus/positions?type=0) | - | 2026-06-07 |
+| PDD | Campus internship portal | Summer | China | [Apply](https://careers.pddglobalhr.net/campus) | - | 2026-06-07 |
+| Xiaomi | Internship portal | Summer / Daily | China | [Apply](https://xiaomi.jobs.f.mioffice.cn/internship/) | - | 2026-06-07 |
+| Huawei | Campus internship portal | Summer | China | [Apply](https://career.huawei.com/reccampportal/portal5/campus-recruitment.html) | - | 2026-06-07 |
+| NetEase Leihuo | Internship portal | Summer | Hangzhou | [Apply](https://leihuo.163.com/campus/#/intern) | - | 2026-06-07 |
+| NetEase Games | Campus internship portal | Summer | Hangzhou / Guangzhou | [Apply](https://game.campus.163.com/position) | - | 2026-06-07 |
+| Trip.com (Ctrip) | Official careers search | Summer / Daily | China | [Apply](https://jobs.careers.trip.com/en_US/careers/SearchJobs) | - | 2026-06-07 |
+| 360 | Campus internship portal | Summer / Daily | Beijing / Nanjing / Shenzhen | [Apply](https://360campus.zhiye.com/jobs) | - | 2026-06-07 |
+| vivo | Campus / intern portal | Summer / Daily | China | [Apply](https://hr.vivo.com) | - | 2026-06-07 |
+| OPPO | Campus internship portal | Summer / Daily | China | [Apply](https://careers.oppo.com/university/oppo/campus/post?recruitType=Intern) | - | 2026-06-07 |
+| Lenovo | Internship portal | Summer / Daily | China | [Apply](https://talent.lenovo.com.cn/position?projectType=2) | - | 2026-06-07 |
+| WPS / Kingsoft | Campus internship portal | Summer / Daily | China | [Apply](https://app.mokahr.com/campus-recruitment/wps/41436#/jobs?project%5B0%5D=100074177&page=1&anchorName=jobsList) | - | 2026-06-07 |
+| Tencent CSIG | Cloud / AI platform internship portal | Summer | Shenzhen / Beijing / Shanghai | [Apply](https://app-tc.mokahr.com/campus-recruitment/csig/20001#/page/%E5%AE%9E%E4%B9%A0%E7%94%9F%E6%8B%9B%E8%81%98) | - | 2026-06-07 |
+| Qiniu Cloud | Campus internship portal | Summer / Daily | Shanghai / Beijing / Shenzhen | [Apply](https://campus.qiniu.com/campus/jobs) | - | 2026-06-07 |
+| Sangfor | Official careers openings | Summer / Daily | China | [Apply](https://www.sangfor.com/about-us/careers/find-job-openings) | - | 2026-06-07 |
+| SmartX | Official jobs page | Summer / Daily | Beijing / Shanghai | [Apply](https://www.smartx.com/jobs/) | - | 2026-06-07 |
+| Fanruan | Campus / intern portal | Summer / Daily | China | [Apply](https://join.fanruan.com/) | - | 2026-06-07 |
+| Beisen | Internship portal | Summer / Daily | China | [Apply](https://beisen.zhiye.com/intern/jobs) | - | 2026-06-07 |
+| miHoYo | Campus internship portal | Summer | Shanghai / Shenzhen | [Apply](https://jobs.mihoyo.com/#/campus/position) | - | 2026-06-07 |
+| Perfect World | Campus internship portal | Summer | Beijing | [Apply](https://recruit.games.wanmei.com/campus-recruitment/perfect-world/94767/#/) | - | 2026-06-07 |
+| Papergames | Campus internship portal | Summer | Shanghai | [Apply](https://career.papegames.com/campus/position/list?keywords=&category=&location=&project=&type=&job_hot_flag=&current=1&limit=10&functionCategory=&tag=) | - | 2026-06-07 |
+| Ant Group | Official careers portal | Summer / Daily | China | [Apply](https://www.antgroup.com/careers) | - | 2026-06-07 |
+| Didi | Official talent portal | Summer / Daily | China | [Apply](https://talent.didiglobal.com/) | - | 2026-06-07 |
+| Didi | Campus internship portal | Summer | China | [Apply](https://talent.didiglobal.com/campus) | - | 2026-06-07 |
+| WeBank | Official careers portal | Summer / Daily | Shenzhen / Beijing | [Apply](https://www.webank.com/career) | - | 2026-06-07 |
+| Huawei | Campus recruiting home | Summer / Daily | China | [Apply](https://career.huawei.com/reccampportal/portal5/index.html) | - | 2026-06-07 |
+| Alibaba | Campus recruiting home | Summer / Daily | China | [Apply](https://talent.alibaba.com/campus) | - | 2026-06-07 |
+| Tencent | Campus recruiting home | Summer / Daily | China | [Apply](https://join.qq.com/) | - | 2026-06-07 |
+| Bilibili | Campus positions list | Summer / Daily | China | [Apply](https://jobs.bilibili.com/campus/positions) | - | 2026-06-07 |
+| Lenovo | Talent portal home | Summer / Daily | China | [Apply](https://talent.lenovo.com.cn/) | - | 2026-06-07 |
 
 ## China LLM / AI-Native Companies
 
 | Company | Team / Focus | Internship Type | Location | Apply Link (Official) | Deadline | Last Verified |
 | --- | --- | --- | --- | --- | --- | --- |
-| Zhipu AI | Official careers page | Summer / Daily | Beijing / Shanghai | [Apply](https://www.zhipuai.cn/joinus) | - | 2026-06-06 |
-| Zhipu AI | Official careers page (alt) | Summer / Daily | Beijing / Shanghai | [Apply](https://www.zhipuai.cn/careers) | - | 2026-06-06 |
-| Moonshot AI | Official careers page | Summer / Daily | Beijing | [Apply](https://www.moonshot.cn/joinus) | - | 2026-06-06 |
-| Moonshot AI | Official careers page (alt) | Summer / Daily | Beijing | [Apply](https://www.moonshot.cn/careers) | - | 2026-06-06 |
-| MiniMax | Official careers page | Summer / Daily | Shanghai / Beijing | [Apply](https://www.minimax.io/careers) | - | 2026-06-06 |
-| StepFun | Official ATS portal | Summer / Daily | Shanghai / Beijing | [Apply](https://app.mokahr.com/social-recruitment/step/94904#/) | - | 2026-06-06 |
-| DeepSeek / High-Flyer | Official ATS portal | Summer / Daily | Hangzhou / Beijing / Shanghai | [Apply](https://app.mokahr.com/social-recruitment/high-flyer/140576) | - | 2026-06-06 |
-| 01.AI | Official Feishu jobs portal | Summer / Daily | China | [Apply](https://01ai.jobs.feishu.cn/index/) | - | 2026-06-06 |
-| Shengshu Technology (Vidu) | Official Feishu jobs portal | Summer / Daily | China | [Apply](https://shengshu.jobs.feishu.cn/index/) | - | 2026-06-06 |
-| SenseTime | Official join-us page | Summer / Daily | Shanghai / Shenzhen | [Apply](https://www.sensetime.com/cn/join-us) | - | 2026-06-06 |
-| Megvii | Official join-us portal | Summer / Daily | Beijing / Shanghai | [Apply](https://www.megvii.com/join_us) | - | 2026-06-06 |
-| Meshy | Official Ashby job board | Summer / Daily | Shanghai | [Apply](https://jobs.ashbyhq.com/meshy) | 2026-07-30 | 2026-06-06 |
-| Baichuan AI | Official company site | Summer / Daily | China | [Apply](https://www.baichuan-ai.com) | - | 2026-06-06 |
-| ModelBest | Official company site | Summer / Daily | China | [Apply](https://www.modelbest.cn) | - | 2026-06-06 |
-| iFlytek | Official campus recruiting portal | Summer / Daily | China | [Apply](https://campus.iflytek.com/) | - | 2026-06-06 |
-| StepFun | Official company site | Summer / Daily | China | [Apply](https://www.stepfun.com/) | - | 2026-06-06 |
-| 4Paradigm | Official company site | Summer / Daily | China | [Apply](https://www.4paradigm.com/) | - | 2026-06-06 |
-| AISpeech | Official company site | Summer / Daily | China | [Apply](https://www.aispeech.com/) | - | 2026-06-06 |
-| AISpeech | Join-us portal | Summer / Daily | Suzhou / Beijing / Shanghai | [Apply](https://www.aispeech.com/join-us) | - | 2026-06-06 |
-| Mobvoi | Official company site | Summer / Daily | China | [Apply](https://www.mobvoi.com/) | - | 2026-06-06 |
-| Mobvoi | Official careers page | Summer / Daily | China | [Apply](https://www.mobvoi.com/pages/career) | - | 2026-06-06 |
-| CloudWalk | Official company site | Summer / Daily | Guangzhou / Shanghai | [Apply](https://www.cloudwalk.com/) | - | 2026-06-06 |
-| Intellifusion | Official company site | Summer / Daily | Shenzhen / Nanjing | [Apply](https://www.intellif.com/) | - | 2026-06-06 |
-| SmartMore | Official company site | Summer / Daily | Shenzhen / Shanghai | [Apply](https://www.smartmore.com/) | - | 2026-06-06 |
-| Unisound | Official company site | Summer / Daily | Beijing / Hefei | [Apply](https://www.unisound.com/) | - | 2026-06-06 |
+| Zhipu AI | Official careers page | Summer / Daily | Beijing / Shanghai | [Apply](https://www.zhipuai.cn/joinus) | - | 2026-06-07 |
+| Zhipu AI | Official careers page (alt) | Summer / Daily | Beijing / Shanghai | [Apply](https://www.zhipuai.cn/careers) | - | 2026-06-07 |
+| Moonshot AI | Official careers page | Summer / Daily | Beijing | [Apply](https://www.moonshot.cn/joinus) | - | 2026-06-07 |
+| Moonshot AI | Official careers page (alt) | Summer / Daily | Beijing | [Apply](https://www.moonshot.cn/careers) | - | 2026-06-07 |
+| MiniMax | Official careers page | Summer / Daily | Shanghai / Beijing | [Apply](https://www.minimax.io/careers) | - | 2026-06-07 |
+| StepFun | Official ATS portal | Summer / Daily | Shanghai / Beijing | [Apply](https://app.mokahr.com/social-recruitment/step/94904#/) | - | 2026-06-07 |
+| DeepSeek / High-Flyer | Official ATS portal | Summer / Daily | Hangzhou / Beijing / Shanghai | [Apply](https://app.mokahr.com/social-recruitment/high-flyer/140576) | - | 2026-06-07 |
+| 01.AI | Official Feishu jobs portal | Summer / Daily | China | [Apply](https://01ai.jobs.feishu.cn/index/) | - | 2026-06-07 |
+| Shengshu Technology (Vidu) | Official Feishu jobs portal | Summer / Daily | China | [Apply](https://shengshu.jobs.feishu.cn/index/) | - | 2026-06-07 |
+| SenseTime | Official join-us page | Summer / Daily | Shanghai / Shenzhen | [Apply](https://www.sensetime.com/cn/join-us) | - | 2026-06-07 |
+| Megvii | Official join-us portal | Summer / Daily | Beijing / Shanghai | [Apply](https://www.megvii.com/join_us) | - | 2026-06-07 |
+| Meshy | Official Ashby job board | Summer / Daily | Shanghai | [Apply](https://jobs.ashbyhq.com/meshy) | 2026-07-30 | 2026-06-07 |
+| Baichuan AI | Official company site | Summer / Daily | China | [Apply](https://www.baichuan-ai.com) | - | 2026-06-07 |
+| ModelBest | Official company site | Summer / Daily | China | [Apply](https://www.modelbest.cn) | - | 2026-06-07 |
+| iFlytek | Official campus recruiting portal | Summer / Daily | China | [Apply](https://campus.iflytek.com/) | - | 2026-06-07 |
+| StepFun | Official company site | Summer / Daily | China | [Apply](https://www.stepfun.com/) | - | 2026-06-07 |
+| 4Paradigm | Official company site | Summer / Daily | China | [Apply](https://www.4paradigm.com/) | - | 2026-06-07 |
+| AISpeech | Official company site | Summer / Daily | China | [Apply](https://www.aispeech.com/) | - | 2026-06-07 |
+| AISpeech | Join-us portal | Summer / Daily | Suzhou / Beijing / Shanghai | [Apply](https://www.aispeech.com/join-us) | - | 2026-06-07 |
+| Mobvoi | Official company site | Summer / Daily | China | [Apply](https://www.mobvoi.com/) | - | 2026-06-07 |
+| Mobvoi | Official careers page | Summer / Daily | China | [Apply](https://www.mobvoi.com/pages/career) | - | 2026-06-07 |
+| CloudWalk | Official company site | Summer / Daily | Guangzhou / Shanghai | [Apply](https://www.cloudwalk.com/) | - | 2026-06-07 |
+| Intellifusion | Official company site | Summer / Daily | Shenzhen / Nanjing | [Apply](https://www.intellif.com/) | - | 2026-06-07 |
+| SmartMore | Official company site | Summer / Daily | Shenzhen / Shanghai | [Apply](https://www.smartmore.com/) | - | 2026-06-07 |
+| Unisound | Official company site | Summer / Daily | Beijing / Hefei | [Apply](https://www.unisound.com/) | - | 2026-06-07 |
 
 ## Quant Finance & AI Investing
 
 | Company | Team / Focus | Internship Type | Location | Apply Link (Official) | Deadline | Last Verified |
 | --- | --- | --- | --- | --- | --- | --- |
-| Ubiquant | Official careers page | Summer / Daily | China | [Apply](https://www.ubiquant.com/website/career) | - | 2026-06-06 |
-| Ubiquant | Campus recruiting portal (official ATS) | Summer / Daily | China | [Apply](https://app.mokahr.com/campus_apply/ubiquantrecruit/37031) | - | 2026-06-06 |
-| Ubiquant | Social recruiting portal (official ATS) | Daily | China | [Apply](https://app.mokahr.com/apply/ubiquantrecruit/37030) | - | 2026-06-06 |
-| WizardQuant | Official careers page | Summer / Daily | Shanghai / Beijing | [Apply](https://www.wizardquant.com/career) | - | 2026-06-06 |
-| WizardQuant | WILL - AI Researcher (full-time/intern) | Unknown | Beijing / Shanghai / Remote | [Apply](https://www.wizardquant.com/career/ai%E7%A0%94%E7%A9%B6%E5%91%98) | - | 2026-06-06 |
-| WizardQuant | WILL - AI Engineer (full-time/intern) | Unknown | Beijing / Shanghai / Remote | [Apply](https://www.wizardquant.com/career/ai%E5%B7%A5%E7%A8%8B%E5%B8%88) | - | 2026-06-06 |
-| Minghong Investment | Official company site | Unknown | China | [Apply](https://www.mhfunds.com) | - | 2026-06-06 |
-| Minghong Investment | Official recruiting portal | Summer / Daily | China | [Apply](https://join.mhfunds.com/index) | - | 2026-06-06 |
-| Lingjun Investment | Join-us overview page | Summer / Daily | China | [Apply](https://www.lingjuninvest.com/overview) | - | 2026-06-06 |
-| Lingjun Investment | Campus recruiting page | Summer / Daily | China | [Apply](https://www.lingjuninvest.com/campus-recruitment) | - | 2026-06-06 |
-| Lingjun Investment | Campus jobs portal (official ATS) | Summer / Daily | China | [Apply](https://app.mokahr.com/social-recruitment/lingjuninvest/46355?locale=zh-CN#/jobs?213633%5B0%5D=%E6%98%AF&page=1&anchorName=jobsList) | - | 2026-06-06 |
-| Qilin Capital | Join-us page | Summer / Daily | Shanghai / Beijing | [Apply](https://www.70capital.com/join) | - | 2026-06-06 |
-| Qilin Capital | Campus jobs portal (official ATS) | Summer / Daily | Shanghai / Beijing | [Apply](https://70capital.gllue.com/portal/campusposition/list) | - | 2026-06-06 |
-| Mingshi Fund | Join-us page | Summer / Daily | Shanghai | [Apply](https://www.mingshiim.com/join) | - | 2026-06-06 |
-| Mingshi Fund | Campus / social jobs portal | Summer / Daily | Shanghai | [Apply](https://mingshiim.zhiye.com/) | - | 2026-06-06 |
-| Alpha2 Fund | Join-us page (contains campus/social ATS links) | Summer / Daily | Shanghai / Beijing | [Apply](https://www.alpha2fund.com/joinus.html) | - | 2026-06-06 |
-| Alpha2 Fund | Campus recruiting portal (official ATS) | Summer / Daily | China | [Apply](https://app.mokahr.com/campus-recruitment/alpha2fund/151124?locale=zh-CN#/) | - | 2026-06-06 |
-| Alpha2 Fund | Social recruiting portal (official ATS) | Daily | China | [Apply](https://app.mokahr.com/social-recruitment/alpha2fund/151123?locale=zh-CN#/) | - | 2026-06-06 |
-| Yanfu Investments | Join-us page (official) | Summer / Daily | Shanghai | [Apply](https://yanfuinvestments.com/join) | - | 2026-06-06 |
-| Yanfu Investments | Official jobs portal | Summer / Daily | China | [Apply](https://yanfuinvestments1.zhiye.com/jobs) | - | 2026-06-06 |
-| Century Frontier | Contact / recruiting page | Summer / Daily | Shanghai / Shenzhen | [Apply](https://www.centuryfrontier.com/contact) | - | 2026-06-06 |
-| Century Frontier | Social recruiting portal (official ATS) | Daily | Shanghai / Shenzhen | [Apply](https://app.mokahr.com/m/apply/centuryfrontier/24841) | - | 2026-06-06 |
-| Century Frontier | Campus recruiting portal (official ATS) | Summer / Daily | Shanghai / Shenzhen | [Apply](https://app.mokahr.com/m/campus_apply/centuryfrontier/24842) | - | 2026-06-06 |
-| QP Alpha | Contact & recruiting page | Summer / Daily | Shanghai | [Apply](https://www.qpalpha.com/contact.html) | - | 2026-06-06 |
-| QP Alpha | Official Feishu jobs portal | Daily | Shanghai | [Apply](https://jo0ikgajg1.jobs.feishu.cn/index/?spread=ENQENZT) | - | 2026-06-06 |
-| CQ Funds | Service center (recruiting) | Summer / Daily | Shanghai | [Apply](https://www.cqfunds.com/service-center/) | - | 2026-06-06 |
-| CQ Funds | Internship positions list | Daily | Shanghai | [Apply](https://www.cqfunds.com/trainee/) | - | 2026-06-06 |
-| CQ Funds | Quant Research Intern (CTA / Equities) | Daily | Shanghai | [Apply](https://www.cqfunds.com/trainee/96.html) | - | 2026-06-06 |
-| CQ Funds | Data Analyst Intern | Daily | Shanghai | [Apply](https://www.cqfunds.com/trainee/35.html) | - | 2026-06-06 |
-| Blackwing Asset | Job recruitment page (campus/social via QR) | Summer / Daily | Shanghai | [Apply](https://www.blackwingasset.com/index.php?m=content&c=index&a=lists&catid=23) | - | 2026-06-06 |
-| Tianyan Capital | Join-us page | Summer / Daily | Beijing / Shanghai / Shenzhen | [Apply](https://www.tianyancapital.com/zh/join-us/index.html) | - | 2026-06-06 |
-| Tianyan Capital | Official jobs page | Summer / Daily | Beijing / Shanghai / Shenzhen | [Apply](https://www.tianyancapital.com/zh/join-us/jobs/index.html) | - | 2026-06-06 |
-| Tianyan Capital | Social recruiting portal (official ATS) | Daily | Beijing / Shanghai / Shenzhen | [Apply](https://app.mokahr.com/social-recruitment/tianyancapital/98901#/) | - | 2026-06-06 |
-| JHL Fund | Talent program page | Summer / Daily | Shanghai / Beijing | [Apply](https://www.jhlfund.com/career) | - | 2026-06-06 |
-| JHL Fund | Social recruiting portal (official ATS) | Daily | China | [Apply](https://app.mokahr.com/social-recruitment/jhlfund/46283#/) | - | 2026-06-06 |
+| Ubiquant | Official careers page | Summer / Daily | China | [Apply](https://www.ubiquant.com/website/career) | - | 2026-06-07 |
+| Ubiquant | Campus recruiting portal (official ATS) | Summer / Daily | China | [Apply](https://app.mokahr.com/campus_apply/ubiquantrecruit/37031) | - | 2026-06-07 |
+| Ubiquant | Social recruiting portal (official ATS) | Daily | China | [Apply](https://app.mokahr.com/apply/ubiquantrecruit/37030) | - | 2026-06-07 |
+| WizardQuant | Official careers page | Summer / Daily | Shanghai / Beijing | [Apply](https://www.wizardquant.com/career) | - | 2026-06-07 |
+| WizardQuant | WILL - AI Researcher (full-time/intern) | Unknown | Beijing / Shanghai / Remote | [Apply](https://www.wizardquant.com/career/ai%E7%A0%94%E7%A9%B6%E5%91%98) | - | 2026-06-07 |
+| WizardQuant | WILL - AI Engineer (full-time/intern) | Unknown | Beijing / Shanghai / Remote | [Apply](https://www.wizardquant.com/career/ai%E5%B7%A5%E7%A8%8B%E5%B8%88) | - | 2026-06-07 |
+| Minghong Investment | Official company site | Unknown | China | [Apply](https://www.mhfunds.com) | - | 2026-06-07 |
+| Minghong Investment | Official recruiting portal | Summer / Daily | China | [Apply](https://join.mhfunds.com/index) | - | 2026-06-07 |
+| Lingjun Investment | Join-us overview page | Summer / Daily | China | [Apply](https://www.lingjuninvest.com/overview) | - | 2026-06-07 |
+| Lingjun Investment | Campus recruiting page | Summer / Daily | China | [Apply](https://www.lingjuninvest.com/campus-recruitment) | - | 2026-06-07 |
+| Lingjun Investment | Campus jobs portal (official ATS) | Summer / Daily | China | [Apply](https://app.mokahr.com/social-recruitment/lingjuninvest/46355?locale=zh-CN#/jobs?213633%5B0%5D=%E6%98%AF&page=1&anchorName=jobsList) | - | 2026-06-07 |
+| Qilin Capital | Join-us page | Summer / Daily | Shanghai / Beijing | [Apply](https://www.70capital.com/join) | - | 2026-06-07 |
+| Qilin Capital | Campus jobs portal (official ATS) | Summer / Daily | Shanghai / Beijing | [Apply](https://70capital.gllue.com/portal/campusposition/list) | - | 2026-06-07 |
+| Mingshi Fund | Join-us page | Summer / Daily | Shanghai | [Apply](https://www.mingshiim.com/join) | - | 2026-06-07 |
+| Mingshi Fund | Campus / social jobs portal | Summer / Daily | Shanghai | [Apply](https://mingshiim.zhiye.com/) | - | 2026-06-07 |
+| Alpha2 Fund | Join-us page (contains campus/social ATS links) | Summer / Daily | Shanghai / Beijing | [Apply](https://www.alpha2fund.com/joinus.html) | - | 2026-06-07 |
+| Alpha2 Fund | Campus recruiting portal (official ATS) | Summer / Daily | China | [Apply](https://app.mokahr.com/campus-recruitment/alpha2fund/151124?locale=zh-CN#/) | - | 2026-06-07 |
+| Alpha2 Fund | Social recruiting portal (official ATS) | Daily | China | [Apply](https://app.mokahr.com/social-recruitment/alpha2fund/151123?locale=zh-CN#/) | - | 2026-06-07 |
+| Yanfu Investments | Join-us page (official) | Summer / Daily | Shanghai | [Apply](https://yanfuinvestments.com/join) | - | 2026-06-07 |
+| Yanfu Investments | Official jobs portal | Summer / Daily | China | [Apply](https://yanfuinvestments1.zhiye.com/jobs) | - | 2026-06-07 |
+| Century Frontier | Contact / recruiting page | Summer / Daily | Shanghai / Shenzhen | [Apply](https://www.centuryfrontier.com/contact) | - | 2026-06-07 |
+| Century Frontier | Social recruiting portal (official ATS) | Daily | Shanghai / Shenzhen | [Apply](https://app.mokahr.com/m/apply/centuryfrontier/24841) | - | 2026-06-07 |
+| Century Frontier | Campus recruiting portal (official ATS) | Summer / Daily | Shanghai / Shenzhen | [Apply](https://app.mokahr.com/m/campus_apply/centuryfrontier/24842) | - | 2026-06-07 |
+| QP Alpha | Contact & recruiting page | Summer / Daily | Shanghai | [Apply](https://www.qpalpha.com/contact.html) | - | 2026-06-07 |
+| QP Alpha | Official Feishu jobs portal | Daily | Shanghai | [Apply](https://jo0ikgajg1.jobs.feishu.cn/index/?spread=ENQENZT) | - | 2026-06-07 |
+| CQ Funds | Service center (recruiting) | Summer / Daily | Shanghai | [Apply](https://www.cqfunds.com/service-center/) | - | 2026-06-07 |
+| CQ Funds | Internship positions list | Daily | Shanghai | [Apply](https://www.cqfunds.com/trainee/) | - | 2026-06-07 |
+| CQ Funds | Quant Research Intern (CTA / Equities) | Daily | Shanghai | [Apply](https://www.cqfunds.com/trainee/96.html) | - | 2026-06-07 |
+| CQ Funds | Data Analyst Intern | Daily | Shanghai | [Apply](https://www.cqfunds.com/trainee/35.html) | - | 2026-06-07 |
+| Blackwing Asset | Job recruitment page (campus/social via QR) | Summer / Daily | Shanghai | [Apply](https://www.blackwingasset.com/index.php?m=content&c=index&a=lists&catid=23) | - | 2026-06-07 |
+| Tianyan Capital | Join-us page | Summer / Daily | Beijing / Shanghai / Shenzhen | [Apply](https://www.tianyancapital.com/zh/join-us/index.html) | - | 2026-06-07 |
+| Tianyan Capital | Official jobs page | Summer / Daily | Beijing / Shanghai / Shenzhen | [Apply](https://www.tianyancapital.com/zh/join-us/jobs/index.html) | - | 2026-06-07 |
+| Tianyan Capital | Social recruiting portal (official ATS) | Daily | Beijing / Shanghai / Shenzhen | [Apply](https://app.mokahr.com/social-recruitment/tianyancapital/98901#/) | - | 2026-06-07 |
+| JHL Fund | Talent program page | Summer / Daily | Shanghai / Beijing | [Apply](https://www.jhlfund.com/career) | - | 2026-06-07 |
+| JHL Fund | Social recruiting portal (official ATS) | Daily | China | [Apply](https://app.mokahr.com/social-recruitment/jhlfund/46283#/) | - | 2026-06-07 |
 
 ## Autonomous Driving, Robotics & Embodied AI
 
 | Company | Team / Focus | Internship Type | Location | Apply Link (Official) | Deadline | Last Verified |
 | --- | --- | --- | --- | --- | --- | --- |
-| NIO | Internship portal | Summer / Daily | Shanghai / Beijing / Hefei | [Apply](https://nio.jobs.feishu.cn/intern/position/) | - | 2026-06-06 |
-| NIO | Campus internship portal | Summer | China | [Apply](https://nio.jobs.feishu.cn/campus/position/) | - | 2026-06-06 |
-| XPeng | Campus internship portal | Summer | Guangzhou / Shanghai / Beijing | [Apply](https://xiaopeng.jobs.feishu.cn/campus/position/list) | - | 2026-06-06 |
-| XPeng | Official careers landing | Summer / Daily | China | [Apply](https://www.xpeng.com/join) | - | 2026-06-06 |
-| Li Auto | Campus internship portal | Summer | Beijing / Shanghai / Changzhou | [Apply](https://www.lixiang.com/employ/campus/list.html) | - | 2026-06-06 |
-| Li Auto | Internship search page | Daily | China | [Apply](https://www.lixiang.com/employ/social/list.html?keyword=%E5%AE%9E%E4%B9%A0&fromJob=1) | - | 2026-06-06 |
-| Geely | Campus internship portal | Summer | China | [Apply](https://campus.geely.com/campus-recruitment/geely/78436/#/jobs?commitment%5B0%5D=%E5%AE%9E%E4%B9%A0&page=1&anchorName=jobsList) | - | 2026-06-06 |
-| DJI | Campus internship portal | Summer / Daily | Shenzhen / Shanghai | [Apply](https://we.dji.com/zh-CN/campus) | - | 2026-06-06 |
-| Pony.ai | Official careers page | Summer / Daily | Beijing / Shanghai / Guangzhou | [Apply](https://www.pony.ai/careers) | - | 2026-06-06 |
-| Momenta | Official join-us page | Summer / Daily | Suzhou / Shanghai / Beijing | [Apply](https://www.momenta.cn/join.html) | - | 2026-06-06 |
-| WeRide | Official careers page | Summer / Daily | Guangzhou / Beijing / Shanghai | [Apply](https://www.weride.ai/careers) | - | 2026-06-06 |
-| Horizon Robotics | Campus recruiting portal | Summer / Daily | Beijing / Shanghai / Nanjing | [Apply](https://horizon-campus.hotjob.cn) | - | 2026-06-06 |
-| Unitree | Official company site | Summer / Daily | Hangzhou | [Apply](https://www.unitree.com) | - | 2026-06-06 |
-| UBTECH | Official company site | Summer / Daily | Shenzhen | [Apply](https://www.ubtrobot.com) | - | 2026-06-06 |
-| AutoX | Official company site | Summer / Daily | Shenzhen / Shanghai | [Apply](https://www.autox.ai) | - | 2026-06-06 |
-| BYD | Official jobs portal | Summer / Daily | Shenzhen / Xi'an / Changsha | [Apply](https://job.byd.com/) | - | 2026-06-06 |
-| Tesla China | China careers search | Summer / Daily | Shanghai / Beijing / Shenzhen | [Apply](https://www.tesla.cn/careers) | - | 2026-06-06 |
-| Hesai Technology | Official careers page | Summer / Daily | Shanghai | [Apply](https://www.hesaitech.com/careers) | - | 2026-06-06 |
+| NIO | Internship portal | Summer / Daily | Shanghai / Beijing / Hefei | [Apply](https://nio.jobs.feishu.cn/intern/position/) | - | 2026-06-07 |
+| NIO | Campus internship portal | Summer | China | [Apply](https://nio.jobs.feishu.cn/campus/position/) | - | 2026-06-07 |
+| XPeng | Campus internship portal | Summer | Guangzhou / Shanghai / Beijing | [Apply](https://xiaopeng.jobs.feishu.cn/campus/position/list) | - | 2026-06-07 |
+| XPeng | Official careers landing | Summer / Daily | China | [Apply](https://www.xpeng.com/join) | - | 2026-06-07 |
+| Li Auto | Campus internship portal | Summer | Beijing / Shanghai / Changzhou | [Apply](https://www.lixiang.com/employ/campus/list.html) | - | 2026-06-07 |
+| Li Auto | Internship search page | Daily | China | [Apply](https://www.lixiang.com/employ/social/list.html?keyword=%E5%AE%9E%E4%B9%A0&fromJob=1) | - | 2026-06-07 |
+| Geely | Campus internship portal | Summer | China | [Apply](https://campus.geely.com/campus-recruitment/geely/78436/#/jobs?commitment%5B0%5D=%E5%AE%9E%E4%B9%A0&page=1&anchorName=jobsList) | - | 2026-06-07 |
+| DJI | Campus internship portal | Summer / Daily | Shenzhen / Shanghai | [Apply](https://we.dji.com/zh-CN/campus) | - | 2026-06-07 |
+| Pony.ai | Official careers page | Summer / Daily | Beijing / Shanghai / Guangzhou | [Apply](https://www.pony.ai/careers) | - | 2026-06-07 |
+| Momenta | Official join-us page | Summer / Daily | Suzhou / Shanghai / Beijing | [Apply](https://www.momenta.cn/join.html) | - | 2026-06-07 |
+| WeRide | Official careers page | Summer / Daily | Guangzhou / Beijing / Shanghai | [Apply](https://www.weride.ai/careers) | - | 2026-06-07 |
+| Horizon Robotics | Campus recruiting portal | Summer / Daily | Beijing / Shanghai / Nanjing | [Apply](https://horizon-campus.hotjob.cn) | - | 2026-06-07 |
+| Unitree | Official company site | Summer / Daily | Hangzhou | [Apply](https://www.unitree.com) | - | 2026-06-07 |
+| UBTECH | Official company site | Summer / Daily | Shenzhen | [Apply](https://www.ubtrobot.com) | - | 2026-06-07 |
+| AutoX | Official company site | Summer / Daily | Shenzhen / Shanghai | [Apply](https://www.autox.ai) | - | 2026-06-07 |
+| BYD | Official jobs portal | Summer / Daily | Shenzhen / Xi'an / Changsha | [Apply](https://job.byd.com/) | - | 2026-06-07 |
+| Tesla China | China careers search | Summer / Daily | Shanghai / Beijing / Shenzhen | [Apply](https://www.tesla.cn/careers) | - | 2026-06-07 |
+| Hesai Technology | Official careers page | Summer / Daily | Shanghai | [Apply](https://www.hesaitech.com/careers) | - | 2026-06-07 |
 
 ## Chips, AI Infrastructure & Systems
 
 | Company | Team / Focus | Internship Type | Location | Apply Link (Official) | Deadline | Last Verified |
 | --- | --- | --- | --- | --- | --- | --- |
-| Cambricon | Official join-us portal | Summer / Daily | Beijing / Shanghai | [Apply](https://joinus.cambricon.com) | - | 2026-06-06 |
-| Cambricon | Campus recruitment listing | Summer | China | [Apply](https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=185) | - | 2026-06-06 |
-| Enflame | Official company site | Summer / Daily | Shanghai | [Apply](https://www.enflame-tech.com) | - | 2026-06-06 |
-| Intel China Campus | Official campus portal | Summer | Beijing / Shanghai / Chengdu | [Apply](https://chinacampus.jobs.intel.cn/) | - | 2026-06-06 |
-| AMD | China internship search | Summer / Daily | China | [Apply](https://careers.amd.com/careers-home/jobs?keywords=intern&location=China) | - | 2026-06-06 |
-| AMD | Official careers home | Summer / Daily | China | [Apply](https://careers.amd.com/careers-home/) | - | 2026-06-06 |
-| Qualcomm | China careers page | Summer / Daily | Beijing / Shanghai | [Apply](https://www.qualcomm.cn/company/careers) | - | 2026-06-06 |
-| Qualcomm | Official careers portal | Summer / Daily | Global / China | [Apply](https://careers.qualcomm.com/careers) | - | 2026-06-06 |
-| NVIDIA | Official careers portal | Summer / Daily | China | [Apply](https://www.nvidia.com/en-us/about-nvidia/careers/) | - | 2026-06-06 |
-| NVIDIA | AI in Industry intern (Beijing) | Summer | Beijing | [Apply](https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/China-Beijing/Solution-Architecture-Intern--AI-in-Industry---2026_JR2014186) | - | 2026-06-06 |
-| NVIDIA | Deep Learning & HPC intern (Shanghai) | Summer | Shanghai | [Apply](https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/China-Shanghai/Performance-Engineer-Intern--Deep-Learning-and-HPC---2026_JR2008053) | - | 2026-06-06 |
-| Arm | Official careers portal | Summer / Daily | Shanghai / Shenzhen | [Apply](https://www.arm.com/company/careers) | - | 2026-06-06 |
-| Cadence | Official careers page | Summer / Daily | Shanghai / Suzhou | [Apply](https://www.cadence.com/en_US/home/company/life-at-cadence/careers.html) | - | 2026-06-06 |
-| Synopsys | Official careers portal | Summer / Daily | Shanghai / Beijing | [Apply](https://careers.synopsys.com/) | - | 2026-06-06 |
-| Analog Devices | Official careers portal | Summer / Daily | China | [Apply](https://www.analog.com/en/careers.html) | - | 2026-06-06 |
-| STMicroelectronics | Official careers portal | Summer / Daily | China | [Apply](https://www.st.com/content/st_com/en/about/careers.html) | - | 2026-06-06 |
-| Infineon | Official careers portal | Summer / Daily | China | [Apply](https://www.infineon.com/careers) | - | 2026-06-06 |
-| TSMC | Official careers portal | Summer / Daily | Greater China | [Apply](https://careers.tsmc.com/) | - | 2026-06-06 |
-| ASML | Official careers portal | Summer / Daily | China | [Apply](https://www.asml.com/en/careers) | - | 2026-06-06 |
-| AMD | China AI jobs search | Summer / Daily | China | [Apply](https://careers.amd.com/careers-home/jobs?keywords=AI&location=China) | - | 2026-06-06 |
-| AMD | Internship keyword search | Summer / Daily | China / Global | [Apply](https://careers.amd.com/careers-home/jobs?keywords=intern) | - | 2026-06-06 |
-| AMD | China location jobs search | Summer / Daily | China | [Apply](https://careers.amd.com/careers-home/jobs?location=China) | - | 2026-06-06 |
-| Qualcomm | Intern keyword search | Summer / Daily | China / Global | [Apply](https://careers.qualcomm.com/careers?query=intern) | - | 2026-06-06 |
-| Applied Materials | Official careers portal | Summer / Daily | China | [Apply](https://careers.appliedmaterials.com/careers) | - | 2026-06-06 |
-| Lam Research | Official careers portal | Summer / Daily | China | [Apply](https://careers.lamresearch.com/) | - | 2026-06-06 |
-| MediaTek | Official careers portal | Summer / Daily | Mainland China / Taiwan | [Apply](https://careers.mediatek.com/) | - | 2026-06-06 |
-| Micron | Official careers portal | Summer / Daily | China | [Apply](https://careers.micron.com/careers) | - | 2026-06-06 |
-| KLA | Official job search portal | Summer / Daily | China | [Apply](https://kla.wd1.myworkdayjobs.com/Search) | - | 2026-06-06 |
-| Texas Instruments | Official careers portal | Summer / Daily | China | [Apply](https://www.ti.com/careers) | - | 2026-06-06 |
-| Biren Technology | Official company site | Summer / Daily | Shanghai / Beijing | [Apply](https://www.birentech.com/) | - | 2026-06-06 |
-| Iluvatar CoreX | Official company site | Summer / Daily | Shanghai / Beijing | [Apply](https://www.iluvatar.com/) | - | 2026-06-06 |
-| Iluvatar CoreX | Official careers page | Summer / Daily | Shanghai / Beijing | [Apply](https://www.iluvatar.com/careers) | - | 2026-06-06 |
-| Loongson | Official company site | Summer / Daily | Beijing | [Apply](https://www.loongson.cn/) | - | 2026-06-06 |
-| Moore Threads | Official company site | Summer / Daily | Beijing | [Apply](https://www.mthreads.com/) | - | 2026-06-06 |
-| Cambricon | Official company site | Summer / Daily | Beijing / Shanghai | [Apply](https://www.cambricon.com/) | - | 2026-06-06 |
-| Intel | Global jobs portal | Summer / Daily | China / Global | [Apply](https://www.intel.com/content/www/us/en/jobs/life-at-intel.html) | - | 2026-06-06 |
+| Cambricon | Official join-us portal | Summer / Daily | Beijing / Shanghai | [Apply](https://joinus.cambricon.com) | - | 2026-06-07 |
+| Cambricon | Campus recruitment listing | Summer | China | [Apply](https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=185) | - | 2026-06-07 |
+| Enflame | Official company site | Summer / Daily | Shanghai | [Apply](https://www.enflame-tech.com) | - | 2026-06-07 |
+| Intel China Campus | Official campus portal | Summer | Beijing / Shanghai / Chengdu | [Apply](https://chinacampus.jobs.intel.cn/) | - | 2026-06-07 |
+| AMD | China internship search | Summer / Daily | China | [Apply](https://careers.amd.com/careers-home/jobs?keywords=intern&location=China) | - | 2026-06-07 |
+| AMD | Official careers home | Summer / Daily | China | [Apply](https://careers.amd.com/careers-home/) | - | 2026-06-07 |
+| Qualcomm | China careers page | Summer / Daily | Beijing / Shanghai | [Apply](https://www.qualcomm.cn/company/careers) | - | 2026-06-07 |
+| Qualcomm | Official careers portal | Summer / Daily | Global / China | [Apply](https://careers.qualcomm.com/careers) | - | 2026-06-07 |
+| NVIDIA | Official careers portal | Summer / Daily | China | [Apply](https://www.nvidia.com/en-us/about-nvidia/careers/) | - | 2026-06-07 |
+| NVIDIA | AI in Industry intern (Beijing) | Summer | Beijing | [Apply](https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/China-Beijing/Solution-Architecture-Intern--AI-in-Industry---2026_JR2014186) | - | 2026-06-07 |
+| NVIDIA | Deep Learning & HPC intern (Shanghai) | Summer | Shanghai | [Apply](https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/China-Shanghai/Performance-Engineer-Intern--Deep-Learning-and-HPC---2026_JR2008053) | - | 2026-06-07 |
+| Arm | Official careers portal | Summer / Daily | Shanghai / Shenzhen | [Apply](https://www.arm.com/company/careers) | - | 2026-06-07 |
+| Cadence | Official careers page | Summer / Daily | Shanghai / Suzhou | [Apply](https://www.cadence.com/en_US/home/company/life-at-cadence/careers.html) | - | 2026-06-07 |
+| Synopsys | Official careers portal | Summer / Daily | Shanghai / Beijing | [Apply](https://careers.synopsys.com/) | - | 2026-06-07 |
+| Analog Devices | Official careers portal | Summer / Daily | China | [Apply](https://www.analog.com/en/careers.html) | - | 2026-06-07 |
+| STMicroelectronics | Official careers portal | Summer / Daily | China | [Apply](https://www.st.com/content/st_com/en/about/careers.html) | - | 2026-06-07 |
+| Infineon | Official careers portal | Summer / Daily | China | [Apply](https://www.infineon.com/careers) | - | 2026-06-07 |
+| TSMC | Official careers portal | Summer / Daily | Greater China | [Apply](https://careers.tsmc.com/) | - | 2026-06-07 |
+| ASML | Official careers portal | Summer / Daily | China | [Apply](https://www.asml.com/en/careers) | - | 2026-06-07 |
+| AMD | China AI jobs search | Summer / Daily | China | [Apply](https://careers.amd.com/careers-home/jobs?keywords=AI&location=China) | - | 2026-06-07 |
+| AMD | Internship keyword search | Summer / Daily | China / Global | [Apply](https://careers.amd.com/careers-home/jobs?keywords=intern) | - | 2026-06-07 |
+| AMD | China location jobs search | Summer / Daily | China | [Apply](https://careers.amd.com/careers-home/jobs?location=China) | - | 2026-06-07 |
+| Qualcomm | Intern keyword search | Summer / Daily | China / Global | [Apply](https://careers.qualcomm.com/careers?query=intern) | - | 2026-06-07 |
+| Applied Materials | Official careers portal | Summer / Daily | China | [Apply](https://careers.appliedmaterials.com/careers) | - | 2026-06-07 |
+| Lam Research | Official careers portal | Summer / Daily | China | [Apply](https://careers.lamresearch.com/) | - | 2026-06-07 |
+| MediaTek | Official careers portal | Summer / Daily | Mainland China / Taiwan | [Apply](https://careers.mediatek.com/) | - | 2026-06-07 |
+| Micron | Official careers portal | Summer / Daily | China | [Apply](https://careers.micron.com/careers) | - | 2026-06-07 |
+| KLA | Official job search portal | Summer / Daily | China | [Apply](https://kla.wd1.myworkdayjobs.com/Search) | - | 2026-06-07 |
+| Texas Instruments | Official careers portal | Summer / Daily | China | [Apply](https://www.ti.com/careers) | - | 2026-06-07 |
+| Biren Technology | Official company site | Summer / Daily | Shanghai / Beijing | [Apply](https://www.birentech.com/) | - | 2026-06-07 |
+| Iluvatar CoreX | Official company site | Summer / Daily | Shanghai / Beijing | [Apply](https://www.iluvatar.com/) | - | 2026-06-07 |
+| Iluvatar CoreX | Official careers page | Summer / Daily | Shanghai / Beijing | [Apply](https://www.iluvatar.com/careers) | - | 2026-06-07 |
+| Loongson | Official company site | Summer / Daily | Beijing | [Apply](https://www.loongson.cn/) | - | 2026-06-07 |
+| Moore Threads | Official company site | Summer / Daily | Beijing | [Apply](https://www.mthreads.com/) | - | 2026-06-07 |
+| Cambricon | Official company site | Summer / Daily | Beijing / Shanghai | [Apply](https://www.cambricon.com/) | - | 2026-06-07 |
+| Intel | Global jobs portal | Summer / Daily | China / Global | [Apply](https://www.intel.com/content/www/us/en/jobs/life-at-intel.html) | - | 2026-06-07 |
 
 ## International Companies with China Internship Channels
 
 | Company | Team / Focus | Internship Type | Location | Apply Link (Official) | Deadline | Last Verified |
 | --- | --- | --- | --- | --- | --- | --- |
-| Apple | China internship search | Summer / Daily | China | [Apply](https://jobs.apple.com/zh-cn/search?location=china-mainland) | - | 2026-06-06 |
-| Microsoft | Students & graduates in China | Summer / Daily | China | [Apply](https://jobs.careers.microsoft.com/global/en/search?lc=China&exp=Students%20and%20graduates) | - | 2026-06-06 |
-| Amazon | Internship search in China | Summer / Daily | China | [Apply](https://www.amazon.jobs/en/search?base_query=intern&loc_query=China) | - | 2026-06-06 |
-| AWS | Official careers page | Summer / Daily | China / Global | [Apply](https://aws.amazon.com/careers/) | - | 2026-06-06 |
-| Google | Jobs search with China location | Summer / Daily | China | [Apply](https://careers.google.com/jobs/results/?location=China) | - | 2026-06-06 |
-| IBM | Official careers portal | Summer / Daily | China | [Apply](https://careers.ibm.com/) | - | 2026-06-06 |
-| Dell | China jobs search | Summer / Daily | China | [Apply](https://jobs.dell.com/search-jobs/China) | - | 2026-06-06 |
-| Oracle | Official careers page | Summer / Daily | China | [Apply](https://www.oracle.com/careers/) | - | 2026-06-06 |
-| Oracle | Official job search portal | Summer / Daily | China | [Apply](https://careers.oracle.com/jobs/) | - | 2026-06-06 |
-| SAP | China location search | Summer / Daily | China | [Apply](https://jobs.sap.com/search/?q=&locationsearch=China) | - | 2026-06-06 |
-| Siemens | Official careers portal | Summer / Daily | China | [Apply](https://jobs.siemens.com/careers) | - | 2026-06-06 |
-| Bosch | China careers page | Summer / Daily | China | [Apply](https://www.bosch.com.cn/careers/) | - | 2026-06-06 |
-| Philips | Official careers portal | Summer / Daily | China | [Apply](https://careers.philips.com/global/en) | - | 2026-06-06 |
-| Sony China | Campus recruitment page | Summer / Daily | China | [Apply](https://www.sony.com.cn/content/sonyportal_hr/Campus_Recruitment.html) | - | 2026-06-06 |
-| Samsung | Official careers portal | Summer / Daily | China | [Apply](https://careers.samsung.com/) | - | 2026-06-06 |
-| Adobe | China internship keyword search | Summer / Daily | China | [Apply](https://careers.adobe.com/us/en/search-results?keywords=intern&location=china) | - | 2026-06-06 |
-| OpenAI | Official careers portal | Summer / Daily | Global / China-based roles if open | [Apply](https://openai.com/careers/search) | - | 2026-06-06 |
-| Optiver | Shanghai ML PhD internship | Summer | Shanghai | [Apply](https://optiver.com/working-at-optiver/career-opportunities/8324932002/?gh_jid=8324932002) | - | 2026-06-06 |
-| Jane Street | Machine Learning Researcher Internship (Hong Kong) | Winter | Hong Kong | [Apply](https://www.janestreet.com/join-jane-street/position/8374335002) | - | 2026-06-06 |
-| Jane Street | Quantitative Trader Internship (Hong Kong) | Summer / Winter | Hong Kong | [Apply](https://www.janestreet.com/join-jane-street/position/7982986002) | - | 2026-06-06 |
-| Jane Street | Quantitative Researcher Internship (Hong Kong) | Winter | Hong Kong | [Apply](https://www.janestreet.com/join-jane-street/position/8343131002) | - | 2026-06-06 |
-| Intel | Data Science & Analytics Undergraduate Intern (Taipei) | Summer | Taipei | [Apply](https://intel.wd1.myworkdayjobs.com/en-US/external/job/Taiwan-Taipei/Data-Science-and-Analytics-Undergraduate---Intern_JR0280981-1) | - | 2026-06-06 |
-| Moloco | Data Scientist Intern - Growth Analytics (Shanghai) | Fall/Winter/Spring | Shanghai | [Apply](https://job-boards.greenhouse.io/moloco/jobs/7632942003) | - | 2026-06-06 |
-| Moloco | Data Scientist Intern - Growth Analytics (Beijing) | Fall/Winter/Spring | Beijing | [Apply](https://job-boards.greenhouse.io/moloco/jobs/7632717003) | - | 2026-06-06 |
-| Ekimetrics | Strategy & Data Science internship (Shanghai) | Summer | Shanghai | [Apply](https://jobs.lever.co/ekimetrics/41495c5a-ce21-48b9-8afc-70c968822b42/apply) | - | 2026-06-06 |
-| AlphaGrep Securities | Quant Research Intern - Equity Factors (Shanghai) | Summer | Shanghai | [Apply](https://job-boards.greenhouse.io/alphagrepsecurities/jobs/7958037002) | - | 2026-06-06 |
-| AlphaGrep Securities | Quant Research Intern - Machine Learning (Shanghai) | Summer | Shanghai | [Apply](https://job-boards.greenhouse.io/alphagrepsecurities/jobs/7958042002) | - | 2026-06-06 |
-| Philips | Data Analyst/Data Mining Intern (Shanghai) | Summer | Shanghai | [Apply](https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Shanghai/---_578274) | - | 2026-06-06 |
-| Philips | AI Data Scientist Intern (Shanghai) | Summer | Shanghai | [Apply](https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Shanghai/Intern---AI-data-scientist_572718) | - | 2026-06-06 |
-| Appier | Data Analyst Intern (Taiwan) | Summer | Taiwan | [Apply](https://job-boards.greenhouse.io/appier/jobs/7495834) | - | 2026-06-06 |
-| Meshy | Generative AI Pipeline Engineer Intern (Shanghai) | Summer | Shanghai | [Apply](https://jobs.ashbyhq.com/meshy/8c30a345-2c26-4d72-ae76-91c5834fc435) | - | 2026-06-06 |
-| Meshy | Generative AI Researcher Intern (Shanghai) | Summer | Shanghai | [Apply](https://jobs.ashbyhq.com/meshy/00b6328d-8c32-4b91-aafa-51434e965f37) | - | 2026-06-06 |
-| Apple | Apple careers CN home | Summer / Daily | China | [Apply](https://www.apple.com/careers/cn/) | - | 2026-06-06 |
-| Apple | Machine Learning & AI team search | Summer / Daily | China / Global | [Apply](https://jobs.apple.com/zh-cn/search?team=machine-learning-and-ai-SFTWR-MLAI) | - | 2026-06-06 |
-| Apple | China + ML/AI combined search | Summer / Daily | China | [Apply](https://jobs.apple.com/zh-cn/search?location=china-mainland&team=machine-learning-and-ai-SFTWR-MLAI) | - | 2026-06-06 |
-| Amazon | Internships for students | Summer / Daily | Global / China filter | [Apply](https://www.amazon.jobs/en/teams/internships-for-students) | - | 2026-06-06 |
-| Amazon | ML intern search in China | Summer / Daily | China | [Apply](https://www.amazon.jobs/en/search?base_query=machine%20learning%20intern&loc_query=China) | - | 2026-06-06 |
-| Amazon | Applied Scientist intern search in China | Summer / Daily | China | [Apply](https://www.amazon.jobs/en/search?base_query=applied%20scientist%20intern&loc_query=China) | - | 2026-06-06 |
-| Amazon | AWS intern search in China | Summer / Daily | China | [Apply](https://www.amazon.jobs/en/search?base_query=aws%20intern&loc_query=China) | - | 2026-06-06 |
-| Amazon | Internship search in Beijing | Summer / Daily | Beijing | [Apply](https://www.amazon.jobs/en/search?base_query=intern&loc_query=Beijing) | - | 2026-06-06 |
-| Amazon | Internship search in Shanghai | Summer / Daily | Shanghai | [Apply](https://www.amazon.jobs/en/search?base_query=intern&loc_query=Shanghai) | - | 2026-06-06 |
-| Amazon / AWS | AWS business category page | Summer / Daily | Global / China filter | [Apply](https://www.amazon.jobs/en/business_categories/amazon-web-services) | - | 2026-06-06 |
-| Amazon / AWS | Intern search in AWS business category | Summer / Daily | Global / China filter | [Apply](https://www.amazon.jobs/en/search?base_query=intern&business_category%5B%5D=amazon-web-services) | - | 2026-06-06 |
-| Google | Students and graduates portal | Summer / Daily | Global | [Apply](https://careers.google.com/students/) | - | 2026-06-06 |
-| Google | Jobs in Beijing | Summer / Daily | Beijing | [Apply](https://careers.google.com/jobs/results/?location=Beijing,%20China) | - | 2026-06-06 |
-| Google | Jobs in Shanghai | Summer / Daily | Shanghai | [Apply](https://careers.google.com/jobs/results/?location=Shanghai,%20China) | - | 2026-06-06 |
-| Cisco | Official jobs search | Summer / Daily | China / Global | [Apply](https://jobs.cisco.com/jobs/SearchJobs/?21178=%5B164%5D&21178_format=6020&listFilterMode=1) | - | 2026-06-06 |
-| SAP | Intern keyword search in China | Summer / Daily | China | [Apply](https://jobs.sap.com/search/?q=intern&locationsearch=China) | - | 2026-06-06 |
-| Siemens | Jobs search with China location | Summer / Daily | China | [Apply](https://jobs.siemens.com/careers?location=China) | - | 2026-06-06 |
-| HPE | Intern keyword search | Summer / Daily | China / Global | [Apply](https://careers.hpe.com/us/en/search-results?keywords=intern) | - | 2026-06-06 |
-| Nokia | Official jobs portal | Summer / Daily | China / Global | [Apply](https://careers.nokia.com/jobs) | - | 2026-06-06 |
-| Salesforce | Intern keyword search | Summer / Daily | China / Global | [Apply](https://careers.salesforce.com/en/jobs/?search=intern) | - | 2026-06-06 |
-| ServiceNow | Jobs search with China location | Summer / Daily | China / Global | [Apply](https://careers.servicenow.com/careers/jobs?location=china) | - | 2026-06-06 |
-| Snowflake | Official careers portal | Summer / Daily | China / Global | [Apply](https://careers.snowflake.com/) | - | 2026-06-06 |
-| Meta | Official careers home | Summer / Daily | China / Global | [Apply](https://www.metacareers.com/) | - | 2026-06-06 |
-| Meta | Official job search | Summer / Daily | Global | [Apply](https://www.metacareers.com/jobsearch) | - | 2026-06-06 |
-| Anthropic | Official careers portal | Summer / Daily | Global | [Apply](https://www.anthropic.com/careers) | - | 2026-06-06 |
-| Cohere | Official careers portal | Summer / Daily | Global | [Apply](https://cohere.com/careers) | - | 2026-06-06 |
-| Mistral AI | Official careers portal | Summer / Daily | Global | [Apply](https://mistral.ai/careers) | - | 2026-06-06 |
-| Databricks | Official careers portal | Summer / Daily | China / Global | [Apply](https://www.databricks.com/company/careers) | - | 2026-06-06 |
-| Cloudflare | Official careers jobs portal | Summer / Daily | China / Global | [Apply](https://www.cloudflare.com/careers/jobs/) | - | 2026-06-06 |
-| Palantir | Official careers portal | Summer / Daily | Global | [Apply](https://www.palantir.com/careers/) | - | 2026-06-06 |
-| Perplexity | Official careers portal | Summer / Daily | Global | [Apply](https://www.perplexity.ai/careers) | - | 2026-06-06 |
-| xAI | Official careers portal | Summer / Daily | Global | [Apply](https://x.ai/careers) | - | 2026-06-06 |
-| DeepMind | Official careers portal | Summer / Daily | Global | [Apply](https://www.deepmind.com/careers) | - | 2026-06-06 |
-| Stripe | Intern keyword search | Summer / Daily | Global | [Apply](https://stripe.com/jobs/search?query=intern) | - | 2026-06-06 |
-| ABB | Official careers portal | Summer / Daily | China / Global | [Apply](https://www.abb.com/careers) | - | 2026-06-06 |
-| Mercedes-Benz | Official careers portal | Summer / Daily | China / Global | [Apply](https://jobs.mercedes-benz.com/) | - | 2026-06-06 |
-| Keysight | Official jobs portal | Summer / Daily | China / Global | [Apply](https://jobs.keysight.com/) | - | 2026-06-06 |
+| Apple | China internship search | Summer / Daily | China | [Apply](https://jobs.apple.com/zh-cn/search?location=china-mainland) | - | 2026-06-07 |
+| Microsoft | Students & graduates in China | Summer / Daily | China | [Apply](https://jobs.careers.microsoft.com/global/en/search?lc=China&exp=Students%20and%20graduates) | - | 2026-06-07 |
+| Amazon | Internship search in China | Summer / Daily | China | [Apply](https://www.amazon.jobs/en/search?base_query=intern&loc_query=China) | - | 2026-06-07 |
+| AWS | Official careers page | Summer / Daily | China / Global | [Apply](https://aws.amazon.com/careers/) | - | 2026-06-07 |
+| Google | Jobs search with China location | Summer / Daily | China | [Apply](https://careers.google.com/jobs/results/?location=China) | - | 2026-06-07 |
+| IBM | Official careers portal | Summer / Daily | China | [Apply](https://careers.ibm.com/) | - | 2026-06-07 |
+| Dell | China jobs search | Summer / Daily | China | [Apply](https://jobs.dell.com/search-jobs/China) | - | 2026-06-07 |
+| Oracle | Official careers page | Summer / Daily | China | [Apply](https://www.oracle.com/careers/) | - | 2026-06-07 |
+| Oracle | Official job search portal | Summer / Daily | China | [Apply](https://careers.oracle.com/jobs/) | - | 2026-06-07 |
+| SAP | China location search | Summer / Daily | China | [Apply](https://jobs.sap.com/search/?q=&locationsearch=China) | - | 2026-06-07 |
+| Siemens | Official careers portal | Summer / Daily | China | [Apply](https://jobs.siemens.com/careers) | - | 2026-06-07 |
+| Bosch | China careers page | Summer / Daily | China | [Apply](https://www.bosch.com.cn/careers/) | - | 2026-06-07 |
+| Philips | Official careers portal | Summer / Daily | China | [Apply](https://careers.philips.com/global/en) | - | 2026-06-07 |
+| Sony China | Campus recruitment page | Summer / Daily | China | [Apply](https://www.sony.com.cn/content/sonyportal_hr/Campus_Recruitment.html) | - | 2026-06-07 |
+| Samsung | Official careers portal | Summer / Daily | China | [Apply](https://careers.samsung.com/) | - | 2026-06-07 |
+| Adobe | China internship keyword search | Summer / Daily | China | [Apply](https://careers.adobe.com/us/en/search-results?keywords=intern&location=china) | - | 2026-06-07 |
+| OpenAI | Official careers portal | Summer / Daily | Global / China-based roles if open | [Apply](https://openai.com/careers/search) | - | 2026-06-07 |
+| Optiver | Shanghai ML PhD internship | Summer | Shanghai | [Apply](https://optiver.com/working-at-optiver/career-opportunities/8324932002/?gh_jid=8324932002) | - | 2026-06-07 |
+| Jane Street | Machine Learning Researcher Internship (Hong Kong) | Winter | Hong Kong | [Apply](https://www.janestreet.com/join-jane-street/position/8374335002) | - | 2026-06-07 |
+| Jane Street | Quantitative Trader Internship (Hong Kong) | Summer / Winter | Hong Kong | [Apply](https://www.janestreet.com/join-jane-street/position/7982986002) | - | 2026-06-07 |
+| Jane Street | Quantitative Researcher Internship (Hong Kong) | Winter | Hong Kong | [Apply](https://www.janestreet.com/join-jane-street/position/8343131002) | - | 2026-06-07 |
+| Intel | Data Science & Analytics Undergraduate Intern (Taipei) | Summer | Taipei | [Apply](https://intel.wd1.myworkdayjobs.com/en-US/external/job/Taiwan-Taipei/Data-Science-and-Analytics-Undergraduate---Intern_JR0280981-1) | - | 2026-06-07 |
+| Moloco | Data Scientist Intern - Growth Analytics (Shanghai) | Fall/Winter/Spring | Shanghai | [Apply](https://job-boards.greenhouse.io/moloco/jobs/7632942003) | - | 2026-06-07 |
+| Moloco | Data Scientist Intern - Growth Analytics (Beijing) | Fall/Winter/Spring | Beijing | [Apply](https://job-boards.greenhouse.io/moloco/jobs/7632717003) | - | 2026-06-07 |
+| Ekimetrics | Strategy & Data Science internship (Shanghai) | Summer | Shanghai | [Apply](https://jobs.lever.co/ekimetrics/41495c5a-ce21-48b9-8afc-70c968822b42/apply) | - | 2026-06-07 |
+| AlphaGrep Securities | Quant Research Intern - Equity Factors (Shanghai) | Summer | Shanghai | [Apply](https://job-boards.greenhouse.io/alphagrepsecurities/jobs/7958037002) | - | 2026-06-07 |
+| AlphaGrep Securities | Quant Research Intern - Machine Learning (Shanghai) | Summer | Shanghai | [Apply](https://job-boards.greenhouse.io/alphagrepsecurities/jobs/7958042002) | - | 2026-06-07 |
+| Philips | Data Analyst/Data Mining Intern (Shanghai) | Summer | Shanghai | [Apply](https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Shanghai/---_578274) | - | 2026-06-07 |
+| Philips | AI Data Scientist Intern (Shanghai) | Summer | Shanghai | [Apply](https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Shanghai/Intern---AI-data-scientist_572718) | - | 2026-06-07 |
+| Appier | Data Analyst Intern (Taiwan) | Summer | Taiwan | [Apply](https://job-boards.greenhouse.io/appier/jobs/7495834) | - | 2026-06-07 |
+| Meshy | Generative AI Pipeline Engineer Intern (Shanghai) | Summer | Shanghai | [Apply](https://jobs.ashbyhq.com/meshy/8c30a345-2c26-4d72-ae76-91c5834fc435) | - | 2026-06-07 |
+| Meshy | Generative AI Researcher Intern (Shanghai) | Summer | Shanghai | [Apply](https://jobs.ashbyhq.com/meshy/00b6328d-8c32-4b91-aafa-51434e965f37) | - | 2026-06-07 |
+| Apple | Apple careers CN home | Summer / Daily | China | [Apply](https://www.apple.com/careers/cn/) | - | 2026-06-07 |
+| Apple | Machine Learning & AI team search | Summer / Daily | China / Global | [Apply](https://jobs.apple.com/zh-cn/search?team=machine-learning-and-ai-SFTWR-MLAI) | - | 2026-06-07 |
+| Apple | China + ML/AI combined search | Summer / Daily | China | [Apply](https://jobs.apple.com/zh-cn/search?location=china-mainland&team=machine-learning-and-ai-SFTWR-MLAI) | - | 2026-06-07 |
+| Amazon | Internships for students | Summer / Daily | Global / China filter | [Apply](https://www.amazon.jobs/en/teams/internships-for-students) | - | 2026-06-07 |
+| Amazon | ML intern search in China | Summer / Daily | China | [Apply](https://www.amazon.jobs/en/search?base_query=machine%20learning%20intern&loc_query=China) | - | 2026-06-07 |
+| Amazon | Applied Scientist intern search in China | Summer / Daily | China | [Apply](https://www.amazon.jobs/en/search?base_query=applied%20scientist%20intern&loc_query=China) | - | 2026-06-07 |
+| Amazon | AWS intern search in China | Summer / Daily | China | [Apply](https://www.amazon.jobs/en/search?base_query=aws%20intern&loc_query=China) | - | 2026-06-07 |
+| Amazon | Internship search in Beijing | Summer / Daily | Beijing | [Apply](https://www.amazon.jobs/en/search?base_query=intern&loc_query=Beijing) | - | 2026-06-07 |
+| Amazon | Internship search in Shanghai | Summer / Daily | Shanghai | [Apply](https://www.amazon.jobs/en/search?base_query=intern&loc_query=Shanghai) | - | 2026-06-07 |
+| Amazon / AWS | AWS business category page | Summer / Daily | Global / China filter | [Apply](https://www.amazon.jobs/en/business_categories/amazon-web-services) | - | 2026-06-07 |
+| Amazon / AWS | Intern search in AWS business category | Summer / Daily | Global / China filter | [Apply](https://www.amazon.jobs/en/search?base_query=intern&business_category%5B%5D=amazon-web-services) | - | 2026-06-07 |
+| Google | Students and graduates portal | Summer / Daily | Global | [Apply](https://careers.google.com/students/) | - | 2026-06-07 |
+| Google | Jobs in Beijing | Summer / Daily | Beijing | [Apply](https://careers.google.com/jobs/results/?location=Beijing,%20China) | - | 2026-06-07 |
+| Google | Jobs in Shanghai | Summer / Daily | Shanghai | [Apply](https://careers.google.com/jobs/results/?location=Shanghai,%20China) | - | 2026-06-07 |
+| Cisco | Official jobs search | Summer / Daily | China / Global | [Apply](https://jobs.cisco.com/jobs/SearchJobs/?21178=%5B164%5D&21178_format=6020&listFilterMode=1) | - | 2026-06-07 |
+| SAP | Intern keyword search in China | Summer / Daily | China | [Apply](https://jobs.sap.com/search/?q=intern&locationsearch=China) | - | 2026-06-07 |
+| Siemens | Jobs search with China location | Summer / Daily | China | [Apply](https://jobs.siemens.com/careers?location=China) | - | 2026-06-07 |
+| HPE | Intern keyword search | Summer / Daily | China / Global | [Apply](https://careers.hpe.com/us/en/search-results?keywords=intern) | - | 2026-06-07 |
+| Nokia | Official jobs portal | Summer / Daily | China / Global | [Apply](https://careers.nokia.com/jobs) | - | 2026-06-07 |
+| Salesforce | Intern keyword search | Summer / Daily | China / Global | [Apply](https://careers.salesforce.com/en/jobs/?search=intern) | - | 2026-06-07 |
+| ServiceNow | Jobs search with China location | Summer / Daily | China / Global | [Apply](https://careers.servicenow.com/careers/jobs?location=china) | - | 2026-06-07 |
+| Snowflake | Official careers portal | Summer / Daily | China / Global | [Apply](https://careers.snowflake.com/) | - | 2026-06-07 |
+| Meta | Official careers home | Summer / Daily | China / Global | [Apply](https://www.metacareers.com/) | - | 2026-06-07 |
+| Meta | Official job search | Summer / Daily | Global | [Apply](https://www.metacareers.com/jobsearch) | - | 2026-06-07 |
+| Anthropic | Official careers portal | Summer / Daily | Global | [Apply](https://www.anthropic.com/careers) | - | 2026-06-07 |
+| Cohere | Official careers portal | Summer / Daily | Global | [Apply](https://cohere.com/careers) | - | 2026-06-07 |
+| Mistral AI | Official careers portal | Summer / Daily | Global | [Apply](https://mistral.ai/careers) | - | 2026-06-07 |
+| Databricks | Official careers portal | Summer / Daily | China / Global | [Apply](https://www.databricks.com/company/careers) | - | 2026-06-07 |
+| Cloudflare | Official careers jobs portal | Summer / Daily | China / Global | [Apply](https://www.cloudflare.com/careers/jobs/) | - | 2026-06-07 |
+| Palantir | Official careers portal | Summer / Daily | Global | [Apply](https://www.palantir.com/careers/) | - | 2026-06-07 |
+| Perplexity | Official careers portal | Summer / Daily | Global | [Apply](https://www.perplexity.ai/careers) | - | 2026-06-07 |
+| xAI | Official careers portal | Summer / Daily | Global | [Apply](https://x.ai/careers) | - | 2026-06-07 |
+| DeepMind | Official careers portal | Summer / Daily | Global | [Apply](https://www.deepmind.com/careers) | - | 2026-06-07 |
+| Stripe | Intern keyword search | Summer / Daily | Global | [Apply](https://stripe.com/jobs/search?query=intern) | - | 2026-06-07 |
+| ABB | Official careers portal | Summer / Daily | China / Global | [Apply](https://www.abb.com/careers) | - | 2026-06-07 |
+| Mercedes-Benz | Official careers portal | Summer / Daily | China / Global | [Apply](https://jobs.mercedes-benz.com/) | - | 2026-06-07 |
+| Keysight | Official jobs portal | Summer / Daily | China / Global | [Apply](https://jobs.keysight.com/) | - | 2026-06-07 |
 
