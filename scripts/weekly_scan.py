@@ -67,10 +67,21 @@ DEADLINE_KEYWORDS = [
     "deadline",
     "apply by",
     "application deadline",
-    "截止",
+    "截止日期",
     "截止时间",
     "投递截止",
     "申请截止",
+]
+
+NON_APPLICATION_DEADLINE_PATTERNS = [
+    re.compile(p, re.I)
+    for p in [
+        r"数据.{0,12}截止",
+        r"指数.{0,12}截止",
+        r"业绩.{0,12}截止",
+        r"data.{0,12}(?:as of|through)",
+        r"performance.{0,12}(?:as of|through)",
+    ]
 ]
 
 DATE_PATTERNS = [
@@ -190,6 +201,8 @@ def extract_deadline(text: str) -> tuple[str | None, str | None]:
                 match = pattern.search(window)
                 if match:
                     if "publisheddate" in window.lower():
+                        continue
+                    if any(skip.search(window) for skip in NON_APPLICATION_DEADLINE_PATTERNS):
                         continue
                     if len(match.groups()) == 3:
                         year, month, day = match.groups()
