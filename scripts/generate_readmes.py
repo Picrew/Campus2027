@@ -4,7 +4,7 @@ from __future__ import annotations
 from collections import Counter
 from pathlib import Path
 
-LAST_VERIFIED = "2026-06-18"
+LAST_VERIFIED = "2026-06-19"
 
 CATEGORIES = [
     [
