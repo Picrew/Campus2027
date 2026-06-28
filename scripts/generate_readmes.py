@@ -4,7 +4,7 @@ from __future__ import annotations
 from collections import Counter
 from pathlib import Path
 
-LAST_VERIFIED = "2026-06-27"
+LAST_VERIFIED = "2026-06-28"
 
 CATEGORIES = [
     [
@@ -735,7 +735,7 @@ ENTRIES: list[dict[str, str]] = [
         "focus": "Official careers landing",
         "itype": "Summer / Daily",
         "location": "China",
-        "url": "https://www.xpeng.com/join"
+        "url": "https://www.xpeng.com/join-us"
     },
     {
         "cat": "autonomous",
