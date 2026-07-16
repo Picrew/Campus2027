@@ -2,7 +2,7 @@
 
 Official application channels for **Class of 2027 full-time fall campus recruitment** and early batches, prioritizing China-based AI and technical roles.
 
-- Confirmed open: **27** application channels
+- Confirmed open: **28** application channels
 - Categories: **5**
 - Last verified: **2026-07-16**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -14,7 +14,7 @@ Official application channels for **Class of 2027 full-time fall campus recruitm
 | Category | Open Channels |
 | --- | ---: |
 | Internet & AI Platforms | 11 |
-| AI Research & Top-Talent Programs | 2 |
+| AI Research & Top-Talent Programs | 3 |
 | Autonomous Driving, Robotics & Embodied AI | 5 |
 | Chips, Vision & Infrastructure | 6 |
 | Games, Financial Data & Research Institutes | 3 |
@@ -41,6 +41,7 @@ Evidence grade: **A** = the company/institute site explicitly states cohort and 
 
 | Company | Program / Focus | Batch | Audience | Location | Opens | Deadline | Official Apply | Evidence | Last Verified |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Ant Group | Ant Star / Plan A 2027 Graduate Recruitment | Top AI talent early batch | Graduating Nov 2026-Oct 2027 | Beijing / Shanghai / Hangzhou / others | Open by 2026-06-12 | Not announced | [Apply](https://talent.antgroup.com/) | [Source](https://career.cuhk.edu.cn/en/job/view/id/468409) B: official portal + employer notice repost | 2026-07-16 |
 | iFlytek | Feixing Program 2027 | Research-algorithm early batch | Class of 2027 Master's / PhD graduates | Hefei / Beijing / Xi'an / Guangzhou / Shanghai | 2026-06-14 | Not announced | [Apply](https://iflytek.zhiye.com/4/jobs) | [Source](https://career.nankai.edu.cn/correcruit/content/id/116162.html) B: official ATS + employer notice repost | 2026-07-16 |
 | iFlytek | Feifan Program 2027 | Future-leader early batch | Class of 2027; major unrestricted | Hefei | Open by 2026-07-02 | Not announced | [Apply](https://iflytek.zhiye.com/5/jobs) | [Source](https://ejob.dhu.edu.cn/single/2026/07/02/2607021423534921003320030219103058410002.html) B: official ATS + employer notice repost | 2026-07-16 |
 
