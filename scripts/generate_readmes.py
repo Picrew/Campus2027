@@ -4,2288 +4,801 @@ from __future__ import annotations
 from collections import Counter
 from pathlib import Path
 
-LAST_VERIFIED = "2026-06-28"
+LAST_VERIFIED = "2026-07-16"
 
 CATEGORIES = [
-    [
-        "china_internet",
-        "China Internet & Cloud Giants",
-        "中国互联网与云大厂"
-    ],
-    [
-        "china_llm",
-        "China LLM / AI-Native Companies",
-        "中国大模型与 AI 原生公司"
-    ],
-    [
-        "quant_finance",
-        "Quant Finance & AI Investing",
-        "金融量化与 AI 投资"
-    ],
-    [
-        "autonomous",
-        "Autonomous Driving, Robotics & Embodied AI",
-        "自动驾驶、机器人与具身智能"
-    ],
-    [
-        "chips_infra",
-        "Chips, AI Infrastructure & Systems",
-        "芯片、算力基础设施与系统"
-    ],
-    [
-        "international",
-        "International Companies with China Internship Channels",
-        "外企与国际公司（中国/大中华实习通道）"
-    ]
+    ("platforms", "Internet & AI Platforms", "互联网与 AI 平台"),
+    ("ai_programs", "AI Research & Top-Talent Programs", "AI 研究与顶尖人才专项"),
+    ("robotics", "Autonomous Driving, Robotics & Embodied AI", "自动驾驶、机器人与具身智能"),
+    ("chips", "Chips, Vision & Infrastructure", "芯片、视觉与基础设施"),
+    ("other", "Games, Financial Data & Research Institutes", "游戏、金融数据与科研院所"),
 ]
 
-# Keep links official only (company career site / official ATS page).
+# Inclusion rule: an application must be open for a Class of 2027 full-time
+# graduate role, early batch, or named top-talent program on LAST_VERIFIED.
+# Internships, campus ambassadors, "coming soon" pages, and 2026 make-up hiring
+# are intentionally excluded.
 ENTRIES: list[dict[str, str]] = [
     {
-        "cat": "china_internet",
-        "company": "ByteDance",
-        "focus": "Campus internship portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://jobs.bytedance.com/campus"
-    },
-    {
-        "cat": "china_internet",
-        "company": "ByteDance",
-        "focus": "Top Seed - LLM Applied Algorithm Intern",
-        "itype": "Summer",
-        "location": "Beijing / Shanghai / Shenzhen",
-        "url": "https://jobs.bytedance.com/campus/position/7483023182024001799/detail"
-    },
-    {
-        "cat": "china_internet",
-        "company": "ByteDance",
-        "focus": "Recommender LLM Algorithm Intern",
-        "itype": "Summer",
-        "location": "Beijing / Shanghai",
-        "url": "https://jobs.bytedance.com/campus/position/7475203956567591186/detail"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Tencent",
-        "focus": "Campus intern portal (AI / engineering)",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://join.qq.com/post.html?query=p_2,b_14129"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Tencent Games",
-        "focus": "Game engineering / AI internship portal",
-        "itype": "Summer",
-        "location": "Shenzhen / Shanghai",
-        "url": "https://join.qq.com/post.html?query=p_2"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Alibaba",
-        "focus": "Campus internship portal",
-        "itype": "Summer",
-        "location": "China",
-        "url": "https://talent.alibaba.com/campus/position-list?campusType=internship"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Baidu",
-        "focus": "Campus intern portal (AI / LLM)",
-        "itype": "Summer",
-        "location": "China",
-        "url": "https://talent.baidu.com/jobs/list"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Baidu",
-        "focus": "LLM risk-scenario algorithm intern",
-        "itype": "Summer",
-        "location": "Beijing",
-        "url": "https://talent.baidu.com/jobs/detail/INTERN/1f5d0a4b-e563-41ad-ac96-b0a75cf89d65"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Meituan",
-        "focus": "Campus internship portal",
-        "itype": "Summer",
-        "location": "China",
-        "url": "https://zhaopin.meituan.com/web/campus?hiringType=2_6&keyword="
-    },
-    {
-        "cat": "china_internet",
-        "company": "JD",
-        "focus": "Campus internship portal",
-        "itype": "Summer",
-        "location": "China",
-        "url": "https://campus.jd.com/#/jobs"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Kuaishou",
-        "focus": "Campus internship portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://campus.kuaishou.cn/#/campus/index"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Xiaohongshu (RED)",
-        "focus": "Campus internship portal",
-        "itype": "Summer / Daily",
+        "cat": "platforms",
+        "company": "ByteDance Seed",
+        "company_zh": "字节跳动 Seed",
+        "focus": "Seed Foundation Model Campus Recruitment",
+        "focus_zh": "Seed 大模型人才校招",
+        "batch": "Class of 2027 full-time",
+        "batch_zh": "2027 届正式岗",
+        "audience": "Graduating Sep 2026-Aug 2027 (B/M/PhD)",
+        "audience_zh": "2026.09-2027.08 毕业的本/硕/博",
         "location": "Beijing / Shanghai / Shenzhen / Hangzhou",
-        "url": "https://job.xiaohongshu.com/campus"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Bilibili",
-        "focus": "Campus internship portal",
-        "itype": "Summer / Daily",
-        "location": "Beijing / Shanghai / Chongqing",
-        "url": "https://jobs.bilibili.com/campus/positions?type=0"
-    },
-    {
-        "cat": "china_internet",
-        "company": "PDD",
-        "focus": "Campus internship portal",
-        "itype": "Summer",
-        "location": "China",
-        "url": "https://careers.pddglobalhr.net/campus"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Xiaomi",
-        "focus": "Internship portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://xiaomi.jobs.f.mioffice.cn/internship/"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Huawei",
-        "focus": "Campus internship portal",
-        "itype": "Summer",
-        "location": "China",
-        "url": "https://career.huawei.com/reccampportal/portal5/campus-recruitment.html"
-    },
-    {
-        "cat": "china_internet",
-        "company": "NetEase Leihuo",
-        "focus": "Internship portal",
-        "itype": "Summer",
-        "location": "Hangzhou",
-        "url": "https://leihuo.163.com/campus/#/intern"
-    },
-    {
-        "cat": "china_internet",
-        "company": "NetEase Games",
-        "focus": "Campus internship portal",
-        "itype": "Summer",
-        "location": "Hangzhou / Guangzhou",
-        "url": "https://game.campus.163.com/position"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Trip.com (Ctrip)",
-        "focus": "Official careers search",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://jobs.careers.trip.com/en_US/careers/SearchJobs"
-    },
-    {
-        "cat": "china_internet",
-        "company": "360",
-        "focus": "Campus internship portal",
-        "itype": "Summer / Daily",
-        "location": "Beijing / Nanjing / Shenzhen",
-        "url": "https://360campus.zhiye.com/jobs"
-    },
-    {
-        "cat": "china_internet",
-        "company": "vivo",
-        "focus": "Campus / intern portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://hr.vivo.com"
-    },
-    {
-        "cat": "china_internet",
-        "company": "OPPO",
-        "focus": "Campus internship portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://careers.oppo.com/university/oppo/campus/post?recruitType=Intern"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Lenovo",
-        "focus": "Internship portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://talent.lenovo.com.cn/position?projectType=2"
-    },
-    {
-        "cat": "china_internet",
-        "company": "WPS / Kingsoft",
-        "focus": "Campus internship portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://app.mokahr.com/campus-recruitment/wps/41436#/jobs?project%5B0%5D=100074177&page=1&anchorName=jobsList"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Tencent CSIG",
-        "focus": "Cloud / AI platform internship portal",
-        "itype": "Summer",
-        "location": "Shenzhen / Beijing / Shanghai",
-        "url": "https://app-tc.mokahr.com/campus-recruitment/csig/20001#/page/%E5%AE%9E%E4%B9%A0%E7%94%9F%E6%8B%9B%E8%81%98"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Qiniu Cloud",
-        "focus": "Campus internship portal",
-        "itype": "Summer / Daily",
-        "location": "Shanghai / Beijing / Shenzhen",
-        "url": "https://campus.qiniu.com/campus/jobs"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Sangfor",
-        "focus": "Official careers openings",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.sangfor.com/about-us/careers/find-job-openings"
-    },
-    {
-        "cat": "china_internet",
-        "company": "SmartX",
-        "focus": "Official jobs page",
-        "itype": "Summer / Daily",
-        "location": "Beijing / Shanghai",
-        "url": "https://www.smartx.com/jobs/"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Fanruan",
-        "focus": "Campus / intern portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://join.fanruan.com/"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Beisen",
-        "focus": "Internship portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://beisen.zhiye.com/intern/jobs"
-    },
-    {
-        "cat": "china_internet",
-        "company": "miHoYo",
-        "focus": "Campus internship portal",
-        "itype": "Summer",
-        "location": "Shanghai / Shenzhen",
-        "url": "https://jobs.mihoyo.com/#/campus/position"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Perfect World",
-        "focus": "Campus internship portal",
-        "itype": "Summer",
-        "location": "Beijing",
-        "url": "https://recruit.games.wanmei.com/campus-recruitment/perfect-world/94767/#/"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Papergames",
-        "focus": "Campus internship portal",
-        "itype": "Summer",
-        "location": "Shanghai",
-        "url": "https://career.papegames.com/campus/position/list?keywords=&category=&location=&project=&type=&job_hot_flag=&current=1&limit=10&functionCategory=&tag="
-    },
-    {
-        "cat": "china_llm",
-        "company": "Zhipu AI",
-        "focus": "Official careers page",
-        "itype": "Summer / Daily",
-        "location": "Beijing / Shanghai",
-        "url": "https://www.zhipuai.cn/joinus"
-    },
-    {
-        "cat": "china_llm",
-        "company": "Zhipu AI",
-        "focus": "Official careers page (alt)",
-        "itype": "Summer / Daily",
-        "location": "Beijing / Shanghai",
-        "url": "https://www.zhipuai.cn/careers"
-    },
-    {
-        "cat": "china_llm",
-        "company": "Moonshot AI",
-        "focus": "Official careers page",
-        "itype": "Summer / Daily",
-        "location": "Beijing",
-        "url": "https://www.moonshot.cn/joinus"
-    },
-    {
-        "cat": "china_llm",
-        "company": "Moonshot AI",
-        "focus": "Official careers page (alt)",
-        "itype": "Summer / Daily",
-        "location": "Beijing",
-        "url": "https://www.moonshot.cn/careers"
-    },
-    {
-        "cat": "china_llm",
-        "company": "MiniMax",
-        "focus": "Official careers page",
-        "itype": "Summer / Daily",
-        "location": "Shanghai / Beijing",
-        "url": "https://www.minimax.io/careers"
-    },
-    {
-        "cat": "china_llm",
-        "company": "StepFun",
-        "focus": "Official ATS portal",
-        "itype": "Summer / Daily",
-        "location": "Shanghai / Beijing",
-        "url": "https://app.mokahr.com/social-recruitment/step/94904#/"
-    },
-    {
-        "cat": "china_llm",
-        "company": "DeepSeek / High-Flyer",
-        "focus": "Official ATS portal",
-        "itype": "Summer / Daily",
-        "location": "Hangzhou / Beijing / Shanghai",
-        "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576"
-    },
-    {
-        "cat": "china_llm",
-        "company": "01.AI",
-        "focus": "Official Feishu jobs portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://01ai.jobs.feishu.cn/index/"
-    },
-    {
-        "cat": "china_llm",
-        "company": "Shengshu Technology (Vidu)",
-        "focus": "Official Feishu jobs portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://shengshu.jobs.feishu.cn/index/"
-    },
-    {
-        "cat": "china_llm",
-        "company": "SenseTime",
-        "focus": "Official join-us page",
-        "itype": "Summer / Daily",
-        "location": "Shanghai / Shenzhen",
-        "url": "https://www.sensetime.com/cn/join-us"
-    },
-    {
-        "cat": "china_llm",
-        "company": "Megvii",
-        "focus": "Official join-us portal",
-        "itype": "Summer / Daily",
-        "location": "Beijing / Shanghai",
-        "url": "https://www.megvii.com/join_us"
-    },
-    {
-        "cat": "china_llm",
-        "company": "Meshy",
-        "focus": "Official Ashby job board",
-        "itype": "Summer / Daily",
-        "location": "Shanghai",
-        "url": "https://jobs.ashbyhq.com/meshy"
-    },
-    {
-        "cat": "china_llm",
-        "company": "Baichuan AI",
-        "focus": "Official company site",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.baichuan-ai.com"
-    },
-    {
-        "cat": "china_llm",
-        "company": "ModelBest",
-        "focus": "Official company site",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.modelbest.cn"
-    },
-    {
-        "cat": "china_llm",
-        "company": "iFlytek",
-        "focus": "Official campus recruiting portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://campus.iflytek.com/"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Ubiquant",
-        "focus": "Official careers page",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.ubiquant.com/website/career"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Ubiquant",
-        "focus": "Campus recruiting portal (official ATS)",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://app.mokahr.com/campus_apply/ubiquantrecruit/37031"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Ubiquant",
-        "focus": "Social recruiting portal (official ATS)",
-        "itype": "Daily",
-        "location": "China",
-        "url": "https://app.mokahr.com/apply/ubiquantrecruit/37030"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "WizardQuant",
-        "focus": "Official careers page",
-        "itype": "Summer / Daily",
-        "location": "Shanghai / Beijing",
-        "url": "https://www.wizardquant.com/career"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "WizardQuant",
-        "focus": "WILL - AI Researcher (full-time/intern)",
-        "itype": "Unknown",
-        "location": "Beijing / Shanghai / Remote",
-        "url": "https://www.wizardquant.com/career/ai%E7%A0%94%E7%A9%B6%E5%91%98"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "WizardQuant",
-        "focus": "WILL - AI Engineer (full-time/intern)",
-        "itype": "Unknown",
-        "location": "Beijing / Shanghai / Remote",
-        "url": "https://www.wizardquant.com/career/ai%E5%B7%A5%E7%A8%8B%E5%B8%88"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Minghong Investment",
-        "focus": "Official company site",
-        "itype": "Unknown",
-        "location": "China",
-        "url": "https://www.mhfunds.com"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Minghong Investment",
-        "focus": "Official recruiting portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://join.mhfunds.com/index"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Lingjun Investment",
-        "focus": "Join-us overview page",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.lingjuninvest.com/overview"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Lingjun Investment",
-        "focus": "Campus recruiting page",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.lingjuninvest.com/campus-recruitment"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Lingjun Investment",
-        "focus": "Campus jobs portal (official ATS)",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://app.mokahr.com/social-recruitment/lingjuninvest/46355?locale=zh-CN#/jobs?213633%5B0%5D=%E6%98%AF&page=1&anchorName=jobsList"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Qilin Capital",
-        "focus": "Join-us page",
-        "itype": "Summer / Daily",
-        "location": "Shanghai / Beijing",
-        "url": "https://www.70capital.com/join"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Qilin Capital",
-        "focus": "Campus jobs portal (official ATS)",
-        "itype": "Summer / Daily",
-        "location": "Shanghai / Beijing",
-        "url": "https://70capital.gllue.com/portal/campusposition/list"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Mingshi Fund",
-        "focus": "Join-us page",
-        "itype": "Summer / Daily",
-        "location": "Shanghai",
-        "url": "https://www.mingshiim.com/join"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Mingshi Fund",
-        "focus": "Campus / social jobs portal",
-        "itype": "Summer / Daily",
-        "location": "Shanghai",
-        "url": "https://mingshiim.zhiye.com/"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Alpha2 Fund",
-        "focus": "Join-us page (contains campus/social ATS links)",
-        "itype": "Summer / Daily",
-        "location": "Shanghai / Beijing",
-        "url": "https://www.alpha2fund.com/joinus.html"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Alpha2 Fund",
-        "focus": "Campus recruiting portal (official ATS)",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://app.mokahr.com/campus-recruitment/alpha2fund/151124?locale=zh-CN#/"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Alpha2 Fund",
-        "focus": "Social recruiting portal (official ATS)",
-        "itype": "Daily",
-        "location": "China",
-        "url": "https://app.mokahr.com/social-recruitment/alpha2fund/151123?locale=zh-CN#/"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Yanfu Investments",
-        "focus": "Join-us page (official)",
-        "itype": "Summer / Daily",
-        "location": "Shanghai",
-        "url": "https://yanfuinvestments.com/join"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Yanfu Investments",
-        "focus": "Official jobs portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://yanfuinvestments1.zhiye.com/jobs"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Century Frontier",
-        "focus": "Contact / recruiting page",
-        "itype": "Summer / Daily",
-        "location": "Shanghai / Shenzhen",
-        "url": "https://www.centuryfrontier.com/contact"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Century Frontier",
-        "focus": "Social recruiting portal (official ATS)",
-        "itype": "Daily",
-        "location": "Shanghai / Shenzhen",
-        "url": "https://app.mokahr.com/m/apply/centuryfrontier/24841"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Century Frontier",
-        "focus": "Campus recruiting portal (official ATS)",
-        "itype": "Summer / Daily",
-        "location": "Shanghai / Shenzhen",
-        "url": "https://app.mokahr.com/m/campus_apply/centuryfrontier/24842"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "QP Alpha",
-        "focus": "Contact & recruiting page",
-        "itype": "Summer / Daily",
-        "location": "Shanghai",
-        "url": "https://www.qpalpha.com/contact.html"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "QP Alpha",
-        "focus": "Official Feishu jobs portal",
-        "itype": "Daily",
-        "location": "Shanghai",
-        "url": "https://jo0ikgajg1.jobs.feishu.cn/index/?spread=ENQENZT"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "CQ Funds",
-        "focus": "Service center (recruiting)",
-        "itype": "Summer / Daily",
-        "location": "Shanghai",
-        "url": "https://www.cqfunds.com/service-center/"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "CQ Funds",
-        "focus": "Internship positions list",
-        "itype": "Daily",
-        "location": "Shanghai",
-        "url": "https://www.cqfunds.com/trainee/"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "CQ Funds",
-        "focus": "Quant Research Intern (CTA / Equities)",
-        "itype": "Daily",
-        "location": "Shanghai",
-        "url": "https://www.cqfunds.com/trainee/96.html"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "CQ Funds",
-        "focus": "Data Analyst Intern",
-        "itype": "Daily",
-        "location": "Shanghai",
-        "url": "https://www.cqfunds.com/trainee/35.html"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Blackwing Asset",
-        "focus": "Job recruitment page (campus/social via QR)",
-        "itype": "Summer / Daily",
-        "location": "Shanghai",
-        "url": "https://www.blackwingasset.com/index.php?m=content&c=index&a=lists&catid=23"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Tianyan Capital",
-        "focus": "Join-us page",
-        "itype": "Summer / Daily",
-        "location": "Beijing / Shanghai / Shenzhen",
-        "url": "https://www.tianyancapital.com/zh/join-us/index.html"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Tianyan Capital",
-        "focus": "Official jobs page",
-        "itype": "Summer / Daily",
-        "location": "Beijing / Shanghai / Shenzhen",
-        "url": "https://www.tianyancapital.com/zh/join-us/jobs/index.html"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "Tianyan Capital",
-        "focus": "Social recruiting portal (official ATS)",
-        "itype": "Daily",
-        "location": "Beijing / Shanghai / Shenzhen",
-        "url": "https://app.mokahr.com/social-recruitment/tianyancapital/98901#/"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "JHL Fund",
-        "focus": "Talent program page",
-        "itype": "Summer / Daily",
-        "location": "Shanghai / Beijing",
-        "url": "https://www.jhlfund.com/career"
-    },
-    {
-        "cat": "quant_finance",
-        "company": "JHL Fund",
-        "focus": "Social recruiting portal (official ATS)",
-        "itype": "Daily",
-        "location": "China",
-        "url": "https://app.mokahr.com/social-recruitment/jhlfund/46283#/"
-    },
-    {
-        "cat": "autonomous",
-        "company": "NIO",
-        "focus": "Internship portal",
-        "itype": "Summer / Daily",
-        "location": "Shanghai / Beijing / Hefei",
-        "url": "https://nio.jobs.feishu.cn/intern/position/"
-    },
-    {
-        "cat": "autonomous",
-        "company": "NIO",
-        "focus": "Campus internship portal",
-        "itype": "Summer",
-        "location": "China",
-        "url": "https://nio.jobs.feishu.cn/campus/position/"
-    },
-    {
-        "cat": "autonomous",
-        "company": "XPeng",
-        "focus": "Campus internship portal",
-        "itype": "Summer",
-        "location": "Guangzhou / Shanghai / Beijing",
-        "url": "https://xiaopeng.jobs.feishu.cn/campus/position/list"
-    },
-    {
-        "cat": "autonomous",
-        "company": "XPeng",
-        "focus": "Official careers landing",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.xpeng.com/join-us"
-    },
-    {
-        "cat": "autonomous",
-        "company": "Li Auto",
-        "focus": "Campus internship portal",
-        "itype": "Summer",
-        "location": "Beijing / Shanghai / Changzhou",
-        "url": "https://www.lixiang.com/employ/campus/list.html"
-    },
-    {
-        "cat": "autonomous",
-        "company": "Li Auto",
-        "focus": "Internship search page",
-        "itype": "Daily",
-        "location": "China",
-        "url": "https://www.lixiang.com/employ/social/list.html?keyword=%E5%AE%9E%E4%B9%A0&fromJob=1"
-    },
-    {
-        "cat": "autonomous",
-        "company": "Geely",
-        "focus": "Campus internship portal",
-        "itype": "Summer",
-        "location": "China",
-        "url": "https://campus.geely.com/campus-recruitment/geely/78436/#/jobs?commitment%5B0%5D=%E5%AE%9E%E4%B9%A0&page=1&anchorName=jobsList"
-    },
-    {
-        "cat": "autonomous",
-        "company": "DJI",
-        "focus": "Campus internship portal",
-        "itype": "Summer / Daily",
-        "location": "Shenzhen / Shanghai",
-        "url": "https://we.dji.com/zh-CN/campus"
-    },
-    {
-        "cat": "autonomous",
-        "company": "Pony.ai",
-        "focus": "Official careers page",
-        "itype": "Summer / Daily",
-        "location": "Beijing / Shanghai / Guangzhou",
-        "url": "https://www.pony.ai/careers"
-    },
-    {
-        "cat": "autonomous",
-        "company": "Momenta",
-        "focus": "Official join-us page",
-        "itype": "Summer / Daily",
-        "location": "Suzhou / Shanghai / Beijing",
-        "url": "https://www.momenta.cn/join.html"
-    },
-    {
-        "cat": "autonomous",
-        "company": "WeRide",
-        "focus": "Official careers page",
-        "itype": "Summer / Daily",
-        "location": "Guangzhou / Beijing / Shanghai",
-        "url": "https://www.weride.ai/careers"
-    },
-    {
-        "cat": "autonomous",
-        "company": "Horizon Robotics",
-        "focus": "Campus recruiting portal",
-        "itype": "Summer / Daily",
-        "location": "Beijing / Shanghai / Nanjing",
-        "url": "https://horizon-campus.hotjob.cn"
-    },
-    {
-        "cat": "autonomous",
-        "company": "Unitree",
-        "focus": "Official company site",
-        "itype": "Summer / Daily",
-        "location": "Hangzhou",
-        "url": "https://www.unitree.com"
-    },
-    {
-        "cat": "autonomous",
-        "company": "UBTECH",
-        "focus": "Official company site",
-        "itype": "Summer / Daily",
-        "location": "Shenzhen",
-        "url": "https://www.ubtrobot.com"
-    },
-    {
-        "cat": "autonomous",
-        "company": "AutoX",
-        "focus": "Official company site",
-        "itype": "Summer / Daily",
-        "location": "Shenzhen / Shanghai",
-        "url": "https://www.autox.ai"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "Cambricon",
-        "focus": "Official join-us portal",
-        "itype": "Summer / Daily",
-        "location": "Beijing / Shanghai",
-        "url": "https://joinus.cambricon.com"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "Cambricon",
-        "focus": "Campus recruitment listing",
-        "itype": "Summer",
-        "location": "China",
-        "url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=185"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "Enflame",
-        "focus": "Official company site",
-        "itype": "Summer / Daily",
-        "location": "Shanghai",
-        "url": "https://www.enflame-tech.com"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "Intel China Campus",
-        "focus": "Official campus portal",
-        "itype": "Summer",
-        "location": "Beijing / Shanghai / Chengdu",
-        "url": "https://chinacampus.jobs.intel.cn/"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "AMD",
-        "focus": "China internship search",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://careers.amd.com/careers-home/jobs?keywords=intern&location=China"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "AMD",
-        "focus": "Official careers home",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://careers.amd.com/careers-home/"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "Qualcomm",
-        "focus": "China careers page",
-        "itype": "Summer / Daily",
-        "location": "Beijing / Shanghai",
-        "url": "https://www.qualcomm.cn/company/careers"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "Qualcomm",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "Global / China",
-        "url": "https://careers.qualcomm.com/careers"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "NVIDIA",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.nvidia.com/en-us/about-nvidia/careers/"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "NVIDIA",
-        "focus": "AI in Industry intern (Beijing)",
-        "itype": "Summer",
-        "location": "Beijing",
-        "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/China-Beijing/Solution-Architecture-Intern--AI-in-Industry---2026_JR2014186"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "NVIDIA",
-        "focus": "Deep Learning & HPC intern (Shanghai)",
-        "itype": "Summer",
-        "location": "Shanghai",
-        "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/China-Shanghai/Performance-Engineer-Intern--Deep-Learning-and-HPC---2026_JR2008053"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "Arm",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "Shanghai / Shenzhen",
-        "url": "https://www.arm.com/company/careers"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "Cadence",
-        "focus": "Official careers page",
-        "itype": "Summer / Daily",
-        "location": "Shanghai / Suzhou",
-        "url": "https://www.cadence.com/en_US/home/company/life-at-cadence/careers.html"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "Synopsys",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "Shanghai / Beijing",
-        "url": "https://careers.synopsys.com/"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "Analog Devices",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.analog.com/en/careers.html"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "STMicroelectronics",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.st.com/content/st_com/en/about/careers.html"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "Infineon",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.infineon.com/careers"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "TSMC",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "Greater China",
-        "url": "https://careers.tsmc.com/"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "ASML",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.asml.com/en/careers"
-    },
-    {
-        "cat": "international",
-        "company": "Apple",
-        "focus": "China internship search",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://jobs.apple.com/zh-cn/search?location=china-mainland"
-    },
-    {
-        "cat": "international",
-        "company": "Microsoft",
-        "focus": "Students & graduates in China",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://jobs.careers.microsoft.com/global/en/search?lc=China&exp=Students%20and%20graduates"
-    },
-    {
-        "cat": "international",
-        "company": "Amazon",
-        "focus": "Internship search in China",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.amazon.jobs/en/search?base_query=intern&loc_query=China"
-    },
-    {
-        "cat": "international",
-        "company": "AWS",
-        "focus": "Official careers page",
-        "itype": "Summer / Daily",
+        "location_zh": "北京 / 上海 / 深圳 / 杭州",
+        "opens": "2026-04-01",
+        "deadline": "Not announced",
+        "deadline_zh": "未公布",
+        "url": "https://seed.bytedance.com/zh/seedearlycareer",
+        "evidence_url": "https://seed.bytedance.com/zh/blog/bytedance-seed-2027-foundation-model-campus-recruitment-is-now-open-internships-included",
+        "evidence": "A: official campaign page",
+        "evidence_zh": "A：官网专项页",
+    },
+    {
+        "cat": "platforms",
+        "company": "ByteDance",
+        "company_zh": "字节跳动",
+        "focus": "Frontier Technology Talent Campus Recruitment",
+        "focus_zh": "前沿技术领域人才校招",
+        "batch": "Class of 2027+ full-time",
+        "batch_zh": "2027 届及以后正式岗",
+        "audience": "Class of 2027 and later; role-specific requirements",
+        "audience_zh": "2027 届及以后；以岗位要求为准",
         "location": "China / Global",
-        "url": "https://aws.amazon.com/careers/"
+        "location_zh": "中国 / 全球",
+        "opens": "Open",
+        "deadline": "Not announced",
+        "deadline_zh": "未公布",
+        "url": "https://jobs.bytedance.com/campus/position",
+        "evidence_url": "https://jobs.bytedance.com/campus/page-6272Gc",
+        "evidence": "A: official FAQ confirms cohort",
+        "evidence_zh": "A：官网 FAQ 明确届别",
     },
     {
-        "cat": "international",
-        "company": "Google",
-        "focus": "Jobs search with China location",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://careers.google.com/jobs/results/?location=China"
+        "cat": "platforms",
+        "company": "ByteDance",
+        "company_zh": "字节跳动",
+        "focus": "AI Product Manager Early-Bird Interview",
+        "focus_zh": "AI 产品经理早鸟通道",
+        "batch": "Fall early batch / interview event",
+        "batch_zh": "秋招提前批 / 面试专场",
+        "audience": "Graduating Sep 2026-Aug 2027",
+        "audience_zh": "2026.09-2027.08 毕业",
+        "location": "Beijing / Shanghai / Shenzhen",
+        "location_zh": "北京 / 上海 / 深圳",
+        "opens": "2026-07-14",
+        "deadline": "2026-07-31",
+        "deadline_zh": "2026-07-31",
+        "url": "https://wj.toutiao.com/q/v2/7657509120173735979/975xOc70/4d7d/#/",
+        "evidence_url": "https://career.cuhk.edu.cn/job/view/id/468770",
+        "evidence": "B: official form + employer notice repost",
+        "evidence_zh": "B：官方问卷 + 企业公告转载",
     },
     {
-        "cat": "international",
-        "company": "IBM",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://careers.ibm.com/"
-    },
-    {
-        "cat": "international",
-        "company": "Dell",
-        "focus": "China jobs search",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://jobs.dell.com/search-jobs/China"
-    },
-    {
-        "cat": "international",
-        "company": "Oracle",
-        "focus": "Official careers page",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.oracle.com/careers/"
-    },
-    {
-        "cat": "international",
-        "company": "Oracle",
-        "focus": "Official job search portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://careers.oracle.com/jobs/"
-    },
-    {
-        "cat": "international",
-        "company": "SAP",
-        "focus": "China location search",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://jobs.sap.com/search/?q=&locationsearch=China"
-    },
-    {
-        "cat": "international",
-        "company": "Siemens",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://jobs.siemens.com/careers"
-    },
-    {
-        "cat": "international",
-        "company": "Bosch",
-        "focus": "China careers page",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.bosch.com.cn/careers/"
-    },
-    {
-        "cat": "international",
-        "company": "Philips",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://careers.philips.com/global/en"
-    },
-    {
-        "cat": "international",
-        "company": "Sony China",
-        "focus": "Campus recruitment page",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.sony.com.cn/content/sonyportal_hr/Campus_Recruitment.html"
-    },
-    {
-        "cat": "international",
-        "company": "Samsung",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://careers.samsung.com/"
-    },
-    {
-        "cat": "international",
-        "company": "Adobe",
-        "focus": "China internship keyword search",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://careers.adobe.com/us/en/search-results?keywords=intern&location=china"
-    },
-    {
-        "cat": "international",
-        "company": "OpenAI",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "Global / China-based roles if open",
-        "url": "https://openai.com/careers/search"
-    },
-    {
-        "cat": "international",
-        "company": "Optiver",
-        "focus": "Shanghai ML PhD internship",
-        "itype": "Summer",
-        "location": "Shanghai",
-        "url": "https://optiver.com/working-at-optiver/career-opportunities/8324932002/?gh_jid=8324932002"
-    },
-    {
-        "cat": "international",
-        "company": "Jane Street",
-        "focus": "Machine Learning Researcher Internship (Hong Kong)",
-        "itype": "Winter",
-        "location": "Hong Kong",
-        "url": "https://www.janestreet.com/join-jane-street/position/8374335002"
-    },
-    {
-        "cat": "international",
-        "company": "Jane Street",
-        "focus": "Quantitative Trader Internship (Hong Kong)",
-        "itype": "Summer / Winter",
-        "location": "Hong Kong",
-        "url": "https://www.janestreet.com/join-jane-street/position/7982986002"
-    },
-    {
-        "cat": "international",
-        "company": "Jane Street",
-        "focus": "Quantitative Researcher Internship (Hong Kong)",
-        "itype": "Winter",
-        "location": "Hong Kong",
-        "url": "https://www.janestreet.com/join-jane-street/position/8343131002"
-    },
-    {
-        "cat": "international",
-        "company": "Intel",
-        "focus": "Data Science & Analytics Undergraduate Intern (Taipei)",
-        "itype": "Summer",
-        "location": "Taipei",
-        "url": "https://intel.wd1.myworkdayjobs.com/en-US/external/job/Taiwan-Taipei/Data-Science-and-Analytics-Undergraduate---Intern_JR0280981-1"
-    },
-    {
-        "cat": "international",
-        "company": "Moloco",
-        "focus": "Data Scientist Intern - Growth Analytics (Shanghai)",
-        "itype": "Fall/Winter/Spring",
-        "location": "Shanghai",
-        "url": "https://job-boards.greenhouse.io/moloco/jobs/7632942003"
-    },
-    {
-        "cat": "international",
-        "company": "Moloco",
-        "focus": "Data Scientist Intern - Growth Analytics (Beijing)",
-        "itype": "Fall/Winter/Spring",
-        "location": "Beijing",
-        "url": "https://job-boards.greenhouse.io/moloco/jobs/7632717003"
-    },
-    {
-        "cat": "international",
-        "company": "Ekimetrics",
-        "focus": "Strategy & Data Science internship (Shanghai)",
-        "itype": "Summer",
-        "location": "Shanghai",
-        "url": "https://jobs.lever.co/ekimetrics/41495c5a-ce21-48b9-8afc-70c968822b42/apply"
-    },
-    {
-        "cat": "international",
-        "company": "AlphaGrep Securities",
-        "focus": "Quant Research Intern - Equity Factors (Shanghai)",
-        "itype": "Summer",
-        "location": "Shanghai",
-        "url": "https://job-boards.greenhouse.io/alphagrepsecurities/jobs/7958037002"
-    },
-    {
-        "cat": "international",
-        "company": "AlphaGrep Securities",
-        "focus": "Quant Research Intern - Machine Learning (Shanghai)",
-        "itype": "Summer",
-        "location": "Shanghai",
-        "url": "https://job-boards.greenhouse.io/alphagrepsecurities/jobs/7958042002"
-    },
-    {
-        "cat": "international",
-        "company": "Philips",
-        "focus": "Data Analyst/Data Mining Intern (Shanghai)",
-        "itype": "Summer",
-        "location": "Shanghai",
-        "url": "https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Shanghai/---_578274"
-    },
-    {
-        "cat": "international",
-        "company": "Philips",
-        "focus": "AI Data Scientist Intern (Shanghai)",
-        "itype": "Summer",
-        "location": "Shanghai",
-        "url": "https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Shanghai/Intern---AI-data-scientist_572718"
-    },
-    {
-        "cat": "international",
-        "company": "Appier",
-        "focus": "Data Analyst Intern (Taiwan)",
-        "itype": "Summer",
-        "location": "Taiwan",
-        "url": "https://job-boards.greenhouse.io/appier/jobs/7495834"
-    },
-    {
-        "cat": "international",
-        "company": "Meshy",
-        "focus": "Generative AI Pipeline Engineer Intern (Shanghai)",
-        "itype": "Summer",
-        "location": "Shanghai",
-        "url": "https://jobs.ashbyhq.com/meshy/8c30a345-2c26-4d72-ae76-91c5834fc435"
-    },
-    {
-        "cat": "international",
-        "company": "Meshy",
-        "focus": "Generative AI Researcher Intern (Shanghai)",
-        "itype": "Summer",
-        "location": "Shanghai",
-        "url": "https://jobs.ashbyhq.com/meshy/00b6328d-8c32-4b91-aafa-51434e965f37"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Ant Group",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.antgroup.com/careers"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Didi",
-        "focus": "Official talent portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://talent.didiglobal.com/"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Didi",
-        "focus": "Campus internship portal",
-        "itype": "Summer",
-        "location": "China",
-        "url": "https://talent.didiglobal.com/campus"
-    },
-    {
-        "cat": "china_internet",
-        "company": "WeBank",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "Shenzhen / Beijing",
-        "url": "https://www.webank.com/career"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Huawei",
-        "focus": "Campus recruiting home",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://career.huawei.com/reccampportal/portal5/index.html"
-    },
-    {
-        "cat": "china_internet",
-        "company": "Alibaba",
-        "focus": "Campus recruiting home",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://talent.alibaba.com/campus"
-    },
-    {
-        "cat": "china_internet",
+        "cat": "platforms",
         "company": "Tencent",
-        "focus": "Campus recruiting home",
-        "itype": "Summer / Daily",
+        "company_zh": "腾讯",
+        "focus": "Qingyun Program 2027",
+        "focus_zh": "2027 青云计划",
+        "batch": "Top AI talent program",
+        "batch_zh": "顶尖 AI 人才专项",
+        "audience": "Graduating Jan 2026-Dec 2027 (B/M/PhD)",
+        "audience_zh": "2026.01-2027.12 毕业的本/硕/博",
+        "location": "China / US / Singapore / Europe",
+        "location_zh": "中国 / 美国 / 新加坡 / 欧洲",
+        "opens": "2026-07-15",
+        "deadline": "Not announced",
+        "deadline_zh": "未公布",
+        "url": "https://join.qq.com/",
+        "evidence_url": "https://www.yicai.com/news/103276437.html",
+        "evidence": "B: official portal + launch report",
+        "evidence_zh": "B：官网入口 + 启动报道",
+    },
+    {
+        "cat": "platforms",
+        "company": "Alibaba",
+        "company_zh": "阿里巴巴",
+        "focus": "AliStar 2027 Graduate Program",
+        "focus_zh": "阿里星 2027 届应届生招聘",
+        "batch": "Top research talent program",
+        "batch_zh": "顶尖科研人才专项",
+        "audience": "Graduating Nov 2026-Oct 2027",
+        "audience_zh": "2026.11-2027.10 毕业",
         "location": "China",
-        "url": "https://join.qq.com/"
+        "location_zh": "中国",
+        "opens": "2026-06-22",
+        "deadline": "Not announced",
+        "deadline_zh": "未公布",
+        "url": "https://campus-talent.alibaba.com/campus/alistar",
+        "evidence_url": "https://campus-talent.alibaba.com/campus/trends",
+        "evidence": "A: official campaign page",
+        "evidence_zh": "A：官网专项页",
     },
     {
-        "cat": "china_internet",
-        "company": "Bilibili",
-        "focus": "Campus positions list",
-        "itype": "Summer / Daily",
+        "cat": "platforms",
+        "company": "Baidu",
+        "company_zh": "百度",
+        "focus": "2027 Campus Recruitment (incl. AIDU / trainee)",
+        "focus_zh": "2027 届校招（含 AIDU / 管培生）",
+        "batch": "Fall recruitment / talent programs",
+        "batch_zh": "秋招 / 人才专项",
+        "audience": "Graduating Sep 2026-Aug 2027",
+        "audience_zh": "2026.09-2027.08 毕业",
+        "location": "Beijing / Shanghai / Shenzhen / others",
+        "location_zh": "北京 / 上海 / 深圳 / 其他",
+        "opens": "2026-07-09",
+        "deadline": "2027-06",
+        "deadline_zh": "2027-06",
+        "url": "https://talent.baidu.com/jobs/list?recruitType=GRADUATE",
+        "evidence_url": "https://talent.baidu.com/jobs/campus",
+        "evidence": "A: official campaign page",
+        "evidence_zh": "A：官网校招页",
+    },
+    {
+        "cat": "platforms",
+        "company": "PDD",
+        "company_zh": "拼多多",
+        "focus": "2027 Graduate Recruitment / Top Tech Track",
+        "focus_zh": "2027 届应届生招聘 / 顶尖技术人才专项",
+        "batch": "Fall recruitment",
+        "batch_zh": "秋招",
+        "audience": "Graduating Sep 2026-Aug 2027",
+        "audience_zh": "2026.09-2027.08 毕业",
         "location": "China",
-        "url": "https://jobs.bilibili.com/campus/positions"
+        "location_zh": "中国",
+        "opens": "Open by 2026-07-09",
+        "deadline": "Not announced",
+        "deadline_zh": "未公布",
+        "url": "https://careers.pddglobalhr.com/campus/grad",
+        "evidence_url": "https://careers.pddglobalhr.com/campus/",
+        "evidence": "A: official site shows 2027 project",
+        "evidence_zh": "A：官网明确显示 2027 项目",
     },
     {
-        "cat": "china_internet",
-        "company": "Lenovo",
-        "focus": "Talent portal home",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://talent.lenovo.com.cn/"
+        "cat": "platforms",
+        "company": "Meituan",
+        "company_zh": "美团",
+        "focus": "Beidou Program 2027",
+        "focus_zh": "2027 届北斗计划",
+        "batch": "Top AI talent program",
+        "batch_zh": "顶尖 AI 人才专项",
+        "audience": "Graduating Jan 2026-Dec 2027",
+        "audience_zh": "2026.01-2027.12 毕业",
+        "location": "Beijing / Shanghai / Shenzhen / Chengdu / Global",
+        "location_zh": "北京 / 上海 / 深圳 / 成都 / 全球",
+        "opens": "2026-06-11",
+        "deadline": "Rolling",
+        "deadline_zh": "全年滚动",
+        "url": "https://zhaopin.meituan.com/web/campus?bg=BGCLC",
+        "evidence_url": "https://pjcareer.dlut.edu.cn/info/1091/44132.htm",
+        "evidence": "B: official portal + employer notice repost",
+        "evidence_zh": "B：官网入口 + 企业公告转载",
     },
     {
-        "cat": "china_llm",
-        "company": "StepFun",
-        "focus": "Official company site",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.stepfun.com/"
+        "cat": "platforms",
+        "company": "JD",
+        "company_zh": "京东",
+        "focus": "TET 2027 Management Trainee",
+        "focus_zh": "2027 届 TET 管理培训生",
+        "batch": "Early talent program",
+        "batch_zh": "人才专项提前批",
+        "audience": "Graduating Oct 2026-Sep 2027",
+        "audience_zh": "2026.10-2027.09 毕业",
+        "location": "Beijing / Suqian / business locations",
+        "location_zh": "北京 / 宿迁 / 各业务所在地",
+        "opens": "2026-07-01",
+        "deadline": "2026-10-31",
+        "deadline_zh": "2026-10-31",
+        "url": "https://campus.jd.com/#/jobs",
+        "evidence_url": "https://www.nowcoder.com/jobs/detail/453018",
+        "evidence": "B: official portal + verified employer listing",
+        "evidence_zh": "B：官网入口 + 企业认证岗位",
     },
     {
-        "cat": "china_llm",
-        "company": "4Paradigm",
-        "focus": "Official company site",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.4paradigm.com/"
+        "cat": "platforms",
+        "company": "Xiaomi",
+        "company_zh": "小米",
+        "focus": "Top-Talent Graduate Recruitment",
+        "focus_zh": "顶尖人才应届生招聘",
+        "batch": "Top AI talent program",
+        "batch_zh": "顶尖 AI 人才专项",
+        "audience": "Graduated 2024-2027; postdocs leaving in 2027",
+        "audience_zh": "2024-2027 届应届生及 2027 年出站博士后",
+        "location": "China / Global",
+        "location_zh": "中国 / 全球",
+        "opens": "Open",
+        "deadline": "Not announced",
+        "deadline_zh": "未公布",
+        "url": "https://hr.xiaomi.com/campus/",
+        "evidence_url": "https://hr.xiaomi.com/website/top-talent.html",
+        "evidence": "A: official top-talent page",
+        "evidence_zh": "A：官网顶尖人才页",
     },
     {
-        "cat": "china_llm",
-        "company": "AISpeech",
-        "focus": "Official company site",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.aispeech.com/"
+        "cat": "platforms",
+        "company": "Huawei",
+        "company_zh": "华为",
+        "focus": "Class of 2027 Top AI Talent Initiative",
+        "focus_zh": "2027 届顶尖 AI 人才专项",
+        "batch": "Top AI talent program",
+        "batch_zh": "顶尖 AI 人才专项",
+        "audience": "Class of 2027; role-specific degree requirements",
+        "audience_zh": "2027 届；学历以岗位要求为准",
+        "location": "China / Global",
+        "location_zh": "中国 / 全球",
+        "opens": "2026-05-19",
+        "deadline": "Not announced",
+        "deadline_zh": "未公布",
+        "url": "https://career.huawei.com/cn/campus-recruitment",
+        "evidence_url": "https://career.huawei.com/cn/campus-recruitment",
+        "evidence": "A: official activity and apply page",
+        "evidence_zh": "A：官网活动及投递页",
     },
     {
-        "cat": "china_llm",
-        "company": "AISpeech",
-        "focus": "Join-us portal",
-        "itype": "Summer / Daily",
-        "location": "Suzhou / Beijing / Shanghai",
-        "url": "https://www.aispeech.com/join-us"
+        "cat": "ai_programs",
+        "company": "iFlytek",
+        "company_zh": "科大讯飞",
+        "focus": "Feixing Program 2027",
+        "focus_zh": "2027 届飞星计划",
+        "batch": "Research-algorithm early batch",
+        "batch_zh": "研究算法提前批",
+        "audience": "Class of 2027 Master's / PhD graduates",
+        "audience_zh": "2027 届硕士 / 博士",
+        "location": "Hefei / Beijing / Xi'an / Guangzhou / Shanghai",
+        "location_zh": "合肥 / 北京 / 西安 / 广州 / 上海",
+        "opens": "2026-06-14",
+        "deadline": "Not announced",
+        "deadline_zh": "未公布",
+        "url": "https://iflytek.zhiye.com/4/jobs",
+        "evidence_url": "https://career.nankai.edu.cn/correcruit/content/id/116162.html",
+        "evidence": "B: official ATS + employer notice repost",
+        "evidence_zh": "B：官方 ATS + 企业公告转载",
     },
     {
-        "cat": "china_llm",
-        "company": "Mobvoi",
-        "focus": "Official company site",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.mobvoi.com/"
+        "cat": "ai_programs",
+        "company": "iFlytek",
+        "company_zh": "科大讯飞",
+        "focus": "Feifan Program 2027",
+        "focus_zh": "2027 届飞凡计划",
+        "batch": "Future-leader early batch",
+        "batch_zh": "未来领导者提前批",
+        "audience": "Class of 2027; major unrestricted",
+        "audience_zh": "2027 届；专业不限",
+        "location": "Hefei",
+        "location_zh": "合肥",
+        "opens": "Open by 2026-07-02",
+        "deadline": "Not announced",
+        "deadline_zh": "未公布",
+        "url": "https://iflytek.zhiye.com/5/jobs",
+        "evidence_url": "https://ejob.dhu.edu.cn/single/2026/07/02/2607021423534921003320030219103058410002.html",
+        "evidence": "B: official ATS + employer notice repost",
+        "evidence_zh": "B：官方 ATS + 企业公告转载",
     },
     {
-        "cat": "china_llm",
-        "company": "Mobvoi",
-        "focus": "Official careers page",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.mobvoi.com/pages/career"
+        "cat": "robotics",
+        "company": "DJI",
+        "company_zh": "大疆",
+        "focus": "2027 Pioneer Campus Recruitment",
+        "focus_zh": "2027“拓疆者”校园招聘",
+        "batch": "Fall recruitment",
+        "batch_zh": "秋招",
+        "audience": "Class of 2027 graduates",
+        "audience_zh": "2027 届高校毕业生",
+        "location": "Shenzhen / Shanghai / Xi'an / others",
+        "location_zh": "深圳 / 上海 / 西安 / 其他",
+        "opens": "2026-06-25",
+        "deadline": "Rolling until filled",
+        "deadline_zh": "招满即止",
+        "url": "https://careers.dji.com/zh-CN/campus/recruitment?from=sec_nav",
+        "evidence_url": "https://careers.dji.com/zh-CN/campus/recruitment?from=sec_nav",
+        "evidence": "A: official campaign page",
+        "evidence_zh": "A：官网专项页",
     },
     {
-        "cat": "china_llm",
-        "company": "CloudWalk",
-        "focus": "Official company site",
-        "itype": "Summer / Daily",
-        "location": "Guangzhou / Shanghai",
-        "url": "https://www.cloudwalk.com/"
+        "cat": "robotics",
+        "company": "XPeng",
+        "company_zh": "小鹏集团",
+        "focus": "Explorer Program 2027",
+        "focus_zh": "2027 届“探索者计划”",
+        "batch": "Global campus recruitment",
+        "batch_zh": "全球校园招聘",
+        "audience": "Graduating Sep 2026-Aug 2027",
+        "audience_zh": "2026.09-2027.08 毕业",
+        "location": "Guangzhou / Shenzhen / Shanghai / Beijing / Global",
+        "location_zh": "广州 / 深圳 / 上海 / 北京 / 全球",
+        "opens": "2026-07-07",
+        "deadline": "Not announced",
+        "deadline_zh": "未公布",
+        "url": "https://xiaopeng.jobs.feishu.cn/campus/position/list",
+        "evidence_url": "https://career.hebut.edu.cn/correcruit/content/id/78926.html",
+        "evidence": "B: official ATS + employer notice repost",
+        "evidence_zh": "B：官方 ATS + 企业公告转载",
     },
     {
-        "cat": "china_llm",
-        "company": "Intellifusion",
-        "focus": "Official company site",
-        "itype": "Summer / Daily",
-        "location": "Shenzhen / Nanjing",
-        "url": "https://www.intellif.com/"
+        "cat": "robotics",
+        "company": "Pudu Robotics",
+        "company_zh": "普渡机器人",
+        "focus": "Class of 2027 Campus Recruitment",
+        "focus_zh": "2027 届校园招聘",
+        "batch": "Fall recruitment",
+        "batch_zh": "秋招",
+        "audience": "Graduating Jan-Dec 2027",
+        "audience_zh": "2027.01-2027.12 毕业",
+        "location": "Shenzhen / Chengdu / others",
+        "location_zh": "深圳 / 成都 / 其他",
+        "opens": "2026-06-26",
+        "deadline": "Rolling",
+        "deadline_zh": "滚动招聘",
+        "url": "https://pudutech.zhiye.com/campus",
+        "evidence_url": "https://career.nankai.edu.cn/correcruit/content/id/116156.html",
+        "evidence": "B: official ATS + employer notice repost",
+        "evidence_zh": "B：官方 ATS + 企业公告转载",
     },
     {
-        "cat": "china_llm",
-        "company": "SmartMore",
-        "focus": "Official company site",
-        "itype": "Summer / Daily",
-        "location": "Shenzhen / Shanghai",
-        "url": "https://www.smartmore.com/"
-    },
-    {
-        "cat": "china_llm",
-        "company": "Unisound",
-        "focus": "Official company site",
-        "itype": "Summer / Daily",
-        "location": "Beijing / Hefei",
-        "url": "https://www.unisound.com/"
-    },
-    {
-        "cat": "autonomous",
-        "company": "BYD",
-        "focus": "Official jobs portal",
-        "itype": "Summer / Daily",
-        "location": "Shenzhen / Xi'an / Changsha",
-        "url": "https://job.byd.com/"
-    },
-    {
-        "cat": "autonomous",
-        "company": "Tesla China",
-        "focus": "China careers search",
-        "itype": "Summer / Daily",
-        "location": "Shanghai / Beijing / Shenzhen",
-        "url": "https://www.tesla.cn/careers"
-    },
-    {
-        "cat": "autonomous",
+        "cat": "robotics",
         "company": "Hesai Technology",
-        "focus": "Official careers page",
-        "itype": "Summer / Daily",
-        "location": "Shanghai",
-        "url": "https://www.hesaitech.com/careers"
+        "company_zh": "禾赛科技",
+        "focus": "Class of 2027 Fall Early Batch",
+        "focus_zh": "2027 届秋招提前批",
+        "batch": "Fall early batch",
+        "batch_zh": "秋招提前批",
+        "audience": "Class of 2027 graduates",
+        "audience_zh": "2027 届毕业生",
+        "location": "Shanghai / Hangzhou",
+        "location_zh": "上海 / 杭州",
+        "opens": "2026-06-16",
+        "deadline": "2026-08-31",
+        "deadline_zh": "2026-08-31",
+        "url": "https://kwh0jtf778.jobs.feishu.cn/229043/",
+        "evidence_url": "https://hzau.91wllm.cn/news/view/aid/298571/tag/xwzp",
+        "evidence": "B: official ATS + employer notice repost",
+        "evidence_zh": "B：官方 ATS + 企业公告转载",
     },
     {
-        "cat": "chips_infra",
-        "company": "AMD",
-        "focus": "China AI jobs search",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://careers.amd.com/careers-home/jobs?keywords=AI&location=China"
+        "cat": "robotics",
+        "company": "AgiBot",
+        "company_zh": "智元机器人",
+        "focus": "2027 Outstanding Talent Program",
+        "focus_zh": "2027 届优才计划",
+        "batch": "Embodied-AI top-talent program",
+        "batch_zh": "具身智能顶尖人才专项",
+        "audience": "Class of 2027 Master's / PhD graduates",
+        "audience_zh": "2027 届硕士 / 博士",
+        "location": "Shanghai / Beijing / Shenzhen",
+        "location_zh": "上海 / 北京 / 深圳",
+        "opens": "Open by 2026-06-26",
+        "deadline": "Not announced",
+        "deadline_zh": "未公布",
+        "url": "https://agirobot.jobs.feishu.cn/946993/position/list",
+        "evidence_url": "https://ejob.dhu.edu.cn/pros_wjdc/s/cms/DongHua/single/2026/06/26/26062610362142818624",
+        "evidence": "B: official ATS + employer notice repost",
+        "evidence_zh": "B：官方 ATS + 企业公告转载",
     },
     {
-        "cat": "chips_infra",
-        "company": "AMD",
-        "focus": "Internship keyword search",
-        "itype": "Summer / Daily",
+        "cat": "chips",
+        "company": "ZTE",
+        "company_zh": "中兴通讯",
+        "focus": "2027 Future Leaders Recruitment",
+        "focus_zh": "2027 届未来领军人才招聘",
+        "batch": "Top-talent early batch",
+        "batch_zh": "顶尖人才提前批",
+        "audience": "Class of 2027; role-specific requirements",
+        "audience_zh": "2027 届；以岗位要求为准",
         "location": "China / Global",
-        "url": "https://careers.amd.com/careers-home/jobs?keywords=intern"
+        "location_zh": "中国 / 全球",
+        "opens": "2026-06-29",
+        "deadline": "Not announced",
+        "deadline_zh": "未公布",
+        "url": "https://job.zte.com.cn/cn/campus-recruitment",
+        "evidence_url": "https://job.zte.com.cn/cn/campus-recruitment/School_Recruitment_Announcement/news/202406061.html",
+        "evidence": "A: official announcement",
+        "evidence_zh": "A：官网公告",
     },
     {
-        "cat": "chips_infra",
-        "company": "AMD",
-        "focus": "China location jobs search",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://careers.amd.com/careers-home/jobs?location=China"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "Qualcomm",
-        "focus": "Intern keyword search",
-        "itype": "Summer / Daily",
-        "location": "China / Global",
-        "url": "https://careers.qualcomm.com/careers?query=intern"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "Applied Materials",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://careers.appliedmaterials.com/careers"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "Lam Research",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://careers.lamresearch.com/"
-    },
-    {
-        "cat": "chips_infra",
+        "cat": "chips",
         "company": "MediaTek",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "Mainland China / Taiwan",
-        "url": "https://careers.mediatek.com/"
+        "company_zh": "联发科技",
+        "focus": "Class of 2027 Campus Early Batch",
+        "focus_zh": "2027 届校园招聘提前批",
+        "batch": "Fall early batch",
+        "batch_zh": "秋招提前批",
+        "audience": "Class of 2027 graduates",
+        "audience_zh": "2027 届毕业生",
+        "location": "Beijing / Shanghai / Shenzhen / Chengdu / Hefei / Wuhan",
+        "location_zh": "北京 / 上海 / 深圳 / 成都 / 合肥 / 武汉",
+        "opens": "2026-07-11",
+        "deadline": "Not announced",
+        "deadline_zh": "未公布",
+        "url": "https://mediatek.zhiye.com/campus/jobs",
+        "evidence_url": "https://mp.weixin.qq.com/s/7PbNs1897a6QgmWoXYflEA",
+        "evidence": "B: official ATS + official account notice",
+        "evidence_zh": "B：官方 ATS + 官方号公告",
     },
     {
-        "cat": "chips_infra",
-        "company": "Micron",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://careers.micron.com/careers"
+        "cat": "chips",
+        "company": "ASML",
+        "company_zh": "ASML 阿斯麦",
+        "focus": "Class of 2027 China Campus Recruitment",
+        "focus_zh": "2027 届中国校园招聘",
+        "batch": "Fall recruitment",
+        "batch_zh": "秋招",
+        "audience": "Class of 2027 graduates (Bachelor's degree or above)",
+        "audience_zh": "2027 届本科及以上毕业生",
+        "location": "Beijing / Shanghai / Hefei",
+        "location_zh": "北京 / 上海 / 合肥",
+        "opens": "Open by 2026-07-07",
+        "deadline": "Not announced",
+        "deadline_zh": "未公布",
+        "url": "https://www.asml.com/en/careers/find-your-job",
+        "evidence_url": "https://sfi.cuhk.edu.cn/zh-hans/node/10816",
+        "evidence": "B: official job portal + employer notice repost",
+        "evidence_zh": "B：官网投递入口 + 企业公告转载",
     },
     {
-        "cat": "chips_infra",
-        "company": "KLA",
-        "focus": "Official job search portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://kla.wd1.myworkdayjobs.com/Search"
+        "cat": "chips",
+        "company": "ArcSoft",
+        "company_zh": "虹软科技",
+        "focus": "Class of 2027 Fall Early Batch",
+        "focus_zh": "2027 届秋招提前批",
+        "batch": "CV / AIGC early batch",
+        "batch_zh": "视觉 / AIGC 提前批",
+        "audience": "Class of 2027 graduates",
+        "audience_zh": "2027 届毕业生",
+        "location": "Hangzhou / Shanghai / Nanjing / Shenzhen / Global",
+        "location_zh": "杭州 / 上海 / 南京 / 深圳 / 全球",
+        "opens": "2026-07-10",
+        "deadline": "2026-08-20",
+        "deadline_zh": "2026-08-20",
+        "url": "https://www.arcsoft.com.cn/job/JobList.html",
+        "evidence_url": "https://mp.weixin.qq.com/s/soNYJJNGMAkhUxy37vd9xg",
+        "evidence": "B: official career page + official notice",
+        "evidence_zh": "B：官网投递页 + 官方公告",
     },
     {
-        "cat": "chips_infra",
-        "company": "Texas Instruments",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.ti.com/careers"
+        "cat": "chips",
+        "company": "Southchip",
+        "company_zh": "南芯科技",
+        "focus": "Class of 2027 Campus Recruitment",
+        "focus_zh": "2027 届校园招聘",
+        "batch": "Fall recruitment",
+        "batch_zh": "秋招",
+        "audience": "Class of 2027 graduates",
+        "audience_zh": "2027 届毕业生",
+        "location": "Shanghai / Chengdu / Shenzhen / Beijing / others",
+        "location_zh": "上海 / 成都 / 深圳 / 北京 / 其他",
+        "opens": "2026-07-11",
+        "deadline": "Not announced",
+        "deadline_zh": "未公布",
+        "url": "https://www.southchip.com/recruitment",
+        "evidence_url": "https://mp.weixin.qq.com/s/YuEhQAMXIodLyuav0MiwVg",
+        "evidence": "B: official career page + official notice",
+        "evidence_zh": "B：官网招聘页 + 官方公告",
     },
     {
-        "cat": "chips_infra",
-        "company": "Biren Technology",
-        "focus": "Official company site",
-        "itype": "Summer / Daily",
+        "cat": "chips",
+        "company": "Silergy",
+        "company_zh": "矽力杰",
+        "focus": "Class of 2027 Campus Recruitment",
+        "focus_zh": "2027 届校园招聘",
+        "batch": "Fall recruitment",
+        "batch_zh": "秋招",
+        "audience": "Class of 2027 graduates",
+        "audience_zh": "2027 届毕业生",
+        "location": "Suzhou / Hangzhou / Shanghai / Shenzhen / others",
+        "location_zh": "苏州 / 杭州 / 上海 / 深圳 / 其他",
+        "opens": "2026-07-11",
+        "deadline": "Not announced",
+        "deadline_zh": "未公布",
+        "url": "https://campus.51job.com/m/xz-xlj/",
+        "evidence_url": "https://mp.weixin.qq.com/s/mWitINflW-NJAjPlhagDVA",
+        "evidence": "B: official campaign site + official notice",
+        "evidence_zh": "B：官方校招站 + 官方公告",
+    },
+    {
+        "cat": "other",
+        "company": "miHoYo",
+        "company_zh": "米哈游",
+        "focus": "Class of 2027 Technical Early Batch",
+        "focus_zh": "2027 校招技术提前批",
+        "batch": "Fall technical early batch",
+        "batch_zh": "秋招技术提前批",
+        "audience": "Graduating Sep 2026-Aug 2027",
+        "audience_zh": "2026.09-2027.08 毕业",
         "location": "Shanghai / Beijing",
-        "url": "https://www.birentech.com/"
+        "location_zh": "上海 / 北京",
+        "opens": "2026-07-06",
+        "deadline": "2026-07-27",
+        "deadline_zh": "2026-07-27",
+        "url": "https://campus.mihoyo.com/",
+        "evidence_url": "https://campus.mihoyo.com/",
+        "evidence": "A: official campaign page",
+        "evidence_zh": "A：官网专项页",
     },
     {
-        "cat": "chips_infra",
-        "company": "Iluvatar CoreX",
-        "focus": "Official company site",
-        "itype": "Summer / Daily",
-        "location": "Shanghai / Beijing",
-        "url": "https://www.iluvatar.com/"
+        "cat": "other",
+        "company": "Wind Information",
+        "company_zh": "万得信息（Wind）",
+        "focus": "2027 Campus Recruitment",
+        "focus_zh": "2027 年校园招聘",
+        "batch": "Graduate recruitment",
+        "batch_zh": "应届生招聘",
+        "audience": "Graduating Sep 2026-Aug 2027",
+        "audience_zh": "2026.09-2027.08 毕业",
+        "location": "Shanghai / Nanjing / Beijing / others",
+        "location_zh": "上海 / 南京 / 北京 / 其他",
+        "opens": "Open",
+        "deadline": "Not announced",
+        "deadline_zh": "未公布",
+        "url": "https://www.wind.com.cn/portal/zh/JoinUs/recruit.html",
+        "evidence_url": "https://www.wind.com.cn/portal/zh/JoinUs/recruit.html",
+        "evidence": "A: official page shows 2027 roles",
+        "evidence_zh": "A：官网明确显示 2027 岗位",
     },
     {
-        "cat": "chips_infra",
-        "company": "Iluvatar CoreX",
-        "focus": "Official careers page",
-        "itype": "Summer / Daily",
-        "location": "Shanghai / Beijing",
-        "url": "https://www.iluvatar.com/careers"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "Loongson",
-        "focus": "Official company site",
-        "itype": "Summer / Daily",
+        "cat": "other",
+        "company": "CAS Technology and Engineering Center for Space Utilization",
+        "company_zh": "中科院空间应用工程与技术中心",
+        "focus": "Class of 2027 Campus Recruitment",
+        "focus_zh": "2027 届校园招聘",
+        "batch": "Research institute graduate recruitment",
+        "batch_zh": "科研院所应届生招聘",
+        "audience": "Class of 2027 graduates; role-specific degrees",
+        "audience_zh": "2027 届；学历以岗位要求为准",
         "location": "Beijing",
-        "url": "https://www.loongson.cn/"
+        "location_zh": "北京",
+        "opens": "2026-04-21",
+        "deadline": "2026-12-31",
+        "deadline_zh": "2026-12-31",
+        "url": "https://csu.zhiye.com/AllJob",
+        "evidence_url": "https://csu.cas.cn/gb/yjdw/rczp/202604/t20260421_8188165.html",
+        "evidence": "A: official institute announcement",
+        "evidence_zh": "A：研究所官网公告",
     },
-    {
-        "cat": "chips_infra",
-        "company": "Moore Threads",
-        "focus": "Official company site",
-        "itype": "Summer / Daily",
-        "location": "Beijing",
-        "url": "https://www.mthreads.com/"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "Cambricon",
-        "focus": "Official company site",
-        "itype": "Summer / Daily",
-        "location": "Beijing / Shanghai",
-        "url": "https://www.cambricon.com/"
-    },
-    {
-        "cat": "chips_infra",
-        "company": "Intel",
-        "focus": "Global jobs portal",
-        "itype": "Summer / Daily",
-        "location": "China / Global",
-        "url": "https://www.intel.com/content/www/us/en/jobs/life-at-intel.html"
-    },
-    {
-        "cat": "international",
-        "company": "Apple",
-        "focus": "Apple careers CN home",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.apple.com/careers/cn/"
-    },
-    {
-        "cat": "international",
-        "company": "Apple",
-        "focus": "Machine Learning & AI team search",
-        "itype": "Summer / Daily",
-        "location": "China / Global",
-        "url": "https://jobs.apple.com/zh-cn/search?team=machine-learning-and-ai-SFTWR-MLAI"
-    },
-    {
-        "cat": "international",
-        "company": "Apple",
-        "focus": "China + ML/AI combined search",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://jobs.apple.com/zh-cn/search?location=china-mainland&team=machine-learning-and-ai-SFTWR-MLAI"
-    },
-    {
-        "cat": "international",
-        "company": "Amazon",
-        "focus": "Internships for students",
-        "itype": "Summer / Daily",
-        "location": "Global / China filter",
-        "url": "https://www.amazon.jobs/en/teams/internships-for-students"
-    },
-    {
-        "cat": "international",
-        "company": "Amazon",
-        "focus": "ML intern search in China",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.amazon.jobs/en/search?base_query=machine%20learning%20intern&loc_query=China"
-    },
-    {
-        "cat": "international",
-        "company": "Amazon",
-        "focus": "Applied Scientist intern search in China",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.amazon.jobs/en/search?base_query=applied%20scientist%20intern&loc_query=China"
-    },
-    {
-        "cat": "international",
-        "company": "Amazon",
-        "focus": "AWS intern search in China",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://www.amazon.jobs/en/search?base_query=aws%20intern&loc_query=China"
-    },
-    {
-        "cat": "international",
-        "company": "Amazon",
-        "focus": "Internship search in Beijing",
-        "itype": "Summer / Daily",
-        "location": "Beijing",
-        "url": "https://www.amazon.jobs/en/search?base_query=intern&loc_query=Beijing"
-    },
-    {
-        "cat": "international",
-        "company": "Amazon",
-        "focus": "Internship search in Shanghai",
-        "itype": "Summer / Daily",
-        "location": "Shanghai",
-        "url": "https://www.amazon.jobs/en/search?base_query=intern&loc_query=Shanghai"
-    },
-    {
-        "cat": "international",
-        "company": "Amazon / AWS",
-        "focus": "AWS business category page",
-        "itype": "Summer / Daily",
-        "location": "Global / China filter",
-        "url": "https://www.amazon.jobs/en/business_categories/amazon-web-services"
-    },
-    {
-        "cat": "international",
-        "company": "Amazon / AWS",
-        "focus": "Intern search in AWS business category",
-        "itype": "Summer / Daily",
-        "location": "Global / China filter",
-        "url": "https://www.amazon.jobs/en/search?base_query=intern&business_category%5B%5D=amazon-web-services"
-    },
-    {
-        "cat": "international",
-        "company": "Google",
-        "focus": "Students and graduates portal",
-        "itype": "Summer / Daily",
-        "location": "Global",
-        "url": "https://careers.google.com/students/"
-    },
-    {
-        "cat": "international",
-        "company": "Google",
-        "focus": "Jobs in Beijing",
-        "itype": "Summer / Daily",
-        "location": "Beijing",
-        "url": "https://careers.google.com/jobs/results/?location=Beijing,%20China"
-    },
-    {
-        "cat": "international",
-        "company": "Google",
-        "focus": "Jobs in Shanghai",
-        "itype": "Summer / Daily",
-        "location": "Shanghai",
-        "url": "https://careers.google.com/jobs/results/?location=Shanghai,%20China"
-    },
-    {
-        "cat": "international",
-        "company": "Cisco",
-        "focus": "Official jobs search",
-        "itype": "Summer / Daily",
-        "location": "China / Global",
-        "url": "https://jobs.cisco.com/jobs/SearchJobs/?21178=%5B164%5D&21178_format=6020&listFilterMode=1"
-    },
-    {
-        "cat": "international",
-        "company": "SAP",
-        "focus": "Intern keyword search in China",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://jobs.sap.com/search/?q=intern&locationsearch=China"
-    },
-    {
-        "cat": "international",
-        "company": "Siemens",
-        "focus": "Jobs search with China location",
-        "itype": "Summer / Daily",
-        "location": "China",
-        "url": "https://jobs.siemens.com/careers?location=China"
-    },
-    {
-        "cat": "international",
-        "company": "HPE",
-        "focus": "Intern keyword search",
-        "itype": "Summer / Daily",
-        "location": "China / Global",
-        "url": "https://careers.hpe.com/us/en/search-results?keywords=intern"
-    },
-    {
-        "cat": "international",
-        "company": "Nokia",
-        "focus": "Official jobs portal",
-        "itype": "Summer / Daily",
-        "location": "China / Global",
-        "url": "https://careers.nokia.com/jobs"
-    },
-    {
-        "cat": "international",
-        "company": "Salesforce",
-        "focus": "Intern keyword search",
-        "itype": "Summer / Daily",
-        "location": "China / Global",
-        "url": "https://careers.salesforce.com/en/jobs/?search=intern"
-    },
-    {
-        "cat": "international",
-        "company": "ServiceNow",
-        "focus": "Jobs search with China location",
-        "itype": "Summer / Daily",
-        "location": "China / Global",
-        "url": "https://careers.servicenow.com/careers/jobs?location=china"
-    },
-    {
-        "cat": "international",
-        "company": "Snowflake",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "China / Global",
-        "url": "https://careers.snowflake.com/"
-    },
-    {
-        "cat": "international",
-        "company": "Meta",
-        "focus": "Official careers home",
-        "itype": "Summer / Daily",
-        "location": "China / Global",
-        "url": "https://www.metacareers.com/"
-    },
-    {
-        "cat": "international",
-        "company": "Meta",
-        "focus": "Official job search",
-        "itype": "Summer / Daily",
-        "location": "Global",
-        "url": "https://www.metacareers.com/jobsearch"
-    },
-    {
-        "cat": "international",
-        "company": "Anthropic",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "Global",
-        "url": "https://www.anthropic.com/careers"
-    },
-    {
-        "cat": "international",
-        "company": "Cohere",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "Global",
-        "url": "https://cohere.com/careers"
-    },
-    {
-        "cat": "international",
-        "company": "Mistral AI",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "Global",
-        "url": "https://mistral.ai/careers"
-    },
-    {
-        "cat": "international",
-        "company": "Databricks",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "China / Global",
-        "url": "https://www.databricks.com/company/careers"
-    },
-    {
-        "cat": "international",
-        "company": "Cloudflare",
-        "focus": "Official careers jobs portal",
-        "itype": "Summer / Daily",
-        "location": "China / Global",
-        "url": "https://www.cloudflare.com/careers/jobs/"
-    },
-    {
-        "cat": "international",
-        "company": "Palantir",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "Global",
-        "url": "https://www.palantir.com/careers/"
-    },
-    {
-        "cat": "international",
-        "company": "Perplexity",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "Global",
-        "url": "https://www.perplexity.ai/careers"
-    },
-    {
-        "cat": "international",
-        "company": "xAI",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "Global",
-        "url": "https://x.ai/careers"
-    },
-    {
-        "cat": "international",
-        "company": "DeepMind",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "Global",
-        "url": "https://www.deepmind.com/careers"
-    },
-    {
-        "cat": "international",
-        "company": "Stripe",
-        "focus": "Intern keyword search",
-        "itype": "Summer / Daily",
-        "location": "Global",
-        "url": "https://stripe.com/jobs/search?query=intern"
-    },
-    {
-        "cat": "international",
-        "company": "ABB",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "China / Global",
-        "url": "https://www.abb.com/careers"
-    },
-    {
-        "cat": "international",
-        "company": "Mercedes-Benz",
-        "focus": "Official careers portal",
-        "itype": "Summer / Daily",
-        "location": "China / Global",
-        "url": "https://jobs.mercedes-benz.com/"
-    },
-    {
-        "cat": "international",
-        "company": "Keysight",
-        "focus": "Official jobs portal",
-        "itype": "Summer / Daily",
-        "location": "China / Global",
-        "url": "https://jobs.keysight.com/"
-    }
 ]
+
+WATCHLIST: list[dict[str, str]] = [
+    {
+        "company": "Tencent regular campus hiring",
+        "company_zh": "腾讯常规校招",
+        "status": "Official site still shows 2026; only Qingyun 2027 is counted above.",
+        "status_zh": "官网常规项目仍显示 2026 届；本表仅计入已启动的 2027 青云计划。",
+        "url": "https://careers.tencent.com/campusrecruit.html",
+    },
+    {
+        "company": "ByteDance regular graduate hiring",
+        "company_zh": "字节跳动常规应届生招聘",
+        "status": "Official FAQ still lists the 2026 window; only named 2027 projects are counted.",
+        "status_zh": "官网 FAQ 常规应届生仍为 2026 届窗口；仅计入上方 2027 专项。",
+        "url": "https://jobs.bytedance.com/campus",
+    },
+    {
+        "company": "Alibaba regular graduate hiring",
+        "company_zh": "阿里巴巴常规应届生招聘",
+        "status": "AliStar is open; a separate broad 2027 fall batch was not verified.",
+        "status_zh": "阿里星已开放；尚未核验到独立的 2027 常规秋招大批次。",
+        "url": "https://campus-talent.alibaba.com/",
+    },
+    {
+        "company": "Meituan regular graduate hiring",
+        "company_zh": "美团常规应届生招聘",
+        "status": "Beidou is open; the regular 2027 full-time list was not verified as open.",
+        "status_zh": "北斗计划已开放；常规 2027 正式岗尚未核验为开放。",
+        "url": "https://zhaopin.meituan.com/web/campus",
+    },
+    {
+        "company": "Huawei regular graduate hiring",
+        "company_zh": "华为常规应届生招聘",
+        "status": "Official regular page still targets 2026; only the 2027 top-AI initiative is counted.",
+        "status_zh": "官网常规应届生仍面向 2026 届；仅计入 2027 顶尖 AI 专项。",
+        "url": "https://career.huawei.com/cn/campus-recruitment",
+    },
+    {
+        "company": "Xiaomi regular graduate hiring",
+        "company_zh": "小米常规应届生招聘",
+        "status": "Official regular page still shows 2026; only top-talent graduate hiring is counted.",
+        "status_zh": "官网常规项目仍显示 2026 届；仅计入顶尖人才应届生招聘。",
+        "url": "https://hr.xiaomi.com/campus/",
+    },
+    {
+        "company": "Kuaishou / Xiaohongshu / Bilibili / NetEase Games",
+        "company_zh": "快手 / 小红书 / 哔哩哔哩 / 网易游戏",
+        "status": "No cohort-specific 2027 full-time fall window verified on official portals.",
+        "status_zh": "官方入口尚未核验到明确的 2027 届正式秋招窗口。",
+        "url": "https://campus.kuaishou.cn/",
+    },
+    {
+        "company": "OPPO / vivo / Honor",
+        "company_zh": "OPPO / vivo / 荣耀",
+        "status": "No explicit 2027 full-time fall window verified; current pages are generic or older cohorts.",
+        "status_zh": "尚未核验到明确的 2027 届正式秋招窗口；当前为通用入口或旧届别。",
+        "url": "https://careers.oppo.com/university/oppo/campus",
+    },
+    {
+        "company": "NIO / Li Auto / Horizon Robotics / Pony.ai",
+        "company_zh": "蔚来 / 理想汽车 / 地平线 / 小马智行",
+        "status": "Official portals are live, but a 2027 full-time fall cohort was not verified.",
+        "status_zh": "官网可访问，但尚未核验到 2027 届正式秋招批次。",
+        "url": "https://nio.jobs.feishu.cn/campus/position/",
+    },
+    {
+        "company": "Cambricon / Moore Threads / Biren Technology",
+        "company_zh": "寒武纪 / 摩尔线程 / 壁仞科技",
+        "status": "Campus portals exist; no explicit open 2027 full-time window verified.",
+        "status_zh": "存在校招入口，但尚未核验到明确开放的 2027 届正式岗窗口。",
+        "url": "https://joinus.cambricon.com/",
+    },
+    {
+        "company": "DeepSeek / Moonshot AI / MiniMax / Zhipu AI",
+        "company_zh": "深度求索 / 月之暗面 / MiniMax / 智谱 AI",
+        "status": "General/social or internship channels only; no cohort-specific 2027 fall batch verified.",
+        "status_zh": "当前主要为社招/通用或实习入口，尚未核验到 2027 届秋招批次。",
+        "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576",
+    },
+    {
+        "company": "SenseTime",
+        "company_zh": "商汤科技",
+        "status": "A new talent campaign was announced, but cohort eligibility was not explicit on the official landing page; withheld pending confirmation.",
+        "status_zh": "已发布新人才专项，但官网落地页未明确 2027 届口径，待确认后再收录。",
+        "url": "https://hr.sensetime.com/",
+    },
+]
+
+# Kept for the weekly scanner's compatibility. Only explicit deadlines belong
+# here; "rolling" and "not announced" are intentionally omitted.
+DEADLINE_BY_URL = {
+    item["url"]: item["deadline"]
+    for item in ENTRIES
+    if item["deadline"][:4].isdigit()
+}
+
+
+def md_escape(text: str) -> str:
+    return text.replace("|", "\\|").strip()
+
+
+def localize_open_date(value: str) -> str:
+    if value == "Open":
+        return "已开放"
+    if value.startswith("Open by "):
+        return "不晚于 " + value.removeprefix("Open by ")
+    return value
 
 
 def count_by_category() -> Counter:
     return Counter(item["cat"] for item in ENTRIES)
 
 
-def md_escape(text: str) -> str:
-    return text.replace("|", "\\|").strip()
-
-COMPANY_ZH_MAP: dict[str, str] = {
-    "01.AI": "零一万物",
-    "360": "360集团",
-    "4Paradigm": "第四范式",
-    "ABB": "ABB",
-    "AISpeech": "思必驰",
-    "AMD": "AMD",
-    "ASML": "ASML",
-    "AWS": "AWS",
-    "Adobe": "Adobe",
-    "Alibaba": "阿里巴巴",
-    "Alpha2 Fund": "平方和投资",
-    "AlphaGrep Securities": "AlphaGrep",
-    "Amazon": "亚马逊",
-    "Amazon / AWS": "亚马逊 / AWS",
-    "Analog Devices": "亚德诺半导体",
-    "Ant Group": "蚂蚁集团",
-    "Anthropic": "Anthropic",
-    "Appier": "沛星互动",
-    "Apple": "苹果",
-    "Applied Materials": "应用材料",
-    "Arm": "Arm",
-    "AutoX": "AutoX",
-    "BYD": "比亚迪",
-    "Baichuan AI": "百川智能",
-    "Baidu": "百度",
-    "Beisen": "北森",
-    "Bilibili": "哔哩哔哩",
-    "Biren Technology": "壁仞科技",
-    "Bosch": "博世",
-    "Blackwing Asset": "黑翼资产",
-    "ByteDance": "字节跳动",
-    "Cadence": "Cadence",
-    "Cambricon": "寒武纪",
-    "Cisco": "思科",
-    "CloudWalk": "云从科技",
-    "Cloudflare": "Cloudflare",
-    "Cohere": "Cohere",
-    "CQ Funds": "诚奇基金",
-    "Century Frontier": "世纪前沿",
-    "DJI": "大疆",
-    "Databricks": "Databricks",
-    "DeepMind": "DeepMind",
-    "DeepSeek / High-Flyer": "深度求索 / 幻方",
-    "Dell": "戴尔",
-    "Didi": "滴滴",
-    "Ekimetrics": "Ekimetrics",
-    "Enflame": "燧原科技",
-    "Fanruan": "帆软",
-    "Geely": "吉利",
-    "Google": "谷歌",
-    "HPE": "慧与（HPE）",
-    "Hesai Technology": "禾赛科技",
-    "Horizon Robotics": "地平线",
-    "Huawei": "华为",
-    "IBM": "IBM",
-    "Iluvatar CoreX": "天数智芯",
-    "Infineon": "英飞凌",
-    "Intel": "英特尔",
-    "Intel China Campus": "英特尔中国校园招聘",
-    "Intellifusion": "云天励飞",
-    "JD": "京东",
-    "JHL Fund": "进化论资产",
-    "Jane Street": "Jane Street",
-    "KLA": "KLA",
-    "Keysight": "是德科技",
-    "Kuaishou": "快手",
-    "Lam Research": "泛林集团",
-    "Lenovo": "联想",
-    "Li Auto": "理想汽车",
-    "Lingjun Investment": "灵均投资",
-    "Loongson": "龙芯中科",
-    "MediaTek": "联发科",
-    "Megvii": "旷视科技",
-    "Meituan": "美团",
-    "Mercedes-Benz": "梅赛德斯-奔驰",
-    "Meshy": "Meshy",
-    "Meta": "Meta",
-    "Micron": "美光",
-    "Microsoft": "微软",
-    "MiniMax": "MiniMax",
-    "Minghong Investment": "明汯投资",
-    "Mingshi Fund": "鸣石基金",
-    "Mistral AI": "Mistral AI",
-    "Mobvoi": "出门问问",
-    "ModelBest": "面壁智能",
-    "Moloco": "Moloco",
-    "Momenta": "Momenta",
-    "Moonshot AI": "月之暗面",
-    "Moore Threads": "摩尔线程",
-    "NIO": "蔚来",
-    "NVIDIA": "英伟达",
-    "NetEase Games": "网易游戏",
-    "NetEase Leihuo": "网易雷火",
-    "Nokia": "诺基亚",
-    "OPPO": "OPPO",
-    "OpenAI": "OpenAI",
-    "Optiver": "Optiver",
-    "Oracle": "甲骨文",
-    "PDD": "拼多多",
-    "Palantir": "Palantir",
-    "Papergames": "叠纸游戏",
-    "Perfect World": "完美世界",
-    "Perplexity": "Perplexity",
-    "Philips": "飞利浦",
-    "Pony.ai": "小马智行",
-    "QP Alpha": "量派投资",
-    "Qilin Capital": "启林投资",
-    "Qiniu Cloud": "七牛云",
-    "Qualcomm": "高通",
-    "SAP": "SAP",
-    "STMicroelectronics": "意法半导体",
-    "Salesforce": "Salesforce",
-    "Samsung": "三星",
-    "Sangfor": "深信服",
-    "SenseTime": "商汤科技",
-    "ServiceNow": "ServiceNow",
-    "Shengshu Technology (Vidu)": "生数科技（Vidu）",
-    "Siemens": "西门子",
-    "SmartMore": "思谋科技",
-    "SmartX": "SmartX",
-    "Snowflake": "Snowflake",
-    "Sony China": "索尼中国",
-    "StepFun": "阶跃星辰",
-    "Stripe": "Stripe",
-    "Synopsys": "新思科技",
-    "TSMC": "台积电",
-    "Tencent": "腾讯",
-    "Tencent CSIG": "腾讯云与智慧产业事业群（CSIG）",
-    "Tencent Games": "腾讯游戏",
-    "Tesla China": "特斯拉中国",
-    "Texas Instruments": "德州仪器",
-    "Tianyan Capital": "天演资本",
-    "Trip.com (Ctrip)": "携程集团",
-    "UBTECH": "优必选",
-    "Ubiquant": "九坤投资",
-    "Unisound": "云知声",
-    "Unitree": "宇树科技",
-    "WPS / Kingsoft": "金山办公（WPS）",
-    "WeBank": "微众银行",
-    "WeRide": "文远知行",
-    "WizardQuant": "宽德投资",
-    "XPeng": "小鹏汽车",
-    "Xiaohongshu (RED)": "小红书",
-    "Xiaomi": "小米",
-    "Yanfu Investments": "衍复投资",
-    "Zhipu AI": "智谱 AI",
-    "iFlytek": "科大讯飞",
-    "miHoYo": "米哈游",
-    "vivo": "vivo",
-    "xAI": "xAI",
-}
-
-FOCUS_ZH_MAP: dict[str, str] = {
-    "AI Data Scientist Intern (Shanghai)": "AI 数据科学实习生（上海）",
-    "AI in Industry intern (Beijing)": "行业 AI 解决方案实习生（北京）",
-    "AI infra internship portal": "AI 基础设施实习投递页",
-    "AWS business category page": "AWS 业务分类页面",
-    "AWS intern search in China": "中国区 AWS 实习检索",
-    "Apple careers CN home": "苹果中国招聘首页",
-    "Applied Scientist intern search in China": "中国区应用科学家实习检索",
-    "Campus / intern portal": "校园/实习投递页",
-    "Campus intern portal (AI / LLM)": "校园实习投递页（AI/大模型）",
-    "Campus intern portal (AI / engineering)": "校园实习投递页（AI/工程）",
-    "Campus internship portal": "校园实习投递页",
-    "Campus positions list": "校园岗位列表",
-    "Campus recruiting page": "校园招聘页面",
-    "Campus recruiting home": "校园招聘首页",
-    "Campus recruiting portal (official ATS)": "校园招聘投递页（官方 ATS）",
-    "Campus recruiting portal": "校园招聘页面",
-    "Campus recruitment listing": "校园招聘列表",
-    "Campus jobs portal (official ATS)": "校园岗位投递页（官方 ATS）",
-    "Campus / social jobs portal": "校园/社会招聘投递页",
-    "Campus trainee internship portal": "校园管培/实习投递页",
-    "Contact & recruiting page": "联系与招聘页面",
-    "Contact / recruiting page": "联系与招聘页面",
-    "China + ML/AI combined search": "中国区 + ML/AI 联合检索",
-    "China AI jobs search": "中国区 AI 岗位检索",
-    "China careers page": "中国区招聘页面",
-    "China careers search": "中国区招聘检索",
-    "China internship keyword search": "中国区实习关键词检索",
-    "China internship search": "中国区实习检索",
-    "China jobs portal": "中国区岗位页面",
-    "China jobs search": "中国区岗位检索",
-    "China location jobs search": "中国地区岗位检索",
-    "China location search": "中国地区检索",
-    "Cloud / AI platform internship portal": "云计算 / AI 平台实习投递页",
-    "Data Analyst Intern (Taiwan)": "数据分析实习生（中国台湾）",
-    "Data Analyst/Data Mining Intern (Shanghai)": "数据分析/数据挖掘实习生（上海）",
-    "Data Science & Analytics Undergraduate Intern (Taipei)": "数据科学与分析本科实习生（台北）",
-    "Data Scientist Intern - Growth Analytics (Beijing)": "数据科学实习生-增长分析（北京）",
-    "Data Scientist Intern - Growth Analytics (Shanghai)": "数据科学实习生-增长分析（上海）",
-    "Deep Learning & HPC intern (Shanghai)": "深度学习与高性能计算实习生（上海）",
-    "Game engineering / AI internship portal": "游戏工程 / AI 实习投递页",
-    "Generative AI Pipeline Engineer Intern (Shanghai)": "生成式 AI 流水线工程实习生（上海）",
-    "Generative AI Researcher Intern (Shanghai)": "生成式 AI 研究实习生（上海）",
-    "Global jobs portal": "全球岗位页面",
-    "Intern keyword search": "实习关键词检索",
-    "Intern keyword search in China": "中国区实习关键词检索",
-    "Intern search in AWS business category": "AWS 分类下实习检索",
-    "Internship keyword search": "实习关键词检索",
-    "Internship portal": "实习投递页",
-    "Internship search in Beijing": "北京实习检索",
-    "Internship search in China": "中国区实习检索",
-    "Internship search in Shanghai": "上海实习检索",
-    "Internship search page": "实习检索页面",
-    "Internship positions list": "实习岗位列表",
-    "Internships for students": "学生实习项目页面",
-    "Job recruitment page (campus/social via QR)": "职位招聘页（校园/社招二维码）",
-    "Job search: China keyword": "岗位检索：中国关键词",
-    "Job search: Intern keyword": "岗位检索：实习关键词",
-    "Jobs in Beijing": "北京岗位检索",
-    "Jobs in Shanghai": "上海岗位检索",
-    "Jobs search with China location": "中国地区岗位检索",
-    "Join-us overview page": "加入我们概览页",
-    "Join-us page (contains campus/social ATS links)": "加入我们页面（含校园/社招 ATS）",
-    "Join-us page (official)": "加入我们页面（官方）",
-    "Join-us page": "加入我们页面",
-    "Join-us portal": "招聘页面",
-    "LLM risk-scenario algorithm intern": "大模型风控场景算法实习生",
-    "ML intern search in China": "中国区机器学习实习检索",
-    "Machine Learning & AI team search": "机器学习与 AI 团队检索",
-    "Machine Learning Researcher Internship (Hong Kong)": "机器学习研究实习（中国香港）",
-    "Official ATS portal": "官方 ATS 投递页",
-    "Official Ashby job board": "官方 Ashby 岗位页",
-    "Official Feishu jobs portal": "官方飞书招聘页面",
-    "Official campus portal": "官方校园招聘页面",
-    "Official career portal": "官方招聘页面",
-    "Official careers home": "官方招聘首页",
-    "Official careers jobs portal": "官方招聘岗位页面",
-    "Official careers landing": "官方招聘入口",
-    "Official careers page": "官方招聘页面",
-    "Official careers page (alt)": "官方招聘页面（备用入口）",
-    "Official careers portal": "官方招聘页面",
-    "Official company site": "官方网站",
-    "Official job search portal": "官方岗位检索页面",
-    "Official jobs page": "官方岗位页面",
-    "Official jobs portal": "官方岗位页面",
-    "Official jobs search": "官方岗位检索",
-    "Official join-us page": "官方招聘页面",
-    "Official join-us portal": "官方招聘页面",
-    "Official recruiting portal": "官方招聘投递页",
-    "Official talent portal": "官方人才招聘页面",
-    "Quant Research Intern (CTA / Equities)": "量化研究实习生（CTA / 股票）",
-    "Quant Research Intern - Equity Factors (Shanghai)": "量化研究实习生-股票因子（上海）",
-    "Quant Research Intern - Machine Learning (Shanghai)": "量化研究实习生-机器学习（上海）",
-    "Quantitative Researcher Internship (Hong Kong)": "量化研究实习（中国香港）",
-    "Quantitative Trader Internship (Hong Kong)": "量化交易实习（中国香港）",
-    "Recommender LLM Algorithm Intern": "推荐大模型算法实习生",
-    "Service center (recruiting)": "服务中心（招聘）",
-    "Shanghai ML PhD internship": "上海机器学习博士实习",
-    "Social recruiting portal (official ATS)": "社会招聘投递页（官方 ATS）",
-    "Strategy & Data Science internship (Shanghai)": "战略与数据科学实习（上海）",
-    "Students & graduates in China": "中国区学生与毕业生招聘",
-    "Students and graduates portal": "学生与毕业生招聘页面",
-    "Talent program page": "人才计划页面",
-    "Talent portal home": "人才招聘首页",
-    "Top Seed - LLM Applied Algorithm Intern": "Top Seed-大模型应用算法实习生",
-    "WILL - AI Engineer (full-time/intern)": "WILL-AI 工程师（全职/实习）",
-    "WILL - AI Researcher (full-time/intern)": "WILL-AI 研究员（全职/实习）",
-    "Data Analyst Intern": "数据分析实习生",
-}
-
-INTERNSHIP_TYPE_ZH_MAP: dict[str, str] = {
-    "Daily": "日常",
-    "Fall/Winter/Spring": "秋/冬/春",
-    "Summer": "暑期",
-    "Summer / Daily": "暑期 / 日常",
-    "Summer / Winter": "暑期 / 冬季",
-    "Unknown": "未知",
-    "Winter": "冬季",
-}
-
-LOCATION_ZH_MAP: dict[str, str] = {
-    "Beijing": "北京",
-    "Beijing / Hefei": "北京 / 合肥",
-    "Beijing / Nanjing / Shenzhen": "北京 / 南京 / 深圳",
-    "Beijing / Shanghai": "北京 / 上海",
-    "Beijing / Shanghai / Remote": "北京 / 上海 / 远程",
-    "Beijing / Shanghai / Changzhou": "北京 / 上海 / 常州",
-    "Beijing / Shanghai / Chengdu": "北京 / 上海 / 成都",
-    "Beijing / Shanghai / Chongqing": "北京 / 上海 / 重庆",
-    "Beijing / Shanghai / Guangzhou": "北京 / 上海 / 广州",
-    "Beijing / Shanghai / Nanjing": "北京 / 上海 / 南京",
-    "Beijing / Shanghai / Shenzhen": "北京 / 上海 / 深圳",
-    "Beijing / Shanghai / Shenzhen / Hangzhou": "北京 / 上海 / 深圳 / 杭州",
-    "China": "中国",
-    "China / Global": "中国 / 全球",
-    "Global": "全球",
-    "Global / China": "全球 / 中国",
-    "Global / China filter": "全球 / 中国筛选",
-    "Global / China-based roles if open": "全球 / 中国地区岗位（如开放）",
-    "Greater China": "大中华区",
-    "Guangzhou / Beijing / Shanghai": "广州 / 北京 / 上海",
-    "Guangzhou / Shanghai": "广州 / 上海",
-    "Guangzhou / Shanghai / Beijing": "广州 / 上海 / 北京",
-    "Hangzhou": "杭州",
-    "Hangzhou / Beijing / Shanghai": "杭州 / 北京 / 上海",
-    "Hangzhou / Guangzhou": "杭州 / 广州",
-    "Hong Kong": "中国香港",
-    "Mainland China / Taiwan": "中国大陆 / 中国台湾",
-    "Shanghai": "上海",
-    "Shanghai / Beijing": "上海 / 北京",
-    "Shanghai / Beijing / Hefei": "上海 / 北京 / 合肥",
-    "Shanghai / Beijing / Shenzhen": "上海 / 北京 / 深圳",
-    "Shanghai / Shenzhen": "上海 / 深圳",
-    "Shanghai / Suzhou": "上海 / 苏州",
-    "Shenzhen": "深圳",
-    "Shenzhen / Beijing": "深圳 / 北京",
-    "Shenzhen / Beijing / Shanghai": "深圳 / 北京 / 上海",
-    "Shenzhen / Nanjing": "深圳 / 南京",
-    "Shenzhen / Shanghai": "深圳 / 上海",
-    "Shenzhen / Xi'an / Changsha": "深圳 / 西安 / 长沙",
-    "Suzhou / Beijing / Shanghai": "苏州 / 北京 / 上海",
-    "Suzhou / Shanghai / Beijing": "苏州 / 上海 / 北京",
-    "Taipei": "台北",
-    "Taiwan": "中国台湾",
-}
+def render_header(lines: list[str], *, chinese: bool) -> None:
+    lines.append("# Campus2027")
+    lines.append("")
+    if chinese:
+        lines.append("面向 2027 届同学的**秋季校园招聘正式岗**与提前批官方投递入口（中国区、AI/技术方向优先）。")
+        lines.append("")
+        lines.append(f"- 已确认开放: **{len(ENTRIES)}** 个入口")
+        lines.append(f"- 分类数: **{len(CATEGORIES)}**")
+        lines.append(f"- 最近核验: **{LAST_VERIFIED}**")
+        lines.append("- 语言: [English](./README.md) | [中文](./README_zh.md)")
+        lines.append("")
+        lines.append("> 口径提醒：这里是**秋招正式岗**清单，不收录仅有实习、校园大使、预告未开放或 2026 届补录的项目。截止日期仅在公开页面明确给出时填写；“未公布”不等于长期有效，请尽早投递。")
+    else:
+        lines.append("Official application channels for **Class of 2027 full-time fall campus recruitment** and early batches, prioritizing China-based AI and technical roles.")
+        lines.append("")
+        lines.append(f"- Confirmed open: **{len(ENTRIES)}** application channels")
+        lines.append(f"- Categories: **{len(CATEGORIES)}**")
+        lines.append(f"- Last verified: **{LAST_VERIFIED}**")
+        lines.append("- Language: [English](./README.md) | [中文](./README_zh.md)")
+        lines.append("")
+        lines.append("> Scope: this is a **full-time fall recruiting** list. Internship-only, campus-ambassador, not-yet-open, and Class of 2026 make-up campaigns are excluded. A deadline is shown only when explicitly published; “not announced” can still mean the role will close without notice.")
+    lines.append("")
 
 
-def to_zh_company(company: str) -> str:
-    return COMPANY_ZH_MAP.get(company, company)
+def render_overview(lines: list[str], *, chinese: bool) -> None:
+    counts = count_by_category()
+    lines.append("## 分类总览" if chinese else "## Category Overview")
+    lines.append("")
+    lines.append("| 分类 | 已开放入口 |" if chinese else "| Category | Open Channels |")
+    lines.append("| --- | ---: |")
+    for key, en, zh in CATEGORIES:
+        lines.append(f"| {zh if chinese else en} | {counts.get(key, 0)} |")
+    lines.append("")
+    if chinese:
+        lines.append("核验等级：**A** = 公司/研究所官网直接写明届别与项目；**B** = 官方投递入口可用，项目窗口由企业官方号公告或高校转载的企业公告交叉核验。")
+    else:
+        lines.append("Evidence grade: **A** = the company/institute site explicitly states cohort and campaign; **B** = the official application portal is live and the window is cross-checked against an employer notice or its university repost.")
+    lines.append("")
 
 
-def to_zh_focus(focus: str) -> str:
-    return FOCUS_ZH_MAP.get(focus, focus)
+def render_entries(lines: list[str], *, chinese: bool) -> None:
+    for key, en, zh in CATEGORIES:
+        lines.append(f"## {zh if chinese else en}")
+        lines.append("")
+        if chinese:
+            lines.append("| 公司 | 项目/方向 | 批次 | 招聘对象 | 地点 | 开放时间 | 截止日期 | 官方投递 | 核验依据 | 最后核验 |")
+        else:
+            lines.append("| Company | Program / Focus | Batch | Audience | Location | Opens | Deadline | Official Apply | Evidence | Last Verified |")
+        lines.append("| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |")
+        for item in (entry for entry in ENTRIES if entry["cat"] == key):
+            values = [
+                item["company_zh"] if chinese else item["company"],
+                item["focus_zh"] if chinese else item["focus"],
+                item["batch_zh"] if chinese else item["batch"],
+                item["audience_zh"] if chinese else item["audience"],
+                item["location_zh"] if chinese else item["location"],
+                localize_open_date(item["opens"]) if chinese else item["opens"],
+                item["deadline_zh"] if chinese else item["deadline"],
+                f"[投递]({item['url']})" if chinese else f"[Apply]({item['url']})",
+                f"[依据]({item['evidence_url']}) {item['evidence_zh']}" if chinese else f"[Source]({item['evidence_url']}) {item['evidence']}",
+                LAST_VERIFIED,
+            ]
+            lines.append("| " + " | ".join(md_escape(value) for value in values) + " |")
+        lines.append("")
 
 
-def to_zh_internship_type(itype: str) -> str:
-    return INTERNSHIP_TYPE_ZH_MAP.get(itype, itype)
+def render_watchlist(lines: list[str], *, chinese: bool) -> None:
+    lines.append("## 已核验但未计入主表" if chinese else "## Checked but Not Counted as Open")
+    lines.append("")
+    if chinese:
+        lines.append("这些公司不是漏掉，而是截至核验日尚不满足“2027 届正式秋招已开放”的严格口径。")
+        lines.append("")
+        lines.append("| 公司/组别 | 核验结论 | 官方入口 | 最后核验 |")
+    else:
+        lines.append("These companies were checked and intentionally withheld because they did not yet meet the strict “open Class of 2027 full-time fall recruitment” rule.")
+        lines.append("")
+        lines.append("| Company / Group | Finding | Official Portal | Last Verified |")
+    lines.append("| --- | --- | --- | --- |")
+    for item in WATCHLIST:
+        values = [
+            item["company_zh"] if chinese else item["company"],
+            item["status_zh"] if chinese else item["status"],
+            f"[查看]({item['url']})" if chinese else f"[Check]({item['url']})",
+            LAST_VERIFIED,
+        ]
+        lines.append("| " + " | ".join(md_escape(value) for value in values) + " |")
+    lines.append("")
 
 
-def to_zh_location(location: str) -> str:
-    return LOCATION_ZH_MAP.get(location, location)
-
-# Only fill when an explicit deadline is visible on the official page.
-DEADLINE_BY_URL: dict[str, str] = {
-    "https://talent.baidu.com/jobs/list": "2026-06",
-    "https://jobs.ashbyhq.com/meshy": "2026-07-30",
-}
-
-
-def get_deadline(url: str) -> str:
-    return DEADLINE_BY_URL.get(url, "-")
+def render_methodology(lines: list[str], *, chinese: bool) -> None:
+    lines.append("## 核验方法" if chinese else "## Verification Method")
+    lines.append("")
+    if chinese:
+        lines.extend([
+            "1. 先检查公司官网、官方招聘站或公司专属 ATS 是否出现 2027 届正式岗/提前批。",
+            "2. 对动态页面，再用企业官方号公告或高校转载的企业招聘简章交叉确认开放日期、对象与截止日期。",
+            "3. 投递链接只保留公司域名、公司专属 ATS 或公司官方活动问卷；不放个人内推链接和聚合站跳转链接。",
+            "4. 如果页面只写“实习可转正”，仍按实习处理，不计入本秋招主表。",
+        ])
+    else:
+        lines.extend([
+            "1. Check the company site, official recruiting site, or company-branded ATS for an open Class of 2027 full-time/early-batch campaign.",
+            "2. For dynamic pages, cross-check opening dates, eligibility, and deadlines against employer notices or university reposts of those notices.",
+            "3. Keep only company domains, company-branded ATS pages, and official event forms as application links; personal referral and aggregator redirects are excluded.",
+            "4. An internship with a conversion path remains an internship and is not counted in this fall full-time list.",
+        ])
+    lines.append("")
 
 
 def render_english() -> str:
-    counts = count_by_category()
     lines: list[str] = []
-    lines.append("# Campus2027")
-    lines.append("")
-    lines.append("Official LLM internship channels for Class of 2027 students (China focus).")
-    lines.append("")
-    lines.append(f"- Total entries: **{len(ENTRIES)}**")
-    lines.append(f"- Categories: **{len(CATEGORIES)}**")
-    lines.append(f"- Last verified: **{LAST_VERIFIED}**")
-    lines.append("- Language: [English](./README.md) | [中文](./README_zh.md)")
-    lines.append("")
-    lines.append("## Category Overview")
-    lines.append("")
-    lines.append("| Category | Entries |")
-    lines.append("| --- | ---: |")
-    for key, name_en, _ in CATEGORIES:
-        lines.append(f"| {name_en} | {counts.get(key, 0)} |")
-    lines.append("")
-
-    for key, name_en, _ in CATEGORIES:
-        lines.append(f"## {name_en}")
-        lines.append("")
-        lines.append("| Company | Team / Focus | Internship Type | Location | Apply Link (Official) | Deadline | Last Verified |")
-        lines.append("| --- | --- | --- | --- | --- | --- | --- |")
-        for item in [x for x in ENTRIES if x["cat"] == key]:
-            lines.append(
-                "| "
-                + " | ".join(
-                    [
-                        md_escape(item["company"]),
-                        md_escape(item["focus"]),
-                        md_escape(item["itype"]),
-                        md_escape(item["location"]),
-                        f"[Apply]({item['url']})",
-                        get_deadline(item["url"]),
-                        LAST_VERIFIED,
-                    ]
-                )
-                + " |"
-            )
-        lines.append("")
-
+    render_header(lines, chinese=False)
+    render_overview(lines, chinese=False)
+    render_entries(lines, chinese=False)
+    render_watchlist(lines, chinese=False)
+    render_methodology(lines, chinese=False)
     return "\n".join(lines) + "\n"
 
 
 def render_chinese() -> str:
-    counts = count_by_category()
     lines: list[str] = []
-    lines.append("# Campus2027")
-    lines.append("")
-    lines.append("面向 2027 届同学的大模型实习官方投递入口（中国区优先）。")
-    lines.append("")
-    lines.append(f"- 总条目数: **{len(ENTRIES)}**")
-    lines.append(f"- 分类数: **{len(CATEGORIES)}**")
-    lines.append(f"- 最近核验: **{LAST_VERIFIED}**")
-    lines.append("- 语言: [English](./README.md) | [中文](./README_zh.md)")
-    lines.append("")
-    lines.append("## 分类总览")
-    lines.append("")
-    lines.append("| 分类 | 条目数 |")
-    lines.append("| --- | ---: |")
-    for key, _, name_zh in CATEGORIES:
-        lines.append(f"| {name_zh} | {counts.get(key, 0)} |")
-    lines.append("")
-
-    for key, _, name_zh in CATEGORIES:
-        lines.append(f"## {name_zh}")
-        lines.append("")
-        lines.append("| 公司 | 团队/方向 | 实习类型 | 地点 | 官方投递链接 | 截止日期 | 最后核验 |")
-        lines.append("| --- | --- | --- | --- | --- | --- | --- |")
-        for item in [x for x in ENTRIES if x["cat"] == key]:
-            lines.append(
-                "| "
-                + " | ".join(
-                    [
-                        md_escape(to_zh_company(item["company"])),
-                        md_escape(to_zh_focus(item["focus"])),
-                        md_escape(to_zh_internship_type(item["itype"])),
-                        md_escape(to_zh_location(item["location"])),
-                        f"[投递]({item['url']})",
-                        get_deadline(item["url"]),
-                        LAST_VERIFIED,
-                    ]
-                )
-                + " |"
-            )
-        lines.append("")
-
+    render_header(lines, chinese=True)
+    render_overview(lines, chinese=True)
+    render_entries(lines, chinese=True)
+    render_watchlist(lines, chinese=True)
+    render_methodology(lines, chinese=True)
     return "\n".join(lines) + "\n"
 
 
@@ -2293,7 +806,7 @@ def main() -> None:
     root = Path(__file__).resolve().parents[1]
     (root / "README.md").write_text(render_english(), encoding="utf-8")
     (root / "README_zh.md").write_text(render_chinese(), encoding="utf-8")
-    print(f"Generated README.md and README_zh.md with {len(ENTRIES)} entries.")
+    print(f"Generated README.md and README_zh.md with {len(ENTRIES)} open fall-recruiting entries.")
 
 
 if __name__ == "__main__":

@@ -11,7 +11,7 @@ from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 TRACKING_KEYS = {"utm_source", "utm_medium", "utm_campaign", "ref", "gh_jid"}
-KEY_COMPANIES = ["StepFun", "Apple", "AWS", "Qualcomm", "AMD"]
+KEY_COMPANIES = ["ByteDance Seed", "Tencent", "Alibaba", "Baidu", "DJI", "MediaTek", "ASML"]
 
 
 def normalize_url(url: str) -> str:
@@ -27,7 +27,12 @@ def extract_apply_urls(text: str) -> list[str]:
 
 
 def extract_total_entries(text: str) -> int | None:
-    for pat in [r"Total entries:\s*\*\*(\d+)\*\*", r"总条目数:\s*\*\*(\d+)\*\*"]:
+    for pat in [
+        r"Confirmed open:\s*\*\*(\d+)\*\*",
+        r"已确认开放:\s*\*\*(\d+)\*\*",
+        r"Total entries:\s*\*\*(\d+)\*\*",
+        r"总条目数:\s*\*\*(\d+)\*\*",
+    ]:
         m = re.search(pat, text)
         if m:
             return int(m.group(1))
