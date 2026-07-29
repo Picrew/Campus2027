@@ -2,7 +2,7 @@
 
 Official application channels for **Class of 2027 full-time fall campus recruitment** and early batches, prioritizing China-based AI and technical roles.
 
-- Confirmed open: **45** application channels
+- Confirmed open: **57** application channels
 - Categories: **5**
 - Last verified: **2026-07-29**
 - Language: [English](./README.md) | [中文](./README_zh.md)
@@ -13,11 +13,11 @@ Official application channels for **Class of 2027 full-time fall campus recruitm
 
 | Category | Open Channels |
 | --- | ---: |
-| Internet & AI Platforms | 13 |
-| AI Research & Top-Talent Programs | 6 |
-| Autonomous Driving, Robotics & Embodied AI | 8 |
-| Chips, Vision & Infrastructure | 13 |
-| Games, Financial Data & Research Institutes | 5 |
+| Internet & AI Platforms | 15 |
+| AI Research & Top-Talent Programs | 7 |
+| Autonomous Driving, Robotics & Embodied AI | 9 |
+| Chips, Vision & Infrastructure | 18 |
+| Games, Financial Data & Research Institutes | 8 |
 
 Evidence grade: **A** = the company/institute site explicitly states cohort and campaign; **B** = the official application portal is live and the window is cross-checked against an employer notice or its university repost.
 
@@ -38,6 +38,8 @@ Evidence grade: **A** = the company/institute site explicitly states cohort and 
 | Huawei | Class of 2027 Top AI Talent Initiative | Top AI talent program | Class of 2027; role-specific degree requirements | China / Global | 2026-05-19 | Not announced | [Apply](https://career.huawei.com/cn/campus-recruitment) | [Source](https://career.huawei.com/cn/campus-recruitment) A: official activity and apply page | 2026-07-29 |
 | OPPO | Class of 2027 Global Campus Recruitment | Fall recruitment | Mainland B/M graduating in 2027; global B/M/PhD windows vary | China / Global | 2026-07-15 | Not announced | [Apply](https://careers.oppo.com/campus/post) | [Source](https://careers.oppo.com/university/oppo/campus/) A: official campaign and position pages | 2026-07-29 |
 | Kuaishou | KuaiStar Top Technology Talent Program 2027 | Top-tech graduate program | Global Class of 2027 graduates and tech talent within two years of graduation | Role-specific | 2026-05-29 | Not announced | [Apply](https://campus.kuaishou.cn/) | [Source](https://ir.kuaishou.com/zh-hans/news-releases/news-release-details-193) A: official investor-relations launch announcement | 2026-07-29 |
+| TP-LINK | Class of 2027 Campus Recruitment Early Batch | Fall early batch | Mainland graduates Jan-Jul 2027; overseas graduates and mainland PhDs Jan-Dec 2027 | Shenzhen / Hangzhou / Beijing / Nanjing | Open by 2026-05-28 | Rolling | [Apply](https://hr.tp-link.com.cn/) | [Source](https://job.hust.edu.cn/zpinfo1/2400677.htm) B: official portal + employer notice repost | 2026-07-29 |
+| vivo | Product General Manager Reserve Program 2027 | Graduate leadership program | Class of 2027 graduates; role-specific requirements | Dongguan | 2026-07-21 | 2026-08-02 | [Apply](https://career.vivo.com/jobs) | [Source](https://www.sohu.com/a/1053472039_121123843) B: official portal + official-account announcement repost | 2026-07-29 |
 
 ## AI Research & Top-Talent Programs
 
@@ -49,6 +51,7 @@ Evidence grade: **A** = the company/institute site explicitly states cohort and 
 | iFlytek | Feixing Program 2027 | Research-algorithm early batch | Class of 2027 Master's / PhD graduates | Hefei / Beijing / Xi'an / Guangzhou / Shanghai | 2026-06-14 | Not announced | [Apply](https://iflytek.zhiye.com/4/jobs) | [Source](https://career.nankai.edu.cn/correcruit/content/id/116162.html) B: official ATS + employer notice repost | 2026-07-29 |
 | iFlytek | Feifan Program 2027 | Future-leader early batch | Class of 2027; major unrestricted | Hefei | Open by 2026-07-02 | Not announced | [Apply](https://iflytek.zhiye.com/5/jobs) | [Source](https://ejob.dhu.edu.cn/single/2026/07/02/2607021423534921003320030219103058410002.html) B: official ATS + employer notice repost | 2026-07-29 |
 | SenseTime | Infinite Force Top-Talent Program | AI top-talent graduate program | Graduating Sep 2026-Dec 2027 | Beijing / Shanghai / Shenzhen / Hong Kong / Hangzhou / Wuhan | 2026-07-15 | Not announced | [Apply](https://hr.sensetime.com/exp/page-DYgvRn) | [Source](https://jdjyw.jlu.edu.cn/mportal/recruit/details?id=898de80973e44129a8284cbac1097447) B: official portal + employer notice repost | 2026-07-29 |
+| Li Auto | Li Auto Plus Top Technical Talent Program | Top-tech graduate program | B/M/PhD graduates from Jan 2026-Aug 2027 | Beijing / Shanghai / Hangzhou / Shenzhen / Hong Kong | 2026-07-27 | Not announced | [Apply](https://www.lixiang.com/employ/campus/list.html?job_mode=1&project_id=15&employchannelcode=PQ68NKY&fromJob=1) | [Source](https://career.nankai.edu.cn/correcruit/content/id/116499.html) B: official campaign URL + employer notice repost | 2026-07-29 |
 
 ## Autonomous Driving, Robotics & Embodied AI
 
@@ -60,8 +63,9 @@ Evidence grade: **A** = the company/institute site explicitly states cohort and 
 | Zhuoyu Technology | Navigator 2027 Top-Talent Program / General Campus Hiring | Physical-AI early batch | Class of 2027; top program also accepts 2025 graduates | Shenzhen / Shanghai / Beijing / Hong Kong | 2026-06-30 | 2026-08-31 | [Apply](https://we.zyt.com/5/jobs) | [Source](https://ejob.dhu.edu.cn/single/2026/07/09/2607091109005491086219111514160682210002.html) B: official ATS + employer notice repost | 2026-07-29 |
 | Pudu Robotics | Class of 2027 Campus Recruitment | Fall recruitment | Graduating Jan-Dec 2027 | Shenzhen / Chengdu / others | 2026-06-26 | Rolling | [Apply](https://pudutech.zhiye.com/campus) | [Source](https://career.nankai.edu.cn/correcruit/content/id/116156.html) B: official ATS + employer notice repost | 2026-07-29 |
 | Hesai Technology | Class of 2027 Fall Early Batch | Fall early batch | Class of 2027 graduates | Shanghai / Hangzhou | 2026-06-16 | 2026-08-31 | [Apply](https://kwh0jtf778.jobs.feishu.cn/229043/) | [Source](https://hzau.91wllm.cn/news/view/aid/298571/tag/xwzp) B: official ATS + employer notice repost | 2026-07-29 |
-| AgiBot | 2027 Outstanding Talent Program | Embodied-AI top-talent program | Class of 2027 Master's / PhD graduates | Shanghai / Beijing / Shenzhen | Open by 2026-06-26 | Not announced | [Apply](https://agirobot.jobs.feishu.cn/946993/position/list) | [Source](https://ejob.dhu.edu.cn/pros_wjdc/s/cms/DongHua/single/2026/06/26/26062610362142818624) B: official ATS + employer notice repost | 2026-07-29 |
-| Galbot | Embodied-AI Pioneer Talent Program | Class of 2027 fall recruitment | Graduating Sep 2026-Dec 2027 | Beijing / Shenzhen / Suzhou | 2026-07-28 | Not announced | [Apply](https://www.galbot.com/) | [Source](https://career.nankai.edu.cn/correcruit/content/id/116497.html) B: official site/email + employer notice repost | 2026-07-29 |
+| AgiBot | 2027 Outstanding Talent Program | Embodied-AI top-talent program | Class of 2027 Master's / PhD graduates | Shanghai / Beijing / Shenzhen | Open by 2026-06-26 | 2026-08-31 | [Apply](https://agirobot.jobs.feishu.cn/946993/position/list) | [Source](https://career.cuhk.edu.cn/job/view/id/468834) B: official ATS + employer notice repost | 2026-07-29 |
+| Galbot | Embodied-AI Pioneer Talent Program | Class of 2027 fall recruitment | Graduating Sep 2026-Dec 2027 | Beijing / Shenzhen / Suzhou | 2026-07-28 | Not announced | [Apply](https://app.mokahr.com/campus-recruitment/yinhetongyong/165930?locale=zh-CN#/page/2027%E5%B1%8A%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98) | [Source](https://career.nankai.edu.cn/correcruit/content/id/116497.html) B: official ATS + employer notice repost | 2026-07-29 |
+| VOYAH | Class of 2027 Campus Recruitment | Fall recruitment / PhD program | Class of 2027 graduates | Wuhan / role-specific | Open | Not announced | [Apply](https://app.mokahr.com/campus-recruitment/voyah/146293) | [Source](https://app.mokahr.com/campus-recruitment/voyah/146293) A: official ATS explicitly lists 2027 graduate roles | 2026-07-29 |
 
 ## Chips, Vision & Infrastructure
 
@@ -80,6 +84,11 @@ Evidence grade: **A** = the company/institute site explicitly states cohort and 
 | NVIDIA | Class of 2027 Campus Recruitment | New-college-graduate recruitment | Class of 2027 B/M/PhD graduates | Beijing / Shanghai / Shenzhen | 2026-07-27 | Not announced | [Apply](https://www.nvidia.cn/about-nvidia/careers/university-recruiting/) | [Source](https://career.nankai.edu.cn/correcruit/content/id/116440.html) B: official career site + employer notice repost | 2026-07-29 |
 | CXMT | Class of 2027 Campus Early Batch | Fall early batch | Class of 2027 graduates; role-specific degrees | Hefei / Beijing / Shanghai / Xi'an / others | 2026-06-01 | Not announced | [Apply](https://www.cxmt.com/join.html) | [Source](https://gsc.dicp.ac.cn/info/1046/7192.htm) B: official career page + employer notice repost | 2026-07-29 |
 | VeriSilicon | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 B/M/PhD graduates | Shanghai / Beijing / Chengdu / Nanjing / Zhuhai / others | 2026-07-20 | 2026-08-23 | [Apply](https://campus.51job.com/VeriSilicon2027/) | [Source](https://job.hust.edu.cn/zpinfo1/2407072.htm) B: official campaign site + employer notice repost | 2026-07-29 |
+| Enflame | 2027 Global Campus Talent STAR Program | Fall recruitment | Global Class of 2027 graduates | Shanghai / Beijing / Shenzhen / Chengdu / Zhengzhou / Xi'an / Nanjing | 2026-07-22 | 2026-08-19 | [Apply](https://app.mokahr.com/campus-recruitment/enflame/168420?locale=zh-CN#/) | [Source](https://haue.goworkla.cn/module/position_brief_detail/id-113212/nid-6488) B: official ATS + official-account announcement repost | 2026-07-29 |
+| Bestechnic | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 graduates | Shanghai / Beijing / Shenzhen / Chengdu / Xi'an / Wuhan / Hangzhou / Global | 2026-07-24 | 2026-08-21 | [Apply](https://bestechnic.zhiye.com/campus/jobs) | [Source](https://www.sohu.com/a/1055039364_121124318) B: official ATS + official-account announcement repost | 2026-07-29 |
+| SGMicro | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 graduates | Beijing / Shanghai / Shenzhen / Chengdu / Wuhan / Suzhou / Hangzhou / Hong Kong / others | 2026-07-27 | 2026-08-24 | [Apply](https://campus.51job.com/sgmicro2027/job.html) | [Source](https://www.sg-micro.com/cnrecruitment) B: official campaign site + company career page | 2026-07-29 |
+| NAURA | Class of 2027 Campus Recruitment Early Batch | Fall early batch | Class of 2027 B/M/PhD graduates; eligible Class of 2026 graduates may also apply | Beijing / Shenzhen / Xiamen / Shanghai / Hefei / Xi'an / Guangzhou / Wuhan / Suzhou | 2026-07-09 | Rolling | [Apply](https://career.naura.com/) | [Source](https://haue.goworkla.cn/module/position_brief_detail/id-113192/nid-6488) B: official portal + employer notice repost | 2026-07-29 |
+| Envision Energy | Class of 2027 Global Campus Recruitment | Fall recruitment | Class of 2027 graduates; role-specific requirements | China / Global; role-specific | 2026-07-28 | 2026-10-30 | [Apply](https://envision-career.com/) | [Source](https://career.cuhk.edu.cn/job/view/id/468891) B: official recruiting site + employer notice repost | 2026-07-29 |
 
 ## Games, Financial Data & Research Institutes
 
@@ -90,6 +99,9 @@ Evidence grade: **A** = the company/institute site explicitly states cohort and 
 | CAS Technology and Engineering Center for Space Utilization | Class of 2027 Campus Recruitment | Research institute graduate recruitment | Class of 2027 graduates; role-specific degrees | Beijing | 2026-04-21 | 2026-12-31 | [Apply](https://csu.zhiye.com/AllJob) | [Source](https://csu.cas.cn/gb/yjdw/rczp/202604/t20260421_8188165.html) A: official institute announcement | 2026-07-29 |
 | NetEase Games (Interactive Entertainment) | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 graduates | Guangzhou / Hangzhou / Shanghai | 2026-07-21 | Not announced | [Apply](https://campus.game.163.com/) | [Source](https://career.cuhk.edu.cn/job/view/id/468866) B: official portal + employer notice repost | 2026-07-29 |
 | Lilith Games | Class of 2027 Fall Early Batch | Fall early batch | Graduating Jan 2026-Dec 2027 | Shanghai | 2026-07-15 | 2026-10-30 | [Apply](https://jobs.lilith.com/) | [Source](https://career.cuhk.edu.cn/en/job/view/id/468784) B: official career site + employer notice repost | 2026-07-29 |
+| Hypergryph | Class of 2027 Fall Campus Recruitment Early Batch | Fall early batch | Graduating Sep 2026-Aug 2027 | Shanghai | 2026-07-20 | Not announced | [Apply](https://campus.hypergryph.com/) | [Source](https://career.hypergryph.com/) A: official career announcement | 2026-07-29 |
+| iFinD | 2027 AIME Program | AI/ML graduate program | Global Class of 2027 graduates | Hangzhou | Open by 2026-06-12 | Not announced | [Apply](https://campus.10jqka.com.cn/) | [Source](https://sfi.cuhk.edu.cn/zh-hans/node/10523) B: official portal + employer notice repost | 2026-07-29 |
+| Intsig | Class of 2027 Campus Recruitment | Fall recruitment | Global graduates from Sep 2026-Aug 2027 | Shanghai | 2026-07-28 | Not announced | [Apply](https://intsig.zhiye.com/campus/jobs) | [Source](https://campus.niuqizp.com/schedule-7sm85MzCC.html) B: official ATS + official-account announcement repost | 2026-07-29 |
 
 ## Checked but Not Counted as Open
 
@@ -104,12 +116,13 @@ These companies were checked and intentionally withheld because they did not yet
 | Huawei regular graduate hiring | Official regular page still targets 2026; only the 2027 top-AI initiative is counted. | [Check](https://career.huawei.com/cn/campus-recruitment) | 2026-07-29 |
 | Xiaomi regular graduate hiring | Official regular page still shows 2026; only top-talent graduate hiring is counted. | [Check](https://hr.xiaomi.com/campus/) | 2026-07-29 |
 | Xiaohongshu | No cohort-specific 2027 full-time fall window verified on the official portal. | [Check](https://job.xiaohongshu.com/campus) | 2026-07-29 |
-| vivo / Honor | No explicit broad 2027 full-time fall window verified; current pages are older cohorts or narrower projects. | [Check](https://hr.vivo.com/) | 2026-07-29 |
+| Honor | No explicit open Class of 2027 full-time fall window was verified on the official portal. | [Check](https://career.honor.com/) | 2026-07-29 |
 | miHoYo regular fall batch | The technical early batch closed on Jul 27; the regular Class of 2027 fall batch was not yet verified open. | [Check](https://campus.mihoyo.com/) | 2026-07-29 |
-| Li Auto / Horizon Robotics / Pony.ai | Official portals are live, but a 2027 full-time fall cohort was not verified. | [Check](https://www.lixiang.com/employ/campus.html/) | 2026-07-29 |
+| Horizon Robotics / Pony.ai | Official portals are live, but an explicit open Class of 2027 full-time fall cohort was not verified. | [Check](https://career.horizon.auto/) | 2026-07-29 |
+| Sangfor X-STAR | The current Class of 2027 early-batch notice explicitly offers a summer internship; it is excluded until a full-time offer channel is confirmed. | [Check](https://hr.sangfor.com/) | 2026-07-29 |
+| YOFC | The Class of 2027 campaign is announced, but the published campus ATS currently fails TLS validation; withheld until a stable official application URL is available. | [Check](https://www.yofc.com/) | 2026-07-29 |
 | Cambricon / Moore Threads / Biren Technology | Campus portals exist; no explicit open 2027 full-time window verified. | [Check](https://joinus.cambricon.com/) | 2026-07-29 |
 | DeepSeek / Moonshot AI / Zhipu AI | General/social or internship channels only; no cohort-specific 2027 fall batch verified. | [Check](https://app.mokahr.com/social-recruitment/high-flyer/140576) | 2026-07-29 |
-| SenseTime | A new talent campaign was announced, but cohort eligibility was not explicit on the official landing page; withheld pending confirmation. | [Check](https://hr.sensetime.com/) | 2026-07-29 |
 
 ## Verification Method
 
