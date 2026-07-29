@@ -11,7 +11,29 @@ from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 TRACKING_KEYS = {"utm_source", "utm_medium", "utm_campaign", "ref", "gh_jid"}
-KEY_COMPANIES = ["ByteDance Seed", "Tencent", "Alibaba", "Ant Group", "Baidu", "DJI", "MediaTek", "ASML"]
+KEY_COMPANIES = [
+    "ByteDance Seed",
+    "Tencent",
+    "Alibaba",
+    "Ant Group",
+    "Baidu",
+    "PDD",
+    "MiniMax",
+    "DJI",
+    "NIO",
+    "MediaTek",
+    "YMTC",
+    "ASML",
+    "OPPO",
+    "Kuaishou",
+    "SenseTime",
+    "Galbot",
+    "NVIDIA",
+    "CXMT",
+    "VeriSilicon",
+    "NetEase Games",
+    "Lilith Games",
+]
 
 
 def normalize_url(url: str) -> str:
