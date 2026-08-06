@@ -2,22 +2,22 @@
 
 面向 2027 届同学的**秋季校园招聘正式岗**与提前批官方投递入口（中国区、AI/技术方向优先）。
 
-- 已确认开放: **67** 个入口
+- 已确认开放: **81** 个入口
 - 分类数: **5**
 - 最近核验: **2026-08-06**
 - 语言: [English](./README.md) | [中文](./README_zh.md)
 
-> 口径提醒：这里是**秋招正式岗**清单，不收录仅有实习、校园大使、预告未开放或 2026 届补录的项目。截止日期仅在公开页面明确给出时填写；“未公布”不等于长期有效，请尽早投递。
+> 口径提醒：这里是**秋招正式岗**清单，不收录仅有实习、校园大使、预告未开放或 2026 届补录的项目。Apple 等按岗位发布的雇主会明确标注“毕业时间以岗位为准”。截止日期仅在公开页面明确给出时填写；“未公布”不等于长期有效，请尽早投递。
 
 ## 分类总览
 
 | 分类 | 已开放入口 |
 | --- | ---: |
-| 互联网与 AI 平台 | 16 |
-| AI 研究与顶尖人才专项 | 9 |
-| 自动驾驶、机器人与具身智能 | 11 |
-| 芯片、视觉与基础设施 | 20 |
-| 游戏、金融、咨询与科研 | 11 |
+| 互联网与 AI 平台 | 17 |
+| AI 研究与顶尖人才专项 | 10 |
+| 自动驾驶、机器人与具身智能 | 14 |
+| 芯片、视觉与基础设施 | 27 |
+| 游戏、金融、咨询与科研 | 13 |
 
 核验等级：**A** = 公司/研究所官网直接写明届别与项目；**B** = 官方投递入口可用，项目窗口由企业官方号公告或高校转载的企业公告交叉核验。
 
@@ -41,6 +41,7 @@
 | OPPO | 2027 届全球校园招聘 | 秋招 | 中国大陆 2027 届本/硕；全球本/硕/博届别窗口以官网为准 | 中国 / 全球 | 2026-07-15 | 未公布 | [投递](https://careers.oppo.com/campus/post) | [依据](https://careers.oppo.com/university/oppo/campus/) A：官网项目页与岗位页 | 2026-08-06 |
 | 快手 | 2027 届快Star顶尖技术人才计划 | 顶尖技术人才专项 | 全球 2027 届毕业生及毕业两年内的青年技术人才 | 以岗位为准 | 2026-05-29 | 未公布 | [投递](https://campus.kuaishou.cn/) | [依据](https://ir.kuaishou.com/zh-hans/news-releases/news-release-details-193) A：公司投资者关系官网启动公告 | 2026-08-06 |
 | TP-LINK | 2027 届校园招聘提前批 | 秋招提前批 | 境内本硕 2027.01-2027.07 毕业；境外毕业生及境内博士 2027.01-2027.12 毕业 | 深圳 / 杭州 / 北京 / 南京 | 不晚于 2026-05-28 | 滚动招聘 | [投递](https://hr.tp-link.com.cn/) | [依据](https://job.hust.edu.cn/zpinfo1/2400677.htm) B：官网入口 + 企业公告转载 | 2026-08-06 |
+| 招银网络科技 | 2027 届秋季校园招聘 | 秋招 | 境内 2026.11-2027.07；境外 2026.08-2027.07 毕业 | 深圳 / 杭州 / 成都 | 2026-07-30 | 未公布 | [投递](https://new-recruit-hr-mobile.paas.cmbchina.com/position/campus) | [依据](https://campus.niuqizp.com/job-vsy5znnNM.html) B：招商银行官方投递入口 + 企业官方号公告 | 2026-08-06 |
 
 ## AI 研究与顶尖人才专项
 
@@ -55,6 +56,7 @@
 | 科大讯飞 | 2027 届秋季校园招聘 | 秋招正式批 | 2025.06-2027.08 毕业；以岗位要求为准 | 合肥 / 北京 / 上海 / 武汉 / 深圳 / 其他 | 2026-07-24 | 2026-09-22 | [投递](https://iflytek.zhiye.com/campus/jobs) | [依据](https://campus.niuqizp.com/job-vks5zn5nz.html) B：官方 ATS + 企业官方号公告转载 | 2026-08-06 |
 | 商汤科技 | “无限原力”顶尖人才计划 | AI 顶尖人才校招专项 | 2026.09-2027.12 毕业 | 北京 / 上海 / 深圳 / 香港 / 杭州 / 武汉 | 2026-07-15 | 未公布 | [投递](https://hr.sensetime.com/) | [依据](https://jdjyw.jlu.edu.cn/mportal/recruit/details?id=898de80973e44129a8284cbac1097447) B：官网入口 + 企业公告转载 | 2026-08-06 |
 | 理想汽车 | “理想+”顶尖技术人才专项 | 顶尖技术人才专项 | 2026.01-2027.08 毕业的本/硕/博 | 北京 / 上海 / 杭州 / 深圳 / 香港 | 2026-07-27 | 未公布 | [投递](https://www.lixiang.com/employ/campus/list.html?job_mode=1&project_id=15&employchannelcode=PQ68NKY&fromJob=1) | [依据](https://career.nankai.edu.cn/correcruit/content/id/116499.html) B：官网专项入口 + 企业公告转载 | 2026-08-06 |
+| 超参数科技 | 2027 届 AI / Game Agent 校园招聘 | 秋招 | 2026.09-2027.08 毕业 | 以岗位为准 | 2026-08-03 | 2026-09-30 | [投递](https://app.mokahr.com/campus-recruitment/chaocanshu/45562#/jobs) | [依据](https://campus.niuqizp.com/job-vmr5zMNaL.html) B：官方招聘域名 + 企业官方号公告 | 2026-08-06 |
 
 ## 自动驾驶、机器人与具身智能
 
@@ -71,6 +73,9 @@
 | 元戎启行 | 2027 届秋季校园招聘 | 秋招正式批 | 2027 届毕业生；以岗位要求为准 | 深圳 / 北京 / 上海 | 2026-07-06 | 招满即止 | [投递](https://app.mokahr.com/campus-recruitment/deeproute/145894#/) | [依据](https://career.cuhk.edu.cn/job/view/id/468723) B：官方 ATS + 企业公告转载 | 2026-08-06 |
 | 珞石机器人 | 2027 届校园招聘 | 秋招正式批 | 2027 届毕业生；以岗位要求为准 | 北京 / 山东 / 以岗位为准 | 2026-08-02 | 未公布 | [投递](https://www.rokae.com/cn/about/107/Careers.html) | [依据](https://campus.niuqizp.com/job-vy85zMLNa.html) B：官网招聘页 + 企业官方号公告转载 | 2026-08-06 |
 | 岚图汽车 | 2027 届校园招聘 | 秋招 / 博士专项 | 2027 届毕业生 | 武汉 / 以岗位为准 | 2026-08-05 | 未公布 | [投递](https://app.mokahr.com/campus-recruitment/voyah/146293) | [依据](https://campus.niuqizp.com/schedulenew-1/) B：官方 ATS + 8 月 5 日企业公告索引 | 2026-08-06 |
+| 滴滴 | 2027 届滴滴未来精英 | 顶尖科技人才专项 | 全球 2027 届顶尖科技人才 | 北京 / 以岗位为准 | 2026-07-23 | 2026-09-23 | [投递](https://outreach.didichuxing.com/elite/) | [依据](https://outreach.didichuxing.com/elite/) A：官网专项页明确已开启 2027 届招募 | 2026-08-06 |
+| Momenta | 2027 届校园招聘 | 秋招 | 2027 届毕业生；以岗位要求为准 | 苏州 / 北京 / 上海 / 广州 / 深圳 | 2026-07-25 | 未公布 | [投递](https://momenta.jobs.feishu.cn/campus) | [依据](https://campus.niuqizp.com/schedulenew-6/) B：官方 ATS + 企业公告索引 | 2026-08-06 |
+| 奥比中光 | 2027 届校园招聘 | 秋招 | 全球 2027 届本/硕/博毕业生 | 深圳 / 佛山 / 上海 / 西安 / 杭州 | 2026-07-31 | 招满即止 | [投递](https://job.orbbec.com.cn/campus) | [依据](https://campus.niuqizp.com/job-vry5znMN5.html) B：官方 ATS + 企业官方号公告 | 2026-08-06 |
 
 ## 芯片、视觉与基础设施
 
@@ -96,6 +101,13 @@
 | 圣邦微电子 | 2027 届校园招聘 | 秋招 | 2027 届毕业生 | 北京 / 上海 / 深圳 / 成都 / 武汉 / 苏州 / 杭州 / 香港 / 其他 | 2026-07-27 | 2026-08-24 | [投递](https://campus.51job.com/sgmicro2027/job.html) | [依据](https://www.sg-micro.com/cnrecruitment) B：官方校招专题 + 公司招聘页 | 2026-08-06 |
 | 北方华创 | 2027 届校园招聘提前批 | 秋招提前批 | 2027 届本/硕/博；符合条件的 2026 届亦可投 | 北京 / 深圳 / 厦门 / 上海 / 合肥 / 西安 / 广州 / 武汉 / 苏州 | 2026-07-09 | 滚动招聘 | [投递](https://career.naura.com/) | [依据](https://haue.goworkla.cn/module/position_brief_detail/id-113192/nid-6488) B：官网入口 + 企业公告转载 | 2026-08-06 |
 | 远景能源 | 2027 届全球校园招聘 | 秋招 | 2027 届毕业生；以岗位要求为准 | 中国 / 全球；以岗位为准 | 2026-07-28 | 2026-10-30 | [投递](https://envision-career.com/) | [依据](https://career.cuhk.edu.cn/job/view/id/468891) B：官方招聘站 + 企业公告转载 | 2026-08-06 |
+| Apple | 中国区校园秋招（全职机会） | 秋招；按岗位滚动开放 | 在校生与应届生；毕业时间以岗位要求为准 | 中国；以岗位为准 | 2026-08-06 | 滚动招聘 / 以岗位为准 | [投递](https://jobs.apple.com/zh-cn/search) | [依据](https://www.apple.com/careers/cn/work-at-apple/students.html) A：Apple 招聘公众号 8 月 6 日启动公告 + 官网学生入口 | 2026-08-06 |
+| 中望软件 | 2027 届校园招聘 | 秋招 | 全球 2027 届毕业生 | 广州 / 武汉 / 西安 / 上海 | 2026-07-23 | 未公布 | [投递](https://www.zwsoft.cn/job/campus) | [依据](https://www.zwsoft.cn/job/campus) A：官网校招页列出 2027 届岗位 | 2026-08-06 |
+| 知存科技 | 2027 届校园招聘 | 秋招 | 海内外 2027 届毕业生 | 北京 / 上海 / 杭州 / 西安 | 2026-07-30 | 未公布 | [投递](https://iucylxooqp.jobs.feishu.cn/200839) | [依据](https://campus.niuqizp.com/job-vkl5znntn.html) B：官方 ATS + 企业官方号公告 | 2026-08-06 |
+| 维信诺 | 2027 届校园招聘 | 秋招 | 全球 2027 届毕业生 | 合肥 / 昆山 / 固安 / 广州 / 北京 | 2026-07-30 | 未公布 | [投递](https://app.mokahr.com/campus_apply/newvisionox/24735/#/) | [依据](https://campus.niuqizp.com/job-vlm5znCt5.html) B：公司官网链接的 ATS + 企业官方号公告 | 2026-08-06 |
+| 亿联网络 | 2027 届校园招聘提前批 | 秋招提前批 | 2027 届本/硕/博；以岗位要求为准 | 厦门 | 2026-08-05 | 未公布 | [投递](https://yealink.zhiye.com/campus/jobs) | [依据](https://campus.niuqizp.com/job-vrk5zMNn5.html) B：官方 ATS + 企业官方号公告 | 2026-08-06 |
+| 砺算科技 | 2027 届 GPU 校园招聘 | 秋招 | 2027 届毕业生；优秀 2026 届亦可投 | 上海 / 南京 / 北京 | 2026-08-05 | 招满即止 | [投递](https://www.lisuantech.com/join/campus-recruitment) | [依据](https://www.lisuantech.com/join/campus-recruitment) A：官网校招页明确岗位、届别与招满即止 | 2026-08-06 |
+| 格科 | 2027 届秋季校园招聘 | 秋招 | 2027 届毕业生；以岗位要求为准 | 以岗位为准 | 2026-08-05 | 未公布 | [投递](https://gcoreinc.hotjob.cn/) | [依据](https://campus.niuqizp.com/job-vYy5zMNzZ.html) B：官方 ATS + 企业官方号启动公告 | 2026-08-06 |
 
 ## 游戏、金融、咨询与科研
 
@@ -109,9 +121,11 @@
 | 叠纸游戏 | 2027 届秋季校园招聘 | 秋招正式批 | 2026.09-2027.08 毕业 | 以岗位为准 | 2026-08-05 | 2026-10-31 | [投递](https://career.papegames.com/) | [依据](https://campus.niuqizp.com/job-vUr5zMNCN.html) B：官网招聘站 + 企业官方号公告转载 | 2026-08-06 |
 | 普华永道中国 | 2027 届校园招聘 | 秋招正式批 | 2027 届毕业生；以岗位要求为准 | 中国内地 / 香港；以岗位为准 | 2026-08-03 | 未公布 | [投递](https://app.mokahr.com/su/tyrgsd) | [依据](https://campus.niuqizp.com/job-v8k5zMLZM.html) B：企业官方 ATS 链接 + 官方号公告转载 | 2026-08-06 |
 | 莉莉丝游戏 | 2027 届秋招提前批 | 秋招提前批 | 2026.01-2027.12 毕业 | 上海 | 2026-07-15 | 2026-10-30 | [投递](https://jobs.lilith.com/) | [依据](https://career.cuhk.edu.cn/en/job/view/id/468784) B：官网招聘页 + 企业公告转载 | 2026-08-06 |
-| 鹰角网络 | 2027 届秋季校园招聘提前批 | 秋招提前批 | 2026.09-2027.08 毕业 | 上海 | 2026-07-20 | 未公布 | [投递](https://campus.hypergryph.com/) | [依据](https://career.hypergryph.com/) A：官网招聘公告 | 2026-08-06 |
 | 同花顺 | 2027 届 AIME 计划 | AI / 机器学习校招专项 | 全球 2027 届毕业生 | 杭州 | 不晚于 2026-06-12 | 未公布 | [投递](https://campus.10jqka.com.cn/) | [依据](https://sfi.cuhk.edu.cn/zh-hans/node/10523) B：官网入口 + 企业公告转载 | 2026-08-06 |
 | 合合信息 | 2027 届校园招聘 | 秋招 | 全球 2026.09-2027.08 毕业生 | 上海 | 2026-07-28 | 未公布 | [投递](https://intsig.zhiye.com/campus/jobs) | [依据](https://campus.niuqizp.com/schedule-7sm85MzCC.html) B：官方 ATS + 企业官方号公告转载 | 2026-08-06 |
+| 米哈游 | 2027 届校园招聘正式批 | 秋招正式批 | 2026.09-2027.08 毕业 | 中国 / 全球；以岗位为准 | 不晚于 2026-08-06 | 未公布 | [投递](https://campus.mihoyo.com/) | [依据](https://campus.mihoyo.com/) A：官网明确 2027 届对象与应届生岗位 | 2026-08-06 |
+| 波士顿咨询（BCG） | 中国区 2027 欧洲院校 Consulting 招聘 | 欧洲院校全职专场 | 欧洲院校 2027 届本科/硕士/博士/MBA | 北京 / 上海 / 深圳 / 香港 / 台北 | 2026-07-30 | 2026-10-18 | [投递](https://careers.bcg.com/global/en/job/58734/Consulting-Full-time-Europe-Campus-Greater-China) | [依据](https://careers.bcg.com/global/en/job/58734/Consulting-Full-time-Europe-Campus-Greater-China) A：官网岗位页明确届别、地区与截止日期 | 2026-08-06 |
+| 九坤投资 | 2027 届揽月计划 | 量化交易 / HR 专项校招 | 2026.09-2027.08 毕业的本/硕/博 | 以岗位为准 | 2026-08-06 | 2026-09（日期未公布） | [投递](https://app.mokahr.com/campus_apply/ubiquantrecruit/37031#/jobs) | [依据](https://campus.niuqizp.com/job-vUl5zMtaz.html) B：官方 ATS + 企业官方号公告 | 2026-08-06 |
 
 ## 已核验但未计入主表
 
@@ -125,7 +139,6 @@
 | 小米常规应届生招聘 | 官网常规项目仍显示 2026 届；仅计入顶尖人才应届生招聘。 | [查看](https://hr.xiaomi.com/campus/) | 2026-08-06 |
 | 小红书 | 官方入口尚未核验到明确的 2027 届正式秋招窗口。 | [查看](https://job.xiaohongshu.com/campus) | 2026-08-06 |
 | 荣耀 | 官方入口尚未核验到明确开放的 2027 届正式秋招窗口。 | [查看](https://career.honor.com/) | 2026-08-06 |
-| 米哈游秋招正式批 | 技术提前批已于 7 月 27 日截止；尚未核验到 2027 届秋招正式批启动。 | [查看](https://campus.mihoyo.com/) | 2026-08-06 |
 | vivo 秋招正式批 | 产品总经理储备计划已于 8 月 2 日截止；尚未核验到开放中的 2027 届秋招正式批。 | [查看](https://career.vivo.com/jobs) | 2026-08-06 |
 | 毕马威中国 | 2027 届项目已经宣布，但企业公告明确表示网申入口及日期尚未发布，因此暂不计入开放表。 | [查看](https://kpmg.com/cn/zh/careers/campus.html) | 2026-08-06 |
 | 地平线 / 小马智行 | 官网可访问，但尚未核验到明确开放的 2027 届正式秋招批次。 | [查看](https://career.horizon.auto/) | 2026-08-06 |
