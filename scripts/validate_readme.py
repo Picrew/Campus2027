@@ -68,6 +68,15 @@ KEY_COMPANIES = [
     "Papergames",
     "PwC China",
     "Lilith Games",
+    "Qunar",
+    "Xunlei",
+    "TARS Robotics",
+    "Goodix",
+    "Xi'an UniIC Semiconductors",
+    "Shanghai Precision Measurement Semiconductor Technology",
+    "Garena",
+    "KPMG China",
+    "CETC No. 43 Research Institute",
 ]
 
 
