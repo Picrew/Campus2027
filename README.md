@@ -2,22 +2,23 @@
 
 Official application channels for **Class of 2027 full-time fall campus recruitment** and early batches, prioritizing China-based AI and technical roles.
 
-- Confirmed open: **90** application channels
-- Categories: **5**
-- Last verified: **2026-08-08**
+- Confirmed open: **95** application channels
+- Categories: **6**
+- Last updated: **2026-08-16**
 - Language: [English](./README.md) | [中文](./README_zh.md)
 
-> Scope: this is a **full-time fall recruiting** list. Internship-only, campus-ambassador, not-yet-open, and Class of 2026 make-up campaigns are excluded. Employers such as Apple that publish campus roles individually are labeled as role-specific. A deadline is shown only when explicitly published; “not announced” can still mean the role will close without notice.
+> Scope: this is a **full-time fall recruiting** list. Internship-only, campus-ambassador, not-yet-open, and Class of 2026 make-up campaigns are excluded. Employers such as Apple that publish roles individually, plus international quant firms that recruit new graduates on a rolling basis, are labeled as role-specific. A deadline is shown only when explicitly published; “not announced” can still mean the role will close without notice.
 
 ## Category Overview
 
 | Category | Open Channels |
 | --- | ---: |
-| Internet & AI Platforms | 19 |
+| Internet & AI Platforms | 18 |
 | AI Research & Top-Talent Programs | 10 |
 | Autonomous Driving, Robotics & Embodied AI | 15 |
 | Chips, Vision & Infrastructure | 30 |
-| Games, Finance, Consulting & Research | 16 |
+| Quant Finance & Financial Technology | 9 |
+| Games, Consulting & Research | 13 |
 
 Evidence grade: **A** = the company/institute site explicitly states cohort and campaign; **B** = the official application portal is live and the window is cross-checked against an employer notice or its university repost.
 
@@ -41,7 +42,6 @@ Evidence grade: **A** = the company/institute site explicitly states cohort and 
 | OPPO | Class of 2027 Global Campus Recruitment | Fall recruitment | Mainland B/M graduating in 2027; global B/M/PhD windows vary | China / Global | 2026-07-15 | Not announced | [Apply](https://careers.oppo.com/campus/post) | [Source](https://careers.oppo.com/university/oppo/campus/) A: official campaign and position pages | 2026-08-08 |
 | Kuaishou | KuaiStar Top Technology Talent Program 2027 | Top-tech graduate program | Global Class of 2027 graduates and tech talent within two years of graduation | Role-specific | 2026-05-29 | Not announced | [Apply](https://campus.kuaishou.cn/) | [Source](https://ir.kuaishou.com/zh-hans/news-releases/news-release-details-193) A: official investor-relations launch announcement | 2026-08-08 |
 | TP-LINK | Class of 2027 Campus Recruitment Early Batch | Fall early batch | Mainland graduates Jan-Jul 2027; overseas graduates and mainland PhDs Jan-Dec 2027 | Shenzhen / Hangzhou / Beijing / Nanjing | Open by 2026-05-28 | Rolling | [Apply](https://hr.tp-link.com.cn/) | [Source](https://job.hust.edu.cn/zpinfo1/2400677.htm) B: official portal + employer notice repost | 2026-08-08 |
-| CMB Network Technology | Class of 2027 Global Campus Recruitment | Fall recruitment | Mainland: Nov 2026-Jul 2027; overseas: Aug 2026-Jul 2027 | Shenzhen / Hangzhou / Chengdu | 2026-07-30 | Not announced | [Apply](https://new-recruit-hr-mobile.paas.cmbchina.com/position/campus) | [Source](https://campus.niuqizp.com/job-vsy5znnNM.html) B: official CMB application portal + employer official-account announcement | 2026-08-08 |
 | Qunar | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 graduates | Beijing / Shanghai | 2026-08-06 | 2026-09-20 | [Apply](https://hf7l9aiqzx.jobs.feishu.cn/704852/) | [Source](https://campus.niuqizp.com/job-vwl5zMtn5.html) B: official ATS + employer official-account announcement | 2026-08-08 |
 | Xunlei | Class of 2027 Campus Recruitment | Fall recruitment | Graduating Sep 2026-Aug 2027 | Shenzhen / Beijing / Hong Kong | 2026-08-01 | 2026-10-31 | [Apply](https://campus.xunlei.com/) | [Source](https://campus.niuqizp.com/job-vkr5zMtCN.html) B: official campus site + employer official-account announcement | 2026-08-08 |
 
@@ -115,23 +115,34 @@ Evidence grade: **A** = the company/institute site explicitly states cohort and 
 | Xi'an UniIC Semiconductors | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 B/M/PhD graduates | Xi'an / Chengdu / Shanghai | 2026-07-31 | 2026-09-30 | [Apply](https://jobs.51job.com/all/coBWYFaF48DjQOaARvBWg.html) | [Source](https://campus.niuqizp.com/job-vsy5zMZza.html) B: official application page + employer official-account announcement | 2026-08-08 |
 | Shanghai Precision Measurement Semiconductor Technology | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 B/M/PhD graduates | Shanghai / Shenzhen / Wuhan | 2026-08-04 | 2026-10-04 | [Apply](https://pmish-tech.zhiye.com/campus/jobs) | [Source](https://campus.niuqizp.com/job-vYm5zMZzn.html) B: official ATS + employer official-account announcement | 2026-08-08 |
 
-## Games, Finance, Consulting & Research
+## Quant Finance & Financial Technology
+
+| Company | Program / Focus | Batch | Audience | Location | Opens | Deadline | Official Apply | Evidence | Last Verified |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Wind Information | 2027 Campus Recruitment | Graduate recruitment | Graduating Sep 2026-Aug 2027 | Shanghai / Nanjing / Beijing / others | Open | Not announced | [Apply](https://www.wind.com.cn/portal/zh/JoinUs/recruit.html) | [Source](https://www.wind.com.cn/portal/zh/JoinUs/recruit.html) A: official page shows 2027 roles | 2026-08-08 |
+| iFinD | 2027 AIME Program | AI/ML graduate program | Global Class of 2027 graduates | Hangzhou | Open by 2026-06-12 | Not announced | [Apply](https://campus.10jqka.com.cn/) | [Source](https://sfi.cuhk.edu.cn/zh-hans/node/10523) B: official portal + employer notice repost | 2026-08-08 |
+| CMB Network Technology | Class of 2027 Global Campus Recruitment | Fall recruitment | Mainland: Nov 2026-Jul 2027; overseas: Aug 2026-Jul 2027 | Shenzhen / Hangzhou / Chengdu | 2026-07-30 | Not announced | [Apply](https://new-recruit-hr-mobile.paas.cmbchina.com/position/campus) | [Source](https://campus.niuqizp.com/job-vsy5znnNM.html) B: official CMB application portal + employer official-account announcement | 2026-08-08 |
+| Ubiquant | Wutong Program — Class of 2027 | Top quantitative technology talent program | Global Class of 2027 B/M/PhD graduates; STEM backgrounds prioritized | Beijing / Shanghai | 2026-07-29 | 2026-08-26 | [Apply](https://app.mokahr.com/campus_apply/ubiquantrecruit/37031#/jobs) | [Source](https://campus.niuqizp.com/schedulenew-financesecuritiesinvestment-chuxiongyizuzizhizhou-1/) B: official ATS + employer official-account announcement | 2026-08-16 |
+| JoinQuant | Class of 2027 Campus Recruitment | Quant research / engineering fall recruitment | Class of 2027 graduates; role-specific degrees | Beijing / Shanghai / Shenzhen / Guangzhou | 2026-07-29 | 2026-08-26 | [Apply](https://app.mokahr.com/campus_apply/joinquant/92347#/jobs) | [Source](https://www.nowcoder.com/feed/main/detail/7f084b948d074756beac88b2be32b90f) B: official ATS + campus launch notice | 2026-08-16 |
+| Dynamic Technology Lab (DTL) | New Grad Quantitative Research / Machine Learning | Rolling new-graduate recruitment | Recent B/M/PhD graduates in CS, math, statistics, physics or related fields | Beijing / Shanghai / Singapore / Remote | Open | Rolling until filled | [Apply](https://www.dytechlab.com/careers/) | [Source](https://career.nankai.edu.cn/correcruit/content/id/116147.html) B: official careers page + university-posted employer notice | 2026-08-16 |
+| Jane Street | Software Engineer — Hong Kong | Full-time new graduate | Students / new graduates; expected full-time start is collected in the application | Hong Kong | Open | Rolling until filled | [Apply](https://www.janestreet.com/join-jane-street/position/8140274002/) | [Source](https://www.janestreet.com/join-jane-street/apply/8140274002/) A: official role and active new-grad application | 2026-08-16 |
+| Citadel Securities | Quantitative Research Analyst — University Graduate (Asia) | University graduate quantitative research | B/M graduates in CS, math, statistics, physics or another quantitative field | Hong Kong / Singapore | Open | Not announced | [Apply](https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-university-graduate-asia/) | [Source](https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-university-graduate-asia/) A: official role page and active application form | 2026-08-16 |
+| Goldman Sachs | 2027 APAC New Analyst — Engineering / Quantitative Strategists | Full-time new analyst program | Final-year undergraduate and graduate students | Hong Kong / Beijing / Shanghai / Shenzhen / other APAC offices | Open | 2026-10-04 | [Apply](https://www.goldmansachs.com/careers/students/programs-and-internships/asia-pacific/new-analyst) | [Source](https://www.goldmansachs.com/careers/students/programs-and-internships/asia-pacific/new-analyst) A: official 2027 APAC program page and application window | 2026-08-16 |
+
+## Games, Consulting & Research
 
 | Company | Program / Focus | Batch | Audience | Location | Opens | Deadline | Official Apply | Evidence | Last Verified |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Duoyi Network | Class of 2027 Fall Early Batch | Fall early batch | Graduating Aug 2026-Jul 2027 | Guangzhou / Wuhan / Suzhou / Hangzhou | 2026-07-02 | Not announced | [Apply](https://xz.duoyi.com/) | [Source](https://jy.tust.edu.cn/correcruit/content/id/46007.html) B: official campus site + employer notice repost | 2026-08-08 |
-| Wind Information | 2027 Campus Recruitment | Graduate recruitment | Graduating Sep 2026-Aug 2027 | Shanghai / Nanjing / Beijing / others | Open | Not announced | [Apply](https://www.wind.com.cn/portal/zh/JoinUs/recruit.html) | [Source](https://www.wind.com.cn/portal/zh/JoinUs/recruit.html) A: official page shows 2027 roles | 2026-08-08 |
 | CAS Technology and Engineering Center for Space Utilization | Class of 2027 Campus Recruitment | Research institute graduate recruitment | Class of 2027 graduates; role-specific degrees | Beijing | 2026-04-21 | 2026-12-31 | [Apply](https://csu.zhiye.com/AllJob) | [Source](https://csu.cas.cn/gb/yjdw/rczp/202604/t20260421_8188165.html) A: official institute announcement | 2026-08-08 |
 | NetEase Games (Interactive Entertainment) | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 graduates | Guangzhou / Hangzhou / Shanghai | 2026-07-21 | Not announced | [Apply](https://campus.game.163.com/) | [Source](https://career.cuhk.edu.cn/job/view/id/468866) B: official portal + employer notice repost | 2026-08-08 |
 | NetEase Games (ThunderFire) | Class of 2027 Global Fall Campus Recruitment | Fall recruitment / offer fast track | Graduating Sep 2026-Aug 2027 | China / Global; role-specific | 2026-08-03 | 2026-10-15 | [Apply](https://leihuo.163.com/campus/) | [Source](https://campus.niuqizp.com/job-vys5zMLZL.html) B: official campaign site + official-account announcement repost | 2026-08-08 |
 | Papergames | Class of 2027 Fall Campus Recruitment | Fall recruitment | Graduating Sep 2026-Aug 2027 | Role-specific | 2026-08-05 | 2026-10-31 | [Apply](https://career.papegames.com/) | [Source](https://campus.niuqizp.com/job-vUr5zMNCN.html) B: official careers site + official-account announcement repost | 2026-08-08 |
 | PwC China | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 graduates; role-specific requirements | Mainland China / Hong Kong; role-specific | 2026-08-03 | 2026-10-03 | [Apply](https://app.mokahr.com/su/tyrgsd) | [Source](https://campus.niuqizp.com/job-v8k5zMLZM.html) B: employer's official ATS link + official-account announcement repost | 2026-08-08 |
 | Lilith Games | Class of 2027 Fall Early Batch | Fall early batch | Graduating Jan 2026-Dec 2027 | Shanghai | 2026-07-15 | 2026-10-30 | [Apply](https://jobs.lilith.com/) | [Source](https://career.cuhk.edu.cn/en/job/view/id/468784) B: official career site + employer notice repost | 2026-08-08 |
-| iFinD | 2027 AIME Program | AI/ML graduate program | Global Class of 2027 graduates | Hangzhou | Open by 2026-06-12 | Not announced | [Apply](https://campus.10jqka.com.cn/) | [Source](https://sfi.cuhk.edu.cn/zh-hans/node/10523) B: official portal + employer notice repost | 2026-08-08 |
 | Intsig | Class of 2027 Campus Recruitment | Fall recruitment | Global graduates from Sep 2026-Aug 2027 | Shanghai | 2026-07-28 | Not announced | [Apply](https://intsig.zhiye.com/campus/jobs) | [Source](https://campus.niuqizp.com/schedule-7sm85MzCC.html) B: official ATS + official-account announcement repost | 2026-08-08 |
 | miHoYo | Class of 2027 Campus Recruitment | Fall recruitment | Graduating Sep 2026-Aug 2027 | China / Global; role-specific | Open by 2026-08-06 | Not announced | [Apply](https://campus.mihoyo.com/) | [Source](https://campus.mihoyo.com/) A: official portal states Class of 2027 eligibility | 2026-08-08 |
 | BCG | Greater China Consulting — Europe Campus | Europe-university full-time batch | Class of 2027 Europe-university B/M/PhD/MBA students | Beijing / Shanghai / Shenzhen / Hong Kong / Taipei | 2026-07-30 | 2026-10-18 | [Apply](https://careers.bcg.com/global/en/job/58734/Consulting-Full-time-Europe-Campus-Greater-China) | [Source](https://careers.bcg.com/global/en/job/58734/Consulting-Full-time-Europe-Campus-Greater-China) A: official role page states cohort, region, and deadline | 2026-08-08 |
-| Ubiquant | Moon Program — Class of 2027 | Quant trading / HR graduate program | Graduating Sep 2026-Aug 2027 (B/M/PhD) | Role-specific | 2026-08-06 | September 2026 (day not announced) | [Apply](https://app.mokahr.com/campus_apply/ubiquantrecruit/37031#/jobs) | [Source](https://campus.niuqizp.com/job-vUl5zMtaz.html) B: official ATS + employer official-account announcement | 2026-08-08 |
 | Garena | Class of 2027 Campus Recruitment | Fall recruitment | Graduating Sep 2026-Aug 2027 | Role-specific | 2026-08-07 | 2026-09-15 | [Apply](https://app.mokahr.com/campus-recruitment/garena/148076?locale=zh-CN) | [Source](https://campus.niuqizp.com/job-vsr5zMtCa.html) B: official ATS + employer official-account announcement | 2026-08-08 |
 | KPMG China | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 graduates; major unrestricted | Mainland China; role-specific | 2026-08-04 | 2026-10-04 | [Apply](https://app.mokahr.com/campus-recruitment/kpmg/74356) | [Source](https://campus.niuqizp.com/schedule-7yysNL5tZ.html) B: official ATS + employer official-account announcement | 2026-08-08 |
 | CETC No. 43 Research Institute | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 Master's / PhD graduates | Hefei | 2026-08-07 | Not announced | [Apply](https://docs.qq.com/form/page/DWWr2eZvUqN0cGZC) | [Source](https://campus.niuqizp.com/job-vsY5zMZZt.html) B: official application form + institute official-account announcement | 2026-08-08 |
@@ -155,6 +166,9 @@ These companies were checked and intentionally withheld because they did not yet
 | YOFC | The Class of 2027 campaign is announced, but the published campus ATS currently fails TLS validation; withheld until a stable official application URL is available. | [Check](https://www.yofc.com/) | 2026-08-08 |
 | Cambricon / Moore Threads / Biren Technology | Campus portals exist; no explicit open 2027 full-time window verified. | [Check](https://joinus.cambricon.com/) | 2026-08-08 |
 | DeepSeek / Moonshot AI / Zhipu AI | General/social or internship channels only; no cohort-specific 2027 fall batch verified. | [Check](https://app.mokahr.com/social-recruitment/high-flyer/140576) | 2026-08-08 |
+| JPMorganChase / Morgan Stanley | Both firms have official graduate technology portals and Hong Kong offices, but no currently open Class of 2027 full-time technology role in Mainland China or Hong Kong was verified. | [Check](https://www.jpmorganchase.com/careers/explore-opportunities/programs/software-engineer-fulltime) | 2026-08-16 |
+| Minghong / High-Flyer / Yanfu / Lingjun | Career or campus channels exist, but the currently verified windows are internship-only, closed, or do not explicitly offer an open Class of 2027 full-time route. | [Check](https://join.mhfunds.com/) | 2026-08-16 |
+| Optiver / Akuna Capital / Qube Research & Technologies | APAC offices and technical roles were verified, but the current Hong Kong/Shanghai graduate routes are internship, expression-of-interest, 2026-cycle, or experienced-hire openings rather than open Class of 2027 full-time roles. | [Check](https://job-boards.greenhouse.io/quberesearchandtechnologies) | 2026-08-16 |
 
 ## Verification Method
 

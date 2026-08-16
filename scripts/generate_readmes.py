@@ -4,21 +4,24 @@ from __future__ import annotations
 from collections import Counter
 from pathlib import Path
 
-LAST_VERIFIED = "2026-08-08"
+LAST_VERIFIED = "2026-08-16"
+DEFAULT_ENTRY_VERIFIED = "2026-08-08"
 
 CATEGORIES = [
     ("platforms", "Internet & AI Platforms", "互联网与 AI 平台"),
     ("ai_programs", "AI Research & Top-Talent Programs", "AI 研究与顶尖人才专项"),
     ("robotics", "Autonomous Driving, Robotics & Embodied AI", "自动驾驶、机器人与具身智能"),
     ("chips", "Chips, Vision & Infrastructure", "芯片、视觉与基础设施"),
-    ("other", "Games, Finance, Consulting & Research", "游戏、金融、咨询与科研"),
+    ("quant_finance", "Quant Finance & Financial Technology", "量化金融与金融科技"),
+    ("other", "Games, Consulting & Research", "游戏、咨询与科研"),
 ]
 
 # Inclusion rule: an application must be open for a Class of 2027 full-time
 # graduate role, early batch, or named top-talent program on LAST_VERIFIED.
-# Employer-launched campus cycles with role-specific eligibility (notably Apple)
-# are labeled explicitly. Internships, campus ambassadors, "coming soon" pages,
-# and 2026 make-up hiring are intentionally excluded.
+# Employer-launched campus cycles and rolling international new-grad roles with
+# role-specific eligibility (notably Apple and quant firms) are labeled
+# explicitly. Internships, campus ambassadors, "coming soon" pages, and 2026
+# make-up hiring are intentionally excluded.
 ENTRIES: list[dict[str, str]] = [
     {
         "cat": "platforms",
@@ -781,7 +784,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_zh": "B：官方校招站 + 企业公告转载",
     },
     {
-        "cat": "other",
+        "cat": "quant_finance",
         "company": "Wind Information",
         "company_zh": "万得信息（Wind）",
         "focus": "2027 Campus Recruitment",
@@ -1281,7 +1284,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_zh": "B：官网入口 + 企业公告转载",
     },
     {
-        "cat": "other",
+        "cat": "quant_finance",
         "company": "iFinD",
         "company_zh": "同花顺",
         "focus": "2027 AIME Program",
@@ -1501,7 +1504,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_zh": "B：公司官网链接的 ATS + 企业官方号公告",
     },
     {
-        "cat": "platforms",
+        "cat": "quant_finance",
         "company": "CMB Network Technology",
         "company_zh": "招银网络科技",
         "focus": "Class of 2027 Global Campus Recruitment",
@@ -1601,24 +1604,130 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_zh": "A：官网校招页明确岗位、届别与招满即止",
     },
     {
-        "cat": "other",
+        "cat": "quant_finance",
         "company": "Ubiquant",
         "company_zh": "九坤投资",
-        "focus": "Moon Program — Class of 2027",
-        "focus_zh": "2027 届揽月计划",
-        "batch": "Quant trading / HR graduate program",
-        "batch_zh": "量化交易 / HR 专项校招",
-        "audience": "Graduating Sep 2026-Aug 2027 (B/M/PhD)",
-        "audience_zh": "2026.09-2027.08 毕业的本/硕/博",
-        "location": "Role-specific",
-        "location_zh": "以岗位为准",
-        "opens": "2026-08-06",
-        "deadline": "September 2026 (day not announced)",
-        "deadline_zh": "2026-09（日期未公布）",
+        "focus": "Wutong Program — Class of 2027",
+        "focus_zh": "2027 届梧桐计划",
+        "batch": "Top quantitative technology talent program",
+        "batch_zh": "量化技术顶尖人才专项",
+        "audience": "Global Class of 2027 B/M/PhD graduates; STEM backgrounds prioritized",
+        "audience_zh": "全球 2027 届本/硕/博；计算机、AI、数学等理工科优先",
+        "location": "Beijing / Shanghai",
+        "location_zh": "北京 / 上海",
+        "opens": "2026-07-29",
+        "deadline": "2026-08-26",
+        "deadline_zh": "2026-08-26",
         "url": "https://app.mokahr.com/campus_apply/ubiquantrecruit/37031#/jobs",
-        "evidence_url": "https://campus.niuqizp.com/job-vUl5zMtaz.html",
+        "evidence_url": "https://campus.niuqizp.com/schedulenew-financesecuritiesinvestment-chuxiongyizuzizhizhou-1/",
         "evidence": "B: official ATS + employer official-account announcement",
         "evidence_zh": "B：官方 ATS + 企业官方号公告",
+        "verified": "2026-08-16",
+    },
+    {
+        "cat": "quant_finance",
+        "company": "JoinQuant",
+        "company_zh": "聚宽投资",
+        "focus": "Class of 2027 Campus Recruitment",
+        "focus_zh": "2027 届校园招聘",
+        "batch": "Quant research / engineering fall recruitment",
+        "batch_zh": "量化投研 / 技术秋招",
+        "audience": "Class of 2027 graduates; role-specific degrees",
+        "audience_zh": "2027 届毕业生；学历以岗位要求为准",
+        "location": "Beijing / Shanghai / Shenzhen / Guangzhou",
+        "location_zh": "北京 / 上海 / 深圳 / 广州",
+        "opens": "2026-07-29",
+        "deadline": "2026-08-26",
+        "deadline_zh": "2026-08-26",
+        "url": "https://app.mokahr.com/campus_apply/joinquant/92347#/jobs",
+        "evidence_url": "https://www.nowcoder.com/feed/main/detail/7f084b948d074756beac88b2be32b90f",
+        "evidence": "B: official ATS + campus launch notice",
+        "evidence_zh": "B：官方 ATS + 校招启动公告",
+        "verified": "2026-08-16",
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Dynamic Technology Lab (DTL)",
+        "company_zh": "Dynamic Technology Lab（DTL 量化）",
+        "focus": "New Grad Quantitative Research / Machine Learning",
+        "focus_zh": "New Grad 量化研究 / 机器学习",
+        "batch": "Rolling new-graduate recruitment",
+        "batch_zh": "滚动应届生招聘",
+        "audience": "Recent B/M/PhD graduates in CS, math, statistics, physics or related fields",
+        "audience_zh": "计算机、数学、统计、物理等相关专业的近期本/硕/博毕业生",
+        "location": "Beijing / Shanghai / Singapore / Remote",
+        "location_zh": "北京 / 上海 / 新加坡 / 远程",
+        "opens": "Open",
+        "deadline": "Rolling until filled",
+        "deadline_zh": "招满即止",
+        "url": "https://www.dytechlab.com/careers/",
+        "evidence_url": "https://career.nankai.edu.cn/correcruit/content/id/116147.html",
+        "evidence": "B: official careers page + university-posted employer notice",
+        "evidence_zh": "B：官网招聘页 + 高校转载企业公告",
+        "verified": "2026-08-16",
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Jane Street",
+        "company_zh": "Jane Street",
+        "focus": "Software Engineer — Hong Kong",
+        "focus_zh": "软件工程师（香港）",
+        "batch": "Full-time new graduate",
+        "batch_zh": "全职应届生",
+        "audience": "Students / new graduates; expected full-time start is collected in the application",
+        "audience_zh": "在校生 / 应届生；申请表按预计全职入职时间筛选",
+        "location": "Hong Kong",
+        "location_zh": "香港",
+        "opens": "Open",
+        "deadline": "Rolling until filled",
+        "deadline_zh": "招满即止",
+        "url": "https://www.janestreet.com/join-jane-street/position/8140274002/",
+        "evidence_url": "https://www.janestreet.com/join-jane-street/apply/8140274002/",
+        "evidence": "A: official role and active new-grad application",
+        "evidence_zh": "A：官网岗位页及有效应届生申请表",
+        "verified": "2026-08-16",
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Citadel Securities",
+        "company_zh": "Citadel Securities",
+        "focus": "Quantitative Research Analyst — University Graduate (Asia)",
+        "focus_zh": "量化研究分析师（亚洲应届生）",
+        "batch": "University graduate quantitative research",
+        "batch_zh": "应届生量化研究",
+        "audience": "B/M graduates in CS, math, statistics, physics or another quantitative field",
+        "audience_zh": "计算机、数学、统计、物理等量化专业本/硕毕业生",
+        "location": "Hong Kong / Singapore",
+        "location_zh": "香港 / 新加坡",
+        "opens": "Open",
+        "deadline": "Not announced",
+        "deadline_zh": "未公布",
+        "url": "https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-university-graduate-asia/",
+        "evidence_url": "https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-university-graduate-asia/",
+        "evidence": "A: official role page and active application form",
+        "evidence_zh": "A：官网岗位页及有效申请表",
+        "verified": "2026-08-16",
+    },
+    {
+        "cat": "quant_finance",
+        "company": "Goldman Sachs",
+        "company_zh": "高盛（Goldman Sachs）",
+        "focus": "2027 APAC New Analyst — Engineering / Quantitative Strategists",
+        "focus_zh": "2027 亚太新分析师（工程 / 量化策略）",
+        "batch": "Full-time new analyst program",
+        "batch_zh": "全职新分析师项目",
+        "audience": "Final-year undergraduate and graduate students",
+        "audience_zh": "本科及研究生最后一年在读学生",
+        "location": "Hong Kong / Beijing / Shanghai / Shenzhen / other APAC offices",
+        "location_zh": "香港 / 北京 / 上海 / 深圳 / 其他亚太办公室",
+        "opens": "Open",
+        "deadline": "2026-10-04",
+        "deadline_zh": "2026-10-04",
+        "url": "https://www.goldmansachs.com/careers/students/programs-and-internships/asia-pacific/new-analyst",
+        "evidence_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/asia-pacific/new-analyst",
+        "evidence": "A: official 2027 APAC program page and application window",
+        "evidence_zh": "A：官网 2027 亚太项目页及申请窗口",
+        "verified": "2026-08-16",
     },
     {
         "cat": "chips",
@@ -1914,6 +2023,30 @@ WATCHLIST: list[dict[str, str]] = [
         "status_zh": "当前主要为社招/通用或实习入口，尚未核验到 2027 届秋招批次。",
         "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576",
     },
+    {
+        "company": "JPMorganChase / Morgan Stanley",
+        "company_zh": "摩根大通（JPMorganChase）/ 摩根士丹利（Morgan Stanley）",
+        "status": "Both firms have official graduate technology portals and Hong Kong offices, but no currently open Class of 2027 full-time technology role in Mainland China or Hong Kong was verified.",
+        "status_zh": "两家公司均有官方毕业生技术项目和香港办公室，但尚未核验到当前开放的中国内地或香港 2027 届全职技术岗位。",
+        "url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/software-engineer-fulltime",
+        "verified": "2026-08-16",
+    },
+    {
+        "company": "Minghong / High-Flyer / Yanfu / Lingjun",
+        "company_zh": "明汯 / 幻方 / 衍复 / 灵均",
+        "status": "Career or campus channels exist, but the currently verified windows are internship-only, closed, or do not explicitly offer an open Class of 2027 full-time route.",
+        "status_zh": "存在招聘或校招入口，但当前核验窗口仅为实习、已经截止，或未明确开放 2027 届全职通道。",
+        "url": "https://join.mhfunds.com/",
+        "verified": "2026-08-16",
+    },
+    {
+        "company": "Optiver / Akuna Capital / Qube Research & Technologies",
+        "company_zh": "Optiver / Akuna Capital / QRT",
+        "status": "APAC offices and technical roles were verified, but the current Hong Kong/Shanghai graduate routes are internship, expression-of-interest, 2026-cycle, or experienced-hire openings rather than open Class of 2027 full-time roles.",
+        "status_zh": "已核验其亚太办公室和技术岗位，但当前香港/上海毕业生通道属于实习、意向登记、2026 批次或社招，尚非开放中的 2027 届全职岗位。",
+        "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies",
+        "verified": "2026-08-16",
+    },
 ]
 
 # Kept for the weekly scanner's compatibility. Only explicit deadlines belong
@@ -1949,19 +2082,19 @@ def render_header(lines: list[str], *, chinese: bool) -> None:
         lines.append("")
         lines.append(f"- 已确认开放: **{len(ENTRIES)}** 个入口")
         lines.append(f"- 分类数: **{len(CATEGORIES)}**")
-        lines.append(f"- 最近核验: **{LAST_VERIFIED}**")
+        lines.append(f"- 最近更新: **{LAST_VERIFIED}**")
         lines.append("- 语言: [English](./README.md) | [中文](./README_zh.md)")
         lines.append("")
-        lines.append("> 口径提醒：这里是**秋招正式岗**清单，不收录仅有实习、校园大使、预告未开放或 2026 届补录的项目。Apple 等按岗位发布的雇主会明确标注“毕业时间以岗位为准”。截止日期仅在公开页面明确给出时填写；“未公布”不等于长期有效，请尽早投递。")
+        lines.append("> 口径提醒：这里是**秋招正式岗**清单，不收录仅有实习、校园大使、预告未开放或 2026 届补录的项目。Apple 等按岗位发布的雇主，以及滚动招聘应届生的国际量化机构，会明确标注“毕业时间以岗位为准”。截止日期仅在公开页面明确给出时填写；“未公布”不等于长期有效，请尽早投递。")
     else:
         lines.append("Official application channels for **Class of 2027 full-time fall campus recruitment** and early batches, prioritizing China-based AI and technical roles.")
         lines.append("")
         lines.append(f"- Confirmed open: **{len(ENTRIES)}** application channels")
         lines.append(f"- Categories: **{len(CATEGORIES)}**")
-        lines.append(f"- Last verified: **{LAST_VERIFIED}**")
+        lines.append(f"- Last updated: **{LAST_VERIFIED}**")
         lines.append("- Language: [English](./README.md) | [中文](./README_zh.md)")
         lines.append("")
-        lines.append("> Scope: this is a **full-time fall recruiting** list. Internship-only, campus-ambassador, not-yet-open, and Class of 2026 make-up campaigns are excluded. Employers such as Apple that publish campus roles individually are labeled as role-specific. A deadline is shown only when explicitly published; “not announced” can still mean the role will close without notice.")
+        lines.append("> Scope: this is a **full-time fall recruiting** list. Internship-only, campus-ambassador, not-yet-open, and Class of 2026 make-up campaigns are excluded. Employers such as Apple that publish roles individually, plus international quant firms that recruit new graduates on a rolling basis, are labeled as role-specific. A deadline is shown only when explicitly published; “not announced” can still mean the role will close without notice.")
     lines.append("")
 
 
@@ -2001,7 +2134,7 @@ def render_entries(lines: list[str], *, chinese: bool) -> None:
                 item["deadline_zh"] if chinese else item["deadline"],
                 f"[投递]({item['url']})" if chinese else f"[Apply]({item['url']})",
                 f"[依据]({item['evidence_url']}) {item['evidence_zh']}" if chinese else f"[Source]({item['evidence_url']}) {item['evidence']}",
-                LAST_VERIFIED,
+                item.get("verified", DEFAULT_ENTRY_VERIFIED),
             ]
             lines.append("| " + " | ".join(md_escape(value) for value in values) + " |")
         lines.append("")
@@ -2024,7 +2157,7 @@ def render_watchlist(lines: list[str], *, chinese: bool) -> None:
             item["company_zh"] if chinese else item["company"],
             item["status_zh"] if chinese else item["status"],
             f"[查看]({item['url']})" if chinese else f"[Check]({item['url']})",
-            LAST_VERIFIED,
+            item.get("verified", DEFAULT_ENTRY_VERIFIED),
         ]
         lines.append("| " + " | ".join(md_escape(value) for value in values) + " |")
     lines.append("")
