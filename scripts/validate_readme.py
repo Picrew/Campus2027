@@ -11,7 +11,80 @@ from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 TRACKING_KEYS = {"utm_source", "utm_medium", "utm_campaign", "ref", "gh_jid"}
-KEY_COMPANIES = ["StepFun", "Apple", "AWS", "Qualcomm", "AMD"]
+KEY_COMPANIES = [
+    "ByteDance Seed",
+    "Tencent",
+    "Alibaba",
+    "Lenovo",
+    "Shopee",
+    "China Telecom Cloud",
+    "Ant Group",
+    "Baidu",
+    "PDD",
+    "MiniMax",
+    "DJI",
+    "NIO",
+    "MediaTek",
+    "YMTC",
+    "ASML",
+    "OPPO",
+    "Kuaishou",
+    "SenseTime",
+    "Galbot",
+    "NVIDIA",
+    "CXMT",
+    "VeriSilicon",
+    "TP-LINK",
+    "vivo",
+    "Li Auto",
+    "VOYAH",
+    "DeepRoute.ai",
+    "ROKAE Robotics",
+    "Enflame",
+    "Bestechnic",
+    "SGMicro",
+    "NAURA",
+    "Texas Instruments",
+    "Zhaoxin",
+    "Apple",
+    "miHoYo",
+    "DiDi",
+    "Momenta",
+    "Orbbec",
+    "ZWSOFT",
+    "Witmem Technology",
+    "Visionox",
+    "CMB Network Technology",
+    "BCG",
+    "Hyperparameter Technology",
+    "Yealink",
+    "Lisuan Technology",
+    "Ubiquant",
+    "JoinQuant",
+    "Dynamic Technology Lab",
+    "Jane Street",
+    "Citadel Securities",
+    "Goldman Sachs",
+    "JPMorganChase",
+    "Morgan Stanley",
+    "GalaxyCore",
+    "iFinD",
+    "Intsig",
+    "Envision Energy",
+    "NetEase Games",
+    "Papergames",
+    "PwC China",
+    "Lilith Games",
+    "Qunar",
+    "Xunlei",
+    "TARS Robotics",
+    "Goodix",
+    "Xi'an UniIC Semiconductors",
+    "Shanghai Precision Measurement Semiconductor Technology",
+    "Garena",
+    "KPMG China",
+    "CETC No. 43 Research Institute",
+]
 
 
 def normalize_url(url: str) -> str:
@@ -27,7 +100,12 @@ def extract_apply_urls(text: str) -> list[str]:
 
 
 def extract_total_entries(text: str) -> int | None:
-    for pat in [r"Total entries:\s*\*\*(\d+)\*\*", r"总条目数:\s*\*\*(\d+)\*\*"]:
+    for pat in [
+        r"Confirmed open:\s*\*\*(\d+)\*\*",
+        r"已确认开放:\s*\*\*(\d+)\*\*",
+        r"Total entries:\s*\*\*(\d+)\*\*",
+        r"总条目数:\s*\*\*(\d+)\*\*",
+    ]:
         m = re.search(pat, text)
         if m:
             return int(m.group(1))

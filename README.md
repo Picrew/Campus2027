@@ -1,275 +1,179 @@
 # Campus2027
 
-Official LLM internship channels for Class of 2027 students (China focus).
+Official application channels for **Class of 2027 full-time fall campus recruitment** and early batches, prioritizing China-based AI and technical roles.
 
-- Total entries: **225**
+- Confirmed open: **95** application channels
 - Categories: **6**
-- Last verified: **2026-06-28**
+- Last updated: **2026-08-16**
 - Language: [English](./README.md) | [中文](./README_zh.md)
+
+> Scope: this is a **full-time fall recruiting** list. Internship-only, campus-ambassador, not-yet-open, and Class of 2026 make-up campaigns are excluded. Employers such as Apple that publish roles individually, plus international quant firms that recruit new graduates on a rolling basis, are labeled as role-specific. A deadline is shown only when explicitly published; “not announced” can still mean the role will close without notice.
 
 ## Category Overview
 
-| Category | Entries |
+| Category | Open Channels |
 | --- | ---: |
-| China Internet & Cloud Giants | 42 |
-| China LLM / AI-Native Companies | 25 |
-| Quant Finance & AI Investing | 35 |
-| Autonomous Driving, Robotics & Embodied AI | 18 |
-| Chips, AI Infrastructure & Systems | 36 |
-| International Companies with China Internship Channels | 69 |
+| Internet & AI Platforms | 18 |
+| AI Research & Top-Talent Programs | 10 |
+| Autonomous Driving, Robotics & Embodied AI | 15 |
+| Chips, Vision & Infrastructure | 30 |
+| Quant Finance & Financial Technology | 9 |
+| Games, Consulting & Research | 13 |
 
-## China Internet & Cloud Giants
+Evidence grade: **A** = the company/institute site explicitly states cohort and campaign; **B** = the official application portal is live and the window is cross-checked against an employer notice or its university repost.
 
-| Company | Team / Focus | Internship Type | Location | Apply Link (Official) | Deadline | Last Verified |
-| --- | --- | --- | --- | --- | --- | --- |
-| ByteDance | Campus internship portal | Summer / Daily | China | [Apply](https://jobs.bytedance.com/campus) | - | 2026-06-28 |
-| ByteDance | Top Seed - LLM Applied Algorithm Intern | Summer | Beijing / Shanghai / Shenzhen | [Apply](https://jobs.bytedance.com/campus/position/7483023182024001799/detail) | - | 2026-06-28 |
-| ByteDance | Recommender LLM Algorithm Intern | Summer | Beijing / Shanghai | [Apply](https://jobs.bytedance.com/campus/position/7475203956567591186/detail) | - | 2026-06-28 |
-| Tencent | Campus intern portal (AI / engineering) | Summer / Daily | China | [Apply](https://join.qq.com/post.html?query=p_2,b_14129) | - | 2026-06-28 |
-| Tencent Games | Game engineering / AI internship portal | Summer | Shenzhen / Shanghai | [Apply](https://join.qq.com/post.html?query=p_2) | - | 2026-06-28 |
-| Alibaba | Campus internship portal | Summer | China | [Apply](https://talent.alibaba.com/campus/position-list?campusType=internship) | - | 2026-06-28 |
-| Baidu | Campus intern portal (AI / LLM) | Summer | China | [Apply](https://talent.baidu.com/jobs/list) | 2026-06 | 2026-06-28 |
-| Baidu | LLM risk-scenario algorithm intern | Summer | Beijing | [Apply](https://talent.baidu.com/jobs/detail/INTERN/1f5d0a4b-e563-41ad-ac96-b0a75cf89d65) | - | 2026-06-28 |
-| Meituan | Campus internship portal | Summer | China | [Apply](https://zhaopin.meituan.com/web/campus?hiringType=2_6&keyword=) | - | 2026-06-28 |
-| JD | Campus internship portal | Summer | China | [Apply](https://campus.jd.com/#/jobs) | - | 2026-06-28 |
-| Kuaishou | Campus internship portal | Summer / Daily | China | [Apply](https://campus.kuaishou.cn/#/campus/index) | - | 2026-06-28 |
-| Xiaohongshu (RED) | Campus internship portal | Summer / Daily | Beijing / Shanghai / Shenzhen / Hangzhou | [Apply](https://job.xiaohongshu.com/campus) | - | 2026-06-28 |
-| Bilibili | Campus internship portal | Summer / Daily | Beijing / Shanghai / Chongqing | [Apply](https://jobs.bilibili.com/campus/positions?type=0) | - | 2026-06-28 |
-| PDD | Campus internship portal | Summer | China | [Apply](https://careers.pddglobalhr.net/campus) | - | 2026-06-28 |
-| Xiaomi | Internship portal | Summer / Daily | China | [Apply](https://xiaomi.jobs.f.mioffice.cn/internship/) | - | 2026-06-28 |
-| Huawei | Campus internship portal | Summer | China | [Apply](https://career.huawei.com/reccampportal/portal5/campus-recruitment.html) | - | 2026-06-28 |
-| NetEase Leihuo | Internship portal | Summer | Hangzhou | [Apply](https://leihuo.163.com/campus/#/intern) | - | 2026-06-28 |
-| NetEase Games | Campus internship portal | Summer | Hangzhou / Guangzhou | [Apply](https://game.campus.163.com/position) | - | 2026-06-28 |
-| Trip.com (Ctrip) | Official careers search | Summer / Daily | China | [Apply](https://jobs.careers.trip.com/en_US/careers/SearchJobs) | - | 2026-06-28 |
-| 360 | Campus internship portal | Summer / Daily | Beijing / Nanjing / Shenzhen | [Apply](https://360campus.zhiye.com/jobs) | - | 2026-06-28 |
-| vivo | Campus / intern portal | Summer / Daily | China | [Apply](https://hr.vivo.com) | - | 2026-06-28 |
-| OPPO | Campus internship portal | Summer / Daily | China | [Apply](https://careers.oppo.com/university/oppo/campus/post?recruitType=Intern) | - | 2026-06-28 |
-| Lenovo | Internship portal | Summer / Daily | China | [Apply](https://talent.lenovo.com.cn/position?projectType=2) | - | 2026-06-28 |
-| WPS / Kingsoft | Campus internship portal | Summer / Daily | China | [Apply](https://app.mokahr.com/campus-recruitment/wps/41436#/jobs?project%5B0%5D=100074177&page=1&anchorName=jobsList) | - | 2026-06-28 |
-| Tencent CSIG | Cloud / AI platform internship portal | Summer | Shenzhen / Beijing / Shanghai | [Apply](https://app-tc.mokahr.com/campus-recruitment/csig/20001#/page/%E5%AE%9E%E4%B9%A0%E7%94%9F%E6%8B%9B%E8%81%98) | - | 2026-06-28 |
-| Qiniu Cloud | Campus internship portal | Summer / Daily | Shanghai / Beijing / Shenzhen | [Apply](https://campus.qiniu.com/campus/jobs) | - | 2026-06-28 |
-| Sangfor | Official careers openings | Summer / Daily | China | [Apply](https://www.sangfor.com/about-us/careers/find-job-openings) | - | 2026-06-28 |
-| SmartX | Official jobs page | Summer / Daily | Beijing / Shanghai | [Apply](https://www.smartx.com/jobs/) | - | 2026-06-28 |
-| Fanruan | Campus / intern portal | Summer / Daily | China | [Apply](https://join.fanruan.com/) | - | 2026-06-28 |
-| Beisen | Internship portal | Summer / Daily | China | [Apply](https://beisen.zhiye.com/intern/jobs) | - | 2026-06-28 |
-| miHoYo | Campus internship portal | Summer | Shanghai / Shenzhen | [Apply](https://jobs.mihoyo.com/#/campus/position) | - | 2026-06-28 |
-| Perfect World | Campus internship portal | Summer | Beijing | [Apply](https://recruit.games.wanmei.com/campus-recruitment/perfect-world/94767/#/) | - | 2026-06-28 |
-| Papergames | Campus internship portal | Summer | Shanghai | [Apply](https://career.papegames.com/campus/position/list?keywords=&category=&location=&project=&type=&job_hot_flag=&current=1&limit=10&functionCategory=&tag=) | - | 2026-06-28 |
-| Ant Group | Official careers portal | Summer / Daily | China | [Apply](https://www.antgroup.com/careers) | - | 2026-06-28 |
-| Didi | Official talent portal | Summer / Daily | China | [Apply](https://talent.didiglobal.com/) | - | 2026-06-28 |
-| Didi | Campus internship portal | Summer | China | [Apply](https://talent.didiglobal.com/campus) | - | 2026-06-28 |
-| WeBank | Official careers portal | Summer / Daily | Shenzhen / Beijing | [Apply](https://www.webank.com/career) | - | 2026-06-28 |
-| Huawei | Campus recruiting home | Summer / Daily | China | [Apply](https://career.huawei.com/reccampportal/portal5/index.html) | - | 2026-06-28 |
-| Alibaba | Campus recruiting home | Summer / Daily | China | [Apply](https://talent.alibaba.com/campus) | - | 2026-06-28 |
-| Tencent | Campus recruiting home | Summer / Daily | China | [Apply](https://join.qq.com/) | - | 2026-06-28 |
-| Bilibili | Campus positions list | Summer / Daily | China | [Apply](https://jobs.bilibili.com/campus/positions) | - | 2026-06-28 |
-| Lenovo | Talent portal home | Summer / Daily | China | [Apply](https://talent.lenovo.com.cn/) | - | 2026-06-28 |
+## Internet & AI Platforms
 
-## China LLM / AI-Native Companies
+| Company | Program / Focus | Batch | Audience | Location | Opens | Deadline | Official Apply | Evidence | Last Verified |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ByteDance Seed | Seed Foundation Model Campus Recruitment | Class of 2027 full-time | Graduating Sep 2026-Aug 2027 (B/M/PhD) | Beijing / Shanghai / Shenzhen / Hangzhou | 2026-04-01 | Not announced | [Apply](https://seed.bytedance.com/zh/seedearlycareer) | [Source](https://seed.bytedance.com/zh/blog/bytedance-seed-2027-foundation-model-campus-recruitment-is-now-open-internships-included) A: official campaign page | 2026-08-08 |
+| ByteDance | Class of 2027 Campus Recruitment / Frontier Technology | Fall recruitment / frontier-tech program | Graduating Sep 2026-Aug 2027; frontier roles may accept later cohorts | China / Global | 2026-08-03 | Not announced | [Apply](https://jobs.bytedance.com/campus/position) | [Source](https://campus.niuqizp.com/schedulenew-2/) B: official portal + Aug 3 employer announcement index | 2026-08-08 |
+| Tencent | Qingyun Program 2027 | Top AI talent program | Graduating Jan 2026-Dec 2027 (B/M/PhD) | China / US / Singapore / Europe | 2026-07-15 | Not announced | [Apply](https://join.qq.com/) | [Source](https://www.yicai.com/news/103276437.html) B: official portal + launch report | 2026-08-08 |
+| Alibaba | AliStar 2027 Graduate Program | Top research talent program | Graduating Nov 2026-Oct 2027 | China | 2026-06-22 | Not announced | [Apply](https://campus-talent.alibaba.com/campus/alistar) | [Source](https://campus-talent.alibaba.com/campus/trends) A: official campaign page | 2026-08-08 |
+| Alibaba | Class of 2027 Global Campus Recruitment (Qwen / Cloud / T-Head / Hema) | Fall recruitment | Graduating Nov 2026-Oct 2027 | China / Global; role-specific | 2026-08-05 | Not announced | [Apply](https://campus-talent.alibaba.com/campus/gov) | [Source](https://campus-talent.alibaba.com/campus/gov) A: official campaign page states cohort and recruiting scope | 2026-08-08 |
+| Baidu | 2027 Campus Recruitment (incl. AIDU / trainee) | Fall recruitment / talent programs | Graduating Sep 2026-Aug 2027 | Beijing / Shanghai / Shenzhen / others | 2026-07-09 | 2027-06 | [Apply](https://talent.baidu.com/jobs/list?recruitType=GRADUATE) | [Source](https://talent.baidu.com/jobs/campus) A: official campaign page | 2026-08-08 |
+| PDD | 2027 Early Campus Recruitment / Cloud Arc Track | Fall early batch / top-tech program | Graduating Sep 2026-Aug 2027 | China | 2026-07-06 | 2026-08-23 | [Apply](https://careers.pddglobalhr.com/campus/grad) | [Source](https://sfi.cuhk.edu.cn/zh-hans/node/10884) B: official portal + employer notice repost | 2026-08-08 |
+| Meituan | Beidou Program 2027 | Top AI talent program | Graduating Jan 2026-Dec 2027 | Beijing / Shanghai / Shenzhen / Chengdu / Global | 2026-06-11 | Rolling | [Apply](https://zhaopin.meituan.com/web/campus?bg=BGCLC) | [Source](https://pjcareer.dlut.edu.cn/info/1091/44132.htm) B: official portal + employer notice repost | 2026-08-08 |
+| JD | TET 2027 Management Trainee | Early talent program | Graduating Oct 2026-Sep 2027 | Beijing / Suqian / business locations | 2026-07-01 | 2026-10-31 | [Apply](https://campus.jd.com/#/jobs) | [Source](https://www.nowcoder.com/jobs/detail/453018) B: official portal + verified employer listing | 2026-08-08 |
+| Xiaomi | Top-Talent Graduate Recruitment | Top AI talent program | Graduated 2024-2027; postdocs leaving in 2027 | China / Global | Open | Not announced | [Apply](https://hr.xiaomi.com/campus/) | [Source](https://hr.xiaomi.com/website/top-talent.html) A: official top-talent page | 2026-08-08 |
+| Huawei | Class of 2027 Top AI Talent Initiative | Top AI talent program | Class of 2027; role-specific degree requirements | China / Global | 2026-05-19 | Not announced | [Apply](https://career.huawei.com/cn/campus-recruitment) | [Source](https://career.huawei.com/cn/campus-recruitment) A: official activity and apply page | 2026-08-08 |
+| Lenovo | Class of 2027 Campus Recruitment / AI Special / GFL | Fall recruitment / graduate programs | Class of 2027 graduates; program-specific requirements | Beijing / Shanghai / Shenzhen / Wuhan / Xi'an / others | 2026-08-05 | Not announced | [Apply](https://talent.lenovo.com.cn/campus) | [Source](https://campus.niuqizp.com/job-vrY5zMNzn.html) B: official portal + employer announcement repost | 2026-08-08 |
+| China Telecom Cloud | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 domestic and overseas graduates | Beijing / Shanghai / Guangzhou / Shenzhen / Chengdu / Xiamen | 2026-08-03 | Not announced | [Apply](https://wecruit.hotjob.cn/SU62b2ae672f9d24458d72f9cc/pb/school.html) | [Source](https://campus.niuqizp.com/job-vk85zMLtn.html) B: official ATS + official-account announcement repost | 2026-08-08 |
+| OPPO | Class of 2027 Global Campus Recruitment | Fall recruitment | Mainland B/M graduating in 2027; global B/M/PhD windows vary | China / Global | 2026-07-15 | Not announced | [Apply](https://careers.oppo.com/campus/post) | [Source](https://careers.oppo.com/university/oppo/campus/) A: official campaign and position pages | 2026-08-08 |
+| Kuaishou | KuaiStar Top Technology Talent Program 2027 | Top-tech graduate program | Global Class of 2027 graduates and tech talent within two years of graduation | Role-specific | 2026-05-29 | Not announced | [Apply](https://campus.kuaishou.cn/) | [Source](https://ir.kuaishou.com/zh-hans/news-releases/news-release-details-193) A: official investor-relations launch announcement | 2026-08-08 |
+| TP-LINK | Class of 2027 Campus Recruitment Early Batch | Fall early batch | Mainland graduates Jan-Jul 2027; overseas graduates and mainland PhDs Jan-Dec 2027 | Shenzhen / Hangzhou / Beijing / Nanjing | Open by 2026-05-28 | Rolling | [Apply](https://hr.tp-link.com.cn/) | [Source](https://job.hust.edu.cn/zpinfo1/2400677.htm) B: official portal + employer notice repost | 2026-08-08 |
+| Qunar | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 graduates | Beijing / Shanghai | 2026-08-06 | 2026-09-20 | [Apply](https://hf7l9aiqzx.jobs.feishu.cn/704852/) | [Source](https://campus.niuqizp.com/job-vwl5zMtn5.html) B: official ATS + employer official-account announcement | 2026-08-08 |
+| Xunlei | Class of 2027 Campus Recruitment | Fall recruitment | Graduating Sep 2026-Aug 2027 | Shenzhen / Beijing / Hong Kong | 2026-08-01 | 2026-10-31 | [Apply](https://campus.xunlei.com/) | [Source](https://campus.niuqizp.com/job-vkr5zMtCN.html) B: official campus site + employer official-account announcement | 2026-08-08 |
 
-| Company | Team / Focus | Internship Type | Location | Apply Link (Official) | Deadline | Last Verified |
-| --- | --- | --- | --- | --- | --- | --- |
-| Zhipu AI | Official careers page | Summer / Daily | Beijing / Shanghai | [Apply](https://www.zhipuai.cn/joinus) | - | 2026-06-28 |
-| Zhipu AI | Official careers page (alt) | Summer / Daily | Beijing / Shanghai | [Apply](https://www.zhipuai.cn/careers) | - | 2026-06-28 |
-| Moonshot AI | Official careers page | Summer / Daily | Beijing | [Apply](https://www.moonshot.cn/joinus) | - | 2026-06-28 |
-| Moonshot AI | Official careers page (alt) | Summer / Daily | Beijing | [Apply](https://www.moonshot.cn/careers) | - | 2026-06-28 |
-| MiniMax | Official careers page | Summer / Daily | Shanghai / Beijing | [Apply](https://www.minimax.io/careers) | - | 2026-06-28 |
-| StepFun | Official ATS portal | Summer / Daily | Shanghai / Beijing | [Apply](https://app.mokahr.com/social-recruitment/step/94904#/) | - | 2026-06-28 |
-| DeepSeek / High-Flyer | Official ATS portal | Summer / Daily | Hangzhou / Beijing / Shanghai | [Apply](https://app.mokahr.com/social-recruitment/high-flyer/140576) | - | 2026-06-28 |
-| 01.AI | Official Feishu jobs portal | Summer / Daily | China | [Apply](https://01ai.jobs.feishu.cn/index/) | - | 2026-06-28 |
-| Shengshu Technology (Vidu) | Official Feishu jobs portal | Summer / Daily | China | [Apply](https://shengshu.jobs.feishu.cn/index/) | - | 2026-06-28 |
-| SenseTime | Official join-us page | Summer / Daily | Shanghai / Shenzhen | [Apply](https://www.sensetime.com/cn/join-us) | - | 2026-06-28 |
-| Megvii | Official join-us portal | Summer / Daily | Beijing / Shanghai | [Apply](https://www.megvii.com/join_us) | - | 2026-06-28 |
-| Meshy | Official Ashby job board | Summer / Daily | Shanghai | [Apply](https://jobs.ashbyhq.com/meshy) | 2026-07-30 | 2026-06-28 |
-| Baichuan AI | Official company site | Summer / Daily | China | [Apply](https://www.baichuan-ai.com) | - | 2026-06-28 |
-| ModelBest | Official company site | Summer / Daily | China | [Apply](https://www.modelbest.cn) | - | 2026-06-28 |
-| iFlytek | Official campus recruiting portal | Summer / Daily | China | [Apply](https://campus.iflytek.com/) | - | 2026-06-28 |
-| StepFun | Official company site | Summer / Daily | China | [Apply](https://www.stepfun.com/) | - | 2026-06-28 |
-| 4Paradigm | Official company site | Summer / Daily | China | [Apply](https://www.4paradigm.com/) | - | 2026-06-28 |
-| AISpeech | Official company site | Summer / Daily | China | [Apply](https://www.aispeech.com/) | - | 2026-06-28 |
-| AISpeech | Join-us portal | Summer / Daily | Suzhou / Beijing / Shanghai | [Apply](https://www.aispeech.com/join-us) | - | 2026-06-28 |
-| Mobvoi | Official company site | Summer / Daily | China | [Apply](https://www.mobvoi.com/) | - | 2026-06-28 |
-| Mobvoi | Official careers page | Summer / Daily | China | [Apply](https://www.mobvoi.com/pages/career) | - | 2026-06-28 |
-| CloudWalk | Official company site | Summer / Daily | Guangzhou / Shanghai | [Apply](https://www.cloudwalk.com/) | - | 2026-06-28 |
-| Intellifusion | Official company site | Summer / Daily | Shenzhen / Nanjing | [Apply](https://www.intellif.com/) | - | 2026-06-28 |
-| SmartMore | Official company site | Summer / Daily | Shenzhen / Shanghai | [Apply](https://www.smartmore.com/) | - | 2026-06-28 |
-| Unisound | Official company site | Summer / Daily | Beijing / Hefei | [Apply](https://www.unisound.com/) | - | 2026-06-28 |
+## AI Research & Top-Talent Programs
 
-## Quant Finance & AI Investing
-
-| Company | Team / Focus | Internship Type | Location | Apply Link (Official) | Deadline | Last Verified |
-| --- | --- | --- | --- | --- | --- | --- |
-| Ubiquant | Official careers page | Summer / Daily | China | [Apply](https://www.ubiquant.com/website/career) | - | 2026-06-28 |
-| Ubiquant | Campus recruiting portal (official ATS) | Summer / Daily | China | [Apply](https://app.mokahr.com/campus_apply/ubiquantrecruit/37031) | - | 2026-06-28 |
-| Ubiquant | Social recruiting portal (official ATS) | Daily | China | [Apply](https://app.mokahr.com/apply/ubiquantrecruit/37030) | - | 2026-06-28 |
-| WizardQuant | Official careers page | Summer / Daily | Shanghai / Beijing | [Apply](https://www.wizardquant.com/career) | - | 2026-06-28 |
-| WizardQuant | WILL - AI Researcher (full-time/intern) | Unknown | Beijing / Shanghai / Remote | [Apply](https://www.wizardquant.com/career/ai%E7%A0%94%E7%A9%B6%E5%91%98) | - | 2026-06-28 |
-| WizardQuant | WILL - AI Engineer (full-time/intern) | Unknown | Beijing / Shanghai / Remote | [Apply](https://www.wizardquant.com/career/ai%E5%B7%A5%E7%A8%8B%E5%B8%88) | - | 2026-06-28 |
-| Minghong Investment | Official company site | Unknown | China | [Apply](https://www.mhfunds.com) | - | 2026-06-28 |
-| Minghong Investment | Official recruiting portal | Summer / Daily | China | [Apply](https://join.mhfunds.com/index) | - | 2026-06-28 |
-| Lingjun Investment | Join-us overview page | Summer / Daily | China | [Apply](https://www.lingjuninvest.com/overview) | - | 2026-06-28 |
-| Lingjun Investment | Campus recruiting page | Summer / Daily | China | [Apply](https://www.lingjuninvest.com/campus-recruitment) | - | 2026-06-28 |
-| Lingjun Investment | Campus jobs portal (official ATS) | Summer / Daily | China | [Apply](https://app.mokahr.com/social-recruitment/lingjuninvest/46355?locale=zh-CN#/jobs?213633%5B0%5D=%E6%98%AF&page=1&anchorName=jobsList) | - | 2026-06-28 |
-| Qilin Capital | Join-us page | Summer / Daily | Shanghai / Beijing | [Apply](https://www.70capital.com/join) | - | 2026-06-28 |
-| Qilin Capital | Campus jobs portal (official ATS) | Summer / Daily | Shanghai / Beijing | [Apply](https://70capital.gllue.com/portal/campusposition/list) | - | 2026-06-28 |
-| Mingshi Fund | Join-us page | Summer / Daily | Shanghai | [Apply](https://www.mingshiim.com/join) | - | 2026-06-28 |
-| Mingshi Fund | Campus / social jobs portal | Summer / Daily | Shanghai | [Apply](https://mingshiim.zhiye.com/) | - | 2026-06-28 |
-| Alpha2 Fund | Join-us page (contains campus/social ATS links) | Summer / Daily | Shanghai / Beijing | [Apply](https://www.alpha2fund.com/joinus.html) | - | 2026-06-28 |
-| Alpha2 Fund | Campus recruiting portal (official ATS) | Summer / Daily | China | [Apply](https://app.mokahr.com/campus-recruitment/alpha2fund/151124?locale=zh-CN#/) | - | 2026-06-28 |
-| Alpha2 Fund | Social recruiting portal (official ATS) | Daily | China | [Apply](https://app.mokahr.com/social-recruitment/alpha2fund/151123?locale=zh-CN#/) | - | 2026-06-28 |
-| Yanfu Investments | Join-us page (official) | Summer / Daily | Shanghai | [Apply](https://yanfuinvestments.com/join) | - | 2026-06-28 |
-| Yanfu Investments | Official jobs portal | Summer / Daily | China | [Apply](https://yanfuinvestments1.zhiye.com/jobs) | - | 2026-06-28 |
-| Century Frontier | Contact / recruiting page | Summer / Daily | Shanghai / Shenzhen | [Apply](https://www.centuryfrontier.com/contact) | - | 2026-06-28 |
-| Century Frontier | Social recruiting portal (official ATS) | Daily | Shanghai / Shenzhen | [Apply](https://app.mokahr.com/m/apply/centuryfrontier/24841) | - | 2026-06-28 |
-| Century Frontier | Campus recruiting portal (official ATS) | Summer / Daily | Shanghai / Shenzhen | [Apply](https://app.mokahr.com/m/campus_apply/centuryfrontier/24842) | - | 2026-06-28 |
-| QP Alpha | Contact & recruiting page | Summer / Daily | Shanghai | [Apply](https://www.qpalpha.com/contact.html) | - | 2026-06-28 |
-| QP Alpha | Official Feishu jobs portal | Daily | Shanghai | [Apply](https://jo0ikgajg1.jobs.feishu.cn/index/?spread=ENQENZT) | - | 2026-06-28 |
-| CQ Funds | Service center (recruiting) | Summer / Daily | Shanghai | [Apply](https://www.cqfunds.com/service-center/) | - | 2026-06-28 |
-| CQ Funds | Internship positions list | Daily | Shanghai | [Apply](https://www.cqfunds.com/trainee/) | - | 2026-06-28 |
-| CQ Funds | Quant Research Intern (CTA / Equities) | Daily | Shanghai | [Apply](https://www.cqfunds.com/trainee/96.html) | - | 2026-06-28 |
-| CQ Funds | Data Analyst Intern | Daily | Shanghai | [Apply](https://www.cqfunds.com/trainee/35.html) | - | 2026-06-28 |
-| Blackwing Asset | Job recruitment page (campus/social via QR) | Summer / Daily | Shanghai | [Apply](https://www.blackwingasset.com/index.php?m=content&c=index&a=lists&catid=23) | - | 2026-06-28 |
-| Tianyan Capital | Join-us page | Summer / Daily | Beijing / Shanghai / Shenzhen | [Apply](https://www.tianyancapital.com/zh/join-us/index.html) | - | 2026-06-28 |
-| Tianyan Capital | Official jobs page | Summer / Daily | Beijing / Shanghai / Shenzhen | [Apply](https://www.tianyancapital.com/zh/join-us/jobs/index.html) | - | 2026-06-28 |
-| Tianyan Capital | Social recruiting portal (official ATS) | Daily | Beijing / Shanghai / Shenzhen | [Apply](https://app.mokahr.com/social-recruitment/tianyancapital/98901#/) | - | 2026-06-28 |
-| JHL Fund | Talent program page | Summer / Daily | Shanghai / Beijing | [Apply](https://www.jhlfund.com/career) | - | 2026-06-28 |
-| JHL Fund | Social recruiting portal (official ATS) | Daily | China | [Apply](https://app.mokahr.com/social-recruitment/jhlfund/46283#/) | - | 2026-06-28 |
+| Company | Program / Focus | Batch | Audience | Location | Opens | Deadline | Official Apply | Evidence | Last Verified |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Shopee | AI Star Program | Top-tech graduate program | Graduate / early-career candidates; role-specific requirements | China / Singapore; role-specific | 2026-08-06 | Not announced | [Apply](https://careers.shopee.cn/campus) | [Source](https://campus.niuqizp.com/job-vrl5zMta5.html) B: official campus portal + official-account announcement repost | 2026-08-08 |
+| Ant Group | Ant Star / Plan A 2027 Graduate Recruitment | Top AI talent early batch | Graduating Nov 2026-Oct 2027 | Beijing / Shanghai / Hangzhou / others | Open by 2026-06-12 | Not announced | [Apply](https://talent.antgroup.com/) | [Source](https://career.cuhk.edu.cn/en/job/view/id/468409) B: official portal + employer notice repost | 2026-08-08 |
+| Bilibili | Class of 2027 Fall Recruitment / B-UP | Fall recruitment / top-tech program | Graduating Sep 2026-Aug 2027 | Shanghai / Beijing / Shenzhen / Singapore | 2026-08-03 | 2026-10-03 | [Apply](https://jobs.bilibili.com/campus/) | [Source](https://campus.niuqizp.com/job-vly5zMZaZ.html) B: official portal + Aug 3 official-account announcement repost | 2026-08-08 |
+| MiniMax | Class of 2027 Graduate Recruitment / Top Talent | Graduate recruitment / top-talent program | Class of 2027; graduation date unrestricted | Role-specific / Global | Open | Not announced | [Apply](https://minimaxi.com/careers) | [Source](https://minimaxi.com/careers) A: official careers page | 2026-08-08 |
+| iFlytek | Feixing Program 2027 | Research-algorithm early batch | Class of 2027 Master's / PhD graduates | Hefei / Beijing / Xi'an / Guangzhou / Shanghai | 2026-06-14 | Not announced | [Apply](https://iflytek.zhiye.com/4/jobs) | [Source](https://career.nankai.edu.cn/correcruit/content/id/116162.html) B: official ATS + employer notice repost | 2026-08-08 |
+| iFlytek | Feifan Program 2027 | Future-leader early batch | Class of 2027; major unrestricted | Hefei | Open by 2026-07-02 | Not announced | [Apply](https://iflytek.zhiye.com/5/jobs) | [Source](https://ejob.dhu.edu.cn/single/2026/07/02/2607021423534921003320030219103058410002.html) B: official ATS + employer notice repost | 2026-08-08 |
+| iFlytek | Class of 2027 Fall Campus Recruitment | Fall recruitment | Graduating Jun 2025-Aug 2027; role-specific requirements | Hefei / Beijing / Shanghai / Wuhan / Shenzhen / others | 2026-07-24 | 2026-09-22 | [Apply](https://iflytek.zhiye.com/campus/jobs) | [Source](https://campus.niuqizp.com/job-vks5zn5nz.html) B: official ATS + official-account announcement repost | 2026-08-08 |
+| SenseTime | Infinite Force Top-Talent Program | AI top-talent graduate program | Graduating Sep 2026-Dec 2027 | Beijing / Shanghai / Shenzhen / Hong Kong / Hangzhou / Wuhan | 2026-07-15 | Not announced | [Apply](https://hr.sensetime.com/) | [Source](https://jdjyw.jlu.edu.cn/mportal/recruit/details?id=898de80973e44129a8284cbac1097447) B: official portal + employer notice repost | 2026-08-08 |
+| Li Auto | Li Auto Plus Top Technical Talent Program | Top-tech graduate program | B/M/PhD graduates from Jan 2026-Aug 2027 | Beijing / Shanghai / Hangzhou / Shenzhen / Hong Kong | 2026-07-27 | Not announced | [Apply](https://www.lixiang.com/employ/campus/list.html?job_mode=1&project_id=15&employchannelcode=PQ68NKY&fromJob=1) | [Source](https://career.nankai.edu.cn/correcruit/content/id/116499.html) B: official campaign URL + employer notice repost | 2026-08-08 |
+| Hyperparameter Technology | Class of 2027 AI / Game Agent Campus Recruitment | Fall recruitment | Graduating Sep 2026-Aug 2027 | Role-specific | 2026-08-03 | 2026-09-30 | [Apply](https://app.mokahr.com/campus-recruitment/chaocanshu/45562#/jobs) | [Source](https://campus.niuqizp.com/job-vmr5zMNaL.html) B: official recruiting domain + employer official-account announcement | 2026-08-08 |
 
 ## Autonomous Driving, Robotics & Embodied AI
 
-| Company | Team / Focus | Internship Type | Location | Apply Link (Official) | Deadline | Last Verified |
-| --- | --- | --- | --- | --- | --- | --- |
-| NIO | Internship portal | Summer / Daily | Shanghai / Beijing / Hefei | [Apply](https://nio.jobs.feishu.cn/intern/position/) | - | 2026-06-28 |
-| NIO | Campus internship portal | Summer | China | [Apply](https://nio.jobs.feishu.cn/campus/position/) | - | 2026-06-28 |
-| XPeng | Campus internship portal | Summer | Guangzhou / Shanghai / Beijing | [Apply](https://xiaopeng.jobs.feishu.cn/campus/position/list) | - | 2026-06-28 |
-| XPeng | Official careers landing | Summer / Daily | China | [Apply](https://www.xpeng.com/join-us) | - | 2026-06-28 |
-| Li Auto | Campus internship portal | Summer | Beijing / Shanghai / Changzhou | [Apply](https://www.lixiang.com/employ/campus/list.html) | - | 2026-06-28 |
-| Li Auto | Internship search page | Daily | China | [Apply](https://www.lixiang.com/employ/social/list.html?keyword=%E5%AE%9E%E4%B9%A0&fromJob=1) | - | 2026-06-28 |
-| Geely | Campus internship portal | Summer | China | [Apply](https://campus.geely.com/campus-recruitment/geely/78436/#/jobs?commitment%5B0%5D=%E5%AE%9E%E4%B9%A0&page=1&anchorName=jobsList) | - | 2026-06-28 |
-| DJI | Campus internship portal | Summer / Daily | Shenzhen / Shanghai | [Apply](https://we.dji.com/zh-CN/campus) | - | 2026-06-28 |
-| Pony.ai | Official careers page | Summer / Daily | Beijing / Shanghai / Guangzhou | [Apply](https://www.pony.ai/careers) | - | 2026-06-28 |
-| Momenta | Official join-us page | Summer / Daily | Suzhou / Shanghai / Beijing | [Apply](https://www.momenta.cn/join.html) | - | 2026-06-28 |
-| WeRide | Official careers page | Summer / Daily | Guangzhou / Beijing / Shanghai | [Apply](https://www.weride.ai/careers) | - | 2026-06-28 |
-| Horizon Robotics | Campus recruiting portal | Summer / Daily | Beijing / Shanghai / Nanjing | [Apply](https://horizon-campus.hotjob.cn) | - | 2026-06-28 |
-| Unitree | Official company site | Summer / Daily | Hangzhou | [Apply](https://www.unitree.com) | - | 2026-06-28 |
-| UBTECH | Official company site | Summer / Daily | Shenzhen | [Apply](https://www.ubtrobot.com) | - | 2026-06-28 |
-| AutoX | Official company site | Summer / Daily | Shenzhen / Shanghai | [Apply](https://www.autox.ai) | - | 2026-06-28 |
-| BYD | Official jobs portal | Summer / Daily | Shenzhen / Xi'an / Changsha | [Apply](https://job.byd.com/) | - | 2026-06-28 |
-| Tesla China | China careers search | Summer / Daily | Shanghai / Beijing / Shenzhen | [Apply](https://www.tesla.cn/careers) | - | 2026-06-28 |
-| Hesai Technology | Official careers page | Summer / Daily | Shanghai | [Apply](https://www.hesaitech.com/careers) | - | 2026-06-28 |
+| Company | Program / Focus | Batch | Audience | Location | Opens | Deadline | Official Apply | Evidence | Last Verified |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| DJI | 2027 Pioneer Campus Recruitment | Fall recruitment | Class of 2027 graduates | Shenzhen / Shanghai / Xi'an / others | 2026-06-25 | Rolling until filled | [Apply](https://careers.dji.com/zh-CN/campus/recruitment?from=sec_nav) | [Source](https://careers.dji.com/zh-CN/campus/recruitment?from=sec_nav) A: official campaign page | 2026-08-08 |
+| XPeng | Explorer Program 2027 | Global campus recruitment | Graduating Sep 2026-Aug 2027 | Guangzhou / Shenzhen / Shanghai / Beijing / Global | 2026-07-07 | Not announced | [Apply](https://xiaopeng.jobs.feishu.cn/campus/position/list) | [Source](https://career.hebut.edu.cn/correcruit/content/id/78926.html) B: official ATS + employer notice repost | 2026-08-08 |
+| NIO | Class of 2027 Technical Early Batch | Fall technical early batch | Class of 2027 graduates; role-specific requirements | China / role-specific | 2026-07-15 | 2026-08-14 | [Apply](https://nio.jobs.feishu.cn/campus/position/) | [Source](https://www.nowcoder.com/feed/main/detail/de0dfda180054d9094599032f4e12bc2) B: official ATS + verified employee notice | 2026-08-08 |
+| Zhuoyu Technology | Navigator 2027 Top-Talent Program / General Campus Hiring | Physical-AI early batch | Class of 2027; top program also accepts 2025 graduates | Shenzhen / Shanghai / Beijing / Hong Kong | 2026-06-30 | 2026-08-31 | [Apply](https://we.zyt.com/5/jobs) | [Source](https://ejob.dhu.edu.cn/single/2026/07/09/2607091109005491086219111514160682210002.html) B: official ATS + employer notice repost | 2026-08-08 |
+| Pudu Robotics | Class of 2027 Campus Recruitment | Fall recruitment | Graduating Jan-Dec 2027 | Shenzhen / Chengdu / others | 2026-06-26 | Rolling | [Apply](https://pudutech.zhiye.com/campus) | [Source](https://career.nankai.edu.cn/correcruit/content/id/116156.html) B: official ATS + employer notice repost | 2026-08-08 |
+| Hesai Technology | Class of 2027 Fall Early Batch | Fall early batch | Class of 2027 graduates | Shanghai / Hangzhou | 2026-06-16 | 2026-08-31 | [Apply](https://kwh0jtf778.jobs.feishu.cn/229043/) | [Source](https://hzau.91wllm.cn/news/view/aid/298571/tag/xwzp) B: official ATS + employer notice repost | 2026-08-08 |
+| AgiBot | 2027 Outstanding Talent Program | Embodied-AI top-talent program | Class of 2027 Master's / PhD graduates | Shanghai / Beijing / Shenzhen | Open by 2026-06-26 | 2026-08-31 | [Apply](https://agirobot.jobs.feishu.cn/946993/position/list) | [Source](https://career.cuhk.edu.cn/job/view/id/468834) B: official ATS + employer notice repost | 2026-08-08 |
+| Galbot | Embodied-AI Pioneer Talent Program | Class of 2027 fall recruitment | Graduating Sep 2026-Dec 2027 | Beijing / Shenzhen / Suzhou | 2026-07-28 | Not announced | [Apply](https://app.mokahr.com/campus-recruitment/yinhetongyong/165930?locale=zh-CN#/page/2027%E5%B1%8A%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98) | [Source](https://career.nankai.edu.cn/correcruit/content/id/116497.html) B: official ATS + employer notice repost | 2026-08-08 |
+| DeepRoute.ai | Class of 2027 Fall Campus Recruitment | Fall recruitment | Class of 2027 graduates; role-specific requirements | Shenzhen / Beijing / Shanghai | 2026-07-06 | Rolling until filled | [Apply](https://app.mokahr.com/campus-recruitment/deeproute/145894#/) | [Source](https://career.cuhk.edu.cn/job/view/id/468723) B: official ATS + employer notice repost | 2026-08-08 |
+| ROKAE Robotics | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 graduates; role-specific requirements | Beijing / Shandong / role-specific | 2026-08-02 | Not announced | [Apply](https://www.rokae.com/cn/about/107/Careers.html) | [Source](https://campus.niuqizp.com/job-vy85zMLNa.html) B: official careers page + official-account announcement repost | 2026-08-08 |
+| VOYAH | Class of 2027 Campus Recruitment | Fall recruitment / PhD program | Class of 2027 graduates | Wuhan / role-specific | 2026-08-05 | Not announced | [Apply](https://app.mokahr.com/campus-recruitment/voyah/146293) | [Source](https://campus.niuqizp.com/schedulenew-1/) B: official ATS + Aug 5 official-account announcement index | 2026-08-08 |
+| DiDi | DiDi Elite Class of 2027 | Top technology talent program | Global Class of 2027 top technology candidates | Beijing / role-specific | 2026-07-23 | 2026-09-23 | [Apply](https://outreach.didichuxing.com/elite/) | [Source](https://outreach.didichuxing.com/elite/) A: official program page confirms Class of 2027 recruiting | 2026-08-08 |
+| Momenta | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 graduates; role-specific requirements | Suzhou / Beijing / Shanghai / Guangzhou / Shenzhen | 2026-07-25 | Not announced | [Apply](https://momenta.jobs.feishu.cn/campus) | [Source](https://campus.niuqizp.com/schedulenew-6/) B: official ATS + employer announcement index | 2026-08-08 |
+| Orbbec | Class of 2027 Campus Recruitment | Fall recruitment | Global Class of 2027 B/M/PhD graduates | Shenzhen / Foshan / Shanghai / Xi'an / Hangzhou | 2026-07-31 | Rolling until filled | [Apply](https://job.orbbec.com.cn/campus) | [Source](https://campus.niuqizp.com/job-vry5znMN5.html) B: official ATS + employer official-account announcement | 2026-08-08 |
+| TARS Robotics | TARS-STAR Class of 2027 Top-Talent Program | Embodied-AI top-talent recruitment | Graduating Sep 2026 or later; research / engineering achievement required | Shanghai / role-specific | 2026-06-23 | 2026-08-23 | [Apply](https://tarsrobot.jobs.feishu.cn/021343/) | [Source](https://campus.niuqizp.com/job-vls5zaLCa.html) B: official ATS + employer official-account announcement | 2026-08-08 |
 
-## Chips, AI Infrastructure & Systems
+## Chips, Vision & Infrastructure
 
-| Company | Team / Focus | Internship Type | Location | Apply Link (Official) | Deadline | Last Verified |
-| --- | --- | --- | --- | --- | --- | --- |
-| Cambricon | Official join-us portal | Summer / Daily | Beijing / Shanghai | [Apply](https://joinus.cambricon.com) | - | 2026-06-28 |
-| Cambricon | Campus recruitment listing | Summer | China | [Apply](https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=185) | - | 2026-06-28 |
-| Enflame | Official company site | Summer / Daily | Shanghai | [Apply](https://www.enflame-tech.com) | - | 2026-06-28 |
-| Intel China Campus | Official campus portal | Summer | Beijing / Shanghai / Chengdu | [Apply](https://chinacampus.jobs.intel.cn/) | - | 2026-06-28 |
-| AMD | China internship search | Summer / Daily | China | [Apply](https://careers.amd.com/careers-home/jobs?keywords=intern&location=China) | - | 2026-06-28 |
-| AMD | Official careers home | Summer / Daily | China | [Apply](https://careers.amd.com/careers-home/) | - | 2026-06-28 |
-| Qualcomm | China careers page | Summer / Daily | Beijing / Shanghai | [Apply](https://www.qualcomm.cn/company/careers) | - | 2026-06-28 |
-| Qualcomm | Official careers portal | Summer / Daily | Global / China | [Apply](https://careers.qualcomm.com/careers) | - | 2026-06-28 |
-| NVIDIA | Official careers portal | Summer / Daily | China | [Apply](https://www.nvidia.com/en-us/about-nvidia/careers/) | - | 2026-06-28 |
-| NVIDIA | AI in Industry intern (Beijing) | Summer | Beijing | [Apply](https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/China-Beijing/Solution-Architecture-Intern--AI-in-Industry---2026_JR2014186) | - | 2026-06-28 |
-| NVIDIA | Deep Learning & HPC intern (Shanghai) | Summer | Shanghai | [Apply](https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/China-Shanghai/Performance-Engineer-Intern--Deep-Learning-and-HPC---2026_JR2008053) | - | 2026-06-28 |
-| Arm | Official careers portal | Summer / Daily | Shanghai / Shenzhen | [Apply](https://www.arm.com/company/careers) | - | 2026-06-28 |
-| Cadence | Official careers page | Summer / Daily | Shanghai / Suzhou | [Apply](https://www.cadence.com/en_US/home/company/life-at-cadence/careers.html) | - | 2026-06-28 |
-| Synopsys | Official careers portal | Summer / Daily | Shanghai / Beijing | [Apply](https://careers.synopsys.com/) | - | 2026-06-28 |
-| Analog Devices | Official careers portal | Summer / Daily | China | [Apply](https://www.analog.com/en/careers.html) | - | 2026-06-28 |
-| STMicroelectronics | Official careers portal | Summer / Daily | China | [Apply](https://www.st.com/content/st_com/en/about/careers.html) | - | 2026-06-28 |
-| Infineon | Official careers portal | Summer / Daily | China | [Apply](https://www.infineon.com/careers) | - | 2026-06-28 |
-| TSMC | Official careers portal | Summer / Daily | Greater China | [Apply](https://careers.tsmc.com/) | - | 2026-06-28 |
-| ASML | Official careers portal | Summer / Daily | China | [Apply](https://www.asml.com/en/careers) | - | 2026-06-28 |
-| AMD | China AI jobs search | Summer / Daily | China | [Apply](https://careers.amd.com/careers-home/jobs?keywords=AI&location=China) | - | 2026-06-28 |
-| AMD | Internship keyword search | Summer / Daily | China / Global | [Apply](https://careers.amd.com/careers-home/jobs?keywords=intern) | - | 2026-06-28 |
-| AMD | China location jobs search | Summer / Daily | China | [Apply](https://careers.amd.com/careers-home/jobs?location=China) | - | 2026-06-28 |
-| Qualcomm | Intern keyword search | Summer / Daily | China / Global | [Apply](https://careers.qualcomm.com/careers?query=intern) | - | 2026-06-28 |
-| Applied Materials | Official careers portal | Summer / Daily | China | [Apply](https://careers.appliedmaterials.com/careers) | - | 2026-06-28 |
-| Lam Research | Official careers portal | Summer / Daily | China | [Apply](https://careers.lamresearch.com/) | - | 2026-06-28 |
-| MediaTek | Official careers portal | Summer / Daily | Mainland China / Taiwan | [Apply](https://careers.mediatek.com/) | - | 2026-06-28 |
-| Micron | Official careers portal | Summer / Daily | China | [Apply](https://careers.micron.com/careers) | - | 2026-06-28 |
-| KLA | Official job search portal | Summer / Daily | China | [Apply](https://kla.wd1.myworkdayjobs.com/Search) | - | 2026-06-28 |
-| Texas Instruments | Official careers portal | Summer / Daily | China | [Apply](https://www.ti.com/careers) | - | 2026-06-28 |
-| Biren Technology | Official company site | Summer / Daily | Shanghai / Beijing | [Apply](https://www.birentech.com/) | - | 2026-06-28 |
-| Iluvatar CoreX | Official company site | Summer / Daily | Shanghai / Beijing | [Apply](https://www.iluvatar.com/) | - | 2026-06-28 |
-| Iluvatar CoreX | Official careers page | Summer / Daily | Shanghai / Beijing | [Apply](https://www.iluvatar.com/careers) | - | 2026-06-28 |
-| Loongson | Official company site | Summer / Daily | Beijing | [Apply](https://www.loongson.cn/) | - | 2026-06-28 |
-| Moore Threads | Official company site | Summer / Daily | Beijing | [Apply](https://www.mthreads.com/) | - | 2026-06-28 |
-| Cambricon | Official company site | Summer / Daily | Beijing / Shanghai | [Apply](https://www.cambricon.com/) | - | 2026-06-28 |
-| Intel | Global jobs portal | Summer / Daily | China / Global | [Apply](https://www.intel.com/content/www/us/en/jobs/life-at-intel.html) | - | 2026-06-28 |
+| Company | Program / Focus | Batch | Audience | Location | Opens | Deadline | Official Apply | Evidence | Last Verified |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ZTE | 2027 Future Leaders Recruitment | Top-talent early batch | Class of 2027; role-specific requirements | China / Global | 2026-06-29 | Not announced | [Apply](https://job.zte.com.cn/cn/campus-recruitment) | [Source](https://job.zte.com.cn/cn/campus-recruitment/School_Recruitment_Announcement/news/202406061.html) A: official announcement | 2026-08-08 |
+| MediaTek | Class of 2027 Campus Early Batch | Fall early batch | Class of 2027 graduates | Beijing / Shanghai / Shenzhen / Chengdu / Hefei / Wuhan | 2026-07-11 | Not announced | [Apply](https://mediatek.zhiye.com/campus/jobs) | [Source](https://mp.weixin.qq.com/s/7PbNs1897a6QgmWoXYflEA) B: official ATS + official account notice | 2026-08-08 |
+| YMTC | Class of 2027 Campus Early Batch | Semiconductor early batch | Graduating Jan-Dec 2027 (B/M/PhD) | Wuhan / Shanghai / Beijing / Chengdu / others | Open by 2026-06-30 | Not announced | [Apply](https://ymtc-campus.zhiye.com) | [Source](https://job.hust.edu.cn/zjob/2405622.htm) B: official ATS + employer notice repost | 2026-08-08 |
+| BOE | Pioneer Elite Program 2027 | Global campus early batch | Graduating Sep 2026-Aug 2027 | Beijing / Chengdu / Hefei / Wuhan / others | 2026-07-02 | 2026-08-14 | [Apply](https://campus.boe.com/) | [Source](https://career.cuhk.edu.cn/job/view/id/468701) B: official campus site + employer notice repost | 2026-08-08 |
+| GigaDevice | Class of 2027 Campus Early Batch | Semiconductor early batch | Class of 2027 graduates; role-specific degrees | Beijing / Shanghai / Shenzhen / Hefei / Xi'an / others | 2026-07-13 | Not announced | [Apply](https://www.gigadevice.com.cn/about/career) | [Source](https://job.xidian.edu.cn/campus/view/id/756518) B: official career page + employer notice repost | 2026-08-08 |
+| Hisense | Xindongli Program 2027 | Management / technical-leader program | China graduates Dec 2026-Aug 2027; overseas Jan 2026-Aug 2027 | Qingdao / Shenzhen / Wuhan / Shanghai / Hangzhou / others | 2026-05-15 | Not announced | [Apply](https://jobs.hisense.com/) | [Source](https://career.nankai.edu.cn/correcruit/content/id/115685.html) B: official portal + employer notice repost | 2026-08-08 |
+| ASML | Class of 2027 China Campus Recruitment | Fall recruitment | Class of 2027 graduates (Bachelor's degree or above) | Beijing / Shanghai / Hefei | Open by 2026-07-07 | Not announced | [Apply](https://www.asml.com/en/careers/find-your-job) | [Source](https://sfi.cuhk.edu.cn/zh-hans/node/10816) B: official job portal + employer notice repost | 2026-08-08 |
+| ArcSoft | Class of 2027 Fall Early Batch | CV / AIGC early batch | Class of 2027 graduates | Hangzhou / Shanghai / Nanjing / Shenzhen / Global | 2026-07-10 | 2026-08-20 | [Apply](https://www.arcsoft.com.cn/job/JobList.html) | [Source](https://mp.weixin.qq.com/s/soNYJJNGMAkhUxy37vd9xg) B: official career page + official notice | 2026-08-08 |
+| Southchip | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 graduates | Shanghai / Chengdu / Shenzhen / Beijing / others | 2026-07-11 | Not announced | [Apply](https://www.southchip.com/recruitment) | [Source](https://mp.weixin.qq.com/s/YuEhQAMXIodLyuav0MiwVg) B: official career page + official notice | 2026-08-08 |
+| Silergy | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 graduates | Suzhou / Hangzhou / Shanghai / Shenzhen / others | 2026-07-11 | Not announced | [Apply](https://campus.51job.com/m/xz-xlj/) | [Source](https://mp.weixin.qq.com/s/mWitINflW-NJAjPlhagDVA) B: official campaign site + official notice | 2026-08-08 |
+| NVIDIA | Class of 2027 Campus Recruitment | New-college-graduate recruitment | Class of 2027 B/M/PhD graduates | Beijing / Shanghai / Shenzhen | 2026-07-27 | Not announced | [Apply](https://www.nvidia.cn/about-nvidia/careers/university-recruiting/) | [Source](https://career.nankai.edu.cn/correcruit/content/id/116440.html) B: official career site + employer notice repost | 2026-08-08 |
+| CXMT | Class of 2027 Campus Early Batch | Fall early batch | Class of 2027 graduates; role-specific degrees | Hefei / Beijing / Shanghai / Xi'an / others | 2026-06-01 | Not announced | [Apply](https://www.cxmt.com/join.html) | [Source](https://gsc.dicp.ac.cn/info/1046/7192.htm) B: official career page + employer notice repost | 2026-08-08 |
+| VeriSilicon | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 B/M/PhD graduates | Shanghai / Beijing / Chengdu / Nanjing / Zhuhai / others | 2026-07-20 | 2026-08-23 | [Apply](https://campus.51job.com/VeriSilicon2027/) | [Source](https://job.hust.edu.cn/zpinfo1/2407072.htm) B: official campaign site + employer notice repost | 2026-08-08 |
+| Texas Instruments | Class of 2027 Fall Campus Recruitment | Fall recruitment | Students and graduates with up to two years of work experience | China; role-specific | 2026-08-05 | Not announced | [Apply](https://careers.ti.com/en/sites/CX/jobs) | [Source](https://campus.niuqizp.com/job-v8r5zMNCa.html) B: official jobs portal + official-account launch announcement | 2026-08-08 |
+| Zhaoxin | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 graduates; role-specific requirements | Shanghai / Beijing / Xi'an | 2026-08-01 | Not announced | [Apply](https://zhaoxin.zhiye.com/campus) | [Source](https://campus.niuqizp.com/job-vsm5zMLLt.html) B: official ATS + official-account announcement repost | 2026-08-08 |
+| Enflame | 2027 Global Campus Talent STAR Program | Fall recruitment | Global Class of 2027 graduates | Shanghai / Beijing / Shenzhen / Chengdu / Zhengzhou / Xi'an / Nanjing | 2026-07-22 | 2026-08-19 | [Apply](https://app.mokahr.com/campus-recruitment/enflame/168420?locale=zh-CN#/) | [Source](https://haue.goworkla.cn/module/position_brief_detail/id-113212/nid-6488) B: official ATS + official-account announcement repost | 2026-08-08 |
+| Bestechnic | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 graduates | Shanghai / Beijing / Shenzhen / Chengdu / Xi'an / Wuhan / Hangzhou / Global | 2026-07-24 | 2026-08-21 | [Apply](https://bestechnic.zhiye.com/campus/jobs) | [Source](https://www.sohu.com/a/1055039364_121124318) B: official ATS + official-account announcement repost | 2026-08-08 |
+| SGMicro | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 graduates | Beijing / Shanghai / Shenzhen / Chengdu / Wuhan / Suzhou / Hangzhou / Hong Kong / others | 2026-07-27 | 2026-08-24 | [Apply](https://campus.51job.com/sgmicro2027/job.html) | [Source](https://www.sg-micro.com/cnrecruitment) B: official campaign site + company career page | 2026-08-08 |
+| NAURA | Class of 2027 Campus Recruitment Early Batch | Fall early batch | Class of 2027 B/M/PhD graduates; eligible Class of 2026 graduates may also apply | Beijing / Shenzhen / Xiamen / Shanghai / Hefei / Xi'an / Guangzhou / Wuhan / Suzhou | 2026-07-09 | Rolling | [Apply](https://career.naura.com/) | [Source](https://haue.goworkla.cn/module/position_brief_detail/id-113192/nid-6488) B: official portal + employer notice repost | 2026-08-08 |
+| Envision Energy | Class of 2027 Global Campus Recruitment | Fall recruitment | Class of 2027 graduates; role-specific requirements | China / Global; role-specific | 2026-07-28 | 2026-10-30 | [Apply](https://envision-career.com/) | [Source](https://career.cuhk.edu.cn/job/view/id/468891) B: official recruiting site + employer notice repost | 2026-08-08 |
+| Apple | China Campus Fall Recruitment — Full-Time Opportunities | Fall campus recruitment; role-specific openings | Students and new graduates; graduation eligibility varies by role | China; role-specific | 2026-08-06 | Rolling / role-specific | [Apply](https://jobs.apple.com/zh-cn/search) | [Source](https://www.apple.com/careers/cn/work-at-apple/students.html) A: official Aug 6 WeChat launch + Apple student portal | 2026-08-08 |
+| ZWSOFT | Class of 2027 Campus Recruitment | Fall recruitment | Global Class of 2027 graduates | Guangzhou / Wuhan / Xi'an / Shanghai | 2026-07-23 | Not announced | [Apply](https://www.zwsoft.cn/job/campus) | [Source](https://www.zwsoft.cn/job/campus) A: official campus page lists Class of 2027 roles | 2026-08-08 |
+| Witmem Technology | Class of 2027 Campus Recruitment | Fall recruitment | Global Class of 2027 graduates | Beijing / Shanghai / Hangzhou / Xi'an | 2026-07-30 | Not announced | [Apply](https://iucylxooqp.jobs.feishu.cn/200839) | [Source](https://campus.niuqizp.com/job-vkl5znntn.html) B: official ATS + employer official-account announcement | 2026-08-08 |
+| Visionox | Class of 2027 Campus Recruitment | Fall recruitment | Global Class of 2027 graduates | Hefei / Kunshan / Gu'an / Guangzhou / Beijing | 2026-07-30 | Not announced | [Apply](https://app.mokahr.com/campus_apply/newvisionox/24735/#/) | [Source](https://campus.niuqizp.com/job-vlm5znCt5.html) B: company-linked ATS + employer official-account announcement | 2026-08-08 |
+| Yealink | Class of 2027 Campus Recruitment Early Batch | Fall early batch | Class of 2027 B/M/PhD graduates; role-specific | Xiamen | 2026-08-05 | Not announced | [Apply](https://yealink.zhiye.com/campus/jobs) | [Source](https://campus.niuqizp.com/job-vrk5zMNn5.html) B: official ATS + employer official-account announcement | 2026-08-08 |
+| Lisuan Technology | Class of 2027 GPU Campus Recruitment | Fall recruitment | Class of 2027 graduates; outstanding Class of 2026 also eligible | Shanghai / Nanjing / Beijing | 2026-08-05 | Rolling until filled | [Apply](https://www.lisuantech.com/join/campus-recruitment) | [Source](https://www.lisuantech.com/join/campus-recruitment) A: official campus page states roles, cohort, and rolling window | 2026-08-08 |
+| GalaxyCore | Class of 2027 Fall Recruitment | Fall recruitment | Class of 2027 graduates; role-specific requirements | Role-specific | 2026-08-05 | Not announced | [Apply](https://gcoreinc.hotjob.cn/) | [Source](https://campus.niuqizp.com/job-vYy5zMNzZ.html) B: official ATS + employer official-account launch | 2026-08-08 |
+| Goodix | Class of 2027 Campus Recruitment | Fall recruitment | Graduating Jan-Dec 2027 | Shenzhen / Shanghai / Chengdu / Wuhan | 2026-08-07 | 2026-10-06 | [Apply](https://goodix.zhiye.com/Campus) | [Source](https://campus.niuqizp.com/job-vYl5zMtCC.html) B: official ATS + employer official-account announcement | 2026-08-08 |
+| Xi'an UniIC Semiconductors | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 B/M/PhD graduates | Xi'an / Chengdu / Shanghai | 2026-07-31 | 2026-09-30 | [Apply](https://jobs.51job.com/all/coBWYFaF48DjQOaARvBWg.html) | [Source](https://campus.niuqizp.com/job-vsy5zMZza.html) B: official application page + employer official-account announcement | 2026-08-08 |
+| Shanghai Precision Measurement Semiconductor Technology | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 B/M/PhD graduates | Shanghai / Shenzhen / Wuhan | 2026-08-04 | 2026-10-04 | [Apply](https://pmish-tech.zhiye.com/campus/jobs) | [Source](https://campus.niuqizp.com/job-vYm5zMZzn.html) B: official ATS + employer official-account announcement | 2026-08-08 |
 
-## International Companies with China Internship Channels
+## Quant Finance & Financial Technology
 
-| Company | Team / Focus | Internship Type | Location | Apply Link (Official) | Deadline | Last Verified |
-| --- | --- | --- | --- | --- | --- | --- |
-| Apple | China internship search | Summer / Daily | China | [Apply](https://jobs.apple.com/zh-cn/search?location=china-mainland) | - | 2026-06-28 |
-| Microsoft | Students & graduates in China | Summer / Daily | China | [Apply](https://jobs.careers.microsoft.com/global/en/search?lc=China&exp=Students%20and%20graduates) | - | 2026-06-28 |
-| Amazon | Internship search in China | Summer / Daily | China | [Apply](https://www.amazon.jobs/en/search?base_query=intern&loc_query=China) | - | 2026-06-28 |
-| AWS | Official careers page | Summer / Daily | China / Global | [Apply](https://aws.amazon.com/careers/) | - | 2026-06-28 |
-| Google | Jobs search with China location | Summer / Daily | China | [Apply](https://careers.google.com/jobs/results/?location=China) | - | 2026-06-28 |
-| IBM | Official careers portal | Summer / Daily | China | [Apply](https://careers.ibm.com/) | - | 2026-06-28 |
-| Dell | China jobs search | Summer / Daily | China | [Apply](https://jobs.dell.com/search-jobs/China) | - | 2026-06-28 |
-| Oracle | Official careers page | Summer / Daily | China | [Apply](https://www.oracle.com/careers/) | - | 2026-06-28 |
-| Oracle | Official job search portal | Summer / Daily | China | [Apply](https://careers.oracle.com/jobs/) | - | 2026-06-28 |
-| SAP | China location search | Summer / Daily | China | [Apply](https://jobs.sap.com/search/?q=&locationsearch=China) | - | 2026-06-28 |
-| Siemens | Official careers portal | Summer / Daily | China | [Apply](https://jobs.siemens.com/careers) | - | 2026-06-28 |
-| Bosch | China careers page | Summer / Daily | China | [Apply](https://www.bosch.com.cn/careers/) | - | 2026-06-28 |
-| Philips | Official careers portal | Summer / Daily | China | [Apply](https://careers.philips.com/global/en) | - | 2026-06-28 |
-| Sony China | Campus recruitment page | Summer / Daily | China | [Apply](https://www.sony.com.cn/content/sonyportal_hr/Campus_Recruitment.html) | - | 2026-06-28 |
-| Samsung | Official careers portal | Summer / Daily | China | [Apply](https://careers.samsung.com/) | - | 2026-06-28 |
-| Adobe | China internship keyword search | Summer / Daily | China | [Apply](https://careers.adobe.com/us/en/search-results?keywords=intern&location=china) | - | 2026-06-28 |
-| OpenAI | Official careers portal | Summer / Daily | Global / China-based roles if open | [Apply](https://openai.com/careers/search) | - | 2026-06-28 |
-| Optiver | Shanghai ML PhD internship | Summer | Shanghai | [Apply](https://optiver.com/working-at-optiver/career-opportunities/8324932002/?gh_jid=8324932002) | - | 2026-06-28 |
-| Jane Street | Machine Learning Researcher Internship (Hong Kong) | Winter | Hong Kong | [Apply](https://www.janestreet.com/join-jane-street/position/8374335002) | - | 2026-06-28 |
-| Jane Street | Quantitative Trader Internship (Hong Kong) | Summer / Winter | Hong Kong | [Apply](https://www.janestreet.com/join-jane-street/position/7982986002) | - | 2026-06-28 |
-| Jane Street | Quantitative Researcher Internship (Hong Kong) | Winter | Hong Kong | [Apply](https://www.janestreet.com/join-jane-street/position/8343131002) | - | 2026-06-28 |
-| Intel | Data Science & Analytics Undergraduate Intern (Taipei) | Summer | Taipei | [Apply](https://intel.wd1.myworkdayjobs.com/en-US/external/job/Taiwan-Taipei/Data-Science-and-Analytics-Undergraduate---Intern_JR0280981-1) | - | 2026-06-28 |
-| Moloco | Data Scientist Intern - Growth Analytics (Shanghai) | Fall/Winter/Spring | Shanghai | [Apply](https://job-boards.greenhouse.io/moloco/jobs/7632942003) | - | 2026-06-28 |
-| Moloco | Data Scientist Intern - Growth Analytics (Beijing) | Fall/Winter/Spring | Beijing | [Apply](https://job-boards.greenhouse.io/moloco/jobs/7632717003) | - | 2026-06-28 |
-| Ekimetrics | Strategy & Data Science internship (Shanghai) | Summer | Shanghai | [Apply](https://jobs.lever.co/ekimetrics/41495c5a-ce21-48b9-8afc-70c968822b42/apply) | - | 2026-06-28 |
-| AlphaGrep Securities | Quant Research Intern - Equity Factors (Shanghai) | Summer | Shanghai | [Apply](https://job-boards.greenhouse.io/alphagrepsecurities/jobs/7958037002) | - | 2026-06-28 |
-| AlphaGrep Securities | Quant Research Intern - Machine Learning (Shanghai) | Summer | Shanghai | [Apply](https://job-boards.greenhouse.io/alphagrepsecurities/jobs/7958042002) | - | 2026-06-28 |
-| Philips | Data Analyst/Data Mining Intern (Shanghai) | Summer | Shanghai | [Apply](https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Shanghai/---_578274) | - | 2026-06-28 |
-| Philips | AI Data Scientist Intern (Shanghai) | Summer | Shanghai | [Apply](https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Shanghai/Intern---AI-data-scientist_572718) | - | 2026-06-28 |
-| Appier | Data Analyst Intern (Taiwan) | Summer | Taiwan | [Apply](https://job-boards.greenhouse.io/appier/jobs/7495834) | - | 2026-06-28 |
-| Meshy | Generative AI Pipeline Engineer Intern (Shanghai) | Summer | Shanghai | [Apply](https://jobs.ashbyhq.com/meshy/8c30a345-2c26-4d72-ae76-91c5834fc435) | - | 2026-06-28 |
-| Meshy | Generative AI Researcher Intern (Shanghai) | Summer | Shanghai | [Apply](https://jobs.ashbyhq.com/meshy/00b6328d-8c32-4b91-aafa-51434e965f37) | - | 2026-06-28 |
-| Apple | Apple careers CN home | Summer / Daily | China | [Apply](https://www.apple.com/careers/cn/) | - | 2026-06-28 |
-| Apple | Machine Learning & AI team search | Summer / Daily | China / Global | [Apply](https://jobs.apple.com/zh-cn/search?team=machine-learning-and-ai-SFTWR-MLAI) | - | 2026-06-28 |
-| Apple | China + ML/AI combined search | Summer / Daily | China | [Apply](https://jobs.apple.com/zh-cn/search?location=china-mainland&team=machine-learning-and-ai-SFTWR-MLAI) | - | 2026-06-28 |
-| Amazon | Internships for students | Summer / Daily | Global / China filter | [Apply](https://www.amazon.jobs/en/teams/internships-for-students) | - | 2026-06-28 |
-| Amazon | ML intern search in China | Summer / Daily | China | [Apply](https://www.amazon.jobs/en/search?base_query=machine%20learning%20intern&loc_query=China) | - | 2026-06-28 |
-| Amazon | Applied Scientist intern search in China | Summer / Daily | China | [Apply](https://www.amazon.jobs/en/search?base_query=applied%20scientist%20intern&loc_query=China) | - | 2026-06-28 |
-| Amazon | AWS intern search in China | Summer / Daily | China | [Apply](https://www.amazon.jobs/en/search?base_query=aws%20intern&loc_query=China) | - | 2026-06-28 |
-| Amazon | Internship search in Beijing | Summer / Daily | Beijing | [Apply](https://www.amazon.jobs/en/search?base_query=intern&loc_query=Beijing) | - | 2026-06-28 |
-| Amazon | Internship search in Shanghai | Summer / Daily | Shanghai | [Apply](https://www.amazon.jobs/en/search?base_query=intern&loc_query=Shanghai) | - | 2026-06-28 |
-| Amazon / AWS | AWS business category page | Summer / Daily | Global / China filter | [Apply](https://www.amazon.jobs/en/business_categories/amazon-web-services) | - | 2026-06-28 |
-| Amazon / AWS | Intern search in AWS business category | Summer / Daily | Global / China filter | [Apply](https://www.amazon.jobs/en/search?base_query=intern&business_category%5B%5D=amazon-web-services) | - | 2026-06-28 |
-| Google | Students and graduates portal | Summer / Daily | Global | [Apply](https://careers.google.com/students/) | - | 2026-06-28 |
-| Google | Jobs in Beijing | Summer / Daily | Beijing | [Apply](https://careers.google.com/jobs/results/?location=Beijing,%20China) | - | 2026-06-28 |
-| Google | Jobs in Shanghai | Summer / Daily | Shanghai | [Apply](https://careers.google.com/jobs/results/?location=Shanghai,%20China) | - | 2026-06-28 |
-| Cisco | Official jobs search | Summer / Daily | China / Global | [Apply](https://jobs.cisco.com/jobs/SearchJobs/?21178=%5B164%5D&21178_format=6020&listFilterMode=1) | - | 2026-06-28 |
-| SAP | Intern keyword search in China | Summer / Daily | China | [Apply](https://jobs.sap.com/search/?q=intern&locationsearch=China) | - | 2026-06-28 |
-| Siemens | Jobs search with China location | Summer / Daily | China | [Apply](https://jobs.siemens.com/careers?location=China) | - | 2026-06-28 |
-| HPE | Intern keyword search | Summer / Daily | China / Global | [Apply](https://careers.hpe.com/us/en/search-results?keywords=intern) | - | 2026-06-28 |
-| Nokia | Official jobs portal | Summer / Daily | China / Global | [Apply](https://careers.nokia.com/jobs) | - | 2026-06-28 |
-| Salesforce | Intern keyword search | Summer / Daily | China / Global | [Apply](https://careers.salesforce.com/en/jobs/?search=intern) | - | 2026-06-28 |
-| ServiceNow | Jobs search with China location | Summer / Daily | China / Global | [Apply](https://careers.servicenow.com/careers/jobs?location=china) | - | 2026-06-28 |
-| Snowflake | Official careers portal | Summer / Daily | China / Global | [Apply](https://careers.snowflake.com/) | - | 2026-06-28 |
-| Meta | Official careers home | Summer / Daily | China / Global | [Apply](https://www.metacareers.com/) | - | 2026-06-28 |
-| Meta | Official job search | Summer / Daily | Global | [Apply](https://www.metacareers.com/jobsearch) | - | 2026-06-28 |
-| Anthropic | Official careers portal | Summer / Daily | Global | [Apply](https://www.anthropic.com/careers) | - | 2026-06-28 |
-| Cohere | Official careers portal | Summer / Daily | Global | [Apply](https://cohere.com/careers) | - | 2026-06-28 |
-| Mistral AI | Official careers portal | Summer / Daily | Global | [Apply](https://mistral.ai/careers) | - | 2026-06-28 |
-| Databricks | Official careers portal | Summer / Daily | China / Global | [Apply](https://www.databricks.com/company/careers) | - | 2026-06-28 |
-| Cloudflare | Official careers jobs portal | Summer / Daily | China / Global | [Apply](https://www.cloudflare.com/careers/jobs/) | - | 2026-06-28 |
-| Palantir | Official careers portal | Summer / Daily | Global | [Apply](https://www.palantir.com/careers/) | - | 2026-06-28 |
-| Perplexity | Official careers portal | Summer / Daily | Global | [Apply](https://www.perplexity.ai/careers) | - | 2026-06-28 |
-| xAI | Official careers portal | Summer / Daily | Global | [Apply](https://x.ai/careers) | - | 2026-06-28 |
-| DeepMind | Official careers portal | Summer / Daily | Global | [Apply](https://www.deepmind.com/careers) | - | 2026-06-28 |
-| Stripe | Intern keyword search | Summer / Daily | Global | [Apply](https://stripe.com/jobs/search?query=intern) | - | 2026-06-28 |
-| ABB | Official careers portal | Summer / Daily | China / Global | [Apply](https://www.abb.com/careers) | - | 2026-06-28 |
-| Mercedes-Benz | Official careers portal | Summer / Daily | China / Global | [Apply](https://jobs.mercedes-benz.com/) | - | 2026-06-28 |
-| Keysight | Official jobs portal | Summer / Daily | China / Global | [Apply](https://jobs.keysight.com/) | - | 2026-06-28 |
+| Company | Program / Focus | Batch | Audience | Location | Opens | Deadline | Official Apply | Evidence | Last Verified |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Wind Information | 2027 Campus Recruitment | Graduate recruitment | Graduating Sep 2026-Aug 2027 | Shanghai / Nanjing / Beijing / others | Open | Not announced | [Apply](https://www.wind.com.cn/portal/zh/JoinUs/recruit.html) | [Source](https://www.wind.com.cn/portal/zh/JoinUs/recruit.html) A: official page shows 2027 roles | 2026-08-08 |
+| iFinD | 2027 AIME Program | AI/ML graduate program | Global Class of 2027 graduates | Hangzhou | Open by 2026-06-12 | Not announced | [Apply](https://campus.10jqka.com.cn/) | [Source](https://sfi.cuhk.edu.cn/zh-hans/node/10523) B: official portal + employer notice repost | 2026-08-08 |
+| CMB Network Technology | Class of 2027 Global Campus Recruitment | Fall recruitment | Mainland: Nov 2026-Jul 2027; overseas: Aug 2026-Jul 2027 | Shenzhen / Hangzhou / Chengdu | 2026-07-30 | Not announced | [Apply](https://new-recruit-hr-mobile.paas.cmbchina.com/position/campus) | [Source](https://campus.niuqizp.com/job-vsy5znnNM.html) B: official CMB application portal + employer official-account announcement | 2026-08-08 |
+| Ubiquant | Wutong Program — Class of 2027 | Top quantitative technology talent program | Global Class of 2027 B/M/PhD graduates; STEM backgrounds prioritized | Beijing / Shanghai | 2026-07-29 | 2026-08-26 | [Apply](https://app.mokahr.com/campus_apply/ubiquantrecruit/37031#/jobs) | [Source](https://campus.niuqizp.com/schedulenew-financesecuritiesinvestment-chuxiongyizuzizhizhou-1/) B: official ATS + employer official-account announcement | 2026-08-16 |
+| JoinQuant | Class of 2027 Campus Recruitment | Quant research / engineering fall recruitment | Class of 2027 graduates; role-specific degrees | Beijing / Shanghai / Shenzhen / Guangzhou | 2026-07-29 | 2026-08-26 | [Apply](https://app.mokahr.com/campus_apply/joinquant/92347#/jobs) | [Source](https://www.nowcoder.com/feed/main/detail/7f084b948d074756beac88b2be32b90f) B: official ATS + campus launch notice | 2026-08-16 |
+| Dynamic Technology Lab (DTL) | New Grad Quantitative Research / Machine Learning | Rolling new-graduate recruitment | Recent B/M/PhD graduates in CS, math, statistics, physics or related fields | Beijing / Shanghai / Singapore / Remote | Open | Rolling until filled | [Apply](https://www.dytechlab.com/careers/) | [Source](https://career.nankai.edu.cn/correcruit/content/id/116147.html) B: official careers page + university-posted employer notice | 2026-08-16 |
+| Jane Street | Software Engineer — Hong Kong | Full-time new graduate | Students / new graduates; expected full-time start is collected in the application | Hong Kong | Open | Rolling until filled | [Apply](https://www.janestreet.com/join-jane-street/position/8140274002/) | [Source](https://www.janestreet.com/join-jane-street/apply/8140274002/) A: official role and active new-grad application | 2026-08-16 |
+| Citadel Securities | Quantitative Research Analyst — University Graduate (Asia) | University graduate quantitative research | B/M graduates in CS, math, statistics, physics or another quantitative field | Hong Kong / Singapore | Open | Not announced | [Apply](https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-university-graduate-asia/) | [Source](https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-university-graduate-asia/) A: official role page and active application form | 2026-08-16 |
+| Goldman Sachs | 2027 APAC New Analyst — Engineering / Quantitative Strategists | Full-time new analyst program | Final-year undergraduate and graduate students | Hong Kong / Beijing / Shanghai / Shenzhen / other APAC offices | Open | 2026-10-04 | [Apply](https://www.goldmansachs.com/careers/students/programs-and-internships/asia-pacific/new-analyst) | [Source](https://www.goldmansachs.com/careers/students/programs-and-internships/asia-pacific/new-analyst) A: official 2027 APAC program page and application window | 2026-08-16 |
+
+## Games, Consulting & Research
+
+| Company | Program / Focus | Batch | Audience | Location | Opens | Deadline | Official Apply | Evidence | Last Verified |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Duoyi Network | Class of 2027 Fall Early Batch | Fall early batch | Graduating Aug 2026-Jul 2027 | Guangzhou / Wuhan / Suzhou / Hangzhou | 2026-07-02 | Not announced | [Apply](https://xz.duoyi.com/) | [Source](https://jy.tust.edu.cn/correcruit/content/id/46007.html) B: official campus site + employer notice repost | 2026-08-08 |
+| CAS Technology and Engineering Center for Space Utilization | Class of 2027 Campus Recruitment | Research institute graduate recruitment | Class of 2027 graduates; role-specific degrees | Beijing | 2026-04-21 | 2026-12-31 | [Apply](https://csu.zhiye.com/AllJob) | [Source](https://csu.cas.cn/gb/yjdw/rczp/202604/t20260421_8188165.html) A: official institute announcement | 2026-08-08 |
+| NetEase Games (Interactive Entertainment) | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 graduates | Guangzhou / Hangzhou / Shanghai | 2026-07-21 | Not announced | [Apply](https://campus.game.163.com/) | [Source](https://career.cuhk.edu.cn/job/view/id/468866) B: official portal + employer notice repost | 2026-08-08 |
+| NetEase Games (ThunderFire) | Class of 2027 Global Fall Campus Recruitment | Fall recruitment / offer fast track | Graduating Sep 2026-Aug 2027 | China / Global; role-specific | 2026-08-03 | 2026-10-15 | [Apply](https://leihuo.163.com/campus/) | [Source](https://campus.niuqizp.com/job-vys5zMLZL.html) B: official campaign site + official-account announcement repost | 2026-08-08 |
+| Papergames | Class of 2027 Fall Campus Recruitment | Fall recruitment | Graduating Sep 2026-Aug 2027 | Role-specific | 2026-08-05 | 2026-10-31 | [Apply](https://career.papegames.com/) | [Source](https://campus.niuqizp.com/job-vUr5zMNCN.html) B: official careers site + official-account announcement repost | 2026-08-08 |
+| PwC China | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 graduates; role-specific requirements | Mainland China / Hong Kong; role-specific | 2026-08-03 | 2026-10-03 | [Apply](https://app.mokahr.com/su/tyrgsd) | [Source](https://campus.niuqizp.com/job-v8k5zMLZM.html) B: employer's official ATS link + official-account announcement repost | 2026-08-08 |
+| Lilith Games | Class of 2027 Fall Early Batch | Fall early batch | Graduating Jan 2026-Dec 2027 | Shanghai | 2026-07-15 | 2026-10-30 | [Apply](https://jobs.lilith.com/) | [Source](https://career.cuhk.edu.cn/en/job/view/id/468784) B: official career site + employer notice repost | 2026-08-08 |
+| Intsig | Class of 2027 Campus Recruitment | Fall recruitment | Global graduates from Sep 2026-Aug 2027 | Shanghai | 2026-07-28 | Not announced | [Apply](https://intsig.zhiye.com/campus/jobs) | [Source](https://campus.niuqizp.com/schedule-7sm85MzCC.html) B: official ATS + official-account announcement repost | 2026-08-08 |
+| miHoYo | Class of 2027 Campus Recruitment | Fall recruitment | Graduating Sep 2026-Aug 2027 | China / Global; role-specific | Open by 2026-08-06 | Not announced | [Apply](https://campus.mihoyo.com/) | [Source](https://campus.mihoyo.com/) A: official portal states Class of 2027 eligibility | 2026-08-08 |
+| BCG | Greater China Consulting — Europe Campus | Europe-university full-time batch | Class of 2027 Europe-university B/M/PhD/MBA students | Beijing / Shanghai / Shenzhen / Hong Kong / Taipei | 2026-07-30 | 2026-10-18 | [Apply](https://careers.bcg.com/global/en/job/58734/Consulting-Full-time-Europe-Campus-Greater-China) | [Source](https://careers.bcg.com/global/en/job/58734/Consulting-Full-time-Europe-Campus-Greater-China) A: official role page states cohort, region, and deadline | 2026-08-08 |
+| Garena | Class of 2027 Campus Recruitment | Fall recruitment | Graduating Sep 2026-Aug 2027 | Role-specific | 2026-08-07 | 2026-09-15 | [Apply](https://app.mokahr.com/campus-recruitment/garena/148076?locale=zh-CN) | [Source](https://campus.niuqizp.com/job-vsr5zMtCa.html) B: official ATS + employer official-account announcement | 2026-08-08 |
+| KPMG China | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 graduates; major unrestricted | Mainland China; role-specific | 2026-08-04 | 2026-10-04 | [Apply](https://app.mokahr.com/campus-recruitment/kpmg/74356) | [Source](https://campus.niuqizp.com/schedule-7yysNL5tZ.html) B: official ATS + employer official-account announcement | 2026-08-08 |
+| CETC No. 43 Research Institute | Class of 2027 Campus Recruitment | Fall recruitment | Class of 2027 Master's / PhD graduates | Hefei | 2026-08-07 | Not announced | [Apply](https://docs.qq.com/form/page/DWWr2eZvUqN0cGZC) | [Source](https://campus.niuqizp.com/job-vsY5zMZZt.html) B: official application form + institute official-account announcement | 2026-08-08 |
+
+## Checked but Not Counted as Open
+
+These companies were checked and intentionally withheld because they did not yet meet the strict “open Class of 2027 full-time fall recruitment” rule.
+
+| Company / Group | Finding | Official Portal | Last Verified |
+| --- | --- | --- | --- |
+| Tencent regular campus hiring | Official site still shows 2026; only Qingyun 2027 is counted above. | [Check](https://careers.tencent.com/campusrecruit.html) | 2026-08-08 |
+| Meituan regular graduate hiring | Beidou is open; the regular 2027 full-time list was not verified as open. | [Check](https://zhaopin.meituan.com/web/campus) | 2026-08-08 |
+| Huawei regular graduate hiring | Official regular page still targets 2026; only the 2027 top-AI initiative is counted. | [Check](https://career.huawei.com/cn/campus-recruitment) | 2026-08-08 |
+| Xiaomi regular graduate hiring | Official regular page still shows 2026; only top-talent graduate hiring is counted. | [Check](https://hr.xiaomi.com/campus/) | 2026-08-08 |
+| Xiaohongshu | No cohort-specific 2027 full-time fall window verified on the official portal. | [Check](https://job.xiaohongshu.com/campus) | 2026-08-08 |
+| Honor | No explicit open Class of 2027 full-time fall window was verified on the official portal. | [Check](https://career.honor.com/) | 2026-08-08 |
+| vivo regular fall batch | The Product General Manager Reserve Program closed on Aug 2; no open broad Class of 2027 fall batch was verified. | [Check](https://career.vivo.com/jobs) | 2026-08-08 |
+| KPMG China | The Class of 2027 campaign was announced, but the employer notice says the application URL and dates have not yet been released. | [Check](https://kpmg.com/cn/zh/careers/campus.html) | 2026-08-08 |
+| Horizon Robotics / Pony.ai | Official portals are live, but an explicit open Class of 2027 full-time fall cohort was not verified. | [Check](https://career.horizon.auto/) | 2026-08-08 |
+| Sangfor X-STAR | The current Class of 2027 early-batch notice explicitly offers a summer internship; it is excluded until a full-time offer channel is confirmed. | [Check](https://hr.sangfor.com/) | 2026-08-08 |
+| YOFC | The Class of 2027 campaign is announced, but the published campus ATS currently fails TLS validation; withheld until a stable official application URL is available. | [Check](https://www.yofc.com/) | 2026-08-08 |
+| Cambricon / Moore Threads / Biren Technology | Campus portals exist; no explicit open 2027 full-time window verified. | [Check](https://joinus.cambricon.com/) | 2026-08-08 |
+| DeepSeek / Moonshot AI / Zhipu AI | General/social or internship channels only; no cohort-specific 2027 fall batch verified. | [Check](https://app.mokahr.com/social-recruitment/high-flyer/140576) | 2026-08-08 |
+| JPMorganChase / Morgan Stanley | Both firms have official graduate technology portals and Hong Kong offices, but no currently open Class of 2027 full-time technology role in Mainland China or Hong Kong was verified. | [Check](https://www.jpmorganchase.com/careers/explore-opportunities/programs/software-engineer-fulltime) | 2026-08-16 |
+| Minghong / High-Flyer / Yanfu / Lingjun | Career or campus channels exist, but the currently verified windows are internship-only, closed, or do not explicitly offer an open Class of 2027 full-time route. | [Check](https://join.mhfunds.com/) | 2026-08-16 |
+| Optiver / Akuna Capital / Qube Research & Technologies | APAC offices and technical roles were verified, but the current Hong Kong/Shanghai graduate routes are internship, expression-of-interest, 2026-cycle, or experienced-hire openings rather than open Class of 2027 full-time roles. | [Check](https://job-boards.greenhouse.io/quberesearchandtechnologies) | 2026-08-16 |
+
+## Verification Method
+
+1. Check the company site, official recruiting site, or company-branded ATS for an open Class of 2027 full-time/early-batch campaign.
+2. For dynamic pages, cross-check opening dates, eligibility, and deadlines against employer notices or university reposts of those notices.
+3. Keep only company domains, company-branded ATS pages, and official event forms as application links; personal referral and aggregator redirects are excluded.
+4. An internship with a conversion path remains an internship and is not counted in this fall full-time list.
 
