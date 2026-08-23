@@ -147,7 +147,10 @@ def extract_text(content_bytes: bytes, content_type: str | None) -> str:
         match = re.search(r"charset=([^\s;]+)", content_type, re.I)
         if match:
             charset = match.group(1).strip("\"'")
-    decoded = content_bytes.decode(charset, errors="ignore")
+    try:
+        decoded = content_bytes.decode(charset, errors="ignore")
+    except LookupError:
+        decoded = content_bytes.decode("utf-8", errors="ignore")
     parser = TextExtractor()
     parser.feed(decoded)
     text = parser.text()
@@ -253,7 +256,9 @@ def fetch(entry: dict[str, str]) -> ScanResult:
                 error=None,
             )
     except urllib.error.HTTPError as exc:
-        status = STATUS_BROKEN if exc.code >= 400 else STATUS_REVIEW
+        # Authentication, bot protection, and rate limiting do not prove that
+        # a public job page is dead; keep them in the manual-review bucket.
+        status = STATUS_REVIEW if exc.code in {401, 403, 429} else STATUS_BROKEN
         result = ScanResult(
             company=entry["company"],
             focus=entry["focus"],
