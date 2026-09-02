@@ -4,8 +4,8 @@ from __future__ import annotations
 from collections import Counter
 from pathlib import Path
 
-LAST_VERIFIED = "2026-08-23"
-DEFAULT_ENTRY_VERIFIED = "2026-08-08"
+LAST_VERIFIED = "2026-09-03"
+DEFAULT_ENTRY_VERIFIED = LAST_VERIFIED
 
 CATEGORIES = [
     ("platforms", "Internet & AI Platforms", "互联网与 AI 平台"),
@@ -162,7 +162,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://careers.pddglobalhr.com/campus/",
         "evidence": "A: official campus page shows the active Class of 2027 cycle",
         "evidence_zh": "A：官网校招页明确 2027 届通道仍在开放",
-        "verified": "2026-08-23",
+        "verified": "2026-09-03",
     },
     {
         "cat": "platforms",
@@ -203,7 +203,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://www.news.cn/tech/20260818/b4bedb40261845379384a1a6565da3cc/c.html",
         "evidence": "B: official portal + launch report with cohort, roles, and locations",
         "evidence_zh": "B：官网入口 + 启动报道明确届别、岗位与地点",
-        "verified": "2026-08-23",
+        "verified": "2026-09-03",
     },
     {
         "cat": "platforms",
@@ -227,6 +227,47 @@ ENTRIES: list[dict[str, str]] = [
     },
     {
         "cat": "platforms",
+        "company": "BEKE",
+        "company_zh": "贝壳找房",
+        "focus": "Class of 2027 ADC Campus Recruitment",
+        "focus_zh": "2027 届 ADC 校园招聘",
+        "batch": "Class of 2027 fall recruitment",
+        "batch_zh": "秋招正式批",
+        "audience": "Class of 2027 graduates (Sep 2026-Aug 2027)",
+        "audience_zh": "2026.09-2027.08 毕业的海内外优秀毕业生",
+        "location": "Beijing / Role-specific",
+        "location_zh": "北京 / 以岗位为准",
+        "opens": "2026-08-26",
+        "deadline": "Not announced",
+        "deadline_zh": "未公布",
+        "url": "https://campus.ke.com/school",
+        "evidence_url": "https://career.nankai.edu.cn/correcruit/content/id/117001.html",
+        "evidence": "B: official portal + company announcement repost",
+        "evidence_zh": "B：官方投递入口 + 企业公告转载",
+        "verified": "2026-09-03",
+    },
+    {
+        "cat": "platforms",
+        "company": "Trip.com Group",
+        "company_zh": "携程",
+        "focus": "Class of 2027 Fall Campus Recruitment",
+        "focus_zh": "2027 届秋季校园招聘",
+        "batch": "Fall recruitment",
+        "batch_zh": "秋招正式批",
+        "audience": "Graduating Sep 2026-Aug 2027",
+        "audience_zh": "2026.09-2027.08 毕业",
+        "location": "Global / Role-specific",
+        "location_zh": "全球 / 以岗位为准",
+        "opens": "2026-08-26",
+        "deadline": "Not announced",
+        "deadline_zh": "未公布",
+        "url": "https://careers.ctrip.com/#/campus/jobList?recommendCode=NTAfGS2",
+        "evidence_url": "https://ng.linkedin.com/company/tripcomgroup",
+        "evidence": "B: official social launch + application-link update, cohort shown in official post",
+        "evidence_zh": "B：官方社媒发布 2027 秋招正式开启，并提供投递链接",
+    },
+    {
+        "cat": "platforms",
         "company": "Xiaomi",
         "company_zh": "小米",
         "focus": "Class of 2027 Global Campus Recruitment / Top Talent",
@@ -244,7 +285,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://m.ithome.com/html/987799.htm",
         "evidence": "B: official campus page + launch report with cohort and deadline",
         "evidence_zh": "B：官网校招页 + 启动报道明确届别与截止日期",
-        "verified": "2026-08-23",
+        "verified": "2026-09-03",
     },
     {
         "cat": "platforms",
@@ -265,7 +306,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://mp.weixin.qq.com/s/bjrd8le760hqRqU36sDUQw",
         "evidence": "A: official Class of 2027 global campus announcement",
         "evidence_zh": "A：企业官方 2027 届全球校招公告",
-        "verified": "2026-08-23",
+        "verified": "2026-09-03",
     },
     {
         "cat": "platforms",
@@ -366,7 +407,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://talent.antgroup.com/",
         "evidence": "A: official portal shows active Class of 2027 graduate roles",
         "evidence_zh": "A：官网投递页展示开放中的 2027 届岗位",
-        "verified": "2026-08-23",
+        "verified": "2026-09-03",
     },
     {
         "cat": "ai_programs",
@@ -727,7 +768,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://www.arcsoft.com.cn/job/JobList.html",
         "evidence": "A: official careers page states full Class of 2027 recruitment is active",
         "evidence_zh": "A：官网招聘页明确 2027 届校园招聘全面启动",
-        "verified": "2026-08-23",
+        "verified": "2026-09-03",
     },
     {
         "cat": "chips",
@@ -911,6 +952,27 @@ ENTRIES: list[dict[str, str]] = [
     },
     {
         "cat": "chips",
+        "company": "TCL",
+        "company_zh": "TCL 实业",
+        "focus": "Class of 2027 Global Campus Recruitment",
+        "focus_zh": "2027 届全球校园招聘",
+        "batch": "Fall recruitment",
+        "batch_zh": "秋招",
+        "audience": "Class of 2027 global graduates (Sep 2026-Dec 2027)",
+        "audience_zh": "2026.09-2027.12 的海内外应届毕业生",
+        "location": "Global / Role-specific",
+        "location_zh": "全球 / 以岗位为准",
+        "opens": "2026-08-31",
+        "deadline": "Not announced",
+        "deadline_zh": "未公布",
+        "url": "https://campus.tcl.com/campus/recruiting.html?id=82",
+        "evidence_url": "https://campus.tcl.com/campus/recruiting.html?id=82",
+        "evidence": "A: official campus portal explicitly states the 2027 campaign",
+        "evidence_zh": "A：官方校招入口明确 2027 届校园招聘",
+        "verified": "2026-09-03",
+    },
+    {
+        "cat": "chips",
         "company": "NVIDIA",
         "company_zh": "NVIDIA",
         "focus": "Class of 2027 Campus Recruitment",
@@ -1088,7 +1150,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://job.hust.edu.cn/zpinfo1/2407341.htm",
         "evidence": "B: official portal + employer notice repost",
         "evidence_zh": "B：官网入口 + 企业公告转载",
-        "verified": "2026-08-23",
+        "verified": "2026-09-03",
     },
     {
         "cat": "ai_programs",
@@ -1349,7 +1411,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://campus.mihoyo.com/",
         "evidence": "A: official portal states Class of 2027 eligibility and deadline",
         "evidence_zh": "A：官网明确 2027 届对象与应届生截止日期",
-        "verified": "2026-08-23",
+        "verified": "2026-09-03",
     },
     {
         "cat": "robotics",
@@ -1410,6 +1472,26 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://campus.niuqizp.com/job-vry5znMN5.html",
         "evidence": "B: official ATS + employer official-account announcement",
         "evidence_zh": "B：官方 ATS + 企业官方号公告",
+    },
+    {
+        "cat": "robotics",
+        "company": "Pony.ai",
+        "company_zh": "小马智行",
+        "focus": "Class of 2027 Campus Recruitment",
+        "focus_zh": "2027 届校园招聘",
+        "batch": "Fall recruitment",
+        "batch_zh": "秋招正式批",
+        "audience": "Class of 2027 graduates; no full-time experience required",
+        "audience_zh": "2027 届应届毕业生；无全职经验要求",
+        "location": "Role-specific",
+        "location_zh": "以岗位为准",
+        "opens": "Open",
+        "deadline": "Not announced",
+        "deadline_zh": "未公布",
+        "url": "https://campus.pony.ai/guideline",
+        "evidence_url": "https://campus.pony.ai/guideline",
+        "evidence": "B: official portal FAQ confirms 2027 cohort and that submission is open",
+        "evidence_zh": "B：官方问答明确 2027 届对象与“简历投递已开启”",
     },
     {
         "cat": "chips",
@@ -1590,7 +1672,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://campus.niuqizp.com/schedulenew-financesecuritiesinvestment-chuxiongyizuzizhizhou-1/",
         "evidence": "B: official ATS + employer official-account announcement",
         "evidence_zh": "B：官方 ATS + 企业官方号公告",
-        "verified": "2026-08-16",
+        "verified": "2026-09-03",
     },
     {
         "cat": "quant_finance",
@@ -1611,7 +1693,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://www.nowcoder.com/feed/main/detail/7f084b948d074756beac88b2be32b90f",
         "evidence": "B: official ATS + campus launch notice",
         "evidence_zh": "B：官方 ATS + 校招启动公告",
-        "verified": "2026-08-16",
+        "verified": "2026-09-03",
     },
     {
         "cat": "quant_finance",
@@ -1632,7 +1714,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://career.nankai.edu.cn/correcruit/content/id/116147.html",
         "evidence": "B: official careers page + university-posted employer notice",
         "evidence_zh": "B：官网招聘页 + 高校转载企业公告",
-        "verified": "2026-08-16",
+        "verified": "2026-09-03",
     },
     {
         "cat": "quant_finance",
@@ -1653,7 +1735,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://www.janestreet.com/join-jane-street/apply/8140274002/",
         "evidence": "A: official role and active new-grad application",
         "evidence_zh": "A：官网岗位页及有效应届生申请表",
-        "verified": "2026-08-16",
+        "verified": "2026-09-03",
     },
     {
         "cat": "quant_finance",
@@ -1674,7 +1756,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://www.citadelsecurities.com/careers/details/quantitative-research-analyst-university-graduate-asia/",
         "evidence": "A: official role page and active application form",
         "evidence_zh": "A：官网岗位页及有效申请表",
-        "verified": "2026-08-16",
+        "verified": "2026-09-03",
     },
     {
         "cat": "quant_finance",
@@ -1695,7 +1777,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/asia-pacific/new-analyst",
         "evidence": "A: official 2027 APAC program page and application window",
         "evidence_zh": "A：官网 2027 亚太项目页及申请窗口",
-        "verified": "2026-08-16",
+        "verified": "2026-09-03",
     },
     {
         "cat": "chips",
@@ -1916,7 +1998,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://leetcode.cn/discuss/post/4011323/shang-che-yu-shi-jie-jiao-shou-di-ping-x-i18z/",
         "evidence": "B: official campus ATS + employer launch announcement repost",
         "evidence_zh": "B：官方校招 ATS + 企业启动公告转载",
-        "verified": "2026-08-23",
+        "verified": "2026-09-03",
     },
     {
         "cat": "chips",
@@ -1937,7 +2019,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://career.hebut.edu.cn/home/correcruit/content/id/79147.html",
         "evidence": "B: official campaign site + employer notice repost",
         "evidence_zh": "B：官方校招专题 + 企业公告转载",
-        "verified": "2026-08-23",
+        "verified": "2026-09-03",
     },
     {
         "cat": "chips",
@@ -1958,7 +2040,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://career.hebut.edu.cn/home/correcruit/content/id/79153.html",
         "evidence": "B: official campus site + employer notice repost",
         "evidence_zh": "B：官方校招站 + 企业公告转载",
-        "verified": "2026-08-23",
+        "verified": "2026-09-03",
     },
     {
         "cat": "chips",
@@ -1979,7 +2061,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://www.silan.com.cn/index.php/about/post.html?md=49",
         "evidence": "A: official careers page lists active Class of 2027 chip roles",
         "evidence_zh": "A：官网招聘页列出开放中的 2027 届芯片岗位",
-        "verified": "2026-08-23",
+        "verified": "2026-09-03",
     },
     {
         "cat": "chips",
@@ -2000,7 +2082,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://www.innovisionsemi.com/en/careers",
         "evidence": "A: official careers page lists active Class of 2027 roles and process",
         "evidence_zh": "A：官网招聘页列出开放中的 2027 届岗位及流程",
-        "verified": "2026-08-23",
+        "verified": "2026-09-03",
     },
     {
         "cat": "chips",
@@ -2021,7 +2103,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://campus.niuqizp.com/schedulenew-qingdaolaixi-3/",
         "evidence": "B: official careers site + employer official-account launch index",
         "evidence_zh": "B：官网招聘站 + 企业官方号启动公告索引",
-        "verified": "2026-08-23",
+        "verified": "2026-09-03",
     },
     {
         "cat": "platforms",
@@ -2042,7 +2124,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://www.qianxin.com/campus/graduates",
         "evidence": "A: official campus page states Class of 2027 eligibility and active application",
         "evidence_zh": "A：官网校招页明确 2027 届对象与开放投递方式",
-        "verified": "2026-08-23",
+        "verified": "2026-09-03",
     },
     {
         "cat": "other",
@@ -2063,7 +2145,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://hahazhao.com/square/3284",
         "evidence": "B: official campus ATS + employer launch announcement",
         "evidence_zh": "B：官方校招 ATS + 企业启动公告",
-        "verified": "2026-08-23",
+        "verified": "2026-09-03",
     },
     {
         "cat": "other",
@@ -2084,7 +2166,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://campus.niuqizp.com/schedule-7ss8NLZ5C.html",
         "evidence": "B: official campus page + employer official-account announcement",
         "evidence_zh": "B：官网校招页 + 企业官方号公告",
-        "verified": "2026-08-23",
+        "verified": "2026-09-03",
     },
     {
         "cat": "quant_finance",
@@ -2105,7 +2187,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://campus.niuqizp.com/schedulenew-4/",
         "evidence": "B: official recruiting site + employer official-account launch index",
         "evidence_zh": "B：官方招聘站 + 企业官方号启动公告索引",
-        "verified": "2026-08-23",
+        "verified": "2026-09-03",
     },
     {
         "cat": "quant_finance",
@@ -2126,7 +2208,7 @@ ENTRIES: list[dict[str, str]] = [
         "evidence_url": "https://campus.niuqizp.com/schedulenew-mengzi-6/",
         "evidence": "B: official careers page with active Wujing roles + launch index",
         "evidence_zh": "B：官网开放无境计划岗位 + 启动公告索引",
-        "verified": "2026-08-23",
+        "verified": "2026-09-03",
     },
 ]
 
@@ -2160,20 +2242,12 @@ WATCHLIST: list[dict[str, str]] = [
         "url": "https://career.vivo.com/jobs",
     },
     {
-        "company": "Pony.ai",
-        "company_zh": "小马智行",
-        "status": "The official portal is live, but an explicit open Class of 2027 full-time fall cohort was not verified.",
-        "status_zh": "官网可访问，但尚未核验到明确开放的 2027 届正式秋招批次。",
-        "url": "https://www.pony.ai/job/list",
-        "verified": "2026-08-23",
-    },
-    {
         "company": "NIO / BOE / Enflame / Bestechnic early batches",
         "company_zh": "蔚来 / 京东方 / 燧原科技 / 恒玄科技提前批",
         "status": "The previously tracked early-batch windows closed on Aug 14, Aug 19, or Aug 21; they will return once a new full-time batch is verified.",
         "status_zh": "此前收录的提前批已于 8 月 14 日、19 日或 21 日截止；待核验到新的正式岗批次后再恢复收录。",
         "url": "https://nio.jobs.feishu.cn/campus/position/",
-        "verified": "2026-08-23",
+        "verified": "2026-09-03",
     },
     {
         "company": "Sangfor X-STAR",
@@ -2209,7 +2283,7 @@ WATCHLIST: list[dict[str, str]] = [
         "status": "Both firms have official graduate technology portals and Hong Kong offices, but no currently open Class of 2027 full-time technology role in Mainland China or Hong Kong was verified.",
         "status_zh": "两家公司均有官方毕业生技术项目和香港办公室，但尚未核验到当前开放的中国内地或香港 2027 届全职技术岗位。",
         "url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/software-engineer-fulltime",
-        "verified": "2026-08-16",
+        "verified": "2026-09-03",
     },
     {
         "company": "Minghong / High-Flyer / Yanfu / Lingjun",
@@ -2217,7 +2291,7 @@ WATCHLIST: list[dict[str, str]] = [
         "status": "Career or campus channels exist, but the currently verified windows are internship-only, closed, or do not explicitly offer an open Class of 2027 full-time route.",
         "status_zh": "存在招聘或校招入口，但当前核验窗口仅为实习、已经截止，或未明确开放 2027 届全职通道。",
         "url": "https://join.mhfunds.com/",
-        "verified": "2026-08-16",
+        "verified": "2026-09-03",
     },
     {
         "company": "Optiver / Akuna Capital / Qube Research & Technologies",
@@ -2225,7 +2299,7 @@ WATCHLIST: list[dict[str, str]] = [
         "status": "APAC offices and technical roles were verified, but the current Hong Kong/Shanghai graduate routes are internship, expression-of-interest, 2026-cycle, or experienced-hire openings rather than open Class of 2027 full-time roles.",
         "status_zh": "已核验其亚太办公室和技术岗位，但当前香港/上海毕业生通道属于实习、意向登记、2026 批次或社招，尚非开放中的 2027 届全职岗位。",
         "url": "https://job-boards.greenhouse.io/quberesearchandtechnologies",
-        "verified": "2026-08-16",
+        "verified": "2026-09-03",
     },
 ]
 
